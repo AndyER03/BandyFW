@@ -34,11 +34,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/button3"/>
 
-    <TextView
-        android:text="Large Text"
-        android:textAppearance="?android:attr/textAppearance"
+    <EditText
+        android:inputType="textMultiLine"
         android:layout_width="match_parent"
-        android:layout_height="272.0dp"
-        android:id="@+id/textView1" />
+        android:layout_height="match_parent"
+        android:id="@+id/edittext2" />
 
 </LinearLayout>
