@@ -13,31 +13,41 @@
         android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/text_hint"
-        android:id="@+id/edittext1" />
+        android:hint="@string/model_hint"
+        android:id="@+id/model_text" />
 
-    <Button
-        android:text="@string/first_button"
+    <EditText
+        android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button1" />
+        android:hint="@string/production_hint"
+        android:id="@+id/production_text" />
 
-    <Button
-        android:text="@string/reset"
+    <EditText
+        android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button2"/>
+        android:hint="@string/app_name_hint"
+        android:id="@+id/app_name_text" />
 
-    <Button
-        android:text="@string/about"
+    <EditText
+        android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button3"/>
+        android:hint="@string/app_version_hint"
+        android:id="@+id/app_version_text" />
+
+    <Button
+        android:text="@string/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_button"/>
 
     <EditText
         android:inputType="textMultiLine"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/edittext2" />
+        android:hint="@string/response_hint"
+        android:id="@+id/response_text" />
 
 </LinearLayout>

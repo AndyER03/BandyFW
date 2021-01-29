@@ -1,8 +1,19 @@
 <resources>
     <string name="app_name">BandyFW</string>
     <string name="action_settings">Settings</string>
-    <string name="text_hint">Enter value</string>
-    <string name="first_button">Click</string>
-    <string name="reset">Reset</string>
-    <string name="about">About</string>
+    <string name="text_model_hint">Model code</string>
+    <string name="text_app_name">App name</string>
+    <string name="text_app_version">App version</string>
+    <string name="submit">Submit</string>
+    <string name="model_hint">Model code</string>
+    <string name="production_hint">Production code</string>
+    <string name="app_name_hint">App name</string>
+    <string name="app_version_hint">App version</string>
+    <string name="response_hint">Response</string>
+
+    <string-array name="language_array">
+      <item>Xiaomi Mi Band 4 China</item>
+      <item>Xiaomi Mi Band 4 China NFC</item>
+      <item>Xiaomi Mi Band 5</item>
+    </string-array>
 </resources>
