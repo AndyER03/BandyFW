@@ -14,28 +14,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/model_hint"
-        android:id="@+id/model_text" />
+        android:id="@+id/model_text"/>
 
     <EditText
         android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/production_hint"
-        android:id="@+id/production_text" />
+        android:id="@+id/production_text"/>
 
     <EditText
         android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/app_name_hint"
-        android:id="@+id/app_name_text" />
+        android:id="@+id/app_name_text"/>
 
     <EditText
         android:inputType="text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/app_version_hint"
-        android:id="@+id/app_version_text" />
+        android:id="@+id/app_version_text"/>
 
     <Button
         android:text="@string/submit"
