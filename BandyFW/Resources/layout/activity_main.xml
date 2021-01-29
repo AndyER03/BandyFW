@@ -48,6 +48,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:hint="@string/response_hint"
-        android:id="@+id/response_text" />
+        android:id="@+id/response_text"
+        android:singleLine="true"
+        android:verticalScrollbarPosition="right"
+        android:scrollbars="vertical" />
 
 </LinearLayout>

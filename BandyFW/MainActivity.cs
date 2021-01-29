@@ -70,7 +70,7 @@ namespace BandyFW
                     {
                         HttpContent responseContent = response.Content;
                         var json = await responseContent.ReadAsStringAsync();
-                        response_text.Text = stringUri + json;
+                        response_text.Text = json;
                     }
                 }
                 else {
