@@ -57,7 +57,7 @@ namespace BandyFW
                     request.Headers.Add("channel", "0");
                     request.Headers.Add("User-Agent", "0");
                     request.Headers.Add("cv", "0");
-                    request.Headers.Add("appname", "{app_name_text}");
+                    request.Headers.Add("appname", app_name_text.Text);
                     request.Headers.Add("v", "0");
                     request.Headers.Add("apptoken", "0");
                     request.Headers.Add("lang", "0");
@@ -73,7 +73,9 @@ namespace BandyFW
                         response_text.Text = stringUri + json;
                     }
                 }
+                else {
                 Toast.MakeText(this, "You should to input all required values!", ToastLength.Long).Show();
+                }
             };
         }
 
