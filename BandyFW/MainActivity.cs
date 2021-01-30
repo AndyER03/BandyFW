@@ -103,9 +103,9 @@ namespace BandyFW
 
             remember_button.Click += delegate
             {
-                if (prefs.GetString("model_code", null) == "" && prefs.GetString("production_code", null) == "" && prefs.GetString("app_name", null) == "" && prefs.GetString("app_version", null) == "" && prefs.GetString("response", null) == "")
+                if (model_text.Text == "" && production_text.Text == "" && app_name_text.Text == "" && app_version_text.Text == "" && response_text.Text == "")
                 {
-                    RunOnUiThread(() => Toast.MakeText(this, "There are no values for saving!", ToastLength.Long).Show());
+                    RunOnUiThread(() => Toast.MakeText(this, "There are no values for saving!", ToastLength.Short).Show());
                 }
                 else
                 {
@@ -115,7 +115,7 @@ namespace BandyFW
                     editor.PutString("app_version", app_version_text.Text);
                     editor.PutString("response", response_text.Text);
                     editor.Apply();
-                    RunOnUiThread(() => Toast.MakeText(this, "Remember success", ToastLength.Long).Show());
+                    RunOnUiThread(() => Toast.MakeText(this, "Remember success", ToastLength.Short).Show());
                 }
             };
 
@@ -123,7 +123,7 @@ namespace BandyFW
             {
                 if (prefs.GetString("model_code", null) == "" && prefs.GetString("production_code", null) == "" && prefs.GetString("app_name", null) == "" && prefs.GetString("app_version", null) == "" && prefs.GetString("response", null) == "")
                 {
-                    RunOnUiThread(() => Toast.MakeText(this, "There are no values in memory!", ToastLength.Long).Show());
+                    RunOnUiThread(() => Toast.MakeText(this, "There are no values in memory!", ToastLength.Short).Show());
                 }
                 else {
                     model_text.Text = prefs.GetString("model_code", null);
@@ -131,7 +131,7 @@ namespace BandyFW
                     app_name_text.Text = prefs.GetString("app_name", null);
                     app_version_text.Text = prefs.GetString("app_version", null);
                     response_text.Text = prefs.GetString("response", null);
-                    RunOnUiThread(() => Toast.MakeText(this, "Restore success", ToastLength.Long).Show());
+                    RunOnUiThread(() => Toast.MakeText(this, "Restore success", ToastLength.Short).Show());
                 }
             };
 
@@ -150,7 +150,7 @@ namespace BandyFW
                 editor.PutString("response", response_text.Text);
                 editor.Apply();
 
-                RunOnUiThread(() => Toast.MakeText(this, "Reset success", ToastLength.Long).Show());
+                RunOnUiThread(() => Toast.MakeText(this, "Reset success", ToastLength.Short).Show());
             };
         }
     }
