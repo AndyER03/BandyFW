@@ -59,6 +59,12 @@
             android:id="@+id/remember_button" />
 
         <Button
+            android:text="@string/restore"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/restore_button" />
+
+        <Button
             android:text="@string/reset"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"

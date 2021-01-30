@@ -29,6 +29,7 @@ namespace BandyFW
 
             Button submit_button = FindViewById<Button>(Resource.Id.submit_button);
             Button remember_button = FindViewById<Button>(Resource.Id.remember_button);
+            Button restore_button = FindViewById<Button>(Resource.Id.restore_button);
             Button reset_button = FindViewById<Button>(Resource.Id.reset_button);
             EditText model_text = FindViewById<EditText>(Resource.Id.model_text);
             EditText production_text = FindViewById<EditText>(Resource.Id.production_text);
@@ -94,23 +95,47 @@ namespace BandyFW
                         }
                     }
                 }
-				else
-				{
+                else
+                {
                     Toast.MakeText(this, "Enable network!", ToastLength.Short).Show();
                 }
             };
 
-            remember_button.Click += async delegate
+            remember_button.Click += delegate
             {
-                editor.PutString("model_code", model_text.Text);
-                editor.PutString("production_code", production_text.Text);
-                editor.PutString("app_name", app_name_text.Text);
-                editor.PutString("app_version", app_version_text.Text);
-                editor.PutString("response", response_text.Text);
-                editor.Apply();
+                if (prefs.GetString("model_code", null) == "" && prefs.GetString("production_code", null) == "" && prefs.GetString("app_name", null) == "" && prefs.GetString("app_version", null) == "" && prefs.GetString("response", null) == "")
+                {
+                    RunOnUiThread(() => Toast.MakeText(this, "There are no values for saving!", ToastLength.Long).Show());
+                }
+                else
+                {
+                    editor.PutString("model_code", model_text.Text);
+                    editor.PutString("production_code", production_text.Text);
+                    editor.PutString("app_name", app_name_text.Text);
+                    editor.PutString("app_version", app_version_text.Text);
+                    editor.PutString("response", response_text.Text);
+                    editor.Apply();
+                    RunOnUiThread(() => Toast.MakeText(this, "Remember success", ToastLength.Long).Show());
+                }
             };
 
-            reset_button.Click += async delegate
+            restore_button.Click += delegate
+            {
+                if (prefs.GetString("model_code", null) == "" && prefs.GetString("production_code", null) == "" && prefs.GetString("app_name", null) == "" && prefs.GetString("app_version", null) == "" && prefs.GetString("response", null) == "")
+                {
+                    RunOnUiThread(() => Toast.MakeText(this, "There are no values in memory!", ToastLength.Long).Show());
+                }
+                else {
+                    model_text.Text = prefs.GetString("model_code", null);
+                    production_text.Text = prefs.GetString("production_code", null);
+                    app_name_text.Text = prefs.GetString("app_name", null);
+                    app_version_text.Text = prefs.GetString("app_version", null);
+                    response_text.Text = prefs.GetString("response", null);
+                    RunOnUiThread(() => Toast.MakeText(this, "Restore success", ToastLength.Long).Show());
+                }
+            };
+
+            reset_button.Click += delegate
             {
                 model_text.Text = "";
                 production_text.Text = "";
@@ -124,6 +149,9 @@ namespace BandyFW
                 editor.PutString("app_version", app_version_text.Text);
                 editor.PutString("response", response_text.Text);
                 editor.Apply();
+
+                RunOnUiThread(() => Toast.MakeText(this, "Reset success", ToastLength.Long).Show());
             };
+        }
     }
 }
