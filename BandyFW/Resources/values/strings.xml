@@ -10,10 +10,4 @@
     <string name="app_name_hint">App name</string>
     <string name="app_version_hint">App version</string>
     <string name="response_hint">Response</string>
-
-    <string-array name="language_array">
-      <item>Xiaomi Mi Band 4 China</item>
-      <item>Xiaomi Mi Band 4 China NFC</item>
-      <item>Xiaomi Mi Band 5</item>
-    </string-array>
 </resources>
