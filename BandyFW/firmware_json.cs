@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-public class firmware_json
+public class Firmware_json
 {
     public string firmwareVersion { get; set; }
     public string firmwareUrl { get; set; }

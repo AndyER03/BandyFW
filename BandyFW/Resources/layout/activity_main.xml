@@ -37,18 +37,34 @@
         android:hint="@string/app_version_hint"
         android:id="@+id/app_version_text"/>
 
-    <Button
-        android:text="@string/submit"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/submit_button"/>
-
-    <ListView
+    <LinearLayout
+        android:orientation="horizontal"
         android:minWidth="25px"
         android:minHeight="25px"
-        android:layout_width="match_parent"
-        android:layout_height="175.5dp"
-        android:id="@+id/model_list" />
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:gravity="center">
+
+        <Button
+            android:text="@string/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/submit_button"/>
+
+        <Button
+            android:text="@string/remember"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/remember_button" />
+
+        <Button
+            android:text="@string/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/reset_button" />
+
+    </LinearLayout>
 
     <EditText
         android:inputType="textMultiLine"

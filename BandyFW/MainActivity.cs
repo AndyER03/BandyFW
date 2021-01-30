@@ -2,16 +2,16 @@
 using Android.OS;
 using Android.Support.V7.App;
 using Android.Widget;
-using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
 using Xamarin.Essentials;
+using Android.Preferences;
+using Android.Content;
 
 namespace BandyFW
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
+	[Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -24,12 +24,16 @@ namespace BandyFW
         protected override void OnResume()
         {
             base.OnResume();
+            ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(this);
+            ISharedPreferencesEditor editor = prefs.Edit();
+
             Button submit_button = FindViewById<Button>(Resource.Id.submit_button);
+            Button remember_button = FindViewById<Button>(Resource.Id.remember_button);
+            Button reset_button = FindViewById<Button>(Resource.Id.reset_button);
             EditText model_text = FindViewById<EditText>(Resource.Id.model_text);
             EditText production_text = FindViewById<EditText>(Resource.Id.production_text);
             EditText app_name_text = FindViewById<EditText>(Resource.Id.app_name_text);
             EditText app_version_text = FindViewById<EditText>(Resource.Id.app_version_text);
-            ListView model_list = FindViewById<ListView>(Resource.Id.model_list);
             EditText response_text = FindViewById<EditText>(Resource.Id.response_text);
 
             submit_button.Click += async delegate
@@ -85,7 +89,8 @@ namespace BandyFW
                             var json = await responseContent.ReadAsStringAsync();
                             response_text.Text = json;
 
-                            var data = JsonConvert.DeserializeObject<firmware_json>(json);
+                            //For firmware_json.cs
+                            //var data = JsonConvert.DeserializeObject<Firmware_json>(json);
                         }
                     }
                 }
@@ -94,6 +99,31 @@ namespace BandyFW
                     Toast.MakeText(this, "Enable network!", ToastLength.Short).Show();
                 }
             };
-        }
+
+            remember_button.Click += async delegate
+            {
+                editor.PutString("model_code", model_text.Text);
+                editor.PutString("production_code", production_text.Text);
+                editor.PutString("app_name", app_name_text.Text);
+                editor.PutString("app_version", app_version_text.Text);
+                editor.PutString("response", response_text.Text);
+                editor.Apply();
+            };
+
+            reset_button.Click += async delegate
+            {
+                model_text.Text = "";
+                production_text.Text = "";
+                app_name_text.Text = "";
+                app_version_text.Text = "";
+                response_text.Text = "";
+
+                editor.PutString("model_code", model_text.Text);
+                editor.PutString("production_code", production_text.Text);
+                editor.PutString("app_name", app_name_text.Text);
+                editor.PutString("app_version", app_version_text.Text);
+                editor.PutString("response", response_text.Text);
+                editor.Apply();
+            };
     }
 }

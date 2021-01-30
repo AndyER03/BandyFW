@@ -5,6 +5,8 @@
     <string name="text_app_name">App name</string>
     <string name="text_app_version">App version</string>
     <string name="submit">Submit</string>
+    <string name="remember">Remember</string>
+    <string name="reset">Reset</string>
     <string name="model_hint">Model code</string>
     <string name="production_hint">Production code</string>
     <string name="app_name_hint">App name</string>
