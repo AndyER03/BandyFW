@@ -2,7 +2,9 @@
 using Android.OS;
 using Android.Support.V7.App;
 using Android.Widget;
+using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
 using Xamarin.Essentials;
@@ -12,7 +14,7 @@ namespace BandyFW
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
-		protected override void OnCreate(Bundle savedInstanceState)
+        protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
 			Xamarin.Essentials.Platform.Init(this, savedInstanceState);
@@ -27,6 +29,7 @@ namespace BandyFW
             EditText production_text = FindViewById<EditText>(Resource.Id.production_text);
             EditText app_name_text = FindViewById<EditText>(Resource.Id.app_name_text);
             EditText app_version_text = FindViewById<EditText>(Resource.Id.app_version_text);
+            ListView model_list = FindViewById<ListView>(Resource.Id.model_list);
             EditText response_text = FindViewById<EditText>(Resource.Id.response_text);
 
             submit_button.Click += async delegate
@@ -78,8 +81,11 @@ namespace BandyFW
                         if (response.StatusCode == HttpStatusCode.OK)
                         {
                             HttpContent responseContent = response.Content;
+
                             var json = await responseContent.ReadAsStringAsync();
                             response_text.Text = json;
+
+                            var data = JsonConvert.DeserializeObject<firmware_json>(json);
                         }
                     }
                 }

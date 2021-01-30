@@ -43,6 +43,13 @@
         android:layout_height="wrap_content"
         android:id="@+id/submit_button"/>
 
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="175.5dp"
+        android:id="@+id/model_list" />
+
     <EditText
         android:inputType="textMultiLine"
         android:layout_width="match_parent"
