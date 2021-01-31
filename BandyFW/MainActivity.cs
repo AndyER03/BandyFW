@@ -39,6 +39,8 @@ namespace BandyFW
 			RadioButton radio_zepp = FindViewById<RadioButton>(Resource.Id.radio_zepp);
 			RadioButton radio_mifit = FindViewById<RadioButton>(Resource.Id.radio_mifit);
 
+			CheckBox play_postfix_checkbox = FindViewById<CheckBox>(Resource.Id.play_postfix_checkbox);
+
 			EditText app_name_text = FindViewById<EditText>(Resource.Id.app_name_text);
 			EditText app_version_number_text = FindViewById<EditText>(Resource.Id.app_version_number_text);
 			EditText app_version_build_text = FindViewById<EditText>(Resource.Id.app_version_build_text);
@@ -48,6 +50,7 @@ namespace BandyFW
 
 			bool radio_zepp_bool = false;
 			bool radio_mifit_bool = false;
+
 			app_radio.CheckedChange += (s, e) =>
 			{
 				if (radio_zepp.Checked)
@@ -55,6 +58,7 @@ namespace BandyFW
 					app_name_text.Text = "com.huami.midong";
 					radio_zepp_bool = true;
 					radio_mifit_bool = false;
+					play_postfix_checkbox.Enabled = true;
 
 				}
 				if (radio_mifit.Checked)
@@ -62,6 +66,24 @@ namespace BandyFW
 					app_name_text.Text = "com.xiaomi.hm.health";
 					radio_zepp_bool = false;
 					radio_mifit_bool = true;
+					play_postfix_checkbox.Enabled = false;
+				}
+			};
+
+			var play_postfix = "";
+			bool play_postfix_bool = false;
+			play_postfix_checkbox.CheckedChange += (s, e) =>
+			{
+				if (play_postfix_checkbox.Checked)
+				{
+					play_postfix = "-play";
+					play_postfix_bool = true;
+
+				}
+				else
+				{
+					play_postfix = "";
+					play_postfix_bool = false;
 				}
 			};
 
@@ -71,7 +93,7 @@ namespace BandyFW
 				var current = Connectivity.NetworkAccess;
 				if (current == Xamarin.Essentials.NetworkAccess.Internet)
 				{
-					if (model_text.Text == "" || production_text.Text == "" || app_name_text.Text == GetString(Resource.String.app_name) || app_version_number_text.Text == "" || app_version_build_text.Text == "")
+					if (model_text.Text == "" || production_text.Text == "" || app_name_text.Text == GetString(Resource.String.shoose_app) || app_version_number_text.Text == "" || app_version_build_text.Text == "")
 					{
 						Toast.MakeText(this, Resource.String.input_all_values, ToastLength.Long).Show();
 					}
@@ -87,7 +109,7 @@ namespace BandyFW
 							Scheme = "https",
 							Host = request_host,
 							Path = "devices/ALL/hasNewVersion",
-							Query = "productId=0&vendorSource=0&resourceVersion=0&firmwareFlag=0&vendorId=0&resourceFlag=0&productionSource=" + production_text.Text + "&userid=0&userId=0&deviceSource=" + model_text.Text + "&fontVersion=0&fontFlag=0&appVersion=" + app_version_number_text.Text + "_" + app_version_build_text.Text + "&appid=0&callid=0&channel=0&country=0&cv=0&device=0&deviceType=ALL&device_type=0&firmwareVersion=0&hardwareVersion=0&lang=0&support8Bytes=true&timezone=0&v=0",
+							Query = "productId=0&vendorSource=0&resourceVersion=0&firmwareFlag=0&vendorId=0&resourceFlag=0&productionSource=" + production_text.Text + "&userid=0&userId=0&deviceSource=" + model_text.Text + "&fontVersion=0&fontFlag=0&appVersion=" + app_version_number_text.Text + play_postfix + "_" + app_version_build_text.Text + "&appid=0&callid=0&channel=0&country=0&cv=0&device=0&deviceType=ALL&device_type=0&firmwareVersion=0&hardwareVersion=0&lang=0&support8Bytes=true&timezone=0&v=0",
 						};
 						Uri URL = uriBuilder.Uri;
 						String stringUri;
@@ -119,7 +141,6 @@ namespace BandyFW
 							HttpContent responseContent = response.Content;
 
 							var server_response = await responseContent.ReadAsStringAsync();
-							response_text.Hint = GetString(Resource.String.response_hint) + "from" + request_host;
 							response_text.Text = server_response;
 
 							//For firmware_json.cs
@@ -136,7 +157,7 @@ namespace BandyFW
 			//Remember button logics
 			remember_button.Click += delegate
 			{
-				if (model_text.Text == "" || production_text.Text == "" || app_name_text.Text == GetString(Resource.String.app_name) || app_version_number_text.Text == "" || app_version_build_text.Text == "" || response_text.Text == "")
+				if (model_text.Text == "" || production_text.Text == "" || app_name_text.Text == GetString(Resource.String.shoose_app) || app_version_number_text.Text == "" || app_version_build_text.Text == "" || response_text.Text == "")
 				{
 					RunOnUiThread(() => Toast.MakeText(this, Resource.String.no_values_for_saving, ToastLength.Short).Show());
 				}
@@ -147,6 +168,7 @@ namespace BandyFW
 					editor.PutString("app_name", app_name_text.Text);
 					editor.PutBoolean("radio_zepp_bool", radio_zepp_bool);
 					editor.PutBoolean("radio_mifit_bool", radio_mifit_bool);
+					editor.PutBoolean("play_postfix_bool", play_postfix_bool);
 					editor.PutString("app_version_number", app_version_number_text.Text);
 					editor.PutString("app_version_build", app_version_build_text.Text);
 					editor.PutString("response", response_text.Text);
@@ -169,6 +191,7 @@ namespace BandyFW
 					app_name_text.Text = prefs.GetString("app_name", null);
 					radio_zepp_bool = prefs.GetBoolean("radio_zepp_bool", false);
 					radio_mifit_bool = prefs.GetBoolean("radio_mifit_bool", false);
+					play_postfix_bool = prefs.GetBoolean("play_postfix_bool", false);
 
 					if (radio_zepp_bool == true)
 					{
@@ -188,6 +211,15 @@ namespace BandyFW
 						radio_mifit.Checked = false;
 					}
 
+					if (play_postfix_bool == true)
+					{
+						play_postfix_checkbox.Checked = true;
+					}
+					else
+					{
+						play_postfix_checkbox.Checked = false;
+					}
+
 					app_version_number_text.Text = prefs.GetString("app_version_number", null);
 					app_version_build_text.Text = prefs.GetString("app_version_build", null);
 					response_text.Text = prefs.GetString("response", null);
@@ -200,9 +232,8 @@ namespace BandyFW
 			{
 				model_text.Text = "";
 				production_text.Text = "";
-				app_name_text.Text = "";
+				app_name_text.Text = GetString(Resource.String.shoose_app);
 				app_version_number_text.Text = "";
-				response_text.Hint = GetString(Resource.String.response_hint);
 				response_text.Text = "";
 
 				editor.PutString("model_code", model_text.Text);
@@ -210,6 +241,7 @@ namespace BandyFW
 				editor.PutString("app_name", app_name_text.Text);
 				editor.PutBoolean("radio_zepp_bool", radio_zepp_bool);
 				editor.PutBoolean("radio_mifit_bool", radio_mifit_bool);
+				editor.PutBoolean("play_postfix_bool", play_postfix_bool);
 				editor.PutString("app_version_number", app_version_number_text.Text);
 				editor.PutString("app_version_build", app_version_build_text.Text);
 				editor.PutString("response", response_text.Text);

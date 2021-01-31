@@ -12,7 +12,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <android.support.design.widget.TextInputLayout
@@ -37,7 +37,7 @@
             android:layout_height="wrap_content"
             android:theme="@style/TextInputLayoutStyle"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-            
+
             <android.support.design.widget.TextInputEditText
                 android:inputType="number"
                 android:layout_width="match_parent"
@@ -48,7 +48,7 @@
                 android:layout_marginBottom="12dp"
                 android:maxLength="3"/>
 
-            </android.support.design.widget.TextInputLayout>
+        </android.support.design.widget.TextInputLayout>
 
         <LinearLayout
             android:orientation="horizontal"
@@ -56,7 +56,7 @@
             android:minHeight="25px"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/linearLayout2"
+            android:id="@+id/app_name_layout"
             android:gravity="center"
             android:layout_marginBottom="12dp">
 
@@ -99,7 +99,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:hint="@string/app_name_hint"
-                        android:text="@string/app_name"
+                        android:text="@string/shoose_app"
                         android:id="@+id/app_name_text"
                         android:editable="false"
                         android:textAlignment="center"/>
@@ -110,28 +110,52 @@
 
         </LinearLayout>
 
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:theme="@style/TextInputLayoutStyle"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            android:id="@+id/app_version_number_layout"
+            android:gravity="center"
+            android:layout_marginBottom="12dp">
 
-            <android.support.design.widget.TextInputEditText
-                android:inputType="text"
+            <CheckBox
+                android:text="@string/play_postfix_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/play_postfix_checkbox"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:paddingEnd="12dp"/>
+
+            <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/app_version_number_hint"
-                android:id="@+id/app_version_number_text"
-                android:background="@drawable/custom_input"
-                android:layout_marginBottom="12dp"/>
+                android:theme="@style/TextInputLayoutStyle"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:minWidth="25px"
+                android:minHeight="25px">
 
-        </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputEditText
+                    android:inputType="number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/app_version_number_hint"
+                    android:id="@+id/app_version_number_text"
+                    android:background="@drawable/custom_input"
+                    android:layout_marginBottom="12dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:theme="@style/TextInputLayoutStyle"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:id="@+id/textInputLayout1">
 
             <android.support.design.widget.TextInputEditText
                 android:inputType="number"
@@ -149,8 +173,7 @@
             android:minWidth="25px"
             android:minHeight="25px"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/linearLayout2"
+            android:layout_height="match_parent"
             android:layout_marginBottom="12dp"
             android:gravity="center|center_horizontal">
 
