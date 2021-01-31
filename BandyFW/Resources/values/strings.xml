@@ -23,4 +23,8 @@
     <string name="no_values_in_memory">There are no values in memory!</string>
     <string name="reset_success">Reset success!</string>
     <string name="shoose_app">Shoose an app name on the left side!</string>
+    <string name="exit_title">Exit</string>
+    <string name="exit_message">Are you sure you want to exit?</string>
+    <string name="positive_button">OK</string>
+    <string name="negative_button">Cancel</string>
 </resources>
