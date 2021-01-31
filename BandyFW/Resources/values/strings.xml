@@ -13,4 +13,6 @@
     <string name="app_name_hint">App name</string>
     <string name="app_version_hint">App version</string>
     <string name="response_hint">Response</string>
+    <string name="zepp_appname">Zepp</string>
+    <string name="mifit_appname">Mi Fit</string>
 </resources>

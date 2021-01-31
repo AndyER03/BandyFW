@@ -33,16 +33,32 @@ namespace BandyFW
 			Button reset_button = FindViewById<Button>(Resource.Id.reset_button);
 			EditText model_text = FindViewById<EditText>(Resource.Id.model_text);
 			EditText production_text = FindViewById<EditText>(Resource.Id.production_text);
+
+			var app_radio = FindViewById<RadioGroup>(Resource.Id.app_radio);
+			RadioButton radio_zepp  = FindViewById<RadioButton>(Resource.Id.radio_zepp);
+			RadioButton radio_mifit  = FindViewById<RadioButton>(Resource.Id.radio_mifit);
+
 			EditText app_name_text = FindViewById<EditText>(Resource.Id.app_name_text);
 			EditText app_version_text = FindViewById<EditText>(Resource.Id.app_version_text);
 			EditText response_text = FindViewById<EditText>(Resource.Id.response_text);
+
+			app_radio.CheckedChange += (s, e) => {
+				if (radio_zepp.Checked)
+				{
+					app_name_text.Text = "com.huami.midong";
+				}
+				if (radio_mifit.Checked)
+				{
+					app_name_text.Text = "com.xiaomi.hm.health";
+				}
+			};
 
 			submit_button.Click += async delegate
 			{
 				var current = Connectivity.NetworkAccess;
 				if (current == Xamarin.Essentials.NetworkAccess.Internet)
 				{
-					if (model_text.Text == "" || model_text.Text == "" || model_text.Text == "" || model_text.Text == "")
+					if (model_text.Text == "" || production_text.Text == "" || app_name_text.Text == "" || app_version_text.Text == "")
 					{
 						Toast.MakeText(this, "You should to input all required values!", ToastLength.Long).Show();
 					}

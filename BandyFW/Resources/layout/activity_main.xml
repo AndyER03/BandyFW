@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center|left"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <EditText
             android:inputType="text"
@@ -39,22 +39,54 @@
             android:paddingEnd="12dp"
             android:layout_marginBottom="12dp"/>
 
-        <EditText
-            android:inputType="text"
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/app_name_hint"
-            android:id="@+id/app_name_text"
-            android:background="@drawable/custom_input"
-            android:padding="12dp"
-            android:paddingStart="12dp"
-            android:paddingEnd="12dp"
-            android:layout_marginBottom="12dp"/>
+            android:id="@+id/linearLayout2"
+            android:gravity="center"
+            android:layout_marginBottom="12dp">
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/app_radio">
+
+                <RadioButton
+                    android:id="@+id/radio_zepp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zepp_appname"
+                    android:paddingEnd="12dp" />
+
+                <RadioButton
+                    android:id="@+id/radio_mifit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mifit_appname"
+                    android:paddingEnd="12dp" />
+
+                <EditText
+                    android:inputType="text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/app_name_hint"
+                    android:id="@+id/app_name_text"
+                    android:background="@drawable/custom_input"
+                    android:paddingStart="12dp"
+                    android:editable="false"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
 
         <EditText
             android:inputType="text"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:hint="@string/app_version_hint"
             android:id="@+id/app_version_text"
             android:background="@drawable/custom_input"
@@ -110,20 +142,21 @@
 
         </LinearLayout>
 
-            <EditText
-                android:inputType="textMultiLine"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/response_hint"
-                android:id="@+id/response_text"
-                android:singleLine="true"
-                android:verticalScrollbarPosition="right"
-                android:scrollbars="vertical"
-                android:background="@drawable/custom_input"
-                android:padding="12dp"
-                android:paddingStart="12dp"
-                android:paddingEnd="12dp"/>
+        <EditText
+            android:inputType="textMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/response_hint"
+            android:id="@+id/response_text"
+            android:singleLine="true"
+            android:verticalScrollbarPosition="right"
+            android:scrollbars="vertical"
+            android:background="@drawable/custom_input"
+            android:padding="12dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:editable="false"/>
 
-        </LinearLayout>
+    </LinearLayout>
 
 </ScrollView>
