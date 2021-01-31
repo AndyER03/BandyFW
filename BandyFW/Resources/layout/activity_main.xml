@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:minWidth="25px"
@@ -9,77 +9,121 @@
     android:id="@+id/linearLayout1"
     android:padding="10sp">
 
-    <EditText
-        android:inputType="text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/model_hint"
-        android:id="@+id/model_text"/>
-
-    <EditText
-        android:inputType="text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/production_hint"
-        android:id="@+id/production_text"/>
-
-    <EditText
-        android:inputType="text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/app_name_hint"
-        android:id="@+id/app_name_text"/>
-
-    <EditText
-        android:inputType="text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/app_version_hint"
-        android:id="@+id/app_version_text"/>
-
     <LinearLayout
-        android:orientation="horizontal"
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout2"
-        android:gravity="center">
-
-        <Button
-            android:text="@string/submit"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/submit_button"/>
-
-        <Button
-            android:text="@string/remember"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/remember_button" />
-
-        <Button
-            android:text="@string/restore"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/restore_button" />
-
-        <Button
-            android:text="@string/reset"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/reset_button" />
-
-    </LinearLayout>
-
-    <EditText
-        android:inputType="textMultiLine"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:hint="@string/response_hint"
-        android:id="@+id/response_text"
-        android:singleLine="true"
-        android:verticalScrollbarPosition="right"
-        android:scrollbars="vertical" />
+        android:gravity="center|left"
+        android:orientation="vertical" >
 
-</LinearLayout>
+        <EditText
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/model_hint"
+            android:id="@+id/model_text"
+            android:background="@drawable/custom_input"
+            android:padding="12dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/production_hint"
+            android:id="@+id/production_text"
+            android:background="@drawable/custom_input"
+            android:padding="12dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/app_name_hint"
+            android:id="@+id/app_name_text"
+            android:background="@drawable/custom_input"
+            android:padding="12dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/app_version_hint"
+            android:id="@+id/app_version_text"
+            android:background="@drawable/custom_input"
+            android:padding="12dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_marginBottom="12dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:gravity="center"
+            android:layout_marginBottom="12dp">
+
+            <Button
+                android:text="@string/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/submit_button"
+                android:background="@drawable/custom_button"
+                android:layout_marginRight="12dp"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+                android:text="@string/remember"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/remember_button"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/custom_button"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+                android:text="@string/restore"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/restore_button"
+                android:background="@drawable/custom_button"
+                android:layout_marginRight="12dp"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+                android:text="@string/reset"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/reset_button"
+                android:background="@drawable/custom_button"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+            <EditText
+                android:inputType="textMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/response_hint"
+                android:id="@+id/response_text"
+                android:singleLine="true"
+                android:verticalScrollbarPosition="right"
+                android:scrollbars="vertical"
+                android:background="@drawable/custom_input"
+                android:padding="12dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"/>
+
+        </LinearLayout>
+
+</ScrollView>
