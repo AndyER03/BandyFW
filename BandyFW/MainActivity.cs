@@ -36,18 +36,20 @@ namespace BandyFW
 			EditText production_text = FindViewById<EditText>(Resource.Id.production_text);
 
 			var app_radio = FindViewById<RadioGroup>(Resource.Id.app_radio);
-			RadioButton radio_zepp  = FindViewById<RadioButton>(Resource.Id.radio_zepp);
-			RadioButton radio_mifit  = FindViewById<RadioButton>(Resource.Id.radio_mifit);
+			RadioButton radio_zepp = FindViewById<RadioButton>(Resource.Id.radio_zepp);
+			RadioButton radio_mifit = FindViewById<RadioButton>(Resource.Id.radio_mifit);
 
 			EditText app_name_text = FindViewById<EditText>(Resource.Id.app_name_text);
 			EditText app_version_number_text = FindViewById<EditText>(Resource.Id.app_version_number_text);
 			EditText app_version_build_text = FindViewById<EditText>(Resource.Id.app_version_build_text);
 			EditText response_text = FindViewById<EditText>(Resource.Id.response_text);
 
+			app_name_text.Focusable = false;
 
 			bool radio_zepp_bool = false;
 			bool radio_mifit_bool = false;
-			app_radio.CheckedChange += (s, e) => {
+			app_radio.CheckedChange += (s, e) =>
+			{
 				if (radio_zepp.Checked)
 				{
 					app_name_text.Text = "com.huami.midong";
@@ -63,12 +65,13 @@ namespace BandyFW
 				}
 			};
 
+			//Submit button logics (Get request + change request field)
 			submit_button.Click += async delegate
 			{
 				var current = Connectivity.NetworkAccess;
 				if (current == Xamarin.Essentials.NetworkAccess.Internet)
 				{
-					if (model_text.Text == "" || production_text.Text == "" || app_name_text.Text == "" || app_version_number_text.Text == "" || app_version_build_text.Text == "")
+					if (model_text.Text == "" || production_text.Text == "" || app_name_text.Text == GetString(Resource.String.app_name) || app_version_number_text.Text == "" || app_version_build_text.Text == "")
 					{
 						Toast.MakeText(this, Resource.String.input_all_values, ToastLength.Long).Show();
 					}
@@ -77,10 +80,12 @@ namespace BandyFW
 						HttpClient client = new HttpClient();
 						HttpRequestMessage request = new HttpRequestMessage();
 
+						string request_host = "api-mifit-ru.huami.com";
+
 						UriBuilder uriBuilder = new UriBuilder
 						{
 							Scheme = "https",
-							Host = "api-mifit-ru.huami.com",
+							Host = request_host,
 							Path = "devices/ALL/hasNewVersion",
 							Query = "productId=0&vendorSource=0&resourceVersion=0&firmwareFlag=0&vendorId=0&resourceFlag=0&productionSource=" + production_text.Text + "&userid=0&userId=0&deviceSource=" + model_text.Text + "&fontVersion=0&fontFlag=0&appVersion=" + app_version_number_text.Text + "_" + app_version_build_text.Text + "&appid=0&callid=0&channel=0&country=0&cv=0&device=0&deviceType=ALL&device_type=0&firmwareVersion=0&hardwareVersion=0&lang=0&support8Bytes=true&timezone=0&v=0",
 						};
@@ -113,8 +118,9 @@ namespace BandyFW
 						{
 							HttpContent responseContent = response.Content;
 
-							var json = await responseContent.ReadAsStringAsync();
-							response_text.Text = json;
+							var server_response = await responseContent.ReadAsStringAsync();
+							response_text.Hint = GetString(Resource.String.response_hint) + "from" + request_host;
+							response_text.Text = server_response;
 
 							//For firmware_json.cs
 							//var data = JsonConvert.DeserializeObject<Firmware_json>(json);
@@ -127,9 +133,10 @@ namespace BandyFW
 				}
 			};
 
+			//Remember button logics
 			remember_button.Click += delegate
 			{
-				if (model_text.Text == "" && production_text.Text == "" && app_name_text.Text == "" && app_version_number_text.Text == "" && app_version_build_text.Text == "" && response_text.Text == "")
+				if (model_text.Text == "" || production_text.Text == "" || app_name_text.Text == GetString(Resource.String.app_name) || app_version_number_text.Text == "" || app_version_build_text.Text == "" || response_text.Text == "")
 				{
 					RunOnUiThread(() => Toast.MakeText(this, Resource.String.no_values_for_saving, ToastLength.Short).Show());
 				}
@@ -148,6 +155,7 @@ namespace BandyFW
 				}
 			};
 
+			//Restore button logics
 			restore_button.Click += delegate
 			{
 				if (prefs.GetString("model_code", null) == "" && prefs.GetString("production_code", null) == "" && prefs.GetString("app_name", null) == "" && prefs.GetString("app_version", null) == "" && prefs.GetString("response", null) == "")
@@ -187,12 +195,14 @@ namespace BandyFW
 				}
 			};
 
+			//Reset button logics
 			reset_button.Click += delegate
 			{
 				model_text.Text = "";
 				production_text.Text = "";
 				app_name_text.Text = "";
 				app_version_number_text.Text = "";
+				response_text.Hint = GetString(Resource.String.response_hint);
 				response_text.Text = "";
 
 				editor.PutString("model_code", model_text.Text);
@@ -212,14 +222,16 @@ namespace BandyFW
 				response_text.Text = "";
 			};
 
+			//App name field click logics
 			app_name_text.Click += delegate
 			{
 				if (radio_zepp.Checked || radio_mifit.Checked)
 				{
 					RunOnUiThread(() => Toast.MakeText(this, app_name_text.Text, ToastLength.Short).Show());
 				}
-				else {
-					RunOnUiThread(() => Toast.MakeText(this, Resource.String.shoose_app, ToastLength.Short).Show());
+				else
+				{
+					app_name_text.SetText(Resource.String.shoose_app);
 				}
 			};
 		}

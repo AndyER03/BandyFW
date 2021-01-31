@@ -13,7 +13,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center|left"
         android:orientation="vertical">
 
         <android.support.design.widget.TextInputLayout
@@ -65,7 +64,9 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:id="@+id/app_radio">
+                android:id="@+id/app_radio"
+                android:layout_gravity="center_vertical|center"
+                android:gravity="center">
 
                 <RadioButton
                     android:id="@+id/radio_zepp"
@@ -83,43 +84,65 @@
                     android:paddingEnd="12dp"
                     android:theme="@style/RadioButton" />
 
-                <EditText
-                    android:inputType="none"
+                <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:hint="@string/app_name_hint"
-                    android:id="@+id/app_name_text"
-                    android:background="@drawable/custom_input"
-                    android:editable="false"
-                    android:textAlignment="center"/>
+                    android:layout_height="wrap_content"
+                    android:theme="@style/TextInputLayoutStyle"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:clickable="false"
+                    android:focusableInTouchMode="false"
+                    android:longClickable="false"
+                    android:saveEnabled="false">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:inputType="none"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="@string/app_name_hint"
+                        android:text="@string/app_name"
+                        android:id="@+id/app_name_text"
+                        android:editable="false"
+                        android:textAlignment="center"/>
+
+                </android.support.design.widget.TextInputLayout>
 
             </RadioGroup>
 
         </LinearLayout>
 
-        <EditText
-            android:inputType="text"
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:hint="@string/app_version_number_hint"
-            android:id="@+id/app_version_number_text"
-            android:background="@drawable/custom_input"
-            android:padding="12dp"
-            android:paddingStart="12dp"
-            android:paddingEnd="12dp"
-            android:layout_marginBottom="12dp"/>
+            android:layout_height="wrap_content"
+            android:theme="@style/TextInputLayoutStyle"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-        <EditText
-            android:inputType="number"
+            <android.support.design.widget.TextInputEditText
+                android:inputType="text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/app_version_number_hint"
+                android:id="@+id/app_version_number_text"
+                android:background="@drawable/custom_input"
+                android:layout_marginBottom="12dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:hint="@string/app_version_build_hint"
-            android:id="@+id/app_version_build_text"
-            android:background="@drawable/custom_input"
-            android:padding="12dp"
-            android:paddingStart="12dp"
-            android:paddingEnd="12dp"
-            android:layout_marginBottom="12dp"/>
+            android:layout_height="wrap_content"
+            android:theme="@style/TextInputLayoutStyle"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <android.support.design.widget.TextInputEditText
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/app_version_build_hint"
+                android:id="@+id/app_version_build_text"
+                android:background="@drawable/custom_input"
+                android:layout_marginBottom="12dp"/>
+
+        </android.support.design.widget.TextInputLayout>
 
         <LinearLayout
             android:orientation="horizontal"
@@ -128,8 +151,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:id="@+id/linearLayout2"
-            android:gravity="center"
-            android:layout_marginBottom="12dp">
+            android:layout_marginBottom="12dp"
+            android:gravity="center|center_horizontal">
 
             <Button
                 android:text="@string/submit"
@@ -168,22 +191,26 @@
 
         </LinearLayout>
 
-        <EditText
-            android:inputType="none"
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/response_hint"
-            android:id="@+id/response_text"
-            android:singleLine="false"
-            android:verticalScrollbarPosition="right"
-            android:scrollbars="vertical"
-            android:background="@drawable/custom_input"
-            android:padding="12dp"
-            android:paddingStart="12dp"
-            android:paddingEnd="12dp"
-            android:editable="false"
-            android:textIsSelectable="true"
-            android:layout_marginBottom="12dp"/>
+            android:theme="@style/TextInputLayoutStyle"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <android.support.design.widget.TextInputEditText
+                android:inputType="none"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/response_hint"
+                android:id="@+id/response_text"
+                android:singleLine="false"
+                android:verticalScrollbarPosition="right"
+                android:scrollbars="vertical"
+                android:editable="false"
+                android:textIsSelectable="true"
+                android:layout_marginBottom="12dp"/>
+
+        </android.support.design.widget.TextInputLayout>
 
         <Button
             android:text="@string/clear_response"
