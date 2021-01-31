@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <!--Toolbar-->
     <color name="colorPrimary">#CC8131</color>
+  <!--Statusbar-->
     <color name="colorPrimaryDark">#CC8131</color>
-    <color name="colorAccent">#3498db</color>
+  <!--Toolbar-->
+    <color name="colorAccent">#CC8131</color>
 </resources>
