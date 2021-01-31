@@ -6,4 +6,8 @@
     <color name="colorPrimaryDark">#CC8131</color>
   <!--Toolbar-->
     <color name="colorAccent">#CC8131</color>
+
+  <!--Backgoundr-->
+  <color name="colorBackgroundFirst">#F7F7F7</color>
+  <color name="colorBackgroundSecond">#FFE8A8</color>
 </resources>

@@ -17,4 +17,10 @@
     <string name="zepp_appname">Zepp</string>
     <string name="mifit_appname">Mi Fit</string>
     <string name="clear_response">Clear</string>
+    <string name="input_all_values">You should to input all required values!</string>
+    <string name="no_values_for_saving">There are no values for saving!</string>
+    <string name="remember_success">Remember success!</string>
+    <string name="no_values_in_memory">There are no values in memory!</string>
+    <string name="reset_success">Reset success!</string>
+    <string name="shoose_app">Shoose app name on the left side!</string>
 </resources>

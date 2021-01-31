@@ -62,7 +62,7 @@ namespace BandyFW
 				{
 					if (model_text.Text == "" || production_text.Text == "" || app_name_text.Text == "" || app_version_number_text.Text == "" || app_version_build_text.Text == "")
 					{
-						Toast.MakeText(this, "You should to input all required values!", ToastLength.Long).Show();
+						Toast.MakeText(this, Resource.String.input_all_values, ToastLength.Long).Show();
 					}
 					else
 					{
@@ -123,7 +123,7 @@ namespace BandyFW
 			{
 				if (model_text.Text == "" && production_text.Text == "" && app_name_text.Text == "" && app_version_number_text.Text == "" && app_version_build_text.Text == "" && response_text.Text == "")
 				{
-					RunOnUiThread(() => Toast.MakeText(this, "There are no values for saving!", ToastLength.Short).Show());
+					RunOnUiThread(() => Toast.MakeText(this, Resource.String.no_values_for_saving, ToastLength.Short).Show());
 				}
 				else
 				{
@@ -134,7 +134,7 @@ namespace BandyFW
 					editor.PutString("app_version_build", app_version_build_text.Text);
 					editor.PutString("response", response_text.Text);
 					editor.Apply();
-					RunOnUiThread(() => Toast.MakeText(this, "Remember success", ToastLength.Short).Show());
+					RunOnUiThread(() => Toast.MakeText(this, Resource.String.remember_success, ToastLength.Short).Show());
 				}
 			};
 
@@ -142,7 +142,7 @@ namespace BandyFW
 			{
 				if (prefs.GetString("model_code", null) == "" && prefs.GetString("production_code", null) == "" && prefs.GetString("app_name", null) == "" && prefs.GetString("app_version", null) == "" && prefs.GetString("response", null) == "")
 				{
-					RunOnUiThread(() => Toast.MakeText(this, "There are no values in memory!", ToastLength.Short).Show());
+					RunOnUiThread(() => Toast.MakeText(this, Resource.String.no_values_in_memory, ToastLength.Short).Show());
 				}
 				else
 				{
@@ -172,11 +172,16 @@ namespace BandyFW
 				editor.PutString("response", response_text.Text);
 				editor.Apply();
 
-				RunOnUiThread(() => Toast.MakeText(this, "Reset success", ToastLength.Short).Show());
+				RunOnUiThread(() => Toast.MakeText(this, Resource.String.reset_success, ToastLength.Short).Show());
 			};
 			clear_response_button.Click += delegate
 			{
 				response_text.Text = "";
+			};
+
+			app_name_text.Click += delegate
+			{
+				RunOnUiThread(() => Toast.MakeText(this, Resource.String.shoose_app, ToastLength.Short).Show());
 			};
 		}
 	}
