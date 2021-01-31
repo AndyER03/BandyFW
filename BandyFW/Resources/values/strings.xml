@@ -22,5 +22,5 @@
     <string name="remember_success">Remember success!</string>
     <string name="no_values_in_memory">There are no values in memory!</string>
     <string name="reset_success">Reset success!</string>
-    <string name="shoose_app">Shoose app name on the left side!</string>
+    <string name="shoose_app">Shoose an app name on the left side!</string>
 </resources>

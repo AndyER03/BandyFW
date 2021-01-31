@@ -44,14 +44,22 @@ namespace BandyFW
 			EditText app_version_build_text = FindViewById<EditText>(Resource.Id.app_version_build_text);
 			EditText response_text = FindViewById<EditText>(Resource.Id.response_text);
 
+
+			bool radio_zepp_bool = false;
+			bool radio_mifit_bool = false;
 			app_radio.CheckedChange += (s, e) => {
 				if (radio_zepp.Checked)
 				{
 					app_name_text.Text = "com.huami.midong";
+					radio_zepp_bool = true;
+					radio_mifit_bool = false;
+
 				}
 				if (radio_mifit.Checked)
 				{
 					app_name_text.Text = "com.xiaomi.hm.health";
+					radio_zepp_bool = false;
+					radio_mifit_bool = true;
 				}
 			};
 
@@ -130,6 +138,8 @@ namespace BandyFW
 					editor.PutString("model_code", model_text.Text);
 					editor.PutString("production_code", production_text.Text);
 					editor.PutString("app_name", app_name_text.Text);
+					editor.PutBoolean("radio_zepp_bool", radio_zepp_bool);
+					editor.PutBoolean("radio_mifit_bool", radio_mifit_bool);
 					editor.PutString("app_version_number", app_version_number_text.Text);
 					editor.PutString("app_version_build", app_version_build_text.Text);
 					editor.PutString("response", response_text.Text);
@@ -149,6 +159,27 @@ namespace BandyFW
 					model_text.Text = prefs.GetString("model_code", null);
 					production_text.Text = prefs.GetString("production_code", null);
 					app_name_text.Text = prefs.GetString("app_name", null);
+					radio_zepp_bool = prefs.GetBoolean("radio_zepp_bool", false);
+					radio_mifit_bool = prefs.GetBoolean("radio_mifit_bool", false);
+
+					if (radio_zepp_bool == true)
+					{
+						radio_zepp.Checked = true;
+					}
+					else
+					{
+						radio_zepp.Checked = false;
+					}
+
+					if (radio_mifit_bool == true)
+					{
+						radio_mifit.Checked = true;
+					}
+					else
+					{
+						radio_mifit.Checked = false;
+					}
+
 					app_version_number_text.Text = prefs.GetString("app_version_number", null);
 					app_version_build_text.Text = prefs.GetString("app_version_build", null);
 					response_text.Text = prefs.GetString("response", null);
@@ -167,7 +198,9 @@ namespace BandyFW
 				editor.PutString("model_code", model_text.Text);
 				editor.PutString("production_code", production_text.Text);
 				editor.PutString("app_name", app_name_text.Text);
-				editor.PutString("app_version_build", app_version_number_text.Text);
+				editor.PutBoolean("radio_zepp_bool", radio_zepp_bool);
+				editor.PutBoolean("radio_mifit_bool", radio_mifit_bool);
+				editor.PutString("app_version_number", app_version_number_text.Text);
 				editor.PutString("app_version_build", app_version_build_text.Text);
 				editor.PutString("response", response_text.Text);
 				editor.Apply();
@@ -181,7 +214,13 @@ namespace BandyFW
 
 			app_name_text.Click += delegate
 			{
-				RunOnUiThread(() => Toast.MakeText(this, Resource.String.shoose_app, ToastLength.Short).Show());
+				if (radio_zepp.Checked || radio_mifit.Checked)
+				{
+					RunOnUiThread(() => Toast.MakeText(this, app_name_text.Text, ToastLength.Short).Show());
+				}
+				else {
+					RunOnUiThread(() => Toast.MakeText(this, Resource.String.shoose_app, ToastLength.Short).Show());
+				}
 			};
 		}
 	}

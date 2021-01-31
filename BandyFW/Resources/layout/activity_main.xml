@@ -101,7 +101,7 @@
             android:layout_marginBottom="12dp"/>
 
         <EditText
-            android:inputType="text"
+            android:inputType="number"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="@string/app_version_build_hint"
