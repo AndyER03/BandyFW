@@ -11,8 +11,10 @@
     <string name="model_hint">Model code</string>
     <string name="production_hint">Production code</string>
     <string name="app_name_hint">App name</string>
-    <string name="app_version_hint">App version</string>
+    <string name="app_version_number_hint">App version number</string>
+    <string name="app_version_build_hint">App version build</string>
     <string name="response_hint">Response</string>
     <string name="zepp_appname">Zepp</string>
     <string name="mifit_appname">Mi Fit</string>
+    <string name="clear_response">Clear</string>
 </resources>

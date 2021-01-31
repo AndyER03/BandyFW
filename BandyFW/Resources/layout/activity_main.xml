@@ -25,7 +25,8 @@
             android:padding="12dp"
             android:paddingStart="12dp"
             android:paddingEnd="12dp"
-            android:layout_marginBottom="12dp"/>
+            android:layout_marginBottom="12dp"
+            android:maxLength="2"/>
 
         <EditText
             android:inputType="text"
@@ -37,7 +38,8 @@
             android:padding="12dp"
             android:paddingStart="12dp"
             android:paddingEnd="12dp"
-            android:layout_marginBottom="12dp"/>
+            android:layout_marginBottom="12dp"
+            android:maxLength="3"/>
 
         <LinearLayout
             android:orientation="horizontal"
@@ -70,7 +72,7 @@
                     android:paddingEnd="12dp" />
 
                 <EditText
-                    android:inputType="text"
+                    android:inputType="none"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:hint="@string/app_name_hint"
@@ -87,8 +89,20 @@
             android:inputType="text"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="@string/app_version_hint"
-            android:id="@+id/app_version_text"
+            android:hint="@string/app_version_number_hint"
+            android:id="@+id/app_version_number_text"
+            android:background="@drawable/custom_input"
+            android:padding="12dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/app_version_build_hint"
+            android:id="@+id/app_version_build_text"
             android:background="@drawable/custom_input"
             android:padding="12dp"
             android:paddingStart="12dp"
@@ -143,19 +157,29 @@
         </LinearLayout>
 
         <EditText
-            android:inputType="textMultiLine"
+            android:inputType="none"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/response_hint"
             android:id="@+id/response_text"
-            android:singleLine="true"
+            android:singleLine="false"
             android:verticalScrollbarPosition="right"
             android:scrollbars="vertical"
             android:background="@drawable/custom_input"
             android:padding="12dp"
             android:paddingStart="12dp"
             android:paddingEnd="12dp"
-            android:editable="false"/>
+            android:editable="false"
+            android:textIsSelectable="true"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:text="@string/clear_response"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/clear_response_button"
+            android:background="@drawable/custom_button"
+            android:textColor="#FFFFFF"/>
 
     </LinearLayout>
 

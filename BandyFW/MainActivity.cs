@@ -31,6 +31,7 @@ namespace BandyFW
 			Button remember_button = FindViewById<Button>(Resource.Id.remember_button);
 			Button restore_button = FindViewById<Button>(Resource.Id.restore_button);
 			Button reset_button = FindViewById<Button>(Resource.Id.reset_button);
+			Button clear_response_button = FindViewById<Button>(Resource.Id.clear_response_button);
 			EditText model_text = FindViewById<EditText>(Resource.Id.model_text);
 			EditText production_text = FindViewById<EditText>(Resource.Id.production_text);
 
@@ -39,7 +40,8 @@ namespace BandyFW
 			RadioButton radio_mifit  = FindViewById<RadioButton>(Resource.Id.radio_mifit);
 
 			EditText app_name_text = FindViewById<EditText>(Resource.Id.app_name_text);
-			EditText app_version_text = FindViewById<EditText>(Resource.Id.app_version_text);
+			EditText app_version_number_text = FindViewById<EditText>(Resource.Id.app_version_number_text);
+			EditText app_version_build_text = FindViewById<EditText>(Resource.Id.app_version_build_text);
 			EditText response_text = FindViewById<EditText>(Resource.Id.response_text);
 
 			app_radio.CheckedChange += (s, e) => {
@@ -58,7 +60,7 @@ namespace BandyFW
 				var current = Connectivity.NetworkAccess;
 				if (current == Xamarin.Essentials.NetworkAccess.Internet)
 				{
-					if (model_text.Text == "" || production_text.Text == "" || app_name_text.Text == "" || app_version_text.Text == "")
+					if (model_text.Text == "" || production_text.Text == "" || app_name_text.Text == "" || app_version_number_text.Text == "" || app_version_build_text.Text == "")
 					{
 						Toast.MakeText(this, "You should to input all required values!", ToastLength.Long).Show();
 					}
@@ -72,7 +74,7 @@ namespace BandyFW
 							Scheme = "https",
 							Host = "api-mifit-ru.huami.com",
 							Path = "devices/ALL/hasNewVersion",
-							Query = "productId=0&vendorSource=0&resourceVersion=0&firmwareFlag=0&vendorId=0&resourceFlag=0&productionSource=" + production_text.Text + "&userid=0&userId=0&deviceSource=" + model_text.Text + "&fontVersion=0&fontFlag=0&appVersion=" + app_version_text.Text + "&appid=0&callid=0&channel=0&country=0&cv=0&device=0&deviceType=ALL&device_type=0&firmwareVersion=0&hardwareVersion=0&lang=0&support8Bytes=true&timezone=0&v=0",
+							Query = "productId=0&vendorSource=0&resourceVersion=0&firmwareFlag=0&vendorId=0&resourceFlag=0&productionSource=" + production_text.Text + "&userid=0&userId=0&deviceSource=" + model_text.Text + "&fontVersion=0&fontFlag=0&appVersion=" + app_version_number_text.Text + "_" + app_version_build_text.Text + "&appid=0&callid=0&channel=0&country=0&cv=0&device=0&deviceType=ALL&device_type=0&firmwareVersion=0&hardwareVersion=0&lang=0&support8Bytes=true&timezone=0&v=0",
 						};
 						Uri URL = uriBuilder.Uri;
 						String stringUri;
@@ -119,7 +121,7 @@ namespace BandyFW
 
 			remember_button.Click += delegate
 			{
-				if (model_text.Text == "" && production_text.Text == "" && app_name_text.Text == "" && app_version_text.Text == "" && response_text.Text == "")
+				if (model_text.Text == "" && production_text.Text == "" && app_name_text.Text == "" && app_version_number_text.Text == "" && app_version_build_text.Text == "" && response_text.Text == "")
 				{
 					RunOnUiThread(() => Toast.MakeText(this, "There are no values for saving!", ToastLength.Short).Show());
 				}
@@ -128,7 +130,8 @@ namespace BandyFW
 					editor.PutString("model_code", model_text.Text);
 					editor.PutString("production_code", production_text.Text);
 					editor.PutString("app_name", app_name_text.Text);
-					editor.PutString("app_version", app_version_text.Text);
+					editor.PutString("app_version_number", app_version_number_text.Text);
+					editor.PutString("app_version_build", app_version_build_text.Text);
 					editor.PutString("response", response_text.Text);
 					editor.Apply();
 					RunOnUiThread(() => Toast.MakeText(this, "Remember success", ToastLength.Short).Show());
@@ -146,7 +149,8 @@ namespace BandyFW
 					model_text.Text = prefs.GetString("model_code", null);
 					production_text.Text = prefs.GetString("production_code", null);
 					app_name_text.Text = prefs.GetString("app_name", null);
-					app_version_text.Text = prefs.GetString("app_version", null);
+					app_version_number_text.Text = prefs.GetString("app_version_number", null);
+					app_version_build_text.Text = prefs.GetString("app_version_build", null);
 					response_text.Text = prefs.GetString("response", null);
 					RunOnUiThread(() => Toast.MakeText(this, "Restore success", ToastLength.Short).Show());
 				}
@@ -157,17 +161,22 @@ namespace BandyFW
 				model_text.Text = "";
 				production_text.Text = "";
 				app_name_text.Text = "";
-				app_version_text.Text = "";
+				app_version_number_text.Text = "";
 				response_text.Text = "";
 
 				editor.PutString("model_code", model_text.Text);
 				editor.PutString("production_code", production_text.Text);
 				editor.PutString("app_name", app_name_text.Text);
-				editor.PutString("app_version", app_version_text.Text);
+				editor.PutString("app_version_build", app_version_number_text.Text);
+				editor.PutString("app_version_build", app_version_build_text.Text);
 				editor.PutString("response", response_text.Text);
 				editor.Apply();
 
 				RunOnUiThread(() => Toast.MakeText(this, "Reset success", ToastLength.Short).Show());
+			};
+			clear_response_button.Click += delegate
+			{
+				response_text.Text = "";
 			};
 		}
 	}
