@@ -84,9 +84,12 @@ namespace BandyFW
 			var adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleSpinnerDropDownItem, items);
 			spinner.Adapter = adapter;
 			spinner.ItemSelected += Spinner_ItemSelected;
+			spinner.SaveEnabled = true;
 
 			app_name_text.Focusable = false;
 
+			int spinner_position = prefs.GetInt("spinner_position", 0);
+			spinner.SetSelection(spinner_position);
 
 			string zepp_name = "com.huami.midong";
 			string mifit_name = "com.xiaomi.hm.health";
@@ -263,6 +266,11 @@ namespace BandyFW
 
 		public void Spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
 		{
+			ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(this);
+			ISharedPreferencesEditor editor = prefs.Edit();
+
+			Spinner spinner = FindViewById<Spinner>(Resource.Id.device_model_spinner);
+
 			EditText model_text = FindViewById<EditText>(Resource.Id.model_text);
 			EditText production_text = FindViewById<EditText>(Resource.Id.production_text);
 			EditText app_name_text = FindViewById<EditText>(Resource.Id.app_name_text);
@@ -270,7 +278,8 @@ namespace BandyFW
 			RadioButton radio_mifit = FindViewById<RadioButton>(Resource.Id.radio_mifit);
 			CheckBox play_postfix_checkbox = FindViewById<CheckBox>(Resource.Id.play_postfix_checkbox);
 
-			Spinner spinner = (Spinner)sender;
+
+
 			if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_manual))
 			{
 				model_text.Enabled = true;
@@ -700,6 +709,9 @@ namespace BandyFW
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
 				radio_zepp.Checked = true;
 			}
+
+			editor.PutInt("spinner_position", (int)spinner.GetItemIdAtPosition(e.Position));
+			editor.Apply();
 		}
 	}
 }
