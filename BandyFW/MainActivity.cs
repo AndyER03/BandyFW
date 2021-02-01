@@ -50,13 +50,36 @@ namespace BandyFW
 			Spinner spinner = FindViewById<Spinner>(Resource.Id.device_model_spinner);
 			var items = new List<string>() {
 				GetString(Resource.String.device_name_manual),
+				GetString(Resource.String.device_name_york),
 				GetString(Resource.String.device_name_chaohu),
-				GetString(Resource.String.device_name_cinco_nfc),
-				GetString(Resource.String.device_name_pyh),
-				GetString(Resource.String.device_name_kongming_china_nfc),
-				GetString(Resource.String.device_name_cinco_global),
 				GetString(Resource.String.device_name_chaohulite),
-				GetString(Resource.String.device_name_kongming_china)
+				GetString(Resource.String.device_name_comow),
+				GetString(Resource.String.device_name_lisbon),
+				GetString(Resource.String.device_name_lisbonw),
+				GetString(Resource.String.device_name_hawk),
+				GetString(Resource.String.device_name_hawkw),
+				GetString(Resource.String.device_name_falcon),
+				GetString(Resource.String.device_name_falconw),
+				GetString(Resource.String.device_name_falconl),
+				GetString(Resource.String.device_name_newton_china),
+				GetString(Resource.String.device_name_newton_global),
+				GetString(Resource.String.device_name_nessw),
+				GetString(Resource.String.device_name_kestrel),
+				GetString(Resource.String.device_name_kesrtelw),
+				GetString(Resource.String.device_name_vulture),
+				GetString(Resource.String.device_name_pyh),
+				GetString(Resource.String.device_name_venice_china),
+				GetString(Resource.String.device_name_venicew),
+				GetString(Resource.String.device_name_cinco_nfc),
+				GetString(Resource.String.device_name_cinco_global),
+				GetString(Resource.String.device_name_kongming_china),
+				GetString(Resource.String.device_name_kongming_china_nfc),
+				GetString(Resource.String.device_name_corsica),
+				GetString(Resource.String.device_name_corsicaw),
+				GetString(Resource.String.device_name_onyx),
+				GetString(Resource.String.device_name_onyxw),
+				GetString(Resource.String.device_name_osprey),
+				GetString(Resource.String.device_name_ospreyw)
 			};
 			var adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleSpinnerDropDownItem, items);
 			spinner.Adapter = adapter;
