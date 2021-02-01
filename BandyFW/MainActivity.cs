@@ -111,13 +111,16 @@ namespace BandyFW
 					play_postfix_checkbox.Enabled = true;
 
 					editor.PutString("mifit_app_version_number", app_version_number_text.Text);
+					editor.PutString("mifit_app_version_build", app_version_build_text.Text);
 					editor.Apply();
+
 					if (prefs.GetBoolean("play_postfix_checkbox", false) == true)
 					{
 						play_postfix_checkbox.Checked = true;
 					}
 
 					app_version_number_text.Text = prefs.GetString("zepp_app_version_number", null);
+					app_version_build_text.Text = prefs.GetString("zepp_app_version_build", null);
 
 				}
 				else if (radio_mifit.Checked)
@@ -127,17 +130,22 @@ namespace BandyFW
 					if (play_postfix_checkbox.Checked)
 					{
 						editor.PutBoolean("play_postfix_checkbox", true);
+						editor.Apply();
 					}
 					else
 					{
 						editor.PutBoolean("play_postfix_checkbox", false);
+						editor.Apply();
 					}
+					editor.PutString("zepp_app_version_number", app_version_number_text.Text);
+					editor.PutString("zepp_app_version_build", app_version_build_text.Text);
 					editor.Apply();
+
 					play_postfix_checkbox.Enabled = false;
 					play_postfix_checkbox.Checked = false;
 
-					editor.PutString("zepp_app_version_number", app_version_number_text.Text);
 					app_version_number_text.Text = prefs.GetString("mifit_app_version_number", null);
+					app_version_build_text.Text = prefs.GetString("mifit_app_version_build", null);
 				}
 			};
 
@@ -271,6 +279,11 @@ namespace BandyFW
 				app_version_build_text.Text = "";
 				response_text.Text = "";
 
+				editor.PutString("zepp_app_version_number", app_version_number_text.Text);
+				editor.PutString("zepp_app_version_build", app_version_build_text.Text);
+				editor.PutString("mifit_app_version_number", app_version_number_text.Text);
+				editor.PutString("mifit_app_version_build", app_version_build_text.Text);
+				editor.PutBoolean("play_postfix_checkbox", false);
 				editor.PutString("response", response_text.Text);
 				editor.Apply();
 
