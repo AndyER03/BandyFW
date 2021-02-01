@@ -28,4 +28,15 @@
     <string name="exit_message">Are you sure you want to exit?</string>
     <string name="positive_button">OK</string>
     <string name="negative_button">Cancel</string>
+  
+    <string name="zepp_app_package_name">com.huami.midong</string>
+    <string name="mifit_app_package_name">com.xiaomi.hm.health</string>
+  
+    <string name="device_name_chaohu">Amazfit Bip</string>
+    <string name="device_name_cinco_nfc">Xiaomi Mi Band 4 China NFC</string>
+    <string name="device_name_pyh">Amazfit Verge Lite</string>
+    <string name="device_name_kongming_china_nfc">Xiaomi Mi Band 5 China NFC</string>
+    <string name="device_name_cinco_global">Xiaomi Mi Smart Band 4 Global</string>
+    <string name="device_name_chaohulite">Amazfit Bip Lite</string>
+    <string name="device_name_kongming_china">Xiaomi Mi Band 5 China</string>
 </resources>

@@ -15,6 +15,11 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/device_model_spinner"/>
+
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -127,7 +132,8 @@
                 android:id="@+id/play_postfix_checkbox"
                 android:minWidth="25px"
                 android:minHeight="25px"
-                android:paddingEnd="12dp"/>
+                android:paddingEnd="12dp"
+                android:enabled="false"/>
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"

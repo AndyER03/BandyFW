@@ -5,6 +5,7 @@ using Android.Preferences;
 using Android.Support.V7.App;
 using Android.Widget;
 using System;
+using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
 using Xamarin.Essentials;
@@ -46,16 +47,33 @@ namespace BandyFW
 			EditText app_version_build_text = FindViewById<EditText>(Resource.Id.app_version_build_text);
 			EditText response_text = FindViewById<EditText>(Resource.Id.response_text);
 
+			Spinner spinner = FindViewById<Spinner>(Resource.Id.device_model_spinner);
+			var items = new List<string>() {
+				GetString(Resource.String.device_name_chaohu),
+				GetString(Resource.String.device_name_cinco_nfc),
+				GetString(Resource.String.device_name_pyh),
+				GetString(Resource.String.device_name_kongming_china_nfc),
+				GetString(Resource.String.device_name_cinco_global),
+				GetString(Resource.String.device_name_chaohulite),
+				GetString(Resource.String.device_name_kongming_china)
+			};
+			var adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleSpinnerDropDownItem, items);
+			spinner.Adapter = adapter;
+			spinner.ItemSelected += spinner_ItemSelected;
+
 			app_name_text.Focusable = false;
 
 			bool radio_zepp_bool = false;
 			bool radio_mifit_bool = false;
 
+			string zepp_name = "com.huami.midong";
+			string mifit_name = "com.xiaomi.hm.health";
+
 			app_radio.CheckedChange += (s, e) =>
 			{
 				if (radio_zepp.Checked)
 				{
-					app_name_text.Text = "com.huami.midong";
+					app_name_text.Text = zepp_name;
 					radio_zepp_bool = true;
 					radio_mifit_bool = false;
 					play_postfix_checkbox.Enabled = true;
@@ -63,7 +81,7 @@ namespace BandyFW
 				}
 				if (radio_mifit.Checked)
 				{
-					app_name_text.Text = "com.xiaomi.hm.health";
+					app_name_text.Text = mifit_name;
 					radio_zepp_bool = false;
 					radio_mifit_bool = true;
 					play_postfix_checkbox.Enabled = false;
@@ -266,6 +284,67 @@ namespace BandyFW
 					app_name_text.SetText(Resource.String.shoose_app);
 				}
 			};
+		}
+
+
+		public void spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
+		{
+			EditText model_text = FindViewById<EditText>(Resource.Id.model_text);
+			EditText production_text = FindViewById<EditText>(Resource.Id.production_text);
+			EditText app_name_text = FindViewById<EditText>(Resource.Id.app_name_text);
+			RadioButton radio_zepp = FindViewById<RadioButton>(Resource.Id.radio_zepp);
+			RadioButton radio_mifit = FindViewById<RadioButton>(Resource.Id.radio_mifit);
+
+			Spinner spinner = (Spinner)sender;
+			if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_chaohu))
+			{
+				model_text.Text = "12";
+				production_text.Text = "256";
+				app_name_text.Text = GetString(Resource.String.mifit_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_cinco_nfc))
+			{
+				model_text.Text = "24";
+				production_text.Text = "256";
+				app_name_text.Text = GetString(Resource.String.mifit_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_cinco_global))
+			{
+				model_text.Text = "30";
+				production_text.Text = "256";
+				app_name_text.Text = GetString(Resource.String.mifit_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_kongming_china_nfc))
+			{
+				model_text.Text = "58";
+				production_text.Text = "256";
+				app_name_text.Text = GetString(Resource.String.mifit_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_cinco_global))
+			{
+				model_text.Text = "25";
+				production_text.Text = "257";
+				app_name_text.Text = GetString(Resource.String.mifit_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_chaohulite))
+			{
+				model_text.Text = "42";
+				production_text.Text = "257";
+				app_name_text.Text = GetString(Resource.String.mifit_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_kongming_china))
+			{
+				model_text.Text = "59";
+				production_text.Text = "257";
+				app_name_text.Text = GetString(Resource.String.mifit_app_package_name);
+				radio_mifit.Checked = true;
+			}
 		}
 	}
 }
