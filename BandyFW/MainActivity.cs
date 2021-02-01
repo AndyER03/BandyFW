@@ -268,6 +268,7 @@ namespace BandyFW
 			EditText app_name_text = FindViewById<EditText>(Resource.Id.app_name_text);
 			RadioButton radio_zepp = FindViewById<RadioButton>(Resource.Id.radio_zepp);
 			RadioButton radio_mifit = FindViewById<RadioButton>(Resource.Id.radio_mifit);
+			CheckBox play_postfix_checkbox = FindViewById<CheckBox>(Resource.Id.play_postfix_checkbox);
 
 			Spinner spinner = (Spinner)sender;
 			if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_manual))
@@ -276,6 +277,8 @@ namespace BandyFW
 				production_text.Enabled = true;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = true;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_chaohu))
 			{
@@ -283,6 +286,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = true;
+				play_postfix_checkbox.Enabled = false;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "12";
 				production_text.Text = "256";
@@ -295,6 +300,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = true;
+				play_postfix_checkbox.Enabled = false;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "24";
 				production_text.Text = "256";
@@ -307,6 +314,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = true;
+				play_postfix_checkbox.Enabled = false;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "30";
 				production_text.Text = "256";
@@ -319,6 +328,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = false;
 				radio_mifit.Enabled = true;
+				play_postfix_checkbox.Enabled = false;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "58";
 				production_text.Text = "256";
@@ -331,6 +342,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = true;
+				play_postfix_checkbox.Enabled = false;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "25";
 				production_text.Text = "257";
@@ -343,6 +356,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = false;
 				radio_mifit.Enabled = true;
+				play_postfix_checkbox.Enabled = false;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "42";
 				production_text.Text = "257";
@@ -355,6 +370,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = false;
 				radio_mifit.Enabled = true;
+				play_postfix_checkbox.Enabled = false;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "59";
 				production_text.Text = "257";
@@ -367,6 +384,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "35";
 				production_text.Text = "256";
@@ -379,6 +398,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "36";
 				production_text.Text = "256";
@@ -391,6 +412,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "37";
 				production_text.Text = "256";
@@ -403,6 +426,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "40";
 				production_text.Text = "256";
@@ -415,6 +440,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "50";
 				production_text.Text = "256";
@@ -427,6 +454,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "53";
 				production_text.Text = "256";
@@ -439,6 +468,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "56";
 				production_text.Text = "256";
@@ -451,6 +482,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "57";
 				production_text.Text = "256";
@@ -463,6 +496,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "61";
 				production_text.Text = "256";
@@ -475,6 +510,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "63";
 				production_text.Text = "256";
@@ -487,6 +524,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "64";
 				production_text.Text = "256";
@@ -499,6 +538,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "67";
 				production_text.Text = "256";
@@ -511,6 +552,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "73";
 				production_text.Text = "256";
@@ -523,6 +566,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "38";
 				production_text.Text = "257";
@@ -535,6 +580,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "41";
 				production_text.Text = "257";
@@ -547,6 +594,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "69";
 				production_text.Text = "257";
@@ -559,6 +608,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "71";
 				production_text.Text = "257";
@@ -571,6 +622,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "76";
 				production_text.Text = "257";
@@ -583,6 +636,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "78";
 				production_text.Text = "257";
@@ -595,6 +650,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "81";
 				production_text.Text = "257";
@@ -607,6 +664,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "82";
 				production_text.Text = "257";
@@ -619,6 +678,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "92";
 				production_text.Text = "257";
@@ -631,6 +692,8 @@ namespace BandyFW
 				production_text.Enabled = false;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
 
 				model_text.Text = "46";
 				production_text.Text = "258";
