@@ -30,6 +30,7 @@ namespace BandyFW
 
 			Button submit_button = FindViewById<Button>(Resource.Id.submit_button);
 			Button remember_button = FindViewById<Button>(Resource.Id.remember_button);
+			Button forget_button = FindViewById<Button>(Resource.Id.forget_button);
 			Button restore_button = FindViewById<Button>(Resource.Id.restore_button);
 			Button reset_button = FindViewById<Button>(Resource.Id.reset_button);
 			Button clear_response_button = FindViewById<Button>(Resource.Id.clear_response_button);
@@ -93,15 +94,6 @@ namespace BandyFW
 
 			string zepp_name = "com.huami.midong";
 			string mifit_name = "com.xiaomi.hm.health";
-
-			if (prefs.GetString("response", null) == "")
-			{
-				restore_button.Visibility = Android.Views.ViewStates.Gone;
-			}
-			else
-			{
-				restore_button.Visibility = Android.Views.ViewStates.Visible;
-			}
 
 			app_radio.CheckedChange += (s, e) =>
 			{
@@ -243,10 +235,24 @@ namespace BandyFW
 					editor.Apply();
 					RunOnUiThread(() => Toast.MakeText(this, Resource.String.remember_success, ToastLength.Short).Show());
 				}
+
+				if (prefs.GetString("response", "") != "")
+				{
+					restore_button.Visibility = Android.Views.ViewStates.Visible;
+					forget_button.Visibility = Android.Views.ViewStates.Visible;
+				}
 			};
 
-			//Restore button logics
-			restore_button.Click += delegate
+			//Forget button logics
+			forget_button.Click += delegate
+			{
+				editor.PutString("response", response_text.Text);
+				restore_button.Visibility = Android.Views.ViewStates.Gone;
+				forget_button.Visibility = Android.Views.ViewStates.Gone;
+			};
+
+				//Restore button logics
+				restore_button.Click += delegate
 			{
 				if (prefs.GetString("response", null) == "")
 				{
@@ -278,6 +284,7 @@ namespace BandyFW
 				app_version_number_text.Text = "";
 				app_version_build_text.Text = "";
 				response_text.Text = "";
+				restore_button.Visibility = Android.Views.ViewStates.Gone;
 
 				editor.PutString("zepp_app_version_number", app_version_number_text.Text);
 				editor.PutString("zepp_app_version_build", app_version_build_text.Text);
