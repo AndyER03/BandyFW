@@ -19,9 +19,9 @@
     <string name="play_postfix_checkbox">play postfix</string>
     <string name="clear_response">Clear</string>
     <string name="input_all_values">You should to input all required values!</string>
-    <string name="no_values_for_saving">There are no values for saving!</string>
+    <string name="no_response_for_saving">There is no response for saving!</string>
     <string name="remember_success">Remember success!</string>
-    <string name="no_values_in_memory">There are no values in memory!</string>
+    <string name="no_response_in_memory">There is no response in memory!</string>
     <string name="reset_success">Reset success!</string>
     <string name="shoose_app">Shoose an app name!</string>
     <string name="exit_title">Exit</string>

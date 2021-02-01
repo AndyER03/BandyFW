@@ -87,8 +87,6 @@ namespace BandyFW
 
 			app_name_text.Focusable = false;
 
-			bool radio_zepp_bool = false;
-			bool radio_mifit_bool = false;
 
 			string zepp_name = "com.huami.midong";
 			string mifit_name = "com.xiaomi.hm.health";
@@ -98,34 +96,27 @@ namespace BandyFW
 				if (radio_zepp.Checked)
 				{
 					app_name_text.Text = zepp_name;
-					radio_zepp_bool = true;
-					radio_mifit_bool = false;
 					play_postfix_checkbox.Enabled = true;
 
 				}
 				if (radio_mifit.Checked)
 				{
 					app_name_text.Text = mifit_name;
-					radio_zepp_bool = false;
-					radio_mifit_bool = true;
 					play_postfix_checkbox.Enabled = false;
 				}
 			};
 
 			var play_postfix = "";
-			bool play_postfix_bool = false;
 			play_postfix_checkbox.CheckedChange += (s, e) =>
 			{
 				if (play_postfix_checkbox.Checked)
 				{
 					play_postfix = "-play";
-					play_postfix_bool = true;
 
 				}
 				else
 				{
 					play_postfix = "";
-					play_postfix_bool = false;
 				}
 			};
 
@@ -161,12 +152,12 @@ namespace BandyFW
 						request.Method = HttpMethod.Get;
 
 						request.Headers.Add("hm-privacy-diagnostics", "0");
-						request.Headers.Add("country", "0");
+						request.Headers.Add("country", "US");
 						request.Headers.Add("appplatform", "android_phone");
 						request.Headers.Add("hm-privacy-ceip", "0");
 						request.Headers.Add("X-Request-Id", "0");
 						request.Headers.Add("timezone", "0");
-						request.Headers.Add("channel", "0");
+						request.Headers.Add("channel", "play");
 						request.Headers.Add("User-Agent", "0");
 						request.Headers.Add("cv", "0");
 						request.Headers.Add("appname", app_name_text.Text);
@@ -199,20 +190,12 @@ namespace BandyFW
 			//Remember button logics
 			remember_button.Click += delegate
 			{
-				if (model_text.Text == "" || production_text.Text == "" || app_name_text.Text == GetString(Resource.String.shoose_app) || app_version_number_text.Text == "" || app_version_build_text.Text == "" || response_text.Text == "")
+				if (response_text.Text == "")
 				{
-					RunOnUiThread(() => Toast.MakeText(this, Resource.String.no_values_for_saving, ToastLength.Short).Show());
+					RunOnUiThread(() => Toast.MakeText(this, Resource.String.no_response_for_saving, ToastLength.Short).Show());
 				}
 				else
 				{
-					editor.PutString("model_code", model_text.Text);
-					editor.PutString("production_code", production_text.Text);
-					editor.PutString("app_name", app_name_text.Text);
-					editor.PutBoolean("radio_zepp_bool", radio_zepp_bool);
-					editor.PutBoolean("radio_mifit_bool", radio_mifit_bool);
-					editor.PutBoolean("play_postfix_bool", play_postfix_bool);
-					editor.PutString("app_version_number", app_version_number_text.Text);
-					editor.PutString("app_version_build", app_version_build_text.Text);
 					editor.PutString("response", response_text.Text);
 					editor.Apply();
 					RunOnUiThread(() => Toast.MakeText(this, Resource.String.remember_success, ToastLength.Short).Show());
@@ -222,48 +205,12 @@ namespace BandyFW
 			//Restore button logics
 			restore_button.Click += delegate
 			{
-				if (prefs.GetString("model_code", null) == "" && prefs.GetString("production_code", null) == "" && prefs.GetString("app_name", null) == "" && prefs.GetString("app_version", null) == "" && prefs.GetString("response", null) == "")
+				if (prefs.GetString("response", null) == "")
 				{
-					RunOnUiThread(() => Toast.MakeText(this, Resource.String.no_values_in_memory, ToastLength.Short).Show());
+					RunOnUiThread(() => Toast.MakeText(this, Resource.String.no_response_in_memory, ToastLength.Short).Show());
 				}
 				else
 				{
-					model_text.Text = prefs.GetString("model_code", null);
-					production_text.Text = prefs.GetString("production_code", null);
-					app_name_text.Text = prefs.GetString("app_name", null);
-					radio_zepp_bool = prefs.GetBoolean("radio_zepp_bool", false);
-					radio_mifit_bool = prefs.GetBoolean("radio_mifit_bool", false);
-					play_postfix_bool = prefs.GetBoolean("play_postfix_bool", false);
-
-					if (radio_zepp_bool == true)
-					{
-						radio_zepp.Checked = true;
-					}
-					else
-					{
-						radio_zepp.Checked = false;
-					}
-
-					if (radio_mifit_bool == true)
-					{
-						radio_mifit.Checked = true;
-					}
-					else
-					{
-						radio_mifit.Checked = false;
-					}
-
-					if (play_postfix_bool == true)
-					{
-						play_postfix_checkbox.Checked = true;
-					}
-					else
-					{
-						play_postfix_checkbox.Checked = false;
-					}
-
-					app_version_number_text.Text = prefs.GetString("app_version_number", null);
-					app_version_build_text.Text = prefs.GetString("app_version_build", null);
 					response_text.Text = prefs.GetString("response", null);
 					RunOnUiThread(() => Toast.MakeText(this, "Restore success", ToastLength.Short).Show());
 				}
@@ -272,20 +219,23 @@ namespace BandyFW
 			//Reset button logics
 			reset_button.Click += delegate
 			{
+				model_text.Enabled = true;
+				production_text.Enabled = true;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = true;
+				play_postfix_checkbox.Enabled = true;
+
+				spinner.SetSelection(0);
 				model_text.Text = "";
 				production_text.Text = "";
+				radio_zepp.Checked = false;
+				radio_mifit.Checked = false;
 				app_name_text.Text = GetString(Resource.String.shoose_app);
+				play_postfix_checkbox.Checked = false;
 				app_version_number_text.Text = "";
+				app_version_build_text.Text = "";
 				response_text.Text = "";
 
-				editor.PutString("model_code", model_text.Text);
-				editor.PutString("production_code", production_text.Text);
-				editor.PutString("app_name", app_name_text.Text);
-				editor.PutBoolean("radio_zepp_bool", radio_zepp_bool);
-				editor.PutBoolean("radio_mifit_bool", radio_mifit_bool);
-				editor.PutBoolean("play_postfix_bool", play_postfix_bool);
-				editor.PutString("app_version_number", app_version_number_text.Text);
-				editor.PutString("app_version_build", app_version_build_text.Text);
 				editor.PutString("response", response_text.Text);
 				editor.Apply();
 
@@ -326,11 +276,6 @@ namespace BandyFW
 				production_text.Enabled = true;
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = true;
-
-				model_text.Text = "12";
-				production_text.Text = "256";
-				app_name_text.Text = GetString(Resource.String.mifit_app_package_name);
-				radio_mifit.Checked = true;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_chaohu))
 			{
@@ -688,7 +633,7 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 
 				model_text.Text = "46";
-				production_text.Text = "257";
+				production_text.Text = "258";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
 				radio_zepp.Checked = true;
 			}

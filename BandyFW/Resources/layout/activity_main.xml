@@ -193,24 +193,6 @@
                 android:textColor="#FFFFFF"/>
 
             <Button
-                android:text="@string/remember"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:id="@+id/remember_button"
-                android:layout_marginRight="12dp"
-                android:background="@drawable/custom_button"
-                android:textColor="#FFFFFF"/>
-
-            <Button
-                android:text="@string/restore"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:id="@+id/restore_button"
-                android:background="@drawable/custom_button"
-                android:layout_marginRight="12dp"
-                android:textColor="#FFFFFF"/>
-
-            <Button
                 android:text="@string/reset"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -241,13 +223,42 @@
 
         </android.support.design.widget.TextInputLayout>
 
-        <Button
-            android:text="@string/clear_response"
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
             android:layout_height="match_parent"
-            android:id="@+id/clear_response_button"
-            android:background="@drawable/custom_button"
-            android:textColor="#FFFFFF"/>
+            android:layout_marginBottom="12dp"
+            android:gravity="center|center_horizontal">
+
+            <Button
+                android:text="@string/remember"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/remember_button"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/custom_button"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+                android:text="@string/restore"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/restore_button"
+                android:background="@drawable/custom_button"
+                android:layout_marginRight="12dp"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+                android:text="@string/clear_response"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/clear_response_button"
+                android:background="@drawable/custom_button"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
 
     </LinearLayout>
 

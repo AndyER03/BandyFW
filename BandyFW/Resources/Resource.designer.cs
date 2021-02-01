@@ -5248,10 +5248,10 @@ namespace BandyFW
 			public const int negative_button = 2131624027;
 			
 			// aapt resource value: 0x7F0E005C
-			public const int no_values_for_saving = 2131624028;
+			public const int no_response_for_saving = 2131624028;
 			
 			// aapt resource value: 0x7F0E005D
-			public const int no_values_in_memory = 2131624029;
+			public const int no_response_in_memory = 2131624029;
 			
 			// aapt resource value: 0x7F0E005E
 			public const int password_toggle_content_description = 2131624030;
