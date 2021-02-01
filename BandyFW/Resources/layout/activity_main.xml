@@ -150,7 +150,9 @@
                     android:layout_height="wrap_content"
                     android:hint="@string/app_version_number_hint"
                     android:id="@+id/app_version_number_text"
-                    android:background="@drawable/custom_input"/>
+                    android:background="@drawable/custom_input"
+                    android:digits="0123456789."
+                    android:maxLength="7"/>
 
             </android.support.design.widget.TextInputLayout>
 
@@ -170,7 +172,8 @@
                 android:hint="@string/app_version_build_hint"
                 android:id="@+id/app_version_build_text"
                 android:background="@drawable/custom_input"
-                android:layout_marginBottom="12dp"/>
+                android:layout_marginBottom="12dp"
+                android:maxLength="7"/>
 
         </android.support.design.widget.TextInputLayout>
 

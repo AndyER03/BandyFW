@@ -94,6 +94,15 @@ namespace BandyFW
 			string zepp_name = "com.huami.midong";
 			string mifit_name = "com.xiaomi.hm.health";
 
+			if (prefs.GetString("response", null) == "")
+			{
+				restore_button.Visibility = Android.Views.ViewStates.Gone;
+			}
+			else
+			{
+				restore_button.Visibility = Android.Views.ViewStates.Visible;
+			}
+
 			app_radio.CheckedChange += (s, e) =>
 			{
 				if (radio_zepp.Checked)
@@ -101,11 +110,34 @@ namespace BandyFW
 					app_name_text.Text = zepp_name;
 					play_postfix_checkbox.Enabled = true;
 
+					editor.PutString("mifit_app_version_number", app_version_number_text.Text);
+					editor.Apply();
+					if (prefs.GetBoolean("play_postfix_checkbox", false) == true)
+					{
+						play_postfix_checkbox.Checked = true;
+					}
+
+					app_version_number_text.Text = prefs.GetString("zepp_app_version_number", null);
+
 				}
-				if (radio_mifit.Checked)
+				else if (radio_mifit.Checked)
 				{
 					app_name_text.Text = mifit_name;
+
+					if (play_postfix_checkbox.Checked)
+					{
+						editor.PutBoolean("play_postfix_checkbox", true);
+					}
+					else
+					{
+						editor.PutBoolean("play_postfix_checkbox", false);
+					}
+					editor.Apply();
 					play_postfix_checkbox.Enabled = false;
+					play_postfix_checkbox.Checked = false;
+
+					editor.PutString("zepp_app_version_number", app_version_number_text.Text);
+					app_version_number_text.Text = prefs.GetString("mifit_app_version_number", null);
 				}
 			};
 
@@ -263,7 +295,6 @@ namespace BandyFW
 			};
 		}
 
-
 		public void Spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
 		{
 			ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(this);
@@ -278,8 +309,6 @@ namespace BandyFW
 			RadioButton radio_mifit = FindViewById<RadioButton>(Resource.Id.radio_mifit);
 			CheckBox play_postfix_checkbox = FindViewById<CheckBox>(Resource.Id.play_postfix_checkbox);
 
-
-
 			if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_manual))
 			{
 				model_text.Enabled = true;
@@ -288,6 +317,12 @@ namespace BandyFW
 				radio_mifit.Enabled = true;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+
+				model_text.Visibility = Android.Views.ViewStates.Visible;
+				production_text.Visibility = Android.Views.ViewStates.Visible;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Visible;
+				radio_mifit.Visibility = Android.Views.ViewStates.Visible;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_chaohu))
 			{
@@ -297,6 +332,12 @@ namespace BandyFW
 				radio_mifit.Enabled = true;
 				play_postfix_checkbox.Enabled = false;
 				play_postfix_checkbox.Checked = false;
+
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Visible;
+				radio_mifit.Visibility = Android.Views.ViewStates.Visible;
 
 				model_text.Text = "12";
 				production_text.Text = "256";
@@ -312,6 +353,12 @@ namespace BandyFW
 				play_postfix_checkbox.Enabled = false;
 				play_postfix_checkbox.Checked = false;
 
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Visible;
+				radio_mifit.Visibility = Android.Views.ViewStates.Visible;
+
 				model_text.Text = "24";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.mifit_app_package_name);
@@ -325,6 +372,12 @@ namespace BandyFW
 				radio_mifit.Enabled = true;
 				play_postfix_checkbox.Enabled = false;
 				play_postfix_checkbox.Checked = false;
+
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Visible;
+				radio_mifit.Visibility = Android.Views.ViewStates.Visible;
 
 				model_text.Text = "30";
 				production_text.Text = "256";
@@ -340,6 +393,12 @@ namespace BandyFW
 				play_postfix_checkbox.Enabled = false;
 				play_postfix_checkbox.Checked = false;
 
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Gone;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
+
 				model_text.Text = "58";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.mifit_app_package_name);
@@ -353,6 +412,12 @@ namespace BandyFW
 				radio_mifit.Enabled = true;
 				play_postfix_checkbox.Enabled = false;
 				play_postfix_checkbox.Checked = false;
+
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Visible;
+				radio_mifit.Visibility = Android.Views.ViewStates.Visible;
 
 				model_text.Text = "25";
 				production_text.Text = "257";
@@ -368,6 +433,12 @@ namespace BandyFW
 				play_postfix_checkbox.Enabled = false;
 				play_postfix_checkbox.Checked = false;
 
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Gone;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
+
 				model_text.Text = "42";
 				production_text.Text = "257";
 				app_name_text.Text = GetString(Resource.String.mifit_app_package_name);
@@ -381,6 +452,12 @@ namespace BandyFW
 				radio_mifit.Enabled = true;
 				play_postfix_checkbox.Enabled = false;
 				play_postfix_checkbox.Checked = false;
+
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Gone;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
 
 				model_text.Text = "59";
 				production_text.Text = "257";
@@ -396,6 +473,12 @@ namespace BandyFW
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
 
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
+
 				model_text.Text = "35";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
@@ -409,6 +492,12 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
 
 				model_text.Text = "36";
 				production_text.Text = "256";
@@ -424,6 +513,12 @@ namespace BandyFW
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
 
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
+
 				model_text.Text = "37";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
@@ -437,6 +532,12 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
 
 				model_text.Text = "40";
 				production_text.Text = "256";
@@ -452,6 +553,12 @@ namespace BandyFW
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
 
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
+
 				model_text.Text = "50";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
@@ -465,6 +572,12 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
 
 				model_text.Text = "53";
 				production_text.Text = "256";
@@ -480,6 +593,12 @@ namespace BandyFW
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
 
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
+
 				model_text.Text = "56";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
@@ -493,6 +612,12 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
 
 				model_text.Text = "57";
 				production_text.Text = "256";
@@ -508,6 +633,12 @@ namespace BandyFW
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
 
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
+
 				model_text.Text = "61";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
@@ -521,6 +652,12 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
 
 				model_text.Text = "63";
 				production_text.Text = "256";
@@ -536,6 +673,12 @@ namespace BandyFW
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
 
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
+
 				model_text.Text = "64";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
@@ -549,6 +692,12 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
 
 				model_text.Text = "67";
 				production_text.Text = "256";
@@ -564,6 +713,12 @@ namespace BandyFW
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
 
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
+
 				model_text.Text = "73";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
@@ -577,6 +732,12 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
 
 				model_text.Text = "38";
 				production_text.Text = "257";
@@ -592,6 +753,12 @@ namespace BandyFW
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
 
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
+
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				model_text.Text = "41";
 				production_text.Text = "257";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
@@ -605,6 +772,12 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
 
 				model_text.Text = "69";
 				production_text.Text = "257";
@@ -620,6 +793,12 @@ namespace BandyFW
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
 
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
+
 				model_text.Text = "71";
 				production_text.Text = "257";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
@@ -633,6 +812,12 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
 
 				model_text.Text = "76";
 				production_text.Text = "257";
@@ -648,6 +833,12 @@ namespace BandyFW
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
 
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
+
 				model_text.Text = "78";
 				production_text.Text = "257";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
@@ -661,6 +852,12 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
 
 				model_text.Text = "81";
 				production_text.Text = "257";
@@ -676,6 +873,12 @@ namespace BandyFW
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
 
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
+
 				model_text.Text = "82";
 				production_text.Text = "257";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
@@ -690,6 +893,12 @@ namespace BandyFW
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
 
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
+
 				model_text.Text = "92";
 				production_text.Text = "257";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
@@ -703,6 +912,12 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+
+				model_text.Visibility = Android.Views.ViewStates.Gone;
+				production_text.Visibility = Android.Views.ViewStates.Gone;
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
 
 				model_text.Text = "46";
 				production_text.Text = "258";
