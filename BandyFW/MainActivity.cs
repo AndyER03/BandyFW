@@ -426,7 +426,7 @@ namespace BandyFW
 				model_text.Text = "35";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
-				radio_mifit.Checked = true;
+				radio_zepp.Checked = true;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_falconw))
 			{
@@ -438,7 +438,7 @@ namespace BandyFW
 				model_text.Text = "36";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
-				radio_mifit.Checked = true;
+				radio_zepp.Checked = true;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_hawk))
 			{
@@ -450,7 +450,7 @@ namespace BandyFW
 				model_text.Text = "37";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
-				radio_mifit.Checked = true;
+				radio_zepp.Checked = true;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_kestrel))
 			{
@@ -462,7 +462,7 @@ namespace BandyFW
 				model_text.Text = "40";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
-				radio_mifit.Checked = true;
+				radio_zepp.Checked = true;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_vulture))
 			{
@@ -474,7 +474,7 @@ namespace BandyFW
 				model_text.Text = "50";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
-				radio_mifit.Checked = true;
+				radio_zepp.Checked = true;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_venice_china))
 			{
@@ -486,7 +486,7 @@ namespace BandyFW
 				model_text.Text = "53";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
-				radio_mifit.Checked = true;
+				radio_zepp.Checked = true;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_osprey))
 			{
@@ -498,7 +498,7 @@ namespace BandyFW
 				model_text.Text = "56";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
-				radio_mifit.Checked = true;
+				radio_zepp.Checked = true;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_onyx))
 			{
@@ -510,7 +510,7 @@ namespace BandyFW
 				model_text.Text = "57";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
-				radio_mifit.Checked = true;
+				radio_zepp.Checked = true;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_corsica))
 			{
@@ -522,7 +522,7 @@ namespace BandyFW
 				model_text.Text = "61";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
-				radio_mifit.Checked = true;
+				radio_zepp.Checked = true;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_lisbon))
 			{
@@ -534,7 +534,7 @@ namespace BandyFW
 				model_text.Text = "63";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
-				radio_mifit.Checked = true;
+				radio_zepp.Checked = true;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_lisbonw))
 			{
@@ -546,7 +546,7 @@ namespace BandyFW
 				model_text.Text = "64";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
-				radio_mifit.Checked = true;
+				radio_zepp.Checked = true;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_newton_china))
 			{
@@ -558,7 +558,7 @@ namespace BandyFW
 				model_text.Text = "67";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
-				radio_mifit.Checked = true;
+				radio_zepp.Checked = true;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_york))
 			{
@@ -570,7 +570,7 @@ namespace BandyFW
 				model_text.Text = "73";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
-				radio_mifit.Checked = true;
+				radio_zepp.Checked = true;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_hawkw))
 			{
@@ -582,7 +582,7 @@ namespace BandyFW
 				model_text.Text = "38";
 				production_text.Text = "257";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
-				radio_mifit.Checked = true;
+				radio_zepp.Checked = true;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_kesrtelw))
 			{
@@ -594,7 +594,7 @@ namespace BandyFW
 				model_text.Text = "41";
 				production_text.Text = "257";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
-				radio_mifit.Checked = true;
+				radio_zepp.Checked = true;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_comow))
 			{
@@ -606,7 +606,7 @@ namespace BandyFW
 				model_text.Text = "69";
 				production_text.Text = "257";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
-				radio_mifit.Checked = true;
+				radio_zepp.Checked = true;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_venicew))
 			{
@@ -618,7 +618,7 @@ namespace BandyFW
 				model_text.Text = "71";
 				production_text.Text = "257";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
-				radio_mifit.Checked = true;
+				radio_zepp.Checked = true;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_ospreyw))
 			{
@@ -630,7 +630,7 @@ namespace BandyFW
 				model_text.Text = "76";
 				production_text.Text = "257";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
-				radio_mifit.Checked = true;
+				radio_zepp.Checked = true;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_newton_global))
 			{
@@ -642,7 +642,7 @@ namespace BandyFW
 				model_text.Text = "78";
 				production_text.Text = "257";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
-				radio_mifit.Checked = true;
+				radio_zepp.Checked = true;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_onyxw))
 			{
@@ -654,7 +654,7 @@ namespace BandyFW
 				model_text.Text = "81";
 				production_text.Text = "257";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
-				radio_mifit.Checked = true;
+				radio_zepp.Checked = true;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_corsicaw))
 			{
@@ -666,7 +666,7 @@ namespace BandyFW
 				model_text.Text = "82";
 				production_text.Text = "257";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
-				radio_mifit.Checked = true;
+				radio_zepp.Checked = true;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_nessw))
 			{
@@ -678,7 +678,7 @@ namespace BandyFW
 				model_text.Text = "92";
 				production_text.Text = "257";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
-				radio_mifit.Checked = true;
+				radio_zepp.Checked = true;
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_falconl))
 			{
@@ -690,7 +690,7 @@ namespace BandyFW
 				model_text.Text = "46";
 				production_text.Text = "257";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
-				radio_mifit.Checked = true;
+				radio_zepp.Checked = true;
 			}
 		}
 	}
