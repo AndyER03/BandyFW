@@ -49,6 +49,7 @@ namespace BandyFW
 
 			Spinner spinner = FindViewById<Spinner>(Resource.Id.device_model_spinner);
 			var items = new List<string>() {
+				GetString(Resource.String.device_name_manual),
 				GetString(Resource.String.device_name_chaohu),
 				GetString(Resource.String.device_name_cinco_nfc),
 				GetString(Resource.String.device_name_pyh),
@@ -59,7 +60,7 @@ namespace BandyFW
 			};
 			var adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleSpinnerDropDownItem, items);
 			spinner.Adapter = adapter;
-			spinner.ItemSelected += spinner_ItemSelected;
+			spinner.ItemSelected += Spinner_ItemSelected;
 
 			app_name_text.Focusable = false;
 
@@ -287,7 +288,7 @@ namespace BandyFW
 		}
 
 
-		public void spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
+		public void Spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
 		{
 			EditText model_text = FindViewById<EditText>(Resource.Id.model_text);
 			EditText production_text = FindViewById<EditText>(Resource.Id.production_text);
@@ -296,8 +297,25 @@ namespace BandyFW
 			RadioButton radio_mifit = FindViewById<RadioButton>(Resource.Id.radio_mifit);
 
 			Spinner spinner = (Spinner)sender;
-			if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_chaohu))
+			if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_manual))
 			{
+				model_text.Enabled = true;
+				production_text.Enabled = true;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = true;
+
+				model_text.Text = "12";
+				production_text.Text = "256";
+				app_name_text.Text = GetString(Resource.String.mifit_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_chaohu))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = true;
+
 				model_text.Text = "12";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.mifit_app_package_name);
@@ -305,13 +323,23 @@ namespace BandyFW
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_cinco_nfc))
 			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = true;
+
 				model_text.Text = "24";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.mifit_app_package_name);
 				radio_mifit.Checked = true;
 			}
-			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_cinco_global))
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_pyh))
 			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = true;
+
 				model_text.Text = "30";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.mifit_app_package_name);
@@ -319,6 +347,11 @@ namespace BandyFW
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_kongming_china_nfc))
 			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = false;
+				radio_mifit.Enabled = true;
+
 				model_text.Text = "58";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.mifit_app_package_name);
@@ -326,6 +359,11 @@ namespace BandyFW
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_cinco_global))
 			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = true;
+
 				model_text.Text = "25";
 				production_text.Text = "257";
 				app_name_text.Text = GetString(Resource.String.mifit_app_package_name);
@@ -333,6 +371,11 @@ namespace BandyFW
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_chaohulite))
 			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = false;
+				radio_mifit.Enabled = true;
+
 				model_text.Text = "42";
 				production_text.Text = "257";
 				app_name_text.Text = GetString(Resource.String.mifit_app_package_name);
@@ -340,9 +383,290 @@ namespace BandyFW
 			}
 			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_kongming_china))
 			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = false;
+				radio_mifit.Enabled = true;
+
 				model_text.Text = "59";
 				production_text.Text = "257";
 				app_name_text.Text = GetString(Resource.String.mifit_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_falcon))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+
+				model_text.Text = "35";
+				production_text.Text = "256";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_falconw))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+
+				model_text.Text = "36";
+				production_text.Text = "256";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_hawk))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+
+				model_text.Text = "37";
+				production_text.Text = "256";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_kestrel))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+
+				model_text.Text = "40";
+				production_text.Text = "256";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_vulture))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+
+				model_text.Text = "50";
+				production_text.Text = "256";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_venice_china))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+
+				model_text.Text = "53";
+				production_text.Text = "256";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_osprey))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+
+				model_text.Text = "56";
+				production_text.Text = "256";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_onyx))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+
+				model_text.Text = "57";
+				production_text.Text = "256";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_corsica))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+
+				model_text.Text = "61";
+				production_text.Text = "256";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_lisbon))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+
+				model_text.Text = "63";
+				production_text.Text = "256";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_lisbonw))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+
+				model_text.Text = "64";
+				production_text.Text = "256";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_newton_china))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+
+				model_text.Text = "67";
+				production_text.Text = "256";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_york))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+
+				model_text.Text = "73";
+				production_text.Text = "256";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_hawkw))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+
+				model_text.Text = "38";
+				production_text.Text = "257";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_kesrtelw))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+
+				model_text.Text = "41";
+				production_text.Text = "257";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_comow))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+
+				model_text.Text = "69";
+				production_text.Text = "257";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_venicew))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+
+				model_text.Text = "71";
+				production_text.Text = "257";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_ospreyw))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+
+				model_text.Text = "76";
+				production_text.Text = "257";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_newton_global))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+
+				model_text.Text = "78";
+				production_text.Text = "257";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_onyxw))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+
+				model_text.Text = "81";
+				production_text.Text = "257";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_corsicaw))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+
+				model_text.Text = "82";
+				production_text.Text = "257";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_nessw))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+
+				model_text.Text = "92";
+				production_text.Text = "257";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
+				radio_mifit.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_falconl))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+
+				model_text.Text = "46";
+				production_text.Text = "257";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
 				radio_mifit.Checked = true;
 			}
 		}

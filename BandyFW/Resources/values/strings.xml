@@ -29,14 +29,50 @@
     <string name="positive_button">OK</string>
     <string name="negative_button">Cancel</string>
   
+  
     <string name="zepp_app_package_name">com.huami.midong</string>
     <string name="mifit_app_package_name">com.xiaomi.hm.health</string>
   
-    <string name="device_name_chaohu">Amazfit Bip</string>
-    <string name="device_name_cinco_nfc">Xiaomi Mi Band 4 China NFC</string>
-    <string name="device_name_pyh">Amazfit Verge Lite</string>
-    <string name="device_name_kongming_china_nfc">Xiaomi Mi Band 5 China NFC</string>
-    <string name="device_name_cinco_global">Xiaomi Mi Smart Band 4 Global</string>
-    <string name="device_name_chaohulite">Amazfit Bip Lite</string>
-    <string name="device_name_kongming_china">Xiaomi Mi Band 5 China</string>
+  
+    <string name="device_name_manual">Manual input</string>
+    <string name="device_name_chaohu">Amazfit Bip (chaohu)</string>
+    <string name="device_name_cinco_nfc">Xiaomi Mi Band 4 China NFC (cinco)</string>
+    <string name="device_name_pyh">Amazfit Verge Lite (pyh)</string>
+  
+    <string name="device_name_rio">Amazfit Verge Lite (rio)</string>
+  
+    <string name="device_name_kongming_china_nfc">Xiaomi Mi Band 5 China NFC (kongming)</string>
+    <string name="device_name_cinco_global">Xiaomi Mi Smart Band 4 Global (cinco)</string>
+    <string name="device_name_chaohulite">Amazfit Bip Lite (chaohulite)</string>
+    <string name="device_name_kongming_china">Xiaomi Mi Band 5 China (kongming)</string>
+  
+    <string name="device_name_falcon">Amazfit GTR 47 mm China (falcon)</string>
+    <string name="device_name_falconw">Amazfit GTR 47 mm Global (falconw)</string>
+    <string name="device_name_hawk">Amazfit GTR 42 mm China (hawk)</string>
+    <string name="device_name_kestrel">Amazfit GTS China (kestrel)</string>
+    <string name="device_name_vulture">Amazfit T-Rex (vulture)</string>
+    <string name="device_name_venice_china">Amazfit X China (venice)</string>
+  
+    <string name="device_name_osprey">(osprey)</string>
+    <string name="device_name_onyx">(onyx)</string>
+    <string name="device_name_corsica">(corsica)</string>
+  
+    <string name="device_name_lisbon">Amazfit GTR 2 China (lisbon)</string>
+    <string name="device_name_lisbonw">Amazfit GTR 2 Global (lisbonw)</string>
+    <string name="device_name_newton_china">Amazfit GTS 2 China (newton)</string>
+    <string name="device_name_york">Amazfit Band 5 (york)</string>
+  
+    <string name="device_name_hawkw">Amazfit GTR 42 mm Global (hawkw)</string>
+    <string name="device_name_kesrtelw">Amazfit GTS Global (kesrtelw)</string>
+    <string name="device_name_comow">Amazfit Bip U Pro (comow)</string>
+    <string name="device_name_venicew">Amazfit X Global(venicew)</string>
+    <string name="device_name_ospreyw">(ospreyw)</string>
+    <string name="device_name_newton_global">Amazfit GTS 2 Global (newton)</string>
+    <string name="device_name_onyxw">(onyxw)</string>
+    <string name="device_name_corsicaw">(corsicaw)</string>
+    <string name="device_name_nessw">Amazfit GTS 2 Mini Global (nessw)</string>
+  
+    <string name="device_name_falconl">Amazfit GTR 47 mm Lite Global (falconl)</string>
+  
+  
 </resources>
