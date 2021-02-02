@@ -5,7 +5,7 @@
     android:minWidth="25px"
     android:minHeight="25px"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:padding="10sp"
     android:background="@drawable/background">
 
@@ -176,7 +176,7 @@
             android:minWidth="25px"
             android:minHeight="25px"
             android:layout_width="fill_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
             android:gravity="center|center_horizontal">
 
@@ -199,6 +199,26 @@
 
         </LinearLayout>
 
+        <ListView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/response_listview"
+            android:scrollbars="none"
+            android:visibility="gone"
+            android:choiceMode="singleChoice"
+            android:listSelector="@drawable/state_selector"
+            android:layout_marginBottom="12dp"/>
+        
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"        
+        android:orientation="vertical"
+        android:id="@+id/response_text_layout"
+        android:gravity="center|center_horizontal">
+
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -216,16 +236,19 @@
                 android:scrollbars="vertical"
                 android:editable="false"
                 android:textIsSelectable="true"
-                android:layout_marginBottom="12dp"/>
+                android:layout_marginBottom="12dp"
+                android:visibility="gone"/>
 
         </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
             android:minWidth="25px"
             android:minHeight="25px"
             android:layout_width="fill_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
             android:gravity="center|center_horizontal">
 
@@ -255,17 +278,9 @@
                 android:layout_height="match_parent"
                 android:id="@+id/clear_response_button"
                 android:background="@drawable/custom_button"
-                android:textColor="#FFFFFF"/>
+                android:textColor="#FFFFFF"
+                android:visibility="gone"/>
 
         </LinearLayout>
-
-        <ListView
-            android:minWidth="25px"
-            android:minHeight="25px"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/response_listview"
-            android:scrollbars="none"
-            android:visibility="gone"/>
 
 </LinearLayout>

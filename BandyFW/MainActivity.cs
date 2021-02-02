@@ -52,6 +52,8 @@ namespace BandyFW
 			EditText app_name_text = FindViewById<EditText>(Resource.Id.app_name_text);
 			EditText app_version_number_text = FindViewById<EditText>(Resource.Id.app_version_number_text);
 			EditText app_version_build_text = FindViewById<EditText>(Resource.Id.app_version_build_text);
+
+			LinearLayout response_text_layout = FindViewById<LinearLayout>(Resource.Id.response_text_layout);
 			EditText response_text = FindViewById<EditText>(Resource.Id.response_text);
 
 			Spinner spinner = FindViewById<Spinner>(Resource.Id.device_model_spinner);
@@ -107,6 +109,7 @@ namespace BandyFW
 				{
 					app_name_text.Text = zepp_name;
 					play_postfix_checkbox.Enabled = true;
+					Clear_response();
 
 					editor.PutString("mifit_app_version_number", app_version_number_text.Text);
 					editor.PutString("mifit_app_version_build", app_version_build_text.Text);
@@ -124,6 +127,7 @@ namespace BandyFW
 				else if (radio_mifit.Checked)
 				{
 					app_name_text.Text = mifit_name;
+					Clear_response();
 
 					if (play_postfix_checkbox.Checked)
 					{
@@ -221,9 +225,9 @@ namespace BandyFW
 
 							ObservableCollection<string> data = new ObservableCollection<string>
 							{
-								"Firmware version: " + content.firmwareVersion + "\n" + "Firmware MD5: " + content.firmwareMd5,
-								"Resource version: " + content.resourceVersion.ToString() + "\n" + "Resource MD5: " + content.resourceMd5,
-								"Font version: " + content.fontVersion.ToString() + "\n" + "Font MD5: " + content.fontMd5,
+								"Firmware version: " + content.firmwareVersion + "\n" + "MD5: " + content.firmwareMd5,
+								"Resource version: " + content.resourceVersion.ToString() + "\n" + "MD5: " + content.resourceMd5,
+								"Font version: " + content.fontVersion.ToString() + "\n" + "MD5: " + content.fontMd5,
 								"Languages: " + content.lang,
 								//content.deviceType,
 								//content.deviceSource,
@@ -249,10 +253,12 @@ namespace BandyFW
 							{
 								response_listview.Visibility = Android.Views.ViewStates.Visible;
 								response_listview.Adapter = adapter;
+								clear_response_button.Visibility = Android.Views.ViewStates.Visible;
 							}
 							else
 							{
 								response_listview.Visibility = Android.Views.ViewStates.Gone;
+								clear_response_button.Visibility = Android.Views.ViewStates.Gone;
 								Toast.MakeText(Application, "Firmware not found", ToastLength.Short).Show();
 							}
 
@@ -265,32 +271,38 @@ namespace BandyFW
 								if (args.Position.ToString() == "0")
 								{
 									response_text.Text = content.firmwareVersion + " : " + content.firmwareMd5;
+									response_text.Visibility = Android.Views.ViewStates.Visible;
 									editor.PutString("content_MD5", content.firmwareMd5);
 									editor.PutString("content_URL", content.firmwareUrl);
 									editor.Apply();
 
 									copy_MD5_button.Visibility = Android.Views.ViewStates.Visible;
 									download_button.Visibility = Android.Views.ViewStates.Visible;
+									response_text_layout.Visibility = Android.Views.ViewStates.Gone;
 								}
 								else if (args.Position.ToString() == "1")
 								{
 									response_text.Text = content.resourceVersion + " : " + content.resourceMd5;
+									response_text.Visibility = Android.Views.ViewStates.Visible;
 									editor.PutString("content_MD5", content.resourceMd5);
 									editor.PutString("content_URL", content.resourceUrl);
 									editor.Apply();
 
 									copy_MD5_button.Visibility = Android.Views.ViewStates.Visible;
 									download_button.Visibility = Android.Views.ViewStates.Visible;
+									response_text_layout.Visibility = Android.Views.ViewStates.Gone;
 								}
 								else if (args.Position.ToString() == "2")
 								{
 									response_text.Text = content.fontVersion + " : " + content.fontMd5;
+									response_text.Visibility = Android.Views.ViewStates.Visible;
 									editor.PutString("content_MD5", content.fontMd5);
 									editor.PutString("content_URL", content.fontUrl);
 									editor.Apply();
 
 									copy_MD5_button.Visibility = Android.Views.ViewStates.Visible;
 									download_button.Visibility = Android.Views.ViewStates.Visible;
+									response_text_layout.Visibility = Android.Views.ViewStates.Gone;
 								}
 								else if (args.Position.ToString() == "3")
 								{
@@ -301,6 +313,7 @@ namespace BandyFW
 
 									copy_MD5_button.Visibility = Android.Views.ViewStates.Gone;
 									download_button.Visibility = Android.Views.ViewStates.Gone;
+									response_text_layout.Visibility = Android.Views.ViewStates.Gone;
 								}
 								//response_text.Text = ((TextView)args.View).Text;
 							};
@@ -372,10 +385,7 @@ namespace BandyFW
 			//Clear button logics
 			clear_response_button.Click += delegate
 			{
-				copy_MD5_button.Visibility = Android.Views.ViewStates.Gone;
-				download_button.Visibility = Android.Views.ViewStates.Gone;
-				response_listview.Visibility = Android.Views.ViewStates.Gone;
-				response_text.Text = "";
+				Clear_response();
 			};
 
 			//App name field click logics
@@ -390,6 +400,23 @@ namespace BandyFW
 					app_name_text.SetText(Resource.String.shoose_app);
 				}
 			};
+		}
+
+		public void Clear_response()
+		{
+			Button copy_MD5_button = FindViewById<Button>(Resource.Id.copy_MD5_button);
+			Button download_button = FindViewById<Button>(Resource.Id.download_button);
+			Button clear_response_button = FindViewById<Button>(Resource.Id.clear_response_button);
+			EditText response_text = FindViewById<EditText>(Resource.Id.response_text);
+			ListView response_listview = FindViewById<ListView>(Resource.Id.response_listview);
+			LinearLayout response_text_layout = FindViewById<LinearLayout>(Resource.Id.response_text_layout);
+
+			copy_MD5_button.Visibility = Android.Views.ViewStates.Gone;
+			download_button.Visibility = Android.Views.ViewStates.Gone;
+			response_listview.Visibility = Android.Views.ViewStates.Gone;
+			clear_response_button.Visibility = Android.Views.ViewStates.Gone;
+			response_text_layout.Visibility = Android.Views.ViewStates.Gone;
+			response_text.Text = "";
 		}
 
 		public void Spinner_ItemSelected(object sender, AdapterView.ItemSelectedEventArgs e)
@@ -414,6 +441,7 @@ namespace BandyFW
 				radio_mifit.Enabled = true;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Visible;
 				production_text.Visibility = Android.Views.ViewStates.Visible;
@@ -429,6 +457,7 @@ namespace BandyFW
 				radio_mifit.Enabled = true;
 				play_postfix_checkbox.Enabled = false;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -449,6 +478,7 @@ namespace BandyFW
 				radio_mifit.Enabled = true;
 				play_postfix_checkbox.Enabled = false;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -469,6 +499,7 @@ namespace BandyFW
 				radio_mifit.Enabled = true;
 				play_postfix_checkbox.Enabled = false;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -489,6 +520,7 @@ namespace BandyFW
 				radio_mifit.Enabled = true;
 				play_postfix_checkbox.Enabled = false;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -509,6 +541,7 @@ namespace BandyFW
 				radio_mifit.Enabled = true;
 				play_postfix_checkbox.Enabled = false;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -529,6 +562,7 @@ namespace BandyFW
 				radio_mifit.Enabled = true;
 				play_postfix_checkbox.Enabled = false;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -549,6 +583,7 @@ namespace BandyFW
 				radio_mifit.Enabled = true;
 				play_postfix_checkbox.Enabled = false;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -569,6 +604,7 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -589,6 +625,7 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -609,6 +646,7 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -629,6 +667,7 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -649,6 +688,7 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -669,6 +709,7 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -689,6 +730,7 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -709,6 +751,7 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -729,6 +772,7 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -749,6 +793,7 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -769,6 +814,7 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -789,6 +835,7 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -809,6 +856,7 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -829,6 +877,7 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -849,6 +898,7 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -869,6 +919,7 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -889,6 +940,7 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -909,6 +961,7 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -929,6 +982,7 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -949,6 +1003,7 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -969,6 +1024,7 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -989,6 +1045,7 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
@@ -1009,6 +1066,7 @@ namespace BandyFW
 				radio_mifit.Enabled = false;
 				play_postfix_checkbox.Enabled = true;
 				play_postfix_checkbox.Checked = false;
+				Clear_response();
 
 				model_text.Visibility = Android.Views.ViewStates.Gone;
 				production_text.Visibility = Android.Views.ViewStates.Gone;
