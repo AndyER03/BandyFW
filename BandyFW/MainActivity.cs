@@ -12,17 +12,12 @@ using System.Net.Http;
 using Xamarin.Essentials;
 using Newtonsoft.Json;
 using System.Collections.ObjectModel;
-using Android.Support.V7.RecyclerView.Extensions;
 
 namespace BandyFW
 {
 	[Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
 	public class MainActivity : AppCompatActivity
 	{
-
-		string[] items;
-		ListView mainList;
-
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
@@ -37,7 +32,7 @@ namespace BandyFW
 			ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(this);
 			ISharedPreferencesEditor editor = prefs.Edit();
 
-			ListView response_recycler = FindViewById<ListView>(Resource.Id.response_recycler);
+			ListView response_listview = FindViewById<ListView>(Resource.Id.response_listview);
 
 			Button submit_button = FindViewById<Button>(Resource.Id.submit_button);
 			Button remember_button = FindViewById<Button>(Resource.Id.remember_button);
@@ -320,15 +315,38 @@ namespace BandyFW
 
 				ObservableCollection<string> data = new ObservableCollection<string>
 				{
-					"a",
-					"b",
-					"c"
+					content.firmwareVersion,
+					content.firmwareUrl,
+					content.deviceType,
+					//content.deviceSource,
+					content.firmwareMd5,
+					//content.firmwareLength,
+					//content.firmwareFlag,
+					content.fontMd5,
+					//content.fontLength,
+					//content.fontVersion,
+					//content.fontFlag,
+					content.fontUrl,
+					//content.resourceVersion,
+					//content.resourceFlag,
+					content.resourceUrl,
+					content.resourceMd5,
+					//content.resourceLength,
+					content.lang,
+					//content.productionSource,
+					//content.upgradeType,
+					//content.buildTime,
+					//content.ignore,
+					//content.support8Bytes,
+					//content.downloadBackupPaths
 				};
 
 				adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, data);
-				var ListAdapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, data);
-				response_recycler.TextFilterEnabled = true;
-				response_recycler.ItemClick += delegate (object sender, AdapterView.ItemClickEventArgs args)
+				response_listview.TextFilterEnabled = true;
+				response_listview.Adapter = adapter;
+
+
+				response_listview.ItemClick += delegate (object sender, AdapterView.ItemClickEventArgs args)
 				{
 					Toast.MakeText(Application, ((TextView)args.View).Text, ToastLength.Short).Show();
 				};

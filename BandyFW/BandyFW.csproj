@@ -83,7 +83,7 @@
   <ItemGroup>
     <Compile Include="firmware_json.cs" />
     <Compile Include="MainActivity.cs" />
-    <Compile Include="Model\Response.cs" />
+    <Compile Include="Response\Response.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
