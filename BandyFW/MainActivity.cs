@@ -250,7 +250,16 @@ namespace BandyFW
 
 							adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, data);
 							response_listview.TextFilterEnabled = false;
-							response_listview.Adapter = adapter;
+							
+							if (content.buildTime != 0)
+							{
+								response_listview.Adapter = adapter;
+							}
+							else
+							{
+								response_listview.SetAdapter(null);
+								Toast.MakeText(Application, "Firmware not found", ToastLength.Short).Show();
+							}
 
 
 							response_listview.ItemClick += async delegate (object sender, AdapterView.ItemClickEventArgs args)
@@ -258,20 +267,32 @@ namespace BandyFW
 								//Toast.MakeText(Application, ((TextView)args.View).Text, ToastLength.Short).Show();
 
 
-								if (args.Position.ToString() == "2")
+								if (args.Position.ToString() == "1")
+								{
+									response_text.Text = content.firmwareMd5;
+								}
+								else if (args.Position.ToString() == "2")
 								{
 									await Browser.OpenAsync(new Uri(content.firmwareUrl), BrowserLaunchMode.SystemPreferred);
+								}
+								else if (args.Position.ToString() == "4")
+								{
+									response_text.Text = content.resourceMd5;
 								}
 								else if (args.Position.ToString() == "5")
 								{
 									await Browser.OpenAsync(new Uri(content.resourceUrl), BrowserLaunchMode.SystemPreferred);
 								}
+								else if (args.Position.ToString() == "7")
+								{
+									response_text.Text = content.fontMd5;
+								}
 								else if (args.Position.ToString() == "8")
 								{
 									await Browser.OpenAsync(new Uri(content.fontUrl), BrowserLaunchMode.SystemPreferred);
 								}
-								//Toast.MakeText(Application, args.Position.ToString(), ToastLength.Short).Show();
-								// response_text.Text = 
+								//Toast.MakeText(Application, content.buildTime.ToString(), ToastLength.Short).Show();
+								
 								//response_text.Text = ((TextView)args.View).Text;
 							};
 
@@ -338,6 +359,7 @@ namespace BandyFW
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = true;
 				play_postfix_checkbox.Enabled = true;
+				response_listview.SetAdapter(null);
 
 				spinner.SetSelection(0);
 				model_text.Text = "";
