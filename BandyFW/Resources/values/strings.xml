@@ -28,6 +28,8 @@
     <string name="exit_message">Are you sure you want to exit?</string>
     <string name="positive_button">OK</string>
     <string name="negative_button">Cancel</string>
+    <string name="md5_copied">MD5 copied!</string>
+    <string name="downloading">Downloading...</string>
   
     <string name="zepp_app_package_name">com.huami.midong</string>
     <string name="mifit_app_package_name">com.xiaomi.hm.health</string>

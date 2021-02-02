@@ -319,6 +319,7 @@ namespace BandyFW
 				if (prefs.GetString("content_MD5", null) != "")
 				{
 					CrossClipboard.Current.SetText(prefs.GetString("content_MD5", null));
+					Toast.MakeText(this, Resource.String.md5_copied, ToastLength.Short).Show();
 				}
 			};
 
@@ -328,6 +329,7 @@ namespace BandyFW
 				if (prefs.GetString("content_URL", null) != "")
 				{
 					await Browser.OpenAsync(new Uri(prefs.GetString("content_URL", null)), BrowserLaunchMode.SystemPreferred);
+					Toast.MakeText(this, Resource.String.downloading, ToastLength.Short).Show();
 				}
 			};
 
