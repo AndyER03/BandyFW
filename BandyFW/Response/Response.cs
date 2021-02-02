@@ -23,6 +23,7 @@ namespace BandyFW.Model
 		public int resourceLength { get; set; }
 		public string lang { get; set; }
 		public int productionSource { get; set; }
+		public string changeLog { get; set; }
 		public int upgradeType { get; set; }
 		public long buildTime { get; set; }
 		public bool ignore { get; set; }

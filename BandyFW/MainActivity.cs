@@ -5,13 +5,13 @@ using Android.Preferences;
 using Android.Support.V7.App;
 using Android.Widget;
 using BandyFW.Model;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Net;
 using System.Net.Http;
 using Xamarin.Essentials;
-using Newtonsoft.Json;
-using System.Collections.ObjectModel;
 
 namespace BandyFW
 {
@@ -215,9 +215,48 @@ namespace BandyFW
 							HttpContent responseContent = response.Content;
 
 							var server_response = await responseContent.ReadAsStringAsync();
-							editor.PutString("server_response", server_response);
-							editor.Apply();
 							response_text.Text = server_response;
+
+							Response content = JsonConvert.DeserializeObject<Response>(server_response);
+
+							ObservableCollection<string> data = new ObservableCollection<string>
+							{
+								"Firmware version: " + content.firmwareVersion,
+								"Firmware MD5: " + content.firmwareMd5,
+								"Firmware URL:\n" + content.firmwareUrl,
+								"Resource version: " + content.resourceVersion.ToString(),
+								"Resource MD5: " + content.resourceMd5,
+								"Resource URL:\n" + content.resourceUrl,
+								"Font version: " + content.fontVersion.ToString(),
+								"Font MD5: " + content.fontMd5,
+								"Font URL:\n" + content.fontUrl,
+								"Languages: " + content.lang,
+								//content.deviceType,
+								//content.deviceSource,
+								//content.firmwareLength,
+								//content.firmwareFlag,
+								//content.fontLength,
+								//content.fontFlag,
+								//content.resourceFlag,
+								//content.resourceLength,
+								//content.productionSource,
+								//content.changeLog,
+								//content.upgradeType,
+								//content.buildTime,
+								//content.ignore,
+								//content.support8Bytes,
+								//content.downloadBackupPaths
+							};
+
+							adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, data);
+							response_listview.TextFilterEnabled = false;
+							response_listview.Adapter = adapter;
+
+
+							response_listview.ItemClick += delegate (object sender, AdapterView.ItemClickEventArgs args)
+							{
+								Toast.MakeText(Application, ((TextView)args.View).Text, ToastLength.Short).Show();
+							};
 
 							//For firmware_json.cs
 							//var data = JsonConvert.DeserializeObject<Firmware_json>(json);
@@ -308,50 +347,7 @@ namespace BandyFW
 			clear_response_button.Click += delegate
 			{
 				//response_text.Text = "";
-
-				string server_response = prefs.GetString("server_response", "");
-				Response content = JsonConvert.DeserializeObject<Response>(server_response);
-				RunOnUiThread(() => Toast.MakeText(this, content.firmwareUrl, ToastLength.Short).Show());
-
-				ObservableCollection<string> data = new ObservableCollection<string>
-				{
-					content.firmwareVersion,
-					content.firmwareUrl,
-					content.deviceType,
-					//content.deviceSource,
-					content.firmwareMd5,
-					//content.firmwareLength,
-					//content.firmwareFlag,
-					content.fontMd5,
-					//content.fontLength,
-					//content.fontVersion,
-					//content.fontFlag,
-					content.fontUrl,
-					//content.resourceVersion,
-					//content.resourceFlag,
-					content.resourceUrl,
-					content.resourceMd5,
-					//content.resourceLength,
-					content.lang,
-					//content.productionSource,
-					//content.upgradeType,
-					//content.buildTime,
-					//content.ignore,
-					//content.support8Bytes,
-					//content.downloadBackupPaths
-				};
-
-				adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, data);
-				response_listview.TextFilterEnabled = true;
-				response_listview.Adapter = adapter;
-
-
-				response_listview.ItemClick += delegate (object sender, AdapterView.ItemClickEventArgs args)
-				{
-					Toast.MakeText(Application, ((TextView)args.View).Text, ToastLength.Short).Show();
-				};
-
-
+				response_listview.SetAdapter(null);
 			};
 
 			//App name field click logics
