@@ -203,7 +203,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:theme="@style/TextInputLayoutStyle"
-            android:visibility="gone">
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <android.support.design.widget.TextInputEditText
                 android:inputType="none"
@@ -216,8 +216,7 @@
                 android:scrollbars="vertical"
                 android:editable="false"
                 android:textIsSelectable="true"
-                android:layout_marginBottom="12dp"
-                android:visibility="gone"/>
+                android:layout_marginBottom="12dp"/>
 
         </android.support.design.widget.TextInputLayout>
 

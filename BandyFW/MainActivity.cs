@@ -215,7 +215,7 @@ namespace BandyFW
 							HttpContent responseContent = response.Content;
 
 							var server_response = await responseContent.ReadAsStringAsync();
-							response_text.Text = server_response;
+							//response_text.Text = server_response;
 
 							Response content = JsonConvert.DeserializeObject<Response>(server_response);
 
@@ -253,9 +253,26 @@ namespace BandyFW
 							response_listview.Adapter = adapter;
 
 
-							response_listview.ItemClick += delegate (object sender, AdapterView.ItemClickEventArgs args)
+							response_listview.ItemClick += async delegate (object sender, AdapterView.ItemClickEventArgs args)
 							{
-								Toast.MakeText(Application, ((TextView)args.View).Text, ToastLength.Short).Show();
+								//Toast.MakeText(Application, ((TextView)args.View).Text, ToastLength.Short).Show();
+
+
+								if (args.Position.ToString() == "2")
+								{
+									await Browser.OpenAsync(new Uri(content.firmwareUrl), BrowserLaunchMode.SystemPreferred);
+								}
+								else if (args.Position.ToString() == "5")
+								{
+									await Browser.OpenAsync(new Uri(content.resourceUrl), BrowserLaunchMode.SystemPreferred);
+								}
+								else if (args.Position.ToString() == "8")
+								{
+									await Browser.OpenAsync(new Uri(content.fontUrl), BrowserLaunchMode.SystemPreferred);
+								}
+								//Toast.MakeText(Application, args.Position.ToString(), ToastLength.Short).Show();
+								// response_text.Text = 
+								//response_text.Text = ((TextView)args.View).Text;
 							};
 
 							//For firmware_json.cs
@@ -348,6 +365,7 @@ namespace BandyFW
 			{
 				//response_text.Text = "";
 				response_listview.SetAdapter(null);
+				response_text.Text = "";
 			};
 
 			//App name field click logics
