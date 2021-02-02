@@ -5,9 +5,9 @@
     <string name="text_app_name">App name</string>
     <string name="text_app_version">App version</string>
     <string name="submit">Submit</string>
-    <string name="remember">Remember</string>
+    <string name="remember">Copy MD5</string>
     <string name="forget">Forget</string>
-    <string name="restore">Restore</string>
+    <string name="restore">Download</string>
     <string name="reset">Reset</string>
     <string name="model_hint">Model code</string>
     <string name="production_hint">Production code</string>
@@ -21,7 +21,6 @@
     <string name="clear_response">Clear</string>
     <string name="input_all_values">You should to input all required values!</string>
     <string name="no_response_for_saving">There is no response for saving!</string>
-    <string name="remember_success">Remember success!</string>
     <string name="no_response_in_memory">There is no response in memory!</string>
     <string name="reset_success">Reset success!</string>
     <string name="shoose_app">Shoose an app name!</string>
@@ -30,10 +29,8 @@
     <string name="positive_button">OK</string>
     <string name="negative_button">Cancel</string>
   
-  
     <string name="zepp_app_package_name">com.huami.midong</string>
     <string name="mifit_app_package_name">com.xiaomi.hm.health</string>
-  
   
     <string name="device_name_manual">Manual input</string>
     <string name="device_name_chaohu">Amazfit Bip (chaohu)</string>

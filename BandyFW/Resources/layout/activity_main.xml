@@ -233,26 +233,17 @@
                 android:text="@string/remember"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/remember_button"
+                android:id="@+id/copy_MD5_button"
                 android:layout_marginRight="12dp"
                 android:background="@drawable/custom_button"
-                android:textColor="#FFFFFF"/>
+                android:textColor="#FFFFFF"
+                android:visibility="gone"/>
 
             <Button
                 android:text="@string/restore"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/restore_button"
-                android:background="@drawable/custom_button"
-                android:layout_marginRight="12dp"
-                android:textColor="#FFFFFF"
-                android:visibility="gone"/>
-
-            <Button
-                android:text="@string/forget"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:id="@+id/forget_button"
+                android:id="@+id/download_button"
                 android:background="@drawable/custom_button"
                 android:layout_marginRight="12dp"
                 android:textColor="#FFFFFF"
@@ -275,6 +266,6 @@
             android:layout_height="wrap_content"
             android:id="@+id/response_listview"
             android:scrollbars="none"
-            />
+            android:visibility="gone"/>
 
 </LinearLayout>

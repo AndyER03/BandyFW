@@ -12,6 +12,7 @@ using System.Collections.ObjectModel;
 using System.Net;
 using System.Net.Http;
 using Xamarin.Essentials;
+using Plugin.Clipboard;
 
 namespace BandyFW
 {
@@ -35,9 +36,8 @@ namespace BandyFW
 			ListView response_listview = FindViewById<ListView>(Resource.Id.response_listview);
 
 			Button submit_button = FindViewById<Button>(Resource.Id.submit_button);
-			Button remember_button = FindViewById<Button>(Resource.Id.remember_button);
-			Button forget_button = FindViewById<Button>(Resource.Id.forget_button);
-			Button restore_button = FindViewById<Button>(Resource.Id.restore_button);
+			Button copy_MD5_button = FindViewById<Button>(Resource.Id.copy_MD5_button);
+			Button download_button = FindViewById<Button>(Resource.Id.download_button);
 			Button reset_button = FindViewById<Button>(Resource.Id.reset_button);
 			Button clear_response_button = FindViewById<Button>(Resource.Id.clear_response_button);
 			EditText model_text = FindViewById<EditText>(Resource.Id.model_text);
@@ -221,15 +221,9 @@ namespace BandyFW
 
 							ObservableCollection<string> data = new ObservableCollection<string>
 							{
-								"Firmware version: " + content.firmwareVersion,
-								"Firmware MD5: " + content.firmwareMd5,
-								"Firmware URL:\n" + content.firmwareUrl,
-								"Resource version: " + content.resourceVersion.ToString(),
-								"Resource MD5: " + content.resourceMd5,
-								"Resource URL:\n" + content.resourceUrl,
-								"Font version: " + content.fontVersion.ToString(),
-								"Font MD5: " + content.fontMd5,
-								"Font URL:\n" + content.fontUrl,
+								"Firmware version: " + content.firmwareVersion + "\n" + "Firmware MD5: " + content.firmwareMd5,
+								"Resource version: " + content.resourceVersion.ToString() + "\n" + "Resource MD5: " + content.resourceMd5,
+								"Font version: " + content.fontVersion.ToString() + "\n" + "Font MD5: " + content.fontMd5,
 								"Languages: " + content.lang,
 								//content.deviceType,
 								//content.deviceSource,
@@ -253,51 +247,63 @@ namespace BandyFW
 							
 							if (content.buildTime != 0)
 							{
+								response_listview.Visibility = Android.Views.ViewStates.Visible;
 								response_listview.Adapter = adapter;
 							}
 							else
 							{
-								response_listview.SetAdapter(null);
+								response_listview.Visibility = Android.Views.ViewStates.Gone;
 								Toast.MakeText(Application, "Firmware not found", ToastLength.Short).Show();
 							}
 
 
-							response_listview.ItemClick += async delegate (object sender, AdapterView.ItemClickEventArgs args)
+							response_listview.ItemClick += delegate (object sender, AdapterView.ItemClickEventArgs args)
 							{
 								//Toast.MakeText(Application, ((TextView)args.View).Text, ToastLength.Short).Show();
 
 
-								if (args.Position.ToString() == "1")
+								if (args.Position.ToString() == "0")
 								{
-									response_text.Text = content.firmwareMd5;
+									response_text.Text = content.firmwareVersion + " : " + content.firmwareMd5;
+									editor.PutString("content_MD5", content.firmwareMd5);
+									editor.PutString("content_URL", content.firmwareUrl);
+									editor.Apply();
+
+									copy_MD5_button.Visibility = Android.Views.ViewStates.Visible;
+									download_button.Visibility = Android.Views.ViewStates.Visible;
+								}
+								else if (args.Position.ToString() == "1")
+								{
+									response_text.Text = content.resourceVersion + " : " + content.resourceMd5;
+									editor.PutString("content_MD5", content.resourceMd5);
+									editor.PutString("content_URL", content.resourceUrl);
+									editor.Apply();
+
+									copy_MD5_button.Visibility = Android.Views.ViewStates.Visible;
+									download_button.Visibility = Android.Views.ViewStates.Visible;
 								}
 								else if (args.Position.ToString() == "2")
 								{
-									await Browser.OpenAsync(new Uri(content.firmwareUrl), BrowserLaunchMode.SystemPreferred);
+									response_text.Text = content.fontVersion + " : " + content.fontMd5;
+									editor.PutString("content_MD5", content.fontMd5);
+									editor.PutString("content_URL", content.fontUrl);
+									editor.Apply();
+
+									copy_MD5_button.Visibility = Android.Views.ViewStates.Visible;
+									download_button.Visibility = Android.Views.ViewStates.Visible;
 								}
-								else if (args.Position.ToString() == "4")
+								else if (args.Position.ToString() == "3")
 								{
-									response_text.Text = content.resourceMd5;
+									response_text.Text = content.lang;
+									editor.PutString("content_MD5", "");
+									editor.PutString("content_URL", "");
+									editor.Apply();
+
+									copy_MD5_button.Visibility = Android.Views.ViewStates.Gone;
+									download_button.Visibility = Android.Views.ViewStates.Gone;
 								}
-								else if (args.Position.ToString() == "5")
-								{
-									await Browser.OpenAsync(new Uri(content.resourceUrl), BrowserLaunchMode.SystemPreferred);
-								}
-								else if (args.Position.ToString() == "7")
-								{
-									response_text.Text = content.fontMd5;
-								}
-								else if (args.Position.ToString() == "8")
-								{
-									await Browser.OpenAsync(new Uri(content.fontUrl), BrowserLaunchMode.SystemPreferred);
-								}
-								//Toast.MakeText(Application, content.buildTime.ToString(), ToastLength.Short).Show();
-								
 								//response_text.Text = ((TextView)args.View).Text;
 							};
-
-							//For firmware_json.cs
-							//var data = JsonConvert.DeserializeObject<Firmware_json>(json);
 						}
 					}
 				}
@@ -307,49 +313,23 @@ namespace BandyFW
 				}
 			};
 
-			//Remember button logics
-			remember_button.Click += delegate
+			//copy MD5 button logics
+			copy_MD5_button.Click += delegate
 			{
-				if (response_text.Text == "")
+				if (prefs.GetString("content_MD5", null) != "")
 				{
-					RunOnUiThread(() => Toast.MakeText(this, Resource.String.no_response_for_saving, ToastLength.Short).Show());
-				}
-				else
-				{
-					editor.PutString("response", response_text.Text);
-					editor.Apply();
-					RunOnUiThread(() => Toast.MakeText(this, Resource.String.remember_success, ToastLength.Short).Show());
-				}
-
-				if (prefs.GetString("response", "") != "")
-				{
-					restore_button.Visibility = Android.Views.ViewStates.Visible;
-					forget_button.Visibility = Android.Views.ViewStates.Visible;
+					CrossClipboard.Current.SetText(prefs.GetString("content_MD5", null));
 				}
 			};
 
-			//Forget button logics
-			forget_button.Click += delegate
+			//Download button logics
+			download_button.Click += async delegate
 			{
-				editor.PutString("response", response_text.Text);
-				editor.Apply();
-				restore_button.Visibility = Android.Views.ViewStates.Gone;
-				forget_button.Visibility = Android.Views.ViewStates.Gone;
+				if (prefs.GetString("content_URL", null) != "")
+				{
+					await Browser.OpenAsync(new Uri(prefs.GetString("content_URL", null)), BrowserLaunchMode.SystemPreferred);
+				}
 			};
-
-			//Restore button logics
-			restore_button.Click += delegate
-		{
-			if (prefs.GetString("response", null) == "")
-			{
-				RunOnUiThread(() => Toast.MakeText(this, Resource.String.no_response_in_memory, ToastLength.Short).Show());
-			}
-			else
-			{
-				response_text.Text = prefs.GetString("response", null);
-				RunOnUiThread(() => Toast.MakeText(this, "Restore success", ToastLength.Short).Show());
-			}
-		};
 
 			//Reset button logics
 			reset_button.Click += delegate
@@ -359,7 +339,7 @@ namespace BandyFW
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = true;
 				play_postfix_checkbox.Enabled = true;
-				response_listview.SetAdapter(null);
+				response_listview.Visibility = Android.Views.ViewStates.Gone;
 
 				spinner.SetSelection(0);
 				model_text.Text = "";
@@ -371,8 +351,11 @@ namespace BandyFW
 				app_version_number_text.Text = "";
 				app_version_build_text.Text = "";
 				response_text.Text = "";
-				restore_button.Visibility = Android.Views.ViewStates.Gone;
+				copy_MD5_button.Visibility = Android.Views.ViewStates.Gone;
+				download_button.Visibility = Android.Views.ViewStates.Gone;
 
+				editor.PutString("content_MD5", "");
+				editor.PutString("content_URL", "");
 				editor.PutString("zepp_app_version_number", app_version_number_text.Text);
 				editor.PutString("zepp_app_version_build", app_version_build_text.Text);
 				editor.PutString("mifit_app_version_number", app_version_number_text.Text);
@@ -383,10 +366,13 @@ namespace BandyFW
 
 				RunOnUiThread(() => Toast.MakeText(this, Resource.String.reset_success, ToastLength.Short).Show());
 			};
+
+			//Clear button logics
 			clear_response_button.Click += delegate
 			{
-				//response_text.Text = "";
-				response_listview.SetAdapter(null);
+				copy_MD5_button.Visibility = Android.Views.ViewStates.Gone;
+				download_button.Visibility = Android.Views.ViewStates.Gone;
+				response_listview.Visibility = Android.Views.ViewStates.Gone;
 				response_text.Text = "";
 			};
 
