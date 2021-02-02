@@ -271,38 +271,41 @@ namespace BandyFW
 								if (args.Position.ToString() == "0")
 								{
 									response_text.Text = content.firmwareVersion + " : " + content.firmwareMd5;
-									response_text.Visibility = Android.Views.ViewStates.Visible;
 									editor.PutString("content_MD5", content.firmwareMd5);
 									editor.PutString("content_URL", content.firmwareUrl);
 									editor.Apply();
 
 									copy_MD5_button.Visibility = Android.Views.ViewStates.Visible;
 									download_button.Visibility = Android.Views.ViewStates.Visible;
-									response_text_layout.Visibility = Android.Views.ViewStates.Gone;
+									clear_response_button.Visibility = Android.Views.ViewStates.Visible;
+									response_text_layout.Visibility = Android.Views.ViewStates.Visible;
+									response_text.Visibility = Android.Views.ViewStates.Visible;
 								}
 								else if (args.Position.ToString() == "1")
 								{
 									response_text.Text = content.resourceVersion + " : " + content.resourceMd5;
-									response_text.Visibility = Android.Views.ViewStates.Visible;
 									editor.PutString("content_MD5", content.resourceMd5);
 									editor.PutString("content_URL", content.resourceUrl);
 									editor.Apply();
 
 									copy_MD5_button.Visibility = Android.Views.ViewStates.Visible;
 									download_button.Visibility = Android.Views.ViewStates.Visible;
-									response_text_layout.Visibility = Android.Views.ViewStates.Gone;
+									clear_response_button.Visibility = Android.Views.ViewStates.Visible;
+									response_text_layout.Visibility = Android.Views.ViewStates.Visible;
+									response_text.Visibility = Android.Views.ViewStates.Visible;
 								}
 								else if (args.Position.ToString() == "2")
 								{
 									response_text.Text = content.fontVersion + " : " + content.fontMd5;
-									response_text.Visibility = Android.Views.ViewStates.Visible;
 									editor.PutString("content_MD5", content.fontMd5);
 									editor.PutString("content_URL", content.fontUrl);
 									editor.Apply();
 
 									copy_MD5_button.Visibility = Android.Views.ViewStates.Visible;
 									download_button.Visibility = Android.Views.ViewStates.Visible;
-									response_text_layout.Visibility = Android.Views.ViewStates.Gone;
+									clear_response_button.Visibility = Android.Views.ViewStates.Visible;
+									response_text_layout.Visibility = Android.Views.ViewStates.Visible;
+									response_text.Visibility = Android.Views.ViewStates.Visible;
 								}
 								else if (args.Position.ToString() == "3")
 								{
@@ -313,7 +316,9 @@ namespace BandyFW
 
 									copy_MD5_button.Visibility = Android.Views.ViewStates.Gone;
 									download_button.Visibility = Android.Views.ViewStates.Gone;
-									response_text_layout.Visibility = Android.Views.ViewStates.Gone;
+									clear_response_button.Visibility = Android.Views.ViewStates.Visible;
+									response_text_layout.Visibility = Android.Views.ViewStates.Visible;
+									response_text.Visibility = Android.Views.ViewStates.Visible;
 								}
 								//response_text.Text = ((TextView)args.View).Text;
 							};
@@ -416,6 +421,7 @@ namespace BandyFW
 			response_listview.Visibility = Android.Views.ViewStates.Gone;
 			clear_response_button.Visibility = Android.Views.ViewStates.Gone;
 			response_text_layout.Visibility = Android.Views.ViewStates.Gone;
+			response_text.Visibility = Android.Views.ViewStates.Gone;
 			response_text.Text = "";
 		}
 
