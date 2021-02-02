@@ -4,17 +4,25 @@ using Android.OS;
 using Android.Preferences;
 using Android.Support.V7.App;
 using Android.Widget;
+using BandyFW.Model;
 using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
 using Xamarin.Essentials;
+using Newtonsoft.Json;
+using System.Collections.ObjectModel;
+using Android.Support.V7.RecyclerView.Extensions;
 
 namespace BandyFW
 {
 	[Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
 	public class MainActivity : AppCompatActivity
 	{
+
+		string[] items;
+		ListView mainList;
+
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
@@ -25,8 +33,11 @@ namespace BandyFW
 		protected override void OnResume()
 		{
 			base.OnResume();
+
 			ISharedPreferences prefs = PreferenceManager.GetDefaultSharedPreferences(this);
 			ISharedPreferencesEditor editor = prefs.Edit();
+
+			ListView response_recycler = FindViewById<ListView>(Resource.Id.response_recycler);
 
 			Button submit_button = FindViewById<Button>(Resource.Id.submit_button);
 			Button remember_button = FindViewById<Button>(Resource.Id.remember_button);
@@ -209,6 +220,8 @@ namespace BandyFW
 							HttpContent responseContent = response.Content;
 
 							var server_response = await responseContent.ReadAsStringAsync();
+							editor.PutString("server_response", server_response);
+							editor.Apply();
 							response_text.Text = server_response;
 
 							//For firmware_json.cs
@@ -247,23 +260,24 @@ namespace BandyFW
 			forget_button.Click += delegate
 			{
 				editor.PutString("response", response_text.Text);
+				editor.Apply();
 				restore_button.Visibility = Android.Views.ViewStates.Gone;
 				forget_button.Visibility = Android.Views.ViewStates.Gone;
 			};
 
-				//Restore button logics
-				restore_button.Click += delegate
+			//Restore button logics
+			restore_button.Click += delegate
+		{
+			if (prefs.GetString("response", null) == "")
 			{
-				if (prefs.GetString("response", null) == "")
-				{
-					RunOnUiThread(() => Toast.MakeText(this, Resource.String.no_response_in_memory, ToastLength.Short).Show());
-				}
-				else
-				{
-					response_text.Text = prefs.GetString("response", null);
-					RunOnUiThread(() => Toast.MakeText(this, "Restore success", ToastLength.Short).Show());
-				}
-			};
+				RunOnUiThread(() => Toast.MakeText(this, Resource.String.no_response_in_memory, ToastLength.Short).Show());
+			}
+			else
+			{
+				response_text.Text = prefs.GetString("response", null);
+				RunOnUiThread(() => Toast.MakeText(this, "Restore success", ToastLength.Short).Show());
+			}
+		};
 
 			//Reset button logics
 			reset_button.Click += delegate
@@ -298,7 +312,28 @@ namespace BandyFW
 			};
 			clear_response_button.Click += delegate
 			{
-				response_text.Text = "";
+				//response_text.Text = "";
+
+				string server_response = prefs.GetString("server_response", "");
+				Response content = JsonConvert.DeserializeObject<Response>(server_response);
+				RunOnUiThread(() => Toast.MakeText(this, content.firmwareUrl, ToastLength.Short).Show());
+
+				ObservableCollection<string> data = new ObservableCollection<string>
+				{
+					"a",
+					"b",
+					"c"
+				};
+
+				adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, data);
+				var ListAdapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, data);
+				response_recycler.TextFilterEnabled = true;
+				response_recycler.ItemClick += delegate (object sender, AdapterView.ItemClickEventArgs args)
+				{
+					Toast.MakeText(Application, ((TextView)args.View).Text, ToastLength.Short).Show();
+				};
+
+
 			};
 
 			//App name field click logics

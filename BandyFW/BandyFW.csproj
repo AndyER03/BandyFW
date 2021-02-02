@@ -83,6 +83,7 @@
   <ItemGroup>
     <Compile Include="firmware_json.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="Model\Response.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -123,11 +124,14 @@
     <AndroidResource Include="Resources\drawable\custom_button.xml" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="EDMTDialog">
+      <Version>1.0.2</Version>
+    </PackageReference>
     <PackageReference Include="Newtonsoft.Json">
       <Version>12.0.3</Version>
     </PackageReference>
-    <PackageReference Include="Plugin.Multilingual">
-      <Version>1.0.2</Version>
+    <PackageReference Include="Refit">
+      <Version>5.2.4</Version>
     </PackageReference>
     <PackageReference Include="System.Net.Http">
       <Version>4.3.4</Version>
@@ -149,6 +153,7 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\background.xml" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
     Other similar extension points exist, see Microsoft.Common.targets.

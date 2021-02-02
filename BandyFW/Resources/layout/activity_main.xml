@@ -274,6 +274,13 @@
 
         </LinearLayout>
 
+        <android.support.v7.widget.RecyclerView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/response_recycler" />
+
     </LinearLayout>
 
 </ScrollView>

@@ -25,6 +25,1511 @@ namespace BandyFW
 		
 		public static void UpdateIdValues()
 		{
+			global::EDMTDialog.Resource.Animation.abc_fade_in = global::BandyFW.Resource.Animation.abc_fade_in;
+			global::EDMTDialog.Resource.Animation.abc_fade_out = global::BandyFW.Resource.Animation.abc_fade_out;
+			global::EDMTDialog.Resource.Animation.abc_grow_fade_in_from_bottom = global::BandyFW.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::EDMTDialog.Resource.Animation.abc_popup_enter = global::BandyFW.Resource.Animation.abc_popup_enter;
+			global::EDMTDialog.Resource.Animation.abc_popup_exit = global::BandyFW.Resource.Animation.abc_popup_exit;
+			global::EDMTDialog.Resource.Animation.abc_shrink_fade_out_from_bottom = global::BandyFW.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::EDMTDialog.Resource.Animation.abc_slide_in_bottom = global::BandyFW.Resource.Animation.abc_slide_in_bottom;
+			global::EDMTDialog.Resource.Animation.abc_slide_in_top = global::BandyFW.Resource.Animation.abc_slide_in_top;
+			global::EDMTDialog.Resource.Animation.abc_slide_out_bottom = global::BandyFW.Resource.Animation.abc_slide_out_bottom;
+			global::EDMTDialog.Resource.Animation.abc_slide_out_top = global::BandyFW.Resource.Animation.abc_slide_out_top;
+			global::EDMTDialog.Resource.Attribute.DialogSpotColor = global::BandyFW.Resource.Attribute.DialogSpotColor;
+			global::EDMTDialog.Resource.Attribute.DialogSpotCount = global::BandyFW.Resource.Attribute.DialogSpotCount;
+			global::EDMTDialog.Resource.Attribute.DialogTitleAppearance = global::BandyFW.Resource.Attribute.DialogTitleAppearance;
+			global::EDMTDialog.Resource.Attribute.DialogTitleText = global::BandyFW.Resource.Attribute.DialogTitleText;
+			global::EDMTDialog.Resource.Attribute.actionBarDivider = global::BandyFW.Resource.Attribute.actionBarDivider;
+			global::EDMTDialog.Resource.Attribute.actionBarItemBackground = global::BandyFW.Resource.Attribute.actionBarItemBackground;
+			global::EDMTDialog.Resource.Attribute.actionBarPopupTheme = global::BandyFW.Resource.Attribute.actionBarPopupTheme;
+			global::EDMTDialog.Resource.Attribute.actionBarSize = global::BandyFW.Resource.Attribute.actionBarSize;
+			global::EDMTDialog.Resource.Attribute.actionBarSplitStyle = global::BandyFW.Resource.Attribute.actionBarSplitStyle;
+			global::EDMTDialog.Resource.Attribute.actionBarStyle = global::BandyFW.Resource.Attribute.actionBarStyle;
+			global::EDMTDialog.Resource.Attribute.actionBarTabBarStyle = global::BandyFW.Resource.Attribute.actionBarTabBarStyle;
+			global::EDMTDialog.Resource.Attribute.actionBarTabStyle = global::BandyFW.Resource.Attribute.actionBarTabStyle;
+			global::EDMTDialog.Resource.Attribute.actionBarTabTextStyle = global::BandyFW.Resource.Attribute.actionBarTabTextStyle;
+			global::EDMTDialog.Resource.Attribute.actionBarTheme = global::BandyFW.Resource.Attribute.actionBarTheme;
+			global::EDMTDialog.Resource.Attribute.actionBarWidgetTheme = global::BandyFW.Resource.Attribute.actionBarWidgetTheme;
+			global::EDMTDialog.Resource.Attribute.actionButtonStyle = global::BandyFW.Resource.Attribute.actionButtonStyle;
+			global::EDMTDialog.Resource.Attribute.actionDropDownStyle = global::BandyFW.Resource.Attribute.actionDropDownStyle;
+			global::EDMTDialog.Resource.Attribute.actionLayout = global::BandyFW.Resource.Attribute.actionLayout;
+			global::EDMTDialog.Resource.Attribute.actionMenuTextAppearance = global::BandyFW.Resource.Attribute.actionMenuTextAppearance;
+			global::EDMTDialog.Resource.Attribute.actionMenuTextColor = global::BandyFW.Resource.Attribute.actionMenuTextColor;
+			global::EDMTDialog.Resource.Attribute.actionModeBackground = global::BandyFW.Resource.Attribute.actionModeBackground;
+			global::EDMTDialog.Resource.Attribute.actionModeCloseButtonStyle = global::BandyFW.Resource.Attribute.actionModeCloseButtonStyle;
+			global::EDMTDialog.Resource.Attribute.actionModeCloseDrawable = global::BandyFW.Resource.Attribute.actionModeCloseDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModeCopyDrawable = global::BandyFW.Resource.Attribute.actionModeCopyDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModeCutDrawable = global::BandyFW.Resource.Attribute.actionModeCutDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModeFindDrawable = global::BandyFW.Resource.Attribute.actionModeFindDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModePasteDrawable = global::BandyFW.Resource.Attribute.actionModePasteDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModePopupWindowStyle = global::BandyFW.Resource.Attribute.actionModePopupWindowStyle;
+			global::EDMTDialog.Resource.Attribute.actionModeSelectAllDrawable = global::BandyFW.Resource.Attribute.actionModeSelectAllDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModeShareDrawable = global::BandyFW.Resource.Attribute.actionModeShareDrawable;
+			global::EDMTDialog.Resource.Attribute.actionModeSplitBackground = global::BandyFW.Resource.Attribute.actionModeSplitBackground;
+			global::EDMTDialog.Resource.Attribute.actionModeStyle = global::BandyFW.Resource.Attribute.actionModeStyle;
+			global::EDMTDialog.Resource.Attribute.actionModeWebSearchDrawable = global::BandyFW.Resource.Attribute.actionModeWebSearchDrawable;
+			global::EDMTDialog.Resource.Attribute.actionOverflowButtonStyle = global::BandyFW.Resource.Attribute.actionOverflowButtonStyle;
+			global::EDMTDialog.Resource.Attribute.actionOverflowMenuStyle = global::BandyFW.Resource.Attribute.actionOverflowMenuStyle;
+			global::EDMTDialog.Resource.Attribute.actionProviderClass = global::BandyFW.Resource.Attribute.actionProviderClass;
+			global::EDMTDialog.Resource.Attribute.actionViewClass = global::BandyFW.Resource.Attribute.actionViewClass;
+			global::EDMTDialog.Resource.Attribute.activityChooserViewStyle = global::BandyFW.Resource.Attribute.activityChooserViewStyle;
+			global::EDMTDialog.Resource.Attribute.alertDialogButtonGroupStyle = global::BandyFW.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::EDMTDialog.Resource.Attribute.alertDialogCenterButtons = global::BandyFW.Resource.Attribute.alertDialogCenterButtons;
+			global::EDMTDialog.Resource.Attribute.alertDialogStyle = global::BandyFW.Resource.Attribute.alertDialogStyle;
+			global::EDMTDialog.Resource.Attribute.alertDialogTheme = global::BandyFW.Resource.Attribute.alertDialogTheme;
+			global::EDMTDialog.Resource.Attribute.allowStacking = global::BandyFW.Resource.Attribute.allowStacking;
+			global::EDMTDialog.Resource.Attribute.alpha = global::BandyFW.Resource.Attribute.alpha;
+			global::EDMTDialog.Resource.Attribute.alphabeticModifiers = global::BandyFW.Resource.Attribute.alphabeticModifiers;
+			global::EDMTDialog.Resource.Attribute.arrowHeadLength = global::BandyFW.Resource.Attribute.arrowHeadLength;
+			global::EDMTDialog.Resource.Attribute.arrowShaftLength = global::BandyFW.Resource.Attribute.arrowShaftLength;
+			global::EDMTDialog.Resource.Attribute.autoCompleteTextViewStyle = global::BandyFW.Resource.Attribute.autoCompleteTextViewStyle;
+			global::EDMTDialog.Resource.Attribute.autoSizeMaxTextSize = global::BandyFW.Resource.Attribute.autoSizeMaxTextSize;
+			global::EDMTDialog.Resource.Attribute.autoSizeMinTextSize = global::BandyFW.Resource.Attribute.autoSizeMinTextSize;
+			global::EDMTDialog.Resource.Attribute.autoSizePresetSizes = global::BandyFW.Resource.Attribute.autoSizePresetSizes;
+			global::EDMTDialog.Resource.Attribute.autoSizeStepGranularity = global::BandyFW.Resource.Attribute.autoSizeStepGranularity;
+			global::EDMTDialog.Resource.Attribute.autoSizeTextType = global::BandyFW.Resource.Attribute.autoSizeTextType;
+			global::EDMTDialog.Resource.Attribute.background = global::BandyFW.Resource.Attribute.background;
+			global::EDMTDialog.Resource.Attribute.backgroundSplit = global::BandyFW.Resource.Attribute.backgroundSplit;
+			global::EDMTDialog.Resource.Attribute.backgroundStacked = global::BandyFW.Resource.Attribute.backgroundStacked;
+			global::EDMTDialog.Resource.Attribute.backgroundTint = global::BandyFW.Resource.Attribute.backgroundTint;
+			global::EDMTDialog.Resource.Attribute.backgroundTintMode = global::BandyFW.Resource.Attribute.backgroundTintMode;
+			global::EDMTDialog.Resource.Attribute.barLength = global::BandyFW.Resource.Attribute.barLength;
+			global::EDMTDialog.Resource.Attribute.borderlessButtonStyle = global::BandyFW.Resource.Attribute.borderlessButtonStyle;
+			global::EDMTDialog.Resource.Attribute.buttonBarButtonStyle = global::BandyFW.Resource.Attribute.buttonBarButtonStyle;
+			global::EDMTDialog.Resource.Attribute.buttonBarNegativeButtonStyle = global::BandyFW.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::EDMTDialog.Resource.Attribute.buttonBarNeutralButtonStyle = global::BandyFW.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::EDMTDialog.Resource.Attribute.buttonBarPositiveButtonStyle = global::BandyFW.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::EDMTDialog.Resource.Attribute.buttonBarStyle = global::BandyFW.Resource.Attribute.buttonBarStyle;
+			global::EDMTDialog.Resource.Attribute.buttonGravity = global::BandyFW.Resource.Attribute.buttonGravity;
+			global::EDMTDialog.Resource.Attribute.buttonPanelSideLayout = global::BandyFW.Resource.Attribute.buttonPanelSideLayout;
+			global::EDMTDialog.Resource.Attribute.buttonStyle = global::BandyFW.Resource.Attribute.buttonStyle;
+			global::EDMTDialog.Resource.Attribute.buttonStyleSmall = global::BandyFW.Resource.Attribute.buttonStyleSmall;
+			global::EDMTDialog.Resource.Attribute.buttonTint = global::BandyFW.Resource.Attribute.buttonTint;
+			global::EDMTDialog.Resource.Attribute.buttonTintMode = global::BandyFW.Resource.Attribute.buttonTintMode;
+			global::EDMTDialog.Resource.Attribute.checkboxStyle = global::BandyFW.Resource.Attribute.checkboxStyle;
+			global::EDMTDialog.Resource.Attribute.checkedTextViewStyle = global::BandyFW.Resource.Attribute.checkedTextViewStyle;
+			global::EDMTDialog.Resource.Attribute.closeIcon = global::BandyFW.Resource.Attribute.closeIcon;
+			global::EDMTDialog.Resource.Attribute.closeItemLayout = global::BandyFW.Resource.Attribute.closeItemLayout;
+			global::EDMTDialog.Resource.Attribute.collapseContentDescription = global::BandyFW.Resource.Attribute.collapseContentDescription;
+			global::EDMTDialog.Resource.Attribute.collapseIcon = global::BandyFW.Resource.Attribute.collapseIcon;
+			global::EDMTDialog.Resource.Attribute.color = global::BandyFW.Resource.Attribute.color;
+			global::EDMTDialog.Resource.Attribute.colorAccent = global::BandyFW.Resource.Attribute.colorAccent;
+			global::EDMTDialog.Resource.Attribute.colorBackgroundFloating = global::BandyFW.Resource.Attribute.colorBackgroundFloating;
+			global::EDMTDialog.Resource.Attribute.colorButtonNormal = global::BandyFW.Resource.Attribute.colorButtonNormal;
+			global::EDMTDialog.Resource.Attribute.colorControlActivated = global::BandyFW.Resource.Attribute.colorControlActivated;
+			global::EDMTDialog.Resource.Attribute.colorControlHighlight = global::BandyFW.Resource.Attribute.colorControlHighlight;
+			global::EDMTDialog.Resource.Attribute.colorControlNormal = global::BandyFW.Resource.Attribute.colorControlNormal;
+			global::EDMTDialog.Resource.Attribute.colorError = global::BandyFW.Resource.Attribute.colorError;
+			global::EDMTDialog.Resource.Attribute.colorPrimary = global::BandyFW.Resource.Attribute.colorPrimary;
+			global::EDMTDialog.Resource.Attribute.colorPrimaryDark = global::BandyFW.Resource.Attribute.colorPrimaryDark;
+			global::EDMTDialog.Resource.Attribute.colorSwitchThumbNormal = global::BandyFW.Resource.Attribute.colorSwitchThumbNormal;
+			global::EDMTDialog.Resource.Attribute.commitIcon = global::BandyFW.Resource.Attribute.commitIcon;
+			global::EDMTDialog.Resource.Attribute.contentDescription = global::BandyFW.Resource.Attribute.contentDescription;
+			global::EDMTDialog.Resource.Attribute.contentInsetEnd = global::BandyFW.Resource.Attribute.contentInsetEnd;
+			global::EDMTDialog.Resource.Attribute.contentInsetEndWithActions = global::BandyFW.Resource.Attribute.contentInsetEndWithActions;
+			global::EDMTDialog.Resource.Attribute.contentInsetLeft = global::BandyFW.Resource.Attribute.contentInsetLeft;
+			global::EDMTDialog.Resource.Attribute.contentInsetRight = global::BandyFW.Resource.Attribute.contentInsetRight;
+			global::EDMTDialog.Resource.Attribute.contentInsetStart = global::BandyFW.Resource.Attribute.contentInsetStart;
+			global::EDMTDialog.Resource.Attribute.contentInsetStartWithNavigation = global::BandyFW.Resource.Attribute.contentInsetStartWithNavigation;
+			global::EDMTDialog.Resource.Attribute.controlBackground = global::BandyFW.Resource.Attribute.controlBackground;
+			global::EDMTDialog.Resource.Attribute.customNavigationLayout = global::BandyFW.Resource.Attribute.customNavigationLayout;
+			global::EDMTDialog.Resource.Attribute.defaultQueryHint = global::BandyFW.Resource.Attribute.defaultQueryHint;
+			global::EDMTDialog.Resource.Attribute.dialogPreferredPadding = global::BandyFW.Resource.Attribute.dialogPreferredPadding;
+			global::EDMTDialog.Resource.Attribute.dialogTheme = global::BandyFW.Resource.Attribute.dialogTheme;
+			global::EDMTDialog.Resource.Attribute.displayOptions = global::BandyFW.Resource.Attribute.displayOptions;
+			global::EDMTDialog.Resource.Attribute.divider = global::BandyFW.Resource.Attribute.divider;
+			global::EDMTDialog.Resource.Attribute.dividerHorizontal = global::BandyFW.Resource.Attribute.dividerHorizontal;
+			global::EDMTDialog.Resource.Attribute.dividerPadding = global::BandyFW.Resource.Attribute.dividerPadding;
+			global::EDMTDialog.Resource.Attribute.dividerVertical = global::BandyFW.Resource.Attribute.dividerVertical;
+			global::EDMTDialog.Resource.Attribute.drawableSize = global::BandyFW.Resource.Attribute.drawableSize;
+			global::EDMTDialog.Resource.Attribute.drawerArrowStyle = global::BandyFW.Resource.Attribute.drawerArrowStyle;
+			global::EDMTDialog.Resource.Attribute.dropDownListViewStyle = global::BandyFW.Resource.Attribute.dropDownListViewStyle;
+			global::EDMTDialog.Resource.Attribute.dropdownListPreferredItemHeight = global::BandyFW.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::EDMTDialog.Resource.Attribute.editTextBackground = global::BandyFW.Resource.Attribute.editTextBackground;
+			global::EDMTDialog.Resource.Attribute.editTextColor = global::BandyFW.Resource.Attribute.editTextColor;
+			global::EDMTDialog.Resource.Attribute.editTextStyle = global::BandyFW.Resource.Attribute.editTextStyle;
+			global::EDMTDialog.Resource.Attribute.elevation = global::BandyFW.Resource.Attribute.elevation;
+			global::EDMTDialog.Resource.Attribute.expandActivityOverflowButtonDrawable = global::BandyFW.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::EDMTDialog.Resource.Attribute.font = global::BandyFW.Resource.Attribute.font;
+			global::EDMTDialog.Resource.Attribute.fontFamily = global::BandyFW.Resource.Attribute.fontFamily;
+			global::EDMTDialog.Resource.Attribute.fontProviderAuthority = global::BandyFW.Resource.Attribute.fontProviderAuthority;
+			global::EDMTDialog.Resource.Attribute.fontProviderCerts = global::BandyFW.Resource.Attribute.fontProviderCerts;
+			global::EDMTDialog.Resource.Attribute.fontProviderFetchStrategy = global::BandyFW.Resource.Attribute.fontProviderFetchStrategy;
+			global::EDMTDialog.Resource.Attribute.fontProviderFetchTimeout = global::BandyFW.Resource.Attribute.fontProviderFetchTimeout;
+			global::EDMTDialog.Resource.Attribute.fontProviderPackage = global::BandyFW.Resource.Attribute.fontProviderPackage;
+			global::EDMTDialog.Resource.Attribute.fontProviderQuery = global::BandyFW.Resource.Attribute.fontProviderQuery;
+			global::EDMTDialog.Resource.Attribute.fontStyle = global::BandyFW.Resource.Attribute.fontStyle;
+			global::EDMTDialog.Resource.Attribute.fontWeight = global::BandyFW.Resource.Attribute.fontWeight;
+			global::EDMTDialog.Resource.Attribute.gapBetweenBars = global::BandyFW.Resource.Attribute.gapBetweenBars;
+			global::EDMTDialog.Resource.Attribute.goIcon = global::BandyFW.Resource.Attribute.goIcon;
+			global::EDMTDialog.Resource.Attribute.height = global::BandyFW.Resource.Attribute.height;
+			global::EDMTDialog.Resource.Attribute.hideOnContentScroll = global::BandyFW.Resource.Attribute.hideOnContentScroll;
+			global::EDMTDialog.Resource.Attribute.homeAsUpIndicator = global::BandyFW.Resource.Attribute.homeAsUpIndicator;
+			global::EDMTDialog.Resource.Attribute.homeLayout = global::BandyFW.Resource.Attribute.homeLayout;
+			global::EDMTDialog.Resource.Attribute.icon = global::BandyFW.Resource.Attribute.icon;
+			global::EDMTDialog.Resource.Attribute.iconTint = global::BandyFW.Resource.Attribute.iconTint;
+			global::EDMTDialog.Resource.Attribute.iconTintMode = global::BandyFW.Resource.Attribute.iconTintMode;
+			global::EDMTDialog.Resource.Attribute.iconifiedByDefault = global::BandyFW.Resource.Attribute.iconifiedByDefault;
+			global::EDMTDialog.Resource.Attribute.imageButtonStyle = global::BandyFW.Resource.Attribute.imageButtonStyle;
+			global::EDMTDialog.Resource.Attribute.indeterminateProgressStyle = global::BandyFW.Resource.Attribute.indeterminateProgressStyle;
+			global::EDMTDialog.Resource.Attribute.initialActivityCount = global::BandyFW.Resource.Attribute.initialActivityCount;
+			global::EDMTDialog.Resource.Attribute.isLightTheme = global::BandyFW.Resource.Attribute.isLightTheme;
+			global::EDMTDialog.Resource.Attribute.itemPadding = global::BandyFW.Resource.Attribute.itemPadding;
+			global::EDMTDialog.Resource.Attribute.layout = global::BandyFW.Resource.Attribute.layout;
+			global::EDMTDialog.Resource.Attribute.listChoiceBackgroundIndicator = global::BandyFW.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::EDMTDialog.Resource.Attribute.listDividerAlertDialog = global::BandyFW.Resource.Attribute.listDividerAlertDialog;
+			global::EDMTDialog.Resource.Attribute.listItemLayout = global::BandyFW.Resource.Attribute.listItemLayout;
+			global::EDMTDialog.Resource.Attribute.listLayout = global::BandyFW.Resource.Attribute.listLayout;
+			global::EDMTDialog.Resource.Attribute.listMenuViewStyle = global::BandyFW.Resource.Attribute.listMenuViewStyle;
+			global::EDMTDialog.Resource.Attribute.listPopupWindowStyle = global::BandyFW.Resource.Attribute.listPopupWindowStyle;
+			global::EDMTDialog.Resource.Attribute.listPreferredItemHeight = global::BandyFW.Resource.Attribute.listPreferredItemHeight;
+			global::EDMTDialog.Resource.Attribute.listPreferredItemHeightLarge = global::BandyFW.Resource.Attribute.listPreferredItemHeightLarge;
+			global::EDMTDialog.Resource.Attribute.listPreferredItemHeightSmall = global::BandyFW.Resource.Attribute.listPreferredItemHeightSmall;
+			global::EDMTDialog.Resource.Attribute.listPreferredItemPaddingLeft = global::BandyFW.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::EDMTDialog.Resource.Attribute.listPreferredItemPaddingRight = global::BandyFW.Resource.Attribute.listPreferredItemPaddingRight;
+			global::EDMTDialog.Resource.Attribute.logo = global::BandyFW.Resource.Attribute.logo;
+			global::EDMTDialog.Resource.Attribute.logoDescription = global::BandyFW.Resource.Attribute.logoDescription;
+			global::EDMTDialog.Resource.Attribute.maxButtonHeight = global::BandyFW.Resource.Attribute.maxButtonHeight;
+			global::EDMTDialog.Resource.Attribute.measureWithLargestChild = global::BandyFW.Resource.Attribute.measureWithLargestChild;
+			global::EDMTDialog.Resource.Attribute.multiChoiceItemLayout = global::BandyFW.Resource.Attribute.multiChoiceItemLayout;
+			global::EDMTDialog.Resource.Attribute.navigationContentDescription = global::BandyFW.Resource.Attribute.navigationContentDescription;
+			global::EDMTDialog.Resource.Attribute.navigationIcon = global::BandyFW.Resource.Attribute.navigationIcon;
+			global::EDMTDialog.Resource.Attribute.navigationMode = global::BandyFW.Resource.Attribute.navigationMode;
+			global::EDMTDialog.Resource.Attribute.numericModifiers = global::BandyFW.Resource.Attribute.numericModifiers;
+			global::EDMTDialog.Resource.Attribute.overlapAnchor = global::BandyFW.Resource.Attribute.overlapAnchor;
+			global::EDMTDialog.Resource.Attribute.paddingBottomNoButtons = global::BandyFW.Resource.Attribute.paddingBottomNoButtons;
+			global::EDMTDialog.Resource.Attribute.paddingEnd = global::BandyFW.Resource.Attribute.paddingEnd;
+			global::EDMTDialog.Resource.Attribute.paddingStart = global::BandyFW.Resource.Attribute.paddingStart;
+			global::EDMTDialog.Resource.Attribute.paddingTopNoTitle = global::BandyFW.Resource.Attribute.paddingTopNoTitle;
+			global::EDMTDialog.Resource.Attribute.panelBackground = global::BandyFW.Resource.Attribute.panelBackground;
+			global::EDMTDialog.Resource.Attribute.panelMenuListTheme = global::BandyFW.Resource.Attribute.panelMenuListTheme;
+			global::EDMTDialog.Resource.Attribute.panelMenuListWidth = global::BandyFW.Resource.Attribute.panelMenuListWidth;
+			global::EDMTDialog.Resource.Attribute.popupMenuStyle = global::BandyFW.Resource.Attribute.popupMenuStyle;
+			global::EDMTDialog.Resource.Attribute.popupTheme = global::BandyFW.Resource.Attribute.popupTheme;
+			global::EDMTDialog.Resource.Attribute.popupWindowStyle = global::BandyFW.Resource.Attribute.popupWindowStyle;
+			global::EDMTDialog.Resource.Attribute.preserveIconSpacing = global::BandyFW.Resource.Attribute.preserveIconSpacing;
+			global::EDMTDialog.Resource.Attribute.progressBarPadding = global::BandyFW.Resource.Attribute.progressBarPadding;
+			global::EDMTDialog.Resource.Attribute.progressBarStyle = global::BandyFW.Resource.Attribute.progressBarStyle;
+			global::EDMTDialog.Resource.Attribute.queryBackground = global::BandyFW.Resource.Attribute.queryBackground;
+			global::EDMTDialog.Resource.Attribute.queryHint = global::BandyFW.Resource.Attribute.queryHint;
+			global::EDMTDialog.Resource.Attribute.radioButtonStyle = global::BandyFW.Resource.Attribute.radioButtonStyle;
+			global::EDMTDialog.Resource.Attribute.ratingBarStyle = global::BandyFW.Resource.Attribute.ratingBarStyle;
+			global::EDMTDialog.Resource.Attribute.ratingBarStyleIndicator = global::BandyFW.Resource.Attribute.ratingBarStyleIndicator;
+			global::EDMTDialog.Resource.Attribute.ratingBarStyleSmall = global::BandyFW.Resource.Attribute.ratingBarStyleSmall;
+			global::EDMTDialog.Resource.Attribute.searchHintIcon = global::BandyFW.Resource.Attribute.searchHintIcon;
+			global::EDMTDialog.Resource.Attribute.searchIcon = global::BandyFW.Resource.Attribute.searchIcon;
+			global::EDMTDialog.Resource.Attribute.searchViewStyle = global::BandyFW.Resource.Attribute.searchViewStyle;
+			global::EDMTDialog.Resource.Attribute.seekBarStyle = global::BandyFW.Resource.Attribute.seekBarStyle;
+			global::EDMTDialog.Resource.Attribute.selectableItemBackground = global::BandyFW.Resource.Attribute.selectableItemBackground;
+			global::EDMTDialog.Resource.Attribute.selectableItemBackgroundBorderless = global::BandyFW.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::EDMTDialog.Resource.Attribute.showAsAction = global::BandyFW.Resource.Attribute.showAsAction;
+			global::EDMTDialog.Resource.Attribute.showDividers = global::BandyFW.Resource.Attribute.showDividers;
+			global::EDMTDialog.Resource.Attribute.showText = global::BandyFW.Resource.Attribute.showText;
+			global::EDMTDialog.Resource.Attribute.showTitle = global::BandyFW.Resource.Attribute.showTitle;
+			global::EDMTDialog.Resource.Attribute.singleChoiceItemLayout = global::BandyFW.Resource.Attribute.singleChoiceItemLayout;
+			global::EDMTDialog.Resource.Attribute.spinBars = global::BandyFW.Resource.Attribute.spinBars;
+			global::EDMTDialog.Resource.Attribute.spinnerDropDownItemStyle = global::BandyFW.Resource.Attribute.spinnerDropDownItemStyle;
+			global::EDMTDialog.Resource.Attribute.spinnerStyle = global::BandyFW.Resource.Attribute.spinnerStyle;
+			global::EDMTDialog.Resource.Attribute.splitTrack = global::BandyFW.Resource.Attribute.splitTrack;
+			global::EDMTDialog.Resource.Attribute.srcCompat = global::BandyFW.Resource.Attribute.srcCompat;
+			global::EDMTDialog.Resource.Attribute.state_above_anchor = global::BandyFW.Resource.Attribute.state_above_anchor;
+			global::EDMTDialog.Resource.Attribute.subMenuArrow = global::BandyFW.Resource.Attribute.subMenuArrow;
+			global::EDMTDialog.Resource.Attribute.submitBackground = global::BandyFW.Resource.Attribute.submitBackground;
+			global::EDMTDialog.Resource.Attribute.subtitle = global::BandyFW.Resource.Attribute.subtitle;
+			global::EDMTDialog.Resource.Attribute.subtitleTextAppearance = global::BandyFW.Resource.Attribute.subtitleTextAppearance;
+			global::EDMTDialog.Resource.Attribute.subtitleTextColor = global::BandyFW.Resource.Attribute.subtitleTextColor;
+			global::EDMTDialog.Resource.Attribute.subtitleTextStyle = global::BandyFW.Resource.Attribute.subtitleTextStyle;
+			global::EDMTDialog.Resource.Attribute.suggestionRowLayout = global::BandyFW.Resource.Attribute.suggestionRowLayout;
+			global::EDMTDialog.Resource.Attribute.switchMinWidth = global::BandyFW.Resource.Attribute.switchMinWidth;
+			global::EDMTDialog.Resource.Attribute.switchPadding = global::BandyFW.Resource.Attribute.switchPadding;
+			global::EDMTDialog.Resource.Attribute.switchStyle = global::BandyFW.Resource.Attribute.switchStyle;
+			global::EDMTDialog.Resource.Attribute.switchTextAppearance = global::BandyFW.Resource.Attribute.switchTextAppearance;
+			global::EDMTDialog.Resource.Attribute.textAllCaps = global::BandyFW.Resource.Attribute.textAllCaps;
+			global::EDMTDialog.Resource.Attribute.textAppearanceLargePopupMenu = global::BandyFW.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::EDMTDialog.Resource.Attribute.textAppearanceListItem = global::BandyFW.Resource.Attribute.textAppearanceListItem;
+			global::EDMTDialog.Resource.Attribute.textAppearanceListItemSecondary = global::BandyFW.Resource.Attribute.textAppearanceListItemSecondary;
+			global::EDMTDialog.Resource.Attribute.textAppearanceListItemSmall = global::BandyFW.Resource.Attribute.textAppearanceListItemSmall;
+			global::EDMTDialog.Resource.Attribute.textAppearancePopupMenuHeader = global::BandyFW.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::EDMTDialog.Resource.Attribute.textAppearanceSearchResultSubtitle = global::BandyFW.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::EDMTDialog.Resource.Attribute.textAppearanceSearchResultTitle = global::BandyFW.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::EDMTDialog.Resource.Attribute.textAppearanceSmallPopupMenu = global::BandyFW.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::EDMTDialog.Resource.Attribute.textColorAlertDialogListItem = global::BandyFW.Resource.Attribute.textColorAlertDialogListItem;
+			global::EDMTDialog.Resource.Attribute.textColorSearchUrl = global::BandyFW.Resource.Attribute.textColorSearchUrl;
+			global::EDMTDialog.Resource.Attribute.theme = global::BandyFW.Resource.Attribute.theme;
+			global::EDMTDialog.Resource.Attribute.thickness = global::BandyFW.Resource.Attribute.thickness;
+			global::EDMTDialog.Resource.Attribute.thumbTextPadding = global::BandyFW.Resource.Attribute.thumbTextPadding;
+			global::EDMTDialog.Resource.Attribute.thumbTint = global::BandyFW.Resource.Attribute.thumbTint;
+			global::EDMTDialog.Resource.Attribute.thumbTintMode = global::BandyFW.Resource.Attribute.thumbTintMode;
+			global::EDMTDialog.Resource.Attribute.tickMark = global::BandyFW.Resource.Attribute.tickMark;
+			global::EDMTDialog.Resource.Attribute.tickMarkTint = global::BandyFW.Resource.Attribute.tickMarkTint;
+			global::EDMTDialog.Resource.Attribute.tickMarkTintMode = global::BandyFW.Resource.Attribute.tickMarkTintMode;
+			global::EDMTDialog.Resource.Attribute.tint = global::BandyFW.Resource.Attribute.tint;
+			global::EDMTDialog.Resource.Attribute.tintMode = global::BandyFW.Resource.Attribute.tintMode;
+			global::EDMTDialog.Resource.Attribute.title = global::BandyFW.Resource.Attribute.title;
+			global::EDMTDialog.Resource.Attribute.titleMargin = global::BandyFW.Resource.Attribute.titleMargin;
+			global::EDMTDialog.Resource.Attribute.titleMarginBottom = global::BandyFW.Resource.Attribute.titleMarginBottom;
+			global::EDMTDialog.Resource.Attribute.titleMarginEnd = global::BandyFW.Resource.Attribute.titleMarginEnd;
+			global::EDMTDialog.Resource.Attribute.titleMarginStart = global::BandyFW.Resource.Attribute.titleMarginStart;
+			global::EDMTDialog.Resource.Attribute.titleMarginTop = global::BandyFW.Resource.Attribute.titleMarginTop;
+			global::EDMTDialog.Resource.Attribute.titleMargins = global::BandyFW.Resource.Attribute.titleMargins;
+			global::EDMTDialog.Resource.Attribute.titleTextAppearance = global::BandyFW.Resource.Attribute.titleTextAppearance;
+			global::EDMTDialog.Resource.Attribute.titleTextColor = global::BandyFW.Resource.Attribute.titleTextColor;
+			global::EDMTDialog.Resource.Attribute.titleTextStyle = global::BandyFW.Resource.Attribute.titleTextStyle;
+			global::EDMTDialog.Resource.Attribute.toolbarNavigationButtonStyle = global::BandyFW.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::EDMTDialog.Resource.Attribute.toolbarStyle = global::BandyFW.Resource.Attribute.toolbarStyle;
+			global::EDMTDialog.Resource.Attribute.tooltipForegroundColor = global::BandyFW.Resource.Attribute.tooltipForegroundColor;
+			global::EDMTDialog.Resource.Attribute.tooltipFrameBackground = global::BandyFW.Resource.Attribute.tooltipFrameBackground;
+			global::EDMTDialog.Resource.Attribute.tooltipText = global::BandyFW.Resource.Attribute.tooltipText;
+			global::EDMTDialog.Resource.Attribute.track = global::BandyFW.Resource.Attribute.track;
+			global::EDMTDialog.Resource.Attribute.trackTint = global::BandyFW.Resource.Attribute.trackTint;
+			global::EDMTDialog.Resource.Attribute.trackTintMode = global::BandyFW.Resource.Attribute.trackTintMode;
+			global::EDMTDialog.Resource.Attribute.voiceIcon = global::BandyFW.Resource.Attribute.voiceIcon;
+			global::EDMTDialog.Resource.Attribute.windowActionBar = global::BandyFW.Resource.Attribute.windowActionBar;
+			global::EDMTDialog.Resource.Attribute.windowActionBarOverlay = global::BandyFW.Resource.Attribute.windowActionBarOverlay;
+			global::EDMTDialog.Resource.Attribute.windowActionModeOverlay = global::BandyFW.Resource.Attribute.windowActionModeOverlay;
+			global::EDMTDialog.Resource.Attribute.windowFixedHeightMajor = global::BandyFW.Resource.Attribute.windowFixedHeightMajor;
+			global::EDMTDialog.Resource.Attribute.windowFixedHeightMinor = global::BandyFW.Resource.Attribute.windowFixedHeightMinor;
+			global::EDMTDialog.Resource.Attribute.windowFixedWidthMajor = global::BandyFW.Resource.Attribute.windowFixedWidthMajor;
+			global::EDMTDialog.Resource.Attribute.windowFixedWidthMinor = global::BandyFW.Resource.Attribute.windowFixedWidthMinor;
+			global::EDMTDialog.Resource.Attribute.windowMinWidthMajor = global::BandyFW.Resource.Attribute.windowMinWidthMajor;
+			global::EDMTDialog.Resource.Attribute.windowMinWidthMinor = global::BandyFW.Resource.Attribute.windowMinWidthMinor;
+			global::EDMTDialog.Resource.Attribute.windowNoTitle = global::BandyFW.Resource.Attribute.windowNoTitle;
+			global::EDMTDialog.Resource.Boolean.abc_action_bar_embed_tabs = global::BandyFW.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::EDMTDialog.Resource.Boolean.abc_allow_stacked_button_bar = global::BandyFW.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::EDMTDialog.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::BandyFW.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::EDMTDialog.Resource.Color.abc_background_cache_hint_selector_material_dark = global::BandyFW.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::EDMTDialog.Resource.Color.abc_background_cache_hint_selector_material_light = global::BandyFW.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::EDMTDialog.Resource.Color.abc_btn_colored_borderless_text_material = global::BandyFW.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::EDMTDialog.Resource.Color.abc_btn_colored_text_material = global::BandyFW.Resource.Color.abc_btn_colored_text_material;
+			global::EDMTDialog.Resource.Color.abc_color_highlight_material = global::BandyFW.Resource.Color.abc_color_highlight_material;
+			global::EDMTDialog.Resource.Color.abc_hint_foreground_material_dark = global::BandyFW.Resource.Color.abc_hint_foreground_material_dark;
+			global::EDMTDialog.Resource.Color.abc_hint_foreground_material_light = global::BandyFW.Resource.Color.abc_hint_foreground_material_light;
+			global::EDMTDialog.Resource.Color.abc_input_method_navigation_guard = global::BandyFW.Resource.Color.abc_input_method_navigation_guard;
+			global::EDMTDialog.Resource.Color.abc_primary_text_disable_only_material_dark = global::BandyFW.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::EDMTDialog.Resource.Color.abc_primary_text_disable_only_material_light = global::BandyFW.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::EDMTDialog.Resource.Color.abc_primary_text_material_dark = global::BandyFW.Resource.Color.abc_primary_text_material_dark;
+			global::EDMTDialog.Resource.Color.abc_primary_text_material_light = global::BandyFW.Resource.Color.abc_primary_text_material_light;
+			global::EDMTDialog.Resource.Color.abc_search_url_text = global::BandyFW.Resource.Color.abc_search_url_text;
+			global::EDMTDialog.Resource.Color.abc_search_url_text_normal = global::BandyFW.Resource.Color.abc_search_url_text_normal;
+			global::EDMTDialog.Resource.Color.abc_search_url_text_pressed = global::BandyFW.Resource.Color.abc_search_url_text_pressed;
+			global::EDMTDialog.Resource.Color.abc_search_url_text_selected = global::BandyFW.Resource.Color.abc_search_url_text_selected;
+			global::EDMTDialog.Resource.Color.abc_secondary_text_material_dark = global::BandyFW.Resource.Color.abc_secondary_text_material_dark;
+			global::EDMTDialog.Resource.Color.abc_secondary_text_material_light = global::BandyFW.Resource.Color.abc_secondary_text_material_light;
+			global::EDMTDialog.Resource.Color.abc_tint_btn_checkable = global::BandyFW.Resource.Color.abc_tint_btn_checkable;
+			global::EDMTDialog.Resource.Color.abc_tint_default = global::BandyFW.Resource.Color.abc_tint_default;
+			global::EDMTDialog.Resource.Color.abc_tint_edittext = global::BandyFW.Resource.Color.abc_tint_edittext;
+			global::EDMTDialog.Resource.Color.abc_tint_seek_thumb = global::BandyFW.Resource.Color.abc_tint_seek_thumb;
+			global::EDMTDialog.Resource.Color.abc_tint_spinner = global::BandyFW.Resource.Color.abc_tint_spinner;
+			global::EDMTDialog.Resource.Color.abc_tint_switch_track = global::BandyFW.Resource.Color.abc_tint_switch_track;
+			global::EDMTDialog.Resource.Color.accent_material_dark = global::BandyFW.Resource.Color.accent_material_dark;
+			global::EDMTDialog.Resource.Color.accent_material_light = global::BandyFW.Resource.Color.accent_material_light;
+			global::EDMTDialog.Resource.Color.background_floating_material_dark = global::BandyFW.Resource.Color.background_floating_material_dark;
+			global::EDMTDialog.Resource.Color.background_floating_material_light = global::BandyFW.Resource.Color.background_floating_material_light;
+			global::EDMTDialog.Resource.Color.background_material_dark = global::BandyFW.Resource.Color.background_material_dark;
+			global::EDMTDialog.Resource.Color.background_material_light = global::BandyFW.Resource.Color.background_material_light;
+			global::EDMTDialog.Resource.Color.bright_foreground_disabled_material_dark = global::BandyFW.Resource.Color.bright_foreground_disabled_material_dark;
+			global::EDMTDialog.Resource.Color.bright_foreground_disabled_material_light = global::BandyFW.Resource.Color.bright_foreground_disabled_material_light;
+			global::EDMTDialog.Resource.Color.bright_foreground_inverse_material_dark = global::BandyFW.Resource.Color.bright_foreground_inverse_material_dark;
+			global::EDMTDialog.Resource.Color.bright_foreground_inverse_material_light = global::BandyFW.Resource.Color.bright_foreground_inverse_material_light;
+			global::EDMTDialog.Resource.Color.bright_foreground_material_dark = global::BandyFW.Resource.Color.bright_foreground_material_dark;
+			global::EDMTDialog.Resource.Color.bright_foreground_material_light = global::BandyFW.Resource.Color.bright_foreground_material_light;
+			global::EDMTDialog.Resource.Color.button_material_dark = global::BandyFW.Resource.Color.button_material_dark;
+			global::EDMTDialog.Resource.Color.button_material_light = global::BandyFW.Resource.Color.button_material_light;
+			global::EDMTDialog.Resource.Color.dim_foreground_disabled_material_dark = global::BandyFW.Resource.Color.dim_foreground_disabled_material_dark;
+			global::EDMTDialog.Resource.Color.dim_foreground_disabled_material_light = global::BandyFW.Resource.Color.dim_foreground_disabled_material_light;
+			global::EDMTDialog.Resource.Color.dim_foreground_material_dark = global::BandyFW.Resource.Color.dim_foreground_material_dark;
+			global::EDMTDialog.Resource.Color.dim_foreground_material_light = global::BandyFW.Resource.Color.dim_foreground_material_light;
+			global::EDMTDialog.Resource.Color.foreground_material_dark = global::BandyFW.Resource.Color.foreground_material_dark;
+			global::EDMTDialog.Resource.Color.foreground_material_light = global::BandyFW.Resource.Color.foreground_material_light;
+			global::EDMTDialog.Resource.Color.highlighted_text_material_dark = global::BandyFW.Resource.Color.highlighted_text_material_dark;
+			global::EDMTDialog.Resource.Color.highlighted_text_material_light = global::BandyFW.Resource.Color.highlighted_text_material_light;
+			global::EDMTDialog.Resource.Color.material_blue_grey_800 = global::BandyFW.Resource.Color.material_blue_grey_800;
+			global::EDMTDialog.Resource.Color.material_blue_grey_900 = global::BandyFW.Resource.Color.material_blue_grey_900;
+			global::EDMTDialog.Resource.Color.material_blue_grey_950 = global::BandyFW.Resource.Color.material_blue_grey_950;
+			global::EDMTDialog.Resource.Color.material_deep_teal_200 = global::BandyFW.Resource.Color.material_deep_teal_200;
+			global::EDMTDialog.Resource.Color.material_deep_teal_500 = global::BandyFW.Resource.Color.material_deep_teal_500;
+			global::EDMTDialog.Resource.Color.material_grey_100 = global::BandyFW.Resource.Color.material_grey_100;
+			global::EDMTDialog.Resource.Color.material_grey_300 = global::BandyFW.Resource.Color.material_grey_300;
+			global::EDMTDialog.Resource.Color.material_grey_50 = global::BandyFW.Resource.Color.material_grey_50;
+			global::EDMTDialog.Resource.Color.material_grey_600 = global::BandyFW.Resource.Color.material_grey_600;
+			global::EDMTDialog.Resource.Color.material_grey_800 = global::BandyFW.Resource.Color.material_grey_800;
+			global::EDMTDialog.Resource.Color.material_grey_850 = global::BandyFW.Resource.Color.material_grey_850;
+			global::EDMTDialog.Resource.Color.material_grey_900 = global::BandyFW.Resource.Color.material_grey_900;
+			global::EDMTDialog.Resource.Color.notification_action_color_filter = global::BandyFW.Resource.Color.notification_action_color_filter;
+			global::EDMTDialog.Resource.Color.notification_icon_bg_color = global::BandyFW.Resource.Color.notification_icon_bg_color;
+			global::EDMTDialog.Resource.Color.primary_dark_material_dark = global::BandyFW.Resource.Color.primary_dark_material_dark;
+			global::EDMTDialog.Resource.Color.primary_dark_material_light = global::BandyFW.Resource.Color.primary_dark_material_light;
+			global::EDMTDialog.Resource.Color.primary_material_dark = global::BandyFW.Resource.Color.primary_material_dark;
+			global::EDMTDialog.Resource.Color.primary_material_light = global::BandyFW.Resource.Color.primary_material_light;
+			global::EDMTDialog.Resource.Color.primary_text_default_material_dark = global::BandyFW.Resource.Color.primary_text_default_material_dark;
+			global::EDMTDialog.Resource.Color.primary_text_default_material_light = global::BandyFW.Resource.Color.primary_text_default_material_light;
+			global::EDMTDialog.Resource.Color.primary_text_disabled_material_dark = global::BandyFW.Resource.Color.primary_text_disabled_material_dark;
+			global::EDMTDialog.Resource.Color.primary_text_disabled_material_light = global::BandyFW.Resource.Color.primary_text_disabled_material_light;
+			global::EDMTDialog.Resource.Color.ripple_material_dark = global::BandyFW.Resource.Color.ripple_material_dark;
+			global::EDMTDialog.Resource.Color.ripple_material_light = global::BandyFW.Resource.Color.ripple_material_light;
+			global::EDMTDialog.Resource.Color.secondary_text_default_material_dark = global::BandyFW.Resource.Color.secondary_text_default_material_dark;
+			global::EDMTDialog.Resource.Color.secondary_text_default_material_light = global::BandyFW.Resource.Color.secondary_text_default_material_light;
+			global::EDMTDialog.Resource.Color.secondary_text_disabled_material_dark = global::BandyFW.Resource.Color.secondary_text_disabled_material_dark;
+			global::EDMTDialog.Resource.Color.secondary_text_disabled_material_light = global::BandyFW.Resource.Color.secondary_text_disabled_material_light;
+			global::EDMTDialog.Resource.Color.spots_dialog_color = global::BandyFW.Resource.Color.spots_dialog_color;
+			global::EDMTDialog.Resource.Color.switch_thumb_disabled_material_dark = global::BandyFW.Resource.Color.switch_thumb_disabled_material_dark;
+			global::EDMTDialog.Resource.Color.switch_thumb_disabled_material_light = global::BandyFW.Resource.Color.switch_thumb_disabled_material_light;
+			global::EDMTDialog.Resource.Color.switch_thumb_material_dark = global::BandyFW.Resource.Color.switch_thumb_material_dark;
+			global::EDMTDialog.Resource.Color.switch_thumb_material_light = global::BandyFW.Resource.Color.switch_thumb_material_light;
+			global::EDMTDialog.Resource.Color.switch_thumb_normal_material_dark = global::BandyFW.Resource.Color.switch_thumb_normal_material_dark;
+			global::EDMTDialog.Resource.Color.switch_thumb_normal_material_light = global::BandyFW.Resource.Color.switch_thumb_normal_material_light;
+			global::EDMTDialog.Resource.Color.tooltip_background_dark = global::BandyFW.Resource.Color.tooltip_background_dark;
+			global::EDMTDialog.Resource.Color.tooltip_background_light = global::BandyFW.Resource.Color.tooltip_background_light;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_content_inset_material = global::BandyFW.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::BandyFW.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_default_height_material = global::BandyFW.Resource.Dimension.abc_action_bar_default_height_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_default_padding_end_material = global::BandyFW.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_default_padding_start_material = global::BandyFW.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_elevation_material = global::BandyFW.Resource.Dimension.abc_action_bar_elevation_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::BandyFW.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::BandyFW.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::BandyFW.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_stacked_max_height = global::BandyFW.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::BandyFW.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::BandyFW.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::BandyFW.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_button_min_height_material = global::BandyFW.Resource.Dimension.abc_action_button_min_height_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_button_min_width_material = global::BandyFW.Resource.Dimension.abc_action_button_min_width_material;
+			global::EDMTDialog.Resource.Dimension.abc_action_button_min_width_overflow_material = global::BandyFW.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::EDMTDialog.Resource.Dimension.abc_alert_dialog_button_bar_height = global::BandyFW.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::EDMTDialog.Resource.Dimension.abc_button_inset_horizontal_material = global::BandyFW.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::EDMTDialog.Resource.Dimension.abc_button_inset_vertical_material = global::BandyFW.Resource.Dimension.abc_button_inset_vertical_material;
+			global::EDMTDialog.Resource.Dimension.abc_button_padding_horizontal_material = global::BandyFW.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::EDMTDialog.Resource.Dimension.abc_button_padding_vertical_material = global::BandyFW.Resource.Dimension.abc_button_padding_vertical_material;
+			global::EDMTDialog.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::BandyFW.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::EDMTDialog.Resource.Dimension.abc_config_prefDialogWidth = global::BandyFW.Resource.Dimension.abc_config_prefDialogWidth;
+			global::EDMTDialog.Resource.Dimension.abc_control_corner_material = global::BandyFW.Resource.Dimension.abc_control_corner_material;
+			global::EDMTDialog.Resource.Dimension.abc_control_inset_material = global::BandyFW.Resource.Dimension.abc_control_inset_material;
+			global::EDMTDialog.Resource.Dimension.abc_control_padding_material = global::BandyFW.Resource.Dimension.abc_control_padding_material;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_fixed_height_major = global::BandyFW.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_fixed_height_minor = global::BandyFW.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_fixed_width_major = global::BandyFW.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_fixed_width_minor = global::BandyFW.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::BandyFW.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::BandyFW.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_min_width_major = global::BandyFW.Resource.Dimension.abc_dialog_min_width_major;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_min_width_minor = global::BandyFW.Resource.Dimension.abc_dialog_min_width_minor;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_padding_material = global::BandyFW.Resource.Dimension.abc_dialog_padding_material;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_padding_top_material = global::BandyFW.Resource.Dimension.abc_dialog_padding_top_material;
+			global::EDMTDialog.Resource.Dimension.abc_dialog_title_divider_material = global::BandyFW.Resource.Dimension.abc_dialog_title_divider_material;
+			global::EDMTDialog.Resource.Dimension.abc_disabled_alpha_material_dark = global::BandyFW.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::EDMTDialog.Resource.Dimension.abc_disabled_alpha_material_light = global::BandyFW.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::EDMTDialog.Resource.Dimension.abc_dropdownitem_icon_width = global::BandyFW.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::EDMTDialog.Resource.Dimension.abc_dropdownitem_text_padding_left = global::BandyFW.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::EDMTDialog.Resource.Dimension.abc_dropdownitem_text_padding_right = global::BandyFW.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::EDMTDialog.Resource.Dimension.abc_edit_text_inset_bottom_material = global::BandyFW.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::EDMTDialog.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::BandyFW.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::EDMTDialog.Resource.Dimension.abc_edit_text_inset_top_material = global::BandyFW.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::EDMTDialog.Resource.Dimension.abc_floating_window_z = global::BandyFW.Resource.Dimension.abc_floating_window_z;
+			global::EDMTDialog.Resource.Dimension.abc_list_item_padding_horizontal_material = global::BandyFW.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::EDMTDialog.Resource.Dimension.abc_panel_menu_list_width = global::BandyFW.Resource.Dimension.abc_panel_menu_list_width;
+			global::EDMTDialog.Resource.Dimension.abc_progress_bar_height_material = global::BandyFW.Resource.Dimension.abc_progress_bar_height_material;
+			global::EDMTDialog.Resource.Dimension.abc_search_view_preferred_height = global::BandyFW.Resource.Dimension.abc_search_view_preferred_height;
+			global::EDMTDialog.Resource.Dimension.abc_search_view_preferred_width = global::BandyFW.Resource.Dimension.abc_search_view_preferred_width;
+			global::EDMTDialog.Resource.Dimension.abc_seekbar_track_background_height_material = global::BandyFW.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::EDMTDialog.Resource.Dimension.abc_seekbar_track_progress_height_material = global::BandyFW.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::EDMTDialog.Resource.Dimension.abc_select_dialog_padding_start_material = global::BandyFW.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::EDMTDialog.Resource.Dimension.abc_switch_padding = global::BandyFW.Resource.Dimension.abc_switch_padding;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_body_1_material = global::BandyFW.Resource.Dimension.abc_text_size_body_1_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_body_2_material = global::BandyFW.Resource.Dimension.abc_text_size_body_2_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_button_material = global::BandyFW.Resource.Dimension.abc_text_size_button_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_caption_material = global::BandyFW.Resource.Dimension.abc_text_size_caption_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_display_1_material = global::BandyFW.Resource.Dimension.abc_text_size_display_1_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_display_2_material = global::BandyFW.Resource.Dimension.abc_text_size_display_2_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_display_3_material = global::BandyFW.Resource.Dimension.abc_text_size_display_3_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_display_4_material = global::BandyFW.Resource.Dimension.abc_text_size_display_4_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_headline_material = global::BandyFW.Resource.Dimension.abc_text_size_headline_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_large_material = global::BandyFW.Resource.Dimension.abc_text_size_large_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_medium_material = global::BandyFW.Resource.Dimension.abc_text_size_medium_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_menu_header_material = global::BandyFW.Resource.Dimension.abc_text_size_menu_header_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_menu_material = global::BandyFW.Resource.Dimension.abc_text_size_menu_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_small_material = global::BandyFW.Resource.Dimension.abc_text_size_small_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_subhead_material = global::BandyFW.Resource.Dimension.abc_text_size_subhead_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::BandyFW.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_title_material = global::BandyFW.Resource.Dimension.abc_text_size_title_material;
+			global::EDMTDialog.Resource.Dimension.abc_text_size_title_material_toolbar = global::BandyFW.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::EDMTDialog.Resource.Dimension.compat_button_inset_horizontal_material = global::BandyFW.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::EDMTDialog.Resource.Dimension.compat_button_inset_vertical_material = global::BandyFW.Resource.Dimension.compat_button_inset_vertical_material;
+			global::EDMTDialog.Resource.Dimension.compat_button_padding_horizontal_material = global::BandyFW.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::EDMTDialog.Resource.Dimension.compat_button_padding_vertical_material = global::BandyFW.Resource.Dimension.compat_button_padding_vertical_material;
+			global::EDMTDialog.Resource.Dimension.compat_control_corner_material = global::BandyFW.Resource.Dimension.compat_control_corner_material;
+			global::EDMTDialog.Resource.Dimension.disabled_alpha_material_dark = global::BandyFW.Resource.Dimension.disabled_alpha_material_dark;
+			global::EDMTDialog.Resource.Dimension.disabled_alpha_material_light = global::BandyFW.Resource.Dimension.disabled_alpha_material_light;
+			global::EDMTDialog.Resource.Dimension.highlight_alpha_material_colored = global::BandyFW.Resource.Dimension.highlight_alpha_material_colored;
+			global::EDMTDialog.Resource.Dimension.highlight_alpha_material_dark = global::BandyFW.Resource.Dimension.highlight_alpha_material_dark;
+			global::EDMTDialog.Resource.Dimension.highlight_alpha_material_light = global::BandyFW.Resource.Dimension.highlight_alpha_material_light;
+			global::EDMTDialog.Resource.Dimension.hint_alpha_material_dark = global::BandyFW.Resource.Dimension.hint_alpha_material_dark;
+			global::EDMTDialog.Resource.Dimension.hint_alpha_material_light = global::BandyFW.Resource.Dimension.hint_alpha_material_light;
+			global::EDMTDialog.Resource.Dimension.hint_pressed_alpha_material_dark = global::BandyFW.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::EDMTDialog.Resource.Dimension.hint_pressed_alpha_material_light = global::BandyFW.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::EDMTDialog.Resource.Dimension.notification_action_icon_size = global::BandyFW.Resource.Dimension.notification_action_icon_size;
+			global::EDMTDialog.Resource.Dimension.notification_action_text_size = global::BandyFW.Resource.Dimension.notification_action_text_size;
+			global::EDMTDialog.Resource.Dimension.notification_big_circle_margin = global::BandyFW.Resource.Dimension.notification_big_circle_margin;
+			global::EDMTDialog.Resource.Dimension.notification_content_margin_start = global::BandyFW.Resource.Dimension.notification_content_margin_start;
+			global::EDMTDialog.Resource.Dimension.notification_large_icon_height = global::BandyFW.Resource.Dimension.notification_large_icon_height;
+			global::EDMTDialog.Resource.Dimension.notification_large_icon_width = global::BandyFW.Resource.Dimension.notification_large_icon_width;
+			global::EDMTDialog.Resource.Dimension.notification_main_column_padding_top = global::BandyFW.Resource.Dimension.notification_main_column_padding_top;
+			global::EDMTDialog.Resource.Dimension.notification_media_narrow_margin = global::BandyFW.Resource.Dimension.notification_media_narrow_margin;
+			global::EDMTDialog.Resource.Dimension.notification_right_icon_size = global::BandyFW.Resource.Dimension.notification_right_icon_size;
+			global::EDMTDialog.Resource.Dimension.notification_right_side_padding_top = global::BandyFW.Resource.Dimension.notification_right_side_padding_top;
+			global::EDMTDialog.Resource.Dimension.notification_small_icon_background_padding = global::BandyFW.Resource.Dimension.notification_small_icon_background_padding;
+			global::EDMTDialog.Resource.Dimension.notification_small_icon_size_as_large = global::BandyFW.Resource.Dimension.notification_small_icon_size_as_large;
+			global::EDMTDialog.Resource.Dimension.notification_subtext_size = global::BandyFW.Resource.Dimension.notification_subtext_size;
+			global::EDMTDialog.Resource.Dimension.notification_top_pad = global::BandyFW.Resource.Dimension.notification_top_pad;
+			global::EDMTDialog.Resource.Dimension.notification_top_pad_large_text = global::BandyFW.Resource.Dimension.notification_top_pad_large_text;
+			global::EDMTDialog.Resource.Dimension.progress_margin = global::BandyFW.Resource.Dimension.progress_margin;
+			global::EDMTDialog.Resource.Dimension.progress_width = global::BandyFW.Resource.Dimension.progress_width;
+			global::EDMTDialog.Resource.Dimension.spot_size = global::BandyFW.Resource.Dimension.spot_size;
+			global::EDMTDialog.Resource.Dimension.title_margin = global::BandyFW.Resource.Dimension.title_margin;
+			global::EDMTDialog.Resource.Dimension.title_padding = global::BandyFW.Resource.Dimension.title_padding;
+			global::EDMTDialog.Resource.Dimension.tooltip_corner_radius = global::BandyFW.Resource.Dimension.tooltip_corner_radius;
+			global::EDMTDialog.Resource.Dimension.tooltip_horizontal_padding = global::BandyFW.Resource.Dimension.tooltip_horizontal_padding;
+			global::EDMTDialog.Resource.Dimension.tooltip_margin = global::BandyFW.Resource.Dimension.tooltip_margin;
+			global::EDMTDialog.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::BandyFW.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::EDMTDialog.Resource.Dimension.tooltip_precise_anchor_threshold = global::BandyFW.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::EDMTDialog.Resource.Dimension.tooltip_vertical_padding = global::BandyFW.Resource.Dimension.tooltip_vertical_padding;
+			global::EDMTDialog.Resource.Dimension.tooltip_y_offset_non_touch = global::BandyFW.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::EDMTDialog.Resource.Dimension.tooltip_y_offset_touch = global::BandyFW.Resource.Dimension.tooltip_y_offset_touch;
+			global::EDMTDialog.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::BandyFW.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_action_bar_item_background_material = global::BandyFW.Resource.Drawable.abc_action_bar_item_background_material;
+			global::EDMTDialog.Resource.Drawable.abc_btn_borderless_material = global::BandyFW.Resource.Drawable.abc_btn_borderless_material;
+			global::EDMTDialog.Resource.Drawable.abc_btn_check_material = global::BandyFW.Resource.Drawable.abc_btn_check_material;
+			global::EDMTDialog.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::BandyFW.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::EDMTDialog.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::BandyFW.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::EDMTDialog.Resource.Drawable.abc_btn_colored_material = global::BandyFW.Resource.Drawable.abc_btn_colored_material;
+			global::EDMTDialog.Resource.Drawable.abc_btn_default_mtrl_shape = global::BandyFW.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::EDMTDialog.Resource.Drawable.abc_btn_radio_material = global::BandyFW.Resource.Drawable.abc_btn_radio_material;
+			global::EDMTDialog.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::BandyFW.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::EDMTDialog.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::BandyFW.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::EDMTDialog.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::BandyFW.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::EDMTDialog.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::BandyFW.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::EDMTDialog.Resource.Drawable.abc_cab_background_internal_bg = global::BandyFW.Resource.Drawable.abc_cab_background_internal_bg;
+			global::EDMTDialog.Resource.Drawable.abc_cab_background_top_material = global::BandyFW.Resource.Drawable.abc_cab_background_top_material;
+			global::EDMTDialog.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::BandyFW.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_control_background_material = global::BandyFW.Resource.Drawable.abc_control_background_material;
+			global::EDMTDialog.Resource.Drawable.abc_dialog_material_background = global::BandyFW.Resource.Drawable.abc_dialog_material_background;
+			global::EDMTDialog.Resource.Drawable.abc_edit_text_material = global::BandyFW.Resource.Drawable.abc_edit_text_material;
+			global::EDMTDialog.Resource.Drawable.abc_ic_ab_back_material = global::BandyFW.Resource.Drawable.abc_ic_ab_back_material;
+			global::EDMTDialog.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::BandyFW.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_clear_material = global::BandyFW.Resource.Drawable.abc_ic_clear_material;
+			global::EDMTDialog.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::BandyFW.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_ic_go_search_api_material = global::BandyFW.Resource.Drawable.abc_ic_go_search_api_material;
+			global::EDMTDialog.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::BandyFW.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::BandyFW.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_ic_menu_overflow_material = global::BandyFW.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::EDMTDialog.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::BandyFW.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::BandyFW.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::BandyFW.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_ic_search_api_material = global::BandyFW.Resource.Drawable.abc_ic_search_api_material;
+			global::EDMTDialog.Resource.Drawable.abc_ic_star_black_16dp = global::BandyFW.Resource.Drawable.abc_ic_star_black_16dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_star_black_36dp = global::BandyFW.Resource.Drawable.abc_ic_star_black_36dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_star_black_48dp = global::BandyFW.Resource.Drawable.abc_ic_star_black_48dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_star_half_black_16dp = global::BandyFW.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_star_half_black_36dp = global::BandyFW.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_star_half_black_48dp = global::BandyFW.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::EDMTDialog.Resource.Drawable.abc_ic_voice_search_api_material = global::BandyFW.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::EDMTDialog.Resource.Drawable.abc_item_background_holo_dark = global::BandyFW.Resource.Drawable.abc_item_background_holo_dark;
+			global::EDMTDialog.Resource.Drawable.abc_item_background_holo_light = global::BandyFW.Resource.Drawable.abc_item_background_holo_light;
+			global::EDMTDialog.Resource.Drawable.abc_list_divider_mtrl_alpha = global::BandyFW.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_list_focused_holo = global::BandyFW.Resource.Drawable.abc_list_focused_holo;
+			global::EDMTDialog.Resource.Drawable.abc_list_longpressed_holo = global::BandyFW.Resource.Drawable.abc_list_longpressed_holo;
+			global::EDMTDialog.Resource.Drawable.abc_list_pressed_holo_dark = global::BandyFW.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::EDMTDialog.Resource.Drawable.abc_list_pressed_holo_light = global::BandyFW.Resource.Drawable.abc_list_pressed_holo_light;
+			global::EDMTDialog.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::BandyFW.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::EDMTDialog.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::BandyFW.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::EDMTDialog.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::BandyFW.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::EDMTDialog.Resource.Drawable.abc_list_selector_disabled_holo_light = global::BandyFW.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::EDMTDialog.Resource.Drawable.abc_list_selector_holo_dark = global::BandyFW.Resource.Drawable.abc_list_selector_holo_dark;
+			global::EDMTDialog.Resource.Drawable.abc_list_selector_holo_light = global::BandyFW.Resource.Drawable.abc_list_selector_holo_light;
+			global::EDMTDialog.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::BandyFW.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::EDMTDialog.Resource.Drawable.abc_popup_background_mtrl_mult = global::BandyFW.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::EDMTDialog.Resource.Drawable.abc_ratingbar_indicator_material = global::BandyFW.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::EDMTDialog.Resource.Drawable.abc_ratingbar_material = global::BandyFW.Resource.Drawable.abc_ratingbar_material;
+			global::EDMTDialog.Resource.Drawable.abc_ratingbar_small_material = global::BandyFW.Resource.Drawable.abc_ratingbar_small_material;
+			global::EDMTDialog.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::BandyFW.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::BandyFW.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::EDMTDialog.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::BandyFW.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::EDMTDialog.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::BandyFW.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::BandyFW.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_seekbar_thumb_material = global::BandyFW.Resource.Drawable.abc_seekbar_thumb_material;
+			global::EDMTDialog.Resource.Drawable.abc_seekbar_tick_mark_material = global::BandyFW.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::EDMTDialog.Resource.Drawable.abc_seekbar_track_material = global::BandyFW.Resource.Drawable.abc_seekbar_track_material;
+			global::EDMTDialog.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::BandyFW.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_spinner_textfield_background_material = global::BandyFW.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::EDMTDialog.Resource.Drawable.abc_switch_thumb_material = global::BandyFW.Resource.Drawable.abc_switch_thumb_material;
+			global::EDMTDialog.Resource.Drawable.abc_switch_track_mtrl_alpha = global::BandyFW.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_tab_indicator_material = global::BandyFW.Resource.Drawable.abc_tab_indicator_material;
+			global::EDMTDialog.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::BandyFW.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_text_cursor_material = global::BandyFW.Resource.Drawable.abc_text_cursor_material;
+			global::EDMTDialog.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::BandyFW.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::EDMTDialog.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::BandyFW.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::EDMTDialog.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::BandyFW.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::EDMTDialog.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::BandyFW.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::EDMTDialog.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::BandyFW.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::EDMTDialog.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::BandyFW.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::EDMTDialog.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::BandyFW.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::BandyFW.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::BandyFW.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::BandyFW.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::EDMTDialog.Resource.Drawable.abc_textfield_search_material = global::BandyFW.Resource.Drawable.abc_textfield_search_material;
+			global::EDMTDialog.Resource.Drawable.abc_vector_test = global::BandyFW.Resource.Drawable.abc_vector_test;
+			global::EDMTDialog.Resource.Drawable.notification_action_background = global::BandyFW.Resource.Drawable.notification_action_background;
+			global::EDMTDialog.Resource.Drawable.notification_bg = global::BandyFW.Resource.Drawable.notification_bg;
+			global::EDMTDialog.Resource.Drawable.notification_bg_low = global::BandyFW.Resource.Drawable.notification_bg_low;
+			global::EDMTDialog.Resource.Drawable.notification_bg_low_normal = global::BandyFW.Resource.Drawable.notification_bg_low_normal;
+			global::EDMTDialog.Resource.Drawable.notification_bg_low_pressed = global::BandyFW.Resource.Drawable.notification_bg_low_pressed;
+			global::EDMTDialog.Resource.Drawable.notification_bg_normal = global::BandyFW.Resource.Drawable.notification_bg_normal;
+			global::EDMTDialog.Resource.Drawable.notification_bg_normal_pressed = global::BandyFW.Resource.Drawable.notification_bg_normal_pressed;
+			global::EDMTDialog.Resource.Drawable.notification_icon_background = global::BandyFW.Resource.Drawable.notification_icon_background;
+			global::EDMTDialog.Resource.Drawable.notification_template_icon_bg = global::BandyFW.Resource.Drawable.notification_template_icon_bg;
+			global::EDMTDialog.Resource.Drawable.notification_template_icon_low_bg = global::BandyFW.Resource.Drawable.notification_template_icon_low_bg;
+			global::EDMTDialog.Resource.Drawable.notification_tile_bg = global::BandyFW.Resource.Drawable.notification_tile_bg;
+			global::EDMTDialog.Resource.Drawable.notify_panel_notification_icon_bg = global::BandyFW.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::EDMTDialog.Resource.Drawable.tooltip_frame_dark = global::BandyFW.Resource.Drawable.tooltip_frame_dark;
+			global::EDMTDialog.Resource.Drawable.tooltip_frame_light = global::BandyFW.Resource.Drawable.tooltip_frame_light;
+			global::EDMTDialog.Resource.Id.ALT = global::BandyFW.Resource.Id.ALT;
+			global::EDMTDialog.Resource.Id.CTRL = global::BandyFW.Resource.Id.CTRL;
+			global::EDMTDialog.Resource.Id.FUNCTION = global::BandyFW.Resource.Id.FUNCTION;
+			global::EDMTDialog.Resource.Id.META = global::BandyFW.Resource.Id.META;
+			global::EDMTDialog.Resource.Id.SHIFT = global::BandyFW.Resource.Id.SHIFT;
+			global::EDMTDialog.Resource.Id.SYM = global::BandyFW.Resource.Id.SYM;
+			global::EDMTDialog.Resource.Id.action_bar = global::BandyFW.Resource.Id.action_bar;
+			global::EDMTDialog.Resource.Id.action_bar_activity_content = global::BandyFW.Resource.Id.action_bar_activity_content;
+			global::EDMTDialog.Resource.Id.action_bar_container = global::BandyFW.Resource.Id.action_bar_container;
+			global::EDMTDialog.Resource.Id.action_bar_root = global::BandyFW.Resource.Id.action_bar_root;
+			global::EDMTDialog.Resource.Id.action_bar_spinner = global::BandyFW.Resource.Id.action_bar_spinner;
+			global::EDMTDialog.Resource.Id.action_bar_subtitle = global::BandyFW.Resource.Id.action_bar_subtitle;
+			global::EDMTDialog.Resource.Id.action_bar_title = global::BandyFW.Resource.Id.action_bar_title;
+			global::EDMTDialog.Resource.Id.action_container = global::BandyFW.Resource.Id.action_container;
+			global::EDMTDialog.Resource.Id.action_context_bar = global::BandyFW.Resource.Id.action_context_bar;
+			global::EDMTDialog.Resource.Id.action_divider = global::BandyFW.Resource.Id.action_divider;
+			global::EDMTDialog.Resource.Id.action_image = global::BandyFW.Resource.Id.action_image;
+			global::EDMTDialog.Resource.Id.action_menu_divider = global::BandyFW.Resource.Id.action_menu_divider;
+			global::EDMTDialog.Resource.Id.action_menu_presenter = global::BandyFW.Resource.Id.action_menu_presenter;
+			global::EDMTDialog.Resource.Id.action_mode_bar = global::BandyFW.Resource.Id.action_mode_bar;
+			global::EDMTDialog.Resource.Id.action_mode_bar_stub = global::BandyFW.Resource.Id.action_mode_bar_stub;
+			global::EDMTDialog.Resource.Id.action_mode_close_button = global::BandyFW.Resource.Id.action_mode_close_button;
+			global::EDMTDialog.Resource.Id.action_text = global::BandyFW.Resource.Id.action_text;
+			global::EDMTDialog.Resource.Id.actions = global::BandyFW.Resource.Id.actions;
+			global::EDMTDialog.Resource.Id.activity_chooser_view_content = global::BandyFW.Resource.Id.activity_chooser_view_content;
+			global::EDMTDialog.Resource.Id.add = global::BandyFW.Resource.Id.add;
+			global::EDMTDialog.Resource.Id.alertTitle = global::BandyFW.Resource.Id.alertTitle;
+			global::EDMTDialog.Resource.Id.always = global::BandyFW.Resource.Id.always;
+			global::EDMTDialog.Resource.Id.async = global::BandyFW.Resource.Id.async;
+			global::EDMTDialog.Resource.Id.beginning = global::BandyFW.Resource.Id.beginning;
+			global::EDMTDialog.Resource.Id.blocking = global::BandyFW.Resource.Id.blocking;
+			global::EDMTDialog.Resource.Id.bottom = global::BandyFW.Resource.Id.bottom;
+			global::EDMTDialog.Resource.Id.buttonPanel = global::BandyFW.Resource.Id.buttonPanel;
+			global::EDMTDialog.Resource.Id.checkbox = global::BandyFW.Resource.Id.checkbox;
+			global::EDMTDialog.Resource.Id.chronometer = global::BandyFW.Resource.Id.chronometer;
+			global::EDMTDialog.Resource.Id.collapseActionView = global::BandyFW.Resource.Id.collapseActionView;
+			global::EDMTDialog.Resource.Id.contentPanel = global::BandyFW.Resource.Id.contentPanel;
+			global::EDMTDialog.Resource.Id.custom = global::BandyFW.Resource.Id.custom;
+			global::EDMTDialog.Resource.Id.customPanel = global::BandyFW.Resource.Id.customPanel;
+			global::EDMTDialog.Resource.Id.decor_content_parent = global::BandyFW.Resource.Id.decor_content_parent;
+			global::EDMTDialog.Resource.Id.default_activity_button = global::BandyFW.Resource.Id.default_activity_button;
+			global::EDMTDialog.Resource.Id.disableHome = global::BandyFW.Resource.Id.disableHome;
+			global::EDMTDialog.Resource.Id.edit_query = global::BandyFW.Resource.Id.edit_query;
+			global::EDMTDialog.Resource.Id.end = global::BandyFW.Resource.Id.end;
+			global::EDMTDialog.Resource.Id.expand_activities_button = global::BandyFW.Resource.Id.expand_activities_button;
+			global::EDMTDialog.Resource.Id.expanded_menu = global::BandyFW.Resource.Id.expanded_menu;
+			global::EDMTDialog.Resource.Id.forever = global::BandyFW.Resource.Id.forever;
+			global::EDMTDialog.Resource.Id.home = global::BandyFW.Resource.Id.home;
+			global::EDMTDialog.Resource.Id.homeAsUp = global::BandyFW.Resource.Id.homeAsUp;
+			global::EDMTDialog.Resource.Id.icon = global::BandyFW.Resource.Id.icon;
+			global::EDMTDialog.Resource.Id.icon_group = global::BandyFW.Resource.Id.icon_group;
+			global::EDMTDialog.Resource.Id.ifRoom = global::BandyFW.Resource.Id.ifRoom;
+			global::EDMTDialog.Resource.Id.image = global::BandyFW.Resource.Id.image;
+			global::EDMTDialog.Resource.Id.info = global::BandyFW.Resource.Id.info;
+			global::EDMTDialog.Resource.Id.italic = global::BandyFW.Resource.Id.italic;
+			global::EDMTDialog.Resource.Id.line1 = global::BandyFW.Resource.Id.line1;
+			global::EDMTDialog.Resource.Id.line3 = global::BandyFW.Resource.Id.line3;
+			global::EDMTDialog.Resource.Id.listMode = global::BandyFW.Resource.Id.listMode;
+			global::EDMTDialog.Resource.Id.list_item = global::BandyFW.Resource.Id.list_item;
+			global::EDMTDialog.Resource.Id.marker_progress = global::BandyFW.Resource.Id.marker_progress;
+			global::EDMTDialog.Resource.Id.message = global::BandyFW.Resource.Id.message;
+			global::EDMTDialog.Resource.Id.middle = global::BandyFW.Resource.Id.middle;
+			global::EDMTDialog.Resource.Id.multiply = global::BandyFW.Resource.Id.multiply;
+			global::EDMTDialog.Resource.Id.my_text_view = global::BandyFW.Resource.Id.my_text_view;
+			global::EDMTDialog.Resource.Id.never = global::BandyFW.Resource.Id.never;
+			global::EDMTDialog.Resource.Id.none = global::BandyFW.Resource.Id.none;
+			global::EDMTDialog.Resource.Id.normal = global::BandyFW.Resource.Id.normal;
+			global::EDMTDialog.Resource.Id.notification_background = global::BandyFW.Resource.Id.notification_background;
+			global::EDMTDialog.Resource.Id.notification_main_column = global::BandyFW.Resource.Id.notification_main_column;
+			global::EDMTDialog.Resource.Id.notification_main_column_container = global::BandyFW.Resource.Id.notification_main_column_container;
+			global::EDMTDialog.Resource.Id.parentPanel = global::BandyFW.Resource.Id.parentPanel;
+			global::EDMTDialog.Resource.Id.progress_circular = global::BandyFW.Resource.Id.progress_circular;
+			global::EDMTDialog.Resource.Id.progress_horizontal = global::BandyFW.Resource.Id.progress_horizontal;
+			global::EDMTDialog.Resource.Id.radio = global::BandyFW.Resource.Id.radio;
+			global::EDMTDialog.Resource.Id.right_icon = global::BandyFW.Resource.Id.right_icon;
+			global::EDMTDialog.Resource.Id.right_side = global::BandyFW.Resource.Id.right_side;
+			global::EDMTDialog.Resource.Id.screen = global::BandyFW.Resource.Id.screen;
+			global::EDMTDialog.Resource.Id.scrollIndicatorDown = global::BandyFW.Resource.Id.scrollIndicatorDown;
+			global::EDMTDialog.Resource.Id.scrollIndicatorUp = global::BandyFW.Resource.Id.scrollIndicatorUp;
+			global::EDMTDialog.Resource.Id.scrollView = global::BandyFW.Resource.Id.scrollView;
+			global::EDMTDialog.Resource.Id.search_badge = global::BandyFW.Resource.Id.search_badge;
+			global::EDMTDialog.Resource.Id.search_bar = global::BandyFW.Resource.Id.search_bar;
+			global::EDMTDialog.Resource.Id.search_button = global::BandyFW.Resource.Id.search_button;
+			global::EDMTDialog.Resource.Id.search_close_btn = global::BandyFW.Resource.Id.search_close_btn;
+			global::EDMTDialog.Resource.Id.search_edit_frame = global::BandyFW.Resource.Id.search_edit_frame;
+			global::EDMTDialog.Resource.Id.search_go_btn = global::BandyFW.Resource.Id.search_go_btn;
+			global::EDMTDialog.Resource.Id.search_mag_icon = global::BandyFW.Resource.Id.search_mag_icon;
+			global::EDMTDialog.Resource.Id.search_plate = global::BandyFW.Resource.Id.search_plate;
+			global::EDMTDialog.Resource.Id.search_src_text = global::BandyFW.Resource.Id.search_src_text;
+			global::EDMTDialog.Resource.Id.search_voice_btn = global::BandyFW.Resource.Id.search_voice_btn;
+			global::EDMTDialog.Resource.Id.select_dialog_listview = global::BandyFW.Resource.Id.select_dialog_listview;
+			global::EDMTDialog.Resource.Id.shortcut = global::BandyFW.Resource.Id.shortcut;
+			global::EDMTDialog.Resource.Id.showCustom = global::BandyFW.Resource.Id.showCustom;
+			global::EDMTDialog.Resource.Id.showHome = global::BandyFW.Resource.Id.showHome;
+			global::EDMTDialog.Resource.Id.showTitle = global::BandyFW.Resource.Id.showTitle;
+			global::EDMTDialog.Resource.Id.spacer = global::BandyFW.Resource.Id.spacer;
+			global::EDMTDialog.Resource.Id.split_action_bar = global::BandyFW.Resource.Id.split_action_bar;
+			global::EDMTDialog.Resource.Id.src_atop = global::BandyFW.Resource.Id.src_atop;
+			global::EDMTDialog.Resource.Id.src_in = global::BandyFW.Resource.Id.src_in;
+			global::EDMTDialog.Resource.Id.src_over = global::BandyFW.Resource.Id.src_over;
+			global::EDMTDialog.Resource.Id.submenuarrow = global::BandyFW.Resource.Id.submenuarrow;
+			global::EDMTDialog.Resource.Id.submit_area = global::BandyFW.Resource.Id.submit_area;
+			global::EDMTDialog.Resource.Id.tabMode = global::BandyFW.Resource.Id.tabMode;
+			global::EDMTDialog.Resource.Id.tag_transition_group = global::BandyFW.Resource.Id.tag_transition_group;
+			global::EDMTDialog.Resource.Id.text = global::BandyFW.Resource.Id.text;
+			global::EDMTDialog.Resource.Id.text2 = global::BandyFW.Resource.Id.text2;
+			global::EDMTDialog.Resource.Id.textSpacerNoButtons = global::BandyFW.Resource.Id.textSpacerNoButtons;
+			global::EDMTDialog.Resource.Id.textSpacerNoTitle = global::BandyFW.Resource.Id.textSpacerNoTitle;
+			global::EDMTDialog.Resource.Id.time = global::BandyFW.Resource.Id.time;
+			global::EDMTDialog.Resource.Id.title = global::BandyFW.Resource.Id.title;
+			global::EDMTDialog.Resource.Id.titleDividerNoCustom = global::BandyFW.Resource.Id.titleDividerNoCustom;
+			global::EDMTDialog.Resource.Id.title_template = global::BandyFW.Resource.Id.title_template;
+			global::EDMTDialog.Resource.Id.top = global::BandyFW.Resource.Id.top;
+			global::EDMTDialog.Resource.Id.topPanel = global::BandyFW.Resource.Id.topPanel;
+			global::EDMTDialog.Resource.Id.uniform = global::BandyFW.Resource.Id.uniform;
+			global::EDMTDialog.Resource.Id.up = global::BandyFW.Resource.Id.up;
+			global::EDMTDialog.Resource.Id.useLogo = global::BandyFW.Resource.Id.useLogo;
+			global::EDMTDialog.Resource.Id.withText = global::BandyFW.Resource.Id.withText;
+			global::EDMTDialog.Resource.Id.wrap_content = global::BandyFW.Resource.Id.wrap_content;
+			global::EDMTDialog.Resource.Integer.abc_config_activityDefaultDur = global::BandyFW.Resource.Integer.abc_config_activityDefaultDur;
+			global::EDMTDialog.Resource.Integer.abc_config_activityShortDur = global::BandyFW.Resource.Integer.abc_config_activityShortDur;
+			global::EDMTDialog.Resource.Integer.cancel_button_image_alpha = global::BandyFW.Resource.Integer.cancel_button_image_alpha;
+			global::EDMTDialog.Resource.Integer.config_tooltipAnimTime = global::BandyFW.Resource.Integer.config_tooltipAnimTime;
+			global::EDMTDialog.Resource.Integer.status_bar_notification_info_maxnum = global::BandyFW.Resource.Integer.status_bar_notification_info_maxnum;
+			global::EDMTDialog.Resource.Layout.abc_action_bar_title_item = global::BandyFW.Resource.Layout.abc_action_bar_title_item;
+			global::EDMTDialog.Resource.Layout.abc_action_bar_up_container = global::BandyFW.Resource.Layout.abc_action_bar_up_container;
+			global::EDMTDialog.Resource.Layout.abc_action_menu_item_layout = global::BandyFW.Resource.Layout.abc_action_menu_item_layout;
+			global::EDMTDialog.Resource.Layout.abc_action_menu_layout = global::BandyFW.Resource.Layout.abc_action_menu_layout;
+			global::EDMTDialog.Resource.Layout.abc_action_mode_bar = global::BandyFW.Resource.Layout.abc_action_mode_bar;
+			global::EDMTDialog.Resource.Layout.abc_action_mode_close_item_material = global::BandyFW.Resource.Layout.abc_action_mode_close_item_material;
+			global::EDMTDialog.Resource.Layout.abc_activity_chooser_view = global::BandyFW.Resource.Layout.abc_activity_chooser_view;
+			global::EDMTDialog.Resource.Layout.abc_activity_chooser_view_list_item = global::BandyFW.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::EDMTDialog.Resource.Layout.abc_alert_dialog_button_bar_material = global::BandyFW.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::EDMTDialog.Resource.Layout.abc_alert_dialog_material = global::BandyFW.Resource.Layout.abc_alert_dialog_material;
+			global::EDMTDialog.Resource.Layout.abc_alert_dialog_title_material = global::BandyFW.Resource.Layout.abc_alert_dialog_title_material;
+			global::EDMTDialog.Resource.Layout.abc_dialog_title_material = global::BandyFW.Resource.Layout.abc_dialog_title_material;
+			global::EDMTDialog.Resource.Layout.abc_expanded_menu_layout = global::BandyFW.Resource.Layout.abc_expanded_menu_layout;
+			global::EDMTDialog.Resource.Layout.abc_list_menu_item_checkbox = global::BandyFW.Resource.Layout.abc_list_menu_item_checkbox;
+			global::EDMTDialog.Resource.Layout.abc_list_menu_item_icon = global::BandyFW.Resource.Layout.abc_list_menu_item_icon;
+			global::EDMTDialog.Resource.Layout.abc_list_menu_item_layout = global::BandyFW.Resource.Layout.abc_list_menu_item_layout;
+			global::EDMTDialog.Resource.Layout.abc_list_menu_item_radio = global::BandyFW.Resource.Layout.abc_list_menu_item_radio;
+			global::EDMTDialog.Resource.Layout.abc_popup_menu_header_item_layout = global::BandyFW.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::EDMTDialog.Resource.Layout.abc_popup_menu_item_layout = global::BandyFW.Resource.Layout.abc_popup_menu_item_layout;
+			global::EDMTDialog.Resource.Layout.abc_screen_content_include = global::BandyFW.Resource.Layout.abc_screen_content_include;
+			global::EDMTDialog.Resource.Layout.abc_screen_simple = global::BandyFW.Resource.Layout.abc_screen_simple;
+			global::EDMTDialog.Resource.Layout.abc_screen_simple_overlay_action_mode = global::BandyFW.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::EDMTDialog.Resource.Layout.abc_screen_toolbar = global::BandyFW.Resource.Layout.abc_screen_toolbar;
+			global::EDMTDialog.Resource.Layout.abc_search_dropdown_item_icons_2line = global::BandyFW.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::EDMTDialog.Resource.Layout.abc_search_view = global::BandyFW.Resource.Layout.abc_search_view;
+			global::EDMTDialog.Resource.Layout.abc_select_dialog_material = global::BandyFW.Resource.Layout.abc_select_dialog_material;
+			global::EDMTDialog.Resource.Layout.my_dialog_layout = global::BandyFW.Resource.Layout.my_dialog_layout;
+			global::EDMTDialog.Resource.Layout.notification_action = global::BandyFW.Resource.Layout.notification_action;
+			global::EDMTDialog.Resource.Layout.notification_action_tombstone = global::BandyFW.Resource.Layout.notification_action_tombstone;
+			global::EDMTDialog.Resource.Layout.notification_template_custom_big = global::BandyFW.Resource.Layout.notification_template_custom_big;
+			global::EDMTDialog.Resource.Layout.notification_template_icon_group = global::BandyFW.Resource.Layout.notification_template_icon_group;
+			global::EDMTDialog.Resource.Layout.notification_template_part_chronometer = global::BandyFW.Resource.Layout.notification_template_part_chronometer;
+			global::EDMTDialog.Resource.Layout.notification_template_part_time = global::BandyFW.Resource.Layout.notification_template_part_time;
+			global::EDMTDialog.Resource.Layout.select_dialog_item_material = global::BandyFW.Resource.Layout.select_dialog_item_material;
+			global::EDMTDialog.Resource.Layout.select_dialog_multichoice_material = global::BandyFW.Resource.Layout.select_dialog_multichoice_material;
+			global::EDMTDialog.Resource.Layout.select_dialog_singlechoice_material = global::BandyFW.Resource.Layout.select_dialog_singlechoice_material;
+			global::EDMTDialog.Resource.Layout.support_simple_spinner_dropdown_item = global::BandyFW.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::EDMTDialog.Resource.String.abc_action_bar_home_description = global::BandyFW.Resource.String.abc_action_bar_home_description;
+			global::EDMTDialog.Resource.String.abc_action_bar_up_description = global::BandyFW.Resource.String.abc_action_bar_up_description;
+			global::EDMTDialog.Resource.String.abc_action_menu_overflow_description = global::BandyFW.Resource.String.abc_action_menu_overflow_description;
+			global::EDMTDialog.Resource.String.abc_action_mode_done = global::BandyFW.Resource.String.abc_action_mode_done;
+			global::EDMTDialog.Resource.String.abc_activity_chooser_view_see_all = global::BandyFW.Resource.String.abc_activity_chooser_view_see_all;
+			global::EDMTDialog.Resource.String.abc_activitychooserview_choose_application = global::BandyFW.Resource.String.abc_activitychooserview_choose_application;
+			global::EDMTDialog.Resource.String.abc_capital_off = global::BandyFW.Resource.String.abc_capital_off;
+			global::EDMTDialog.Resource.String.abc_capital_on = global::BandyFW.Resource.String.abc_capital_on;
+			global::EDMTDialog.Resource.String.abc_font_family_body_1_material = global::BandyFW.Resource.String.abc_font_family_body_1_material;
+			global::EDMTDialog.Resource.String.abc_font_family_body_2_material = global::BandyFW.Resource.String.abc_font_family_body_2_material;
+			global::EDMTDialog.Resource.String.abc_font_family_button_material = global::BandyFW.Resource.String.abc_font_family_button_material;
+			global::EDMTDialog.Resource.String.abc_font_family_caption_material = global::BandyFW.Resource.String.abc_font_family_caption_material;
+			global::EDMTDialog.Resource.String.abc_font_family_display_1_material = global::BandyFW.Resource.String.abc_font_family_display_1_material;
+			global::EDMTDialog.Resource.String.abc_font_family_display_2_material = global::BandyFW.Resource.String.abc_font_family_display_2_material;
+			global::EDMTDialog.Resource.String.abc_font_family_display_3_material = global::BandyFW.Resource.String.abc_font_family_display_3_material;
+			global::EDMTDialog.Resource.String.abc_font_family_display_4_material = global::BandyFW.Resource.String.abc_font_family_display_4_material;
+			global::EDMTDialog.Resource.String.abc_font_family_headline_material = global::BandyFW.Resource.String.abc_font_family_headline_material;
+			global::EDMTDialog.Resource.String.abc_font_family_menu_material = global::BandyFW.Resource.String.abc_font_family_menu_material;
+			global::EDMTDialog.Resource.String.abc_font_family_subhead_material = global::BandyFW.Resource.String.abc_font_family_subhead_material;
+			global::EDMTDialog.Resource.String.abc_font_family_title_material = global::BandyFW.Resource.String.abc_font_family_title_material;
+			global::EDMTDialog.Resource.String.abc_search_hint = global::BandyFW.Resource.String.abc_search_hint;
+			global::EDMTDialog.Resource.String.abc_searchview_description_clear = global::BandyFW.Resource.String.abc_searchview_description_clear;
+			global::EDMTDialog.Resource.String.abc_searchview_description_query = global::BandyFW.Resource.String.abc_searchview_description_query;
+			global::EDMTDialog.Resource.String.abc_searchview_description_search = global::BandyFW.Resource.String.abc_searchview_description_search;
+			global::EDMTDialog.Resource.String.abc_searchview_description_submit = global::BandyFW.Resource.String.abc_searchview_description_submit;
+			global::EDMTDialog.Resource.String.abc_searchview_description_voice = global::BandyFW.Resource.String.abc_searchview_description_voice;
+			global::EDMTDialog.Resource.String.abc_shareactionprovider_share_with = global::BandyFW.Resource.String.abc_shareactionprovider_share_with;
+			global::EDMTDialog.Resource.String.abc_shareactionprovider_share_with_application = global::BandyFW.Resource.String.abc_shareactionprovider_share_with_application;
+			global::EDMTDialog.Resource.String.abc_toolbar_collapse_description = global::BandyFW.Resource.String.abc_toolbar_collapse_description;
+			global::EDMTDialog.Resource.String.app_name = global::BandyFW.Resource.String.app_name;
+			global::EDMTDialog.Resource.String.hello = global::BandyFW.Resource.String.hello;
+			global::EDMTDialog.Resource.String.search_menu_title = global::BandyFW.Resource.String.search_menu_title;
+			global::EDMTDialog.Resource.String.status_bar_notification_info_overflow = global::BandyFW.Resource.String.status_bar_notification_info_overflow;
+			global::EDMTDialog.Resource.Style.AlertDialog_AppCompat = global::BandyFW.Resource.Style.AlertDialog_AppCompat;
+			global::EDMTDialog.Resource.Style.AlertDialog_AppCompat_Light = global::BandyFW.Resource.Style.AlertDialog_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Animation_AppCompat_Dialog = global::BandyFW.Resource.Style.Animation_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Animation_AppCompat_DropDownUp = global::BandyFW.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::EDMTDialog.Resource.Style.Animation_AppCompat_Tooltip = global::BandyFW.Resource.Style.Animation_AppCompat_Tooltip;
+			global::EDMTDialog.Resource.Style.Base_AlertDialog_AppCompat = global::BandyFW.Resource.Style.Base_AlertDialog_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_AlertDialog_AppCompat_Light = global::BandyFW.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_Animation_AppCompat_Dialog = global::BandyFW.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::BandyFW.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::EDMTDialog.Resource.Style.Base_Animation_AppCompat_Tooltip = global::BandyFW.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::EDMTDialog.Resource.Style.Base_DialogWindowTitle_AppCompat = global::BandyFW.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::BandyFW.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Button = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Large = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Small = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Title = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::BandyFW.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::BandyFW.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::BandyFW.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::EDMTDialog.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::BandyFW.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat = global::BandyFW.Resource.Style.Base_Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::BandyFW.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Dialog = global::BandyFW.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::BandyFW.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::BandyFW.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::BandyFW.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::BandyFW.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light = global::BandyFW.Resource.Style.Base_Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::BandyFW.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::BandyFW.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::BandyFW.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::BandyFW.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::BandyFW.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::EDMTDialog.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::BandyFW.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat = global::BandyFW.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::BandyFW.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::BandyFW.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::BandyFW.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::BandyFW.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::BandyFW.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::BandyFW.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_V21_Theme_AppCompat = global::BandyFW.Resource.Style.Base_V21_Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::BandyFW.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V21_Theme_AppCompat_Light = global::BandyFW.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::BandyFW.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::BandyFW.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V22_Theme_AppCompat = global::BandyFW.Resource.Style.Base_V22_Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_V22_Theme_AppCompat_Light = global::BandyFW.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_V23_Theme_AppCompat = global::BandyFW.Resource.Style.Base_V23_Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_V23_Theme_AppCompat_Light = global::BandyFW.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_V26_Theme_AppCompat = global::BandyFW.Resource.Style.Base_V26_Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_V26_Theme_AppCompat_Light = global::BandyFW.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::BandyFW.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::EDMTDialog.Resource.Style.Base_V7_Theme_AppCompat = global::BandyFW.Resource.Style.Base_V7_Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::BandyFW.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V7_Theme_AppCompat_Light = global::BandyFW.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::BandyFW.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::BandyFW.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::BandyFW.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::EDMTDialog.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::BandyFW.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::EDMTDialog.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::BandyFW.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionBar = global::BandyFW.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::BandyFW.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::BandyFW.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::BandyFW.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::BandyFW.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionButton = global::BandyFW.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::BandyFW.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::BandyFW.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActionMode = global::BandyFW.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::BandyFW.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::BandyFW.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Button = global::BandyFW.Resource.Style.Base_Widget_AppCompat_Button;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::BandyFW.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::BandyFW.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::BandyFW.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::BandyFW.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Button_Small = global::BandyFW.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::BandyFW.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::BandyFW.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::BandyFW.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::BandyFW.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::BandyFW.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::BandyFW.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::BandyFW.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::BandyFW.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_EditText = global::BandyFW.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ImageButton = global::BandyFW.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::BandyFW.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::BandyFW.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::BandyFW.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::BandyFW.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::BandyFW.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::BandyFW.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::BandyFW.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::BandyFW.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::BandyFW.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::BandyFW.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ListView = global::BandyFW.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::BandyFW.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::BandyFW.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::BandyFW.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::BandyFW.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::BandyFW.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::BandyFW.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::BandyFW.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_RatingBar = global::BandyFW.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::BandyFW.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::BandyFW.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_SearchView = global::BandyFW.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::BandyFW.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_SeekBar = global::BandyFW.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::BandyFW.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Spinner = global::BandyFW.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::BandyFW.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::BandyFW.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Toolbar = global::BandyFW.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::EDMTDialog.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::BandyFW.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::EDMTDialog.Resource.Style.Platform_AppCompat = global::BandyFW.Resource.Style.Platform_AppCompat;
+			global::EDMTDialog.Resource.Style.Platform_AppCompat_Light = global::BandyFW.Resource.Style.Platform_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Platform_ThemeOverlay_AppCompat = global::BandyFW.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::EDMTDialog.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::BandyFW.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::EDMTDialog.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::BandyFW.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Platform_V21_AppCompat = global::BandyFW.Resource.Style.Platform_V21_AppCompat;
+			global::EDMTDialog.Resource.Style.Platform_V21_AppCompat_Light = global::BandyFW.Resource.Style.Platform_V21_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Platform_V25_AppCompat = global::BandyFW.Resource.Style.Platform_V25_AppCompat;
+			global::EDMTDialog.Resource.Style.Platform_V25_AppCompat_Light = global::BandyFW.Resource.Style.Platform_V25_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Platform_Widget_AppCompat_Spinner = global::BandyFW.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::EDMTDialog.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::BandyFW.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::BandyFW.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::BandyFW.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::BandyFW.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::BandyFW.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::BandyFW.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::BandyFW.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::BandyFW.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::BandyFW.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::BandyFW.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::BandyFW.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::EDMTDialog.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::BandyFW.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::EDMTDialog.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::BandyFW.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::EDMTDialog.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::BandyFW.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::EDMTDialog.Resource.Style.SpotsDialogDefault = global::BandyFW.Resource.Style.SpotsDialogDefault;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat = global::BandyFW.Resource.Style.TextAppearance_AppCompat;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Body1 = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Body2 = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Button = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Button;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Caption = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Display1 = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Display2 = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Display3 = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Display4 = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Headline = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Inverse = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Large = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Large;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Medium = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Menu = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::BandyFW.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::BandyFW.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Small = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Small;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Subhead = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Title = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Title;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Tooltip = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::EDMTDialog.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::BandyFW.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification = global::BandyFW.Resource.Style.TextAppearance_Compat_Notification;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Info = global::BandyFW.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::BandyFW.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Time = global::BandyFW.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::EDMTDialog.Resource.Style.TextAppearance_Compat_Notification_Title = global::BandyFW.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::EDMTDialog.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::BandyFW.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::EDMTDialog.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::BandyFW.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::EDMTDialog.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::BandyFW.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat = global::BandyFW.Resource.Style.Theme_AppCompat;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_CompactMenu = global::BandyFW.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight = global::BandyFW.Resource.Style.Theme_AppCompat_DayNight;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::BandyFW.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::BandyFW.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::BandyFW.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::BandyFW.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::BandyFW.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::BandyFW.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Dialog = global::BandyFW.Resource.Style.Theme_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Dialog_Alert = global::BandyFW.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::BandyFW.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::BandyFW.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light = global::BandyFW.Resource.Style.Theme_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::BandyFW.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light_Dialog = global::BandyFW.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::BandyFW.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::BandyFW.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::BandyFW.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::BandyFW.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::EDMTDialog.Resource.Style.Theme_AppCompat_NoActionBar = global::BandyFW.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat = global::BandyFW.Resource.Style.ThemeOverlay_AppCompat;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::BandyFW.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat_Dark = global::BandyFW.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::BandyFW.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::BandyFW.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::BandyFW.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::EDMTDialog.Resource.Style.ThemeOverlay_AppCompat_Light = global::BandyFW.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionBar = global::BandyFW.Resource.Style.Widget_AppCompat_ActionBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::BandyFW.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::BandyFW.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::BandyFW.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::BandyFW.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionButton = global::BandyFW.Resource.Style.Widget_AppCompat_ActionButton;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::BandyFW.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::BandyFW.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActionMode = global::BandyFW.Resource.Style.Widget_AppCompat_ActionMode;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ActivityChooserView = global::BandyFW.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::BandyFW.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Button = global::BandyFW.Resource.Style.Widget_AppCompat_Button;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Button_Borderless = global::BandyFW.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::BandyFW.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::BandyFW.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Button_Colored = global::BandyFW.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Button_Small = global::BandyFW.Resource.Style.Widget_AppCompat_Button_Small;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ButtonBar = global::BandyFW.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::BandyFW.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::BandyFW.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::BandyFW.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::BandyFW.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::BandyFW.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::BandyFW.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_EditText = global::BandyFW.Resource.Style.Widget_AppCompat_EditText;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ImageButton = global::BandyFW.Resource.Style.Widget_AppCompat_ImageButton;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar = global::BandyFW.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::BandyFW.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::BandyFW.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::BandyFW.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::BandyFW.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::BandyFW.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::BandyFW.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::BandyFW.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::BandyFW.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionButton = global::BandyFW.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::BandyFW.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::BandyFW.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::BandyFW.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::BandyFW.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::BandyFW.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::BandyFW.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::BandyFW.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::BandyFW.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::BandyFW.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::BandyFW.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_SearchView = global::BandyFW.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::BandyFW.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ListMenuView = global::BandyFW.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ListPopupWindow = global::BandyFW.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ListView = global::BandyFW.Resource.Style.Widget_AppCompat_ListView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ListView_DropDown = global::BandyFW.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ListView_Menu = global::BandyFW.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_PopupMenu = global::BandyFW.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::BandyFW.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_PopupWindow = global::BandyFW.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ProgressBar = global::BandyFW.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::BandyFW.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_RatingBar = global::BandyFW.Resource.Style.Widget_AppCompat_RatingBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::BandyFW.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_RatingBar_Small = global::BandyFW.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_SearchView = global::BandyFW.Resource.Style.Widget_AppCompat_SearchView;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::BandyFW.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_SeekBar = global::BandyFW.Resource.Style.Widget_AppCompat_SeekBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::BandyFW.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Spinner = global::BandyFW.Resource.Style.Widget_AppCompat_Spinner;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::BandyFW.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::BandyFW.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::BandyFW.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::BandyFW.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Toolbar = global::BandyFW.Resource.Style.Widget_AppCompat_Toolbar;
+			global::EDMTDialog.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::BandyFW.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::EDMTDialog.Resource.Style.Widget_Compat_NotificationActionContainer = global::BandyFW.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::EDMTDialog.Resource.Style.Widget_Compat_NotificationActionText = global::BandyFW.Resource.Style.Widget_Compat_NotificationActionText;
+			global::EDMTDialog.Resource.Styleable.ActionBar = global::BandyFW.Resource.Styleable.ActionBar;
+			global::EDMTDialog.Resource.Styleable.ActionBar_background = global::BandyFW.Resource.Styleable.ActionBar_background;
+			global::EDMTDialog.Resource.Styleable.ActionBar_backgroundSplit = global::BandyFW.Resource.Styleable.ActionBar_backgroundSplit;
+			global::EDMTDialog.Resource.Styleable.ActionBar_backgroundStacked = global::BandyFW.Resource.Styleable.ActionBar_backgroundStacked;
+			global::EDMTDialog.Resource.Styleable.ActionBar_contentInsetEnd = global::BandyFW.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::EDMTDialog.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::BandyFW.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::EDMTDialog.Resource.Styleable.ActionBar_contentInsetLeft = global::BandyFW.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::EDMTDialog.Resource.Styleable.ActionBar_contentInsetRight = global::BandyFW.Resource.Styleable.ActionBar_contentInsetRight;
+			global::EDMTDialog.Resource.Styleable.ActionBar_contentInsetStart = global::BandyFW.Resource.Styleable.ActionBar_contentInsetStart;
+			global::EDMTDialog.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::BandyFW.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::EDMTDialog.Resource.Styleable.ActionBar_customNavigationLayout = global::BandyFW.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::EDMTDialog.Resource.Styleable.ActionBar_displayOptions = global::BandyFW.Resource.Styleable.ActionBar_displayOptions;
+			global::EDMTDialog.Resource.Styleable.ActionBar_divider = global::BandyFW.Resource.Styleable.ActionBar_divider;
+			global::EDMTDialog.Resource.Styleable.ActionBar_elevation = global::BandyFW.Resource.Styleable.ActionBar_elevation;
+			global::EDMTDialog.Resource.Styleable.ActionBar_height = global::BandyFW.Resource.Styleable.ActionBar_height;
+			global::EDMTDialog.Resource.Styleable.ActionBar_hideOnContentScroll = global::BandyFW.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::EDMTDialog.Resource.Styleable.ActionBar_homeAsUpIndicator = global::BandyFW.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::EDMTDialog.Resource.Styleable.ActionBar_homeLayout = global::BandyFW.Resource.Styleable.ActionBar_homeLayout;
+			global::EDMTDialog.Resource.Styleable.ActionBar_icon = global::BandyFW.Resource.Styleable.ActionBar_icon;
+			global::EDMTDialog.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::BandyFW.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::EDMTDialog.Resource.Styleable.ActionBar_itemPadding = global::BandyFW.Resource.Styleable.ActionBar_itemPadding;
+			global::EDMTDialog.Resource.Styleable.ActionBar_logo = global::BandyFW.Resource.Styleable.ActionBar_logo;
+			global::EDMTDialog.Resource.Styleable.ActionBar_navigationMode = global::BandyFW.Resource.Styleable.ActionBar_navigationMode;
+			global::EDMTDialog.Resource.Styleable.ActionBar_popupTheme = global::BandyFW.Resource.Styleable.ActionBar_popupTheme;
+			global::EDMTDialog.Resource.Styleable.ActionBar_progressBarPadding = global::BandyFW.Resource.Styleable.ActionBar_progressBarPadding;
+			global::EDMTDialog.Resource.Styleable.ActionBar_progressBarStyle = global::BandyFW.Resource.Styleable.ActionBar_progressBarStyle;
+			global::EDMTDialog.Resource.Styleable.ActionBar_subtitle = global::BandyFW.Resource.Styleable.ActionBar_subtitle;
+			global::EDMTDialog.Resource.Styleable.ActionBar_subtitleTextStyle = global::BandyFW.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::EDMTDialog.Resource.Styleable.ActionBar_title = global::BandyFW.Resource.Styleable.ActionBar_title;
+			global::EDMTDialog.Resource.Styleable.ActionBar_titleTextStyle = global::BandyFW.Resource.Styleable.ActionBar_titleTextStyle;
+			global::EDMTDialog.Resource.Styleable.ActionBarLayout = global::BandyFW.Resource.Styleable.ActionBarLayout;
+			global::EDMTDialog.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::BandyFW.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::EDMTDialog.Resource.Styleable.ActionMenuItemView = global::BandyFW.Resource.Styleable.ActionMenuItemView;
+			global::EDMTDialog.Resource.Styleable.ActionMenuItemView_android_minWidth = global::BandyFW.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::EDMTDialog.Resource.Styleable.ActionMenuView = global::BandyFW.Resource.Styleable.ActionMenuView;
+			global::EDMTDialog.Resource.Styleable.ActionMode = global::BandyFW.Resource.Styleable.ActionMode;
+			global::EDMTDialog.Resource.Styleable.ActionMode_background = global::BandyFW.Resource.Styleable.ActionMode_background;
+			global::EDMTDialog.Resource.Styleable.ActionMode_backgroundSplit = global::BandyFW.Resource.Styleable.ActionMode_backgroundSplit;
+			global::EDMTDialog.Resource.Styleable.ActionMode_closeItemLayout = global::BandyFW.Resource.Styleable.ActionMode_closeItemLayout;
+			global::EDMTDialog.Resource.Styleable.ActionMode_height = global::BandyFW.Resource.Styleable.ActionMode_height;
+			global::EDMTDialog.Resource.Styleable.ActionMode_subtitleTextStyle = global::BandyFW.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::EDMTDialog.Resource.Styleable.ActionMode_titleTextStyle = global::BandyFW.Resource.Styleable.ActionMode_titleTextStyle;
+			global::EDMTDialog.Resource.Styleable.ActivityChooserView = global::BandyFW.Resource.Styleable.ActivityChooserView;
+			global::EDMTDialog.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::BandyFW.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::EDMTDialog.Resource.Styleable.ActivityChooserView_initialActivityCount = global::BandyFW.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::EDMTDialog.Resource.Styleable.AlertDialog = global::BandyFW.Resource.Styleable.AlertDialog;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_android_layout = global::BandyFW.Resource.Styleable.AlertDialog_android_layout;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::BandyFW.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_listItemLayout = global::BandyFW.Resource.Styleable.AlertDialog_listItemLayout;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_listLayout = global::BandyFW.Resource.Styleable.AlertDialog_listLayout;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::BandyFW.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_showTitle = global::BandyFW.Resource.Styleable.AlertDialog_showTitle;
+			global::EDMTDialog.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::BandyFW.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::EDMTDialog.Resource.Styleable.AppCompatImageView = global::BandyFW.Resource.Styleable.AppCompatImageView;
+			global::EDMTDialog.Resource.Styleable.AppCompatImageView_android_src = global::BandyFW.Resource.Styleable.AppCompatImageView_android_src;
+			global::EDMTDialog.Resource.Styleable.AppCompatImageView_srcCompat = global::BandyFW.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::EDMTDialog.Resource.Styleable.AppCompatImageView_tint = global::BandyFW.Resource.Styleable.AppCompatImageView_tint;
+			global::EDMTDialog.Resource.Styleable.AppCompatImageView_tintMode = global::BandyFW.Resource.Styleable.AppCompatImageView_tintMode;
+			global::EDMTDialog.Resource.Styleable.AppCompatSeekBar = global::BandyFW.Resource.Styleable.AppCompatSeekBar;
+			global::EDMTDialog.Resource.Styleable.AppCompatSeekBar_android_thumb = global::BandyFW.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::EDMTDialog.Resource.Styleable.AppCompatSeekBar_tickMark = global::BandyFW.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::EDMTDialog.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::BandyFW.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::EDMTDialog.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::BandyFW.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper = global::BandyFW.Resource.Styleable.AppCompatTextHelper;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::BandyFW.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::BandyFW.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::BandyFW.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::BandyFW.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::BandyFW.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::BandyFW.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::BandyFW.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView = global::BandyFW.Resource.Styleable.AppCompatTextView;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_android_textAppearance = global::BandyFW.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::BandyFW.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::BandyFW.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::BandyFW.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::BandyFW.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::BandyFW.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_fontFamily = global::BandyFW.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::EDMTDialog.Resource.Styleable.AppCompatTextView_textAllCaps = global::BandyFW.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme = global::BandyFW.Resource.Styleable.AppCompatTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarDivider = global::BandyFW.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::BandyFW.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::BandyFW.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarSize = global::BandyFW.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarTheme = global::BandyFW.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::BandyFW.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::BandyFW.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::BandyFW.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeBackground = global::BandyFW.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::BandyFW.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::BandyFW.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::BandyFW.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::BandyFW.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::BandyFW.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::BandyFW.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::BandyFW.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::BandyFW.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::BandyFW.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::BandyFW.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::BandyFW.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::BandyFW.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::BandyFW.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_checkboxStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorAccent = global::BandyFW.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::BandyFW.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::BandyFW.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorControlActivated = global::BandyFW.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::BandyFW.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorControlNormal = global::BandyFW.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorError = global::BandyFW.Resource.Styleable.AppCompatTheme_colorError;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorPrimary = global::BandyFW.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::BandyFW.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::BandyFW.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_controlBackground = global::BandyFW.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::BandyFW.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_dialogTheme = global::BandyFW.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::BandyFW.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_dividerVertical = global::BandyFW.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::BandyFW.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_editTextBackground = global::BandyFW.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_editTextColor = global::BandyFW.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_editTextStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::BandyFW.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::BandyFW.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::BandyFW.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::BandyFW.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::BandyFW.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::BandyFW.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::BandyFW.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::BandyFW.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_panelBackground = global::BandyFW.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::BandyFW.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::BandyFW.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::BandyFW.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::BandyFW.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_searchViewStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_seekBarStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::BandyFW.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::BandyFW.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_spinnerStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_switchStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::BandyFW.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::BandyFW.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::BandyFW.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::BandyFW.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::BandyFW.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::BandyFW.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::BandyFW.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::BandyFW.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::BandyFW.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::BandyFW.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_toolbarStyle = global::BandyFW.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::BandyFW.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::BandyFW.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowActionBar = global::BandyFW.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::BandyFW.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::BandyFW.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::BandyFW.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::BandyFW.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::BandyFW.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::BandyFW.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::BandyFW.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::BandyFW.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::EDMTDialog.Resource.Styleable.AppCompatTheme_windowNoTitle = global::BandyFW.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::EDMTDialog.Resource.Styleable.ButtonBarLayout = global::BandyFW.Resource.Styleable.ButtonBarLayout;
+			global::EDMTDialog.Resource.Styleable.ButtonBarLayout_allowStacking = global::BandyFW.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::EDMTDialog.Resource.Styleable.ColorStateListItem = global::BandyFW.Resource.Styleable.ColorStateListItem;
+			global::EDMTDialog.Resource.Styleable.ColorStateListItem_alpha = global::BandyFW.Resource.Styleable.ColorStateListItem_alpha;
+			global::EDMTDialog.Resource.Styleable.ColorStateListItem_android_alpha = global::BandyFW.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::EDMTDialog.Resource.Styleable.ColorStateListItem_android_color = global::BandyFW.Resource.Styleable.ColorStateListItem_android_color;
+			global::EDMTDialog.Resource.Styleable.CompoundButton = global::BandyFW.Resource.Styleable.CompoundButton;
+			global::EDMTDialog.Resource.Styleable.CompoundButton_android_button = global::BandyFW.Resource.Styleable.CompoundButton_android_button;
+			global::EDMTDialog.Resource.Styleable.CompoundButton_buttonTint = global::BandyFW.Resource.Styleable.CompoundButton_buttonTint;
+			global::EDMTDialog.Resource.Styleable.CompoundButton_buttonTintMode = global::BandyFW.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::EDMTDialog.Resource.Styleable.Dialog = global::BandyFW.Resource.Styleable.Dialog;
+			global::EDMTDialog.Resource.Styleable.Dialog_DialogSpotColor = global::BandyFW.Resource.Styleable.Dialog_DialogSpotColor;
+			global::EDMTDialog.Resource.Styleable.Dialog_DialogSpotCount = global::BandyFW.Resource.Styleable.Dialog_DialogSpotCount;
+			global::EDMTDialog.Resource.Styleable.Dialog_DialogTitleAppearance = global::BandyFW.Resource.Styleable.Dialog_DialogTitleAppearance;
+			global::EDMTDialog.Resource.Styleable.Dialog_DialogTitleText = global::BandyFW.Resource.Styleable.Dialog_DialogTitleText;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle = global::BandyFW.Resource.Styleable.DrawerArrowToggle;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::BandyFW.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::BandyFW.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_barLength = global::BandyFW.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_color = global::BandyFW.Resource.Styleable.DrawerArrowToggle_color;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_drawableSize = global::BandyFW.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::BandyFW.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_spinBars = global::BandyFW.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::EDMTDialog.Resource.Styleable.DrawerArrowToggle_thickness = global::BandyFW.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::EDMTDialog.Resource.Styleable.FontFamily = global::BandyFW.Resource.Styleable.FontFamily;
+			global::EDMTDialog.Resource.Styleable.FontFamily_fontProviderAuthority = global::BandyFW.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::EDMTDialog.Resource.Styleable.FontFamily_fontProviderCerts = global::BandyFW.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::EDMTDialog.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::BandyFW.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::EDMTDialog.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::BandyFW.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::EDMTDialog.Resource.Styleable.FontFamily_fontProviderPackage = global::BandyFW.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::EDMTDialog.Resource.Styleable.FontFamily_fontProviderQuery = global::BandyFW.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont = global::BandyFW.Resource.Styleable.FontFamilyFont;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont_android_font = global::BandyFW.Resource.Styleable.FontFamilyFont_android_font;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont_android_fontStyle = global::BandyFW.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont_android_fontWeight = global::BandyFW.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont_font = global::BandyFW.Resource.Styleable.FontFamilyFont_font;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont_fontStyle = global::BandyFW.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::EDMTDialog.Resource.Styleable.FontFamilyFont_fontWeight = global::BandyFW.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat = global::BandyFW.Resource.Styleable.LinearLayoutCompat;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::BandyFW.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::BandyFW.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_android_gravity = global::BandyFW.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_android_orientation = global::BandyFW.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::BandyFW.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_divider = global::BandyFW.Resource.Styleable.LinearLayoutCompat_divider;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::BandyFW.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::BandyFW.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_showDividers = global::BandyFW.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_Layout = global::BandyFW.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::BandyFW.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::BandyFW.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::BandyFW.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::EDMTDialog.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::BandyFW.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::EDMTDialog.Resource.Styleable.ListPopupWindow = global::BandyFW.Resource.Styleable.ListPopupWindow;
+			global::EDMTDialog.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::BandyFW.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::EDMTDialog.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::BandyFW.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::EDMTDialog.Resource.Styleable.MenuGroup = global::BandyFW.Resource.Styleable.MenuGroup;
+			global::EDMTDialog.Resource.Styleable.MenuGroup_android_checkableBehavior = global::BandyFW.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::EDMTDialog.Resource.Styleable.MenuGroup_android_enabled = global::BandyFW.Resource.Styleable.MenuGroup_android_enabled;
+			global::EDMTDialog.Resource.Styleable.MenuGroup_android_id = global::BandyFW.Resource.Styleable.MenuGroup_android_id;
+			global::EDMTDialog.Resource.Styleable.MenuGroup_android_menuCategory = global::BandyFW.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::EDMTDialog.Resource.Styleable.MenuGroup_android_orderInCategory = global::BandyFW.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::EDMTDialog.Resource.Styleable.MenuGroup_android_visible = global::BandyFW.Resource.Styleable.MenuGroup_android_visible;
+			global::EDMTDialog.Resource.Styleable.MenuItem = global::BandyFW.Resource.Styleable.MenuItem;
+			global::EDMTDialog.Resource.Styleable.MenuItem_actionLayout = global::BandyFW.Resource.Styleable.MenuItem_actionLayout;
+			global::EDMTDialog.Resource.Styleable.MenuItem_actionProviderClass = global::BandyFW.Resource.Styleable.MenuItem_actionProviderClass;
+			global::EDMTDialog.Resource.Styleable.MenuItem_actionViewClass = global::BandyFW.Resource.Styleable.MenuItem_actionViewClass;
+			global::EDMTDialog.Resource.Styleable.MenuItem_alphabeticModifiers = global::BandyFW.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::BandyFW.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_checkable = global::BandyFW.Resource.Styleable.MenuItem_android_checkable;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_checked = global::BandyFW.Resource.Styleable.MenuItem_android_checked;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_enabled = global::BandyFW.Resource.Styleable.MenuItem_android_enabled;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_icon = global::BandyFW.Resource.Styleable.MenuItem_android_icon;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_id = global::BandyFW.Resource.Styleable.MenuItem_android_id;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_menuCategory = global::BandyFW.Resource.Styleable.MenuItem_android_menuCategory;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_numericShortcut = global::BandyFW.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_onClick = global::BandyFW.Resource.Styleable.MenuItem_android_onClick;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_orderInCategory = global::BandyFW.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_title = global::BandyFW.Resource.Styleable.MenuItem_android_title;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_titleCondensed = global::BandyFW.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::EDMTDialog.Resource.Styleable.MenuItem_android_visible = global::BandyFW.Resource.Styleable.MenuItem_android_visible;
+			global::EDMTDialog.Resource.Styleable.MenuItem_contentDescription = global::BandyFW.Resource.Styleable.MenuItem_contentDescription;
+			global::EDMTDialog.Resource.Styleable.MenuItem_iconTint = global::BandyFW.Resource.Styleable.MenuItem_iconTint;
+			global::EDMTDialog.Resource.Styleable.MenuItem_iconTintMode = global::BandyFW.Resource.Styleable.MenuItem_iconTintMode;
+			global::EDMTDialog.Resource.Styleable.MenuItem_numericModifiers = global::BandyFW.Resource.Styleable.MenuItem_numericModifiers;
+			global::EDMTDialog.Resource.Styleable.MenuItem_showAsAction = global::BandyFW.Resource.Styleable.MenuItem_showAsAction;
+			global::EDMTDialog.Resource.Styleable.MenuItem_tooltipText = global::BandyFW.Resource.Styleable.MenuItem_tooltipText;
+			global::EDMTDialog.Resource.Styleable.MenuView = global::BandyFW.Resource.Styleable.MenuView;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_headerBackground = global::BandyFW.Resource.Styleable.MenuView_android_headerBackground;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_horizontalDivider = global::BandyFW.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_itemBackground = global::BandyFW.Resource.Styleable.MenuView_android_itemBackground;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::BandyFW.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_itemTextAppearance = global::BandyFW.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_verticalDivider = global::BandyFW.Resource.Styleable.MenuView_android_verticalDivider;
+			global::EDMTDialog.Resource.Styleable.MenuView_android_windowAnimationStyle = global::BandyFW.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::EDMTDialog.Resource.Styleable.MenuView_preserveIconSpacing = global::BandyFW.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::EDMTDialog.Resource.Styleable.MenuView_subMenuArrow = global::BandyFW.Resource.Styleable.MenuView_subMenuArrow;
+			global::EDMTDialog.Resource.Styleable.PopupWindow = global::BandyFW.Resource.Styleable.PopupWindow;
+			global::EDMTDialog.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::BandyFW.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::EDMTDialog.Resource.Styleable.PopupWindow_android_popupBackground = global::BandyFW.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::EDMTDialog.Resource.Styleable.PopupWindow_overlapAnchor = global::BandyFW.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::EDMTDialog.Resource.Styleable.PopupWindowBackgroundState = global::BandyFW.Resource.Styleable.PopupWindowBackgroundState;
+			global::EDMTDialog.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::BandyFW.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::EDMTDialog.Resource.Styleable.RecycleListView = global::BandyFW.Resource.Styleable.RecycleListView;
+			global::EDMTDialog.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::BandyFW.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::EDMTDialog.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::BandyFW.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::EDMTDialog.Resource.Styleable.SearchView = global::BandyFW.Resource.Styleable.SearchView;
+			global::EDMTDialog.Resource.Styleable.SearchView_android_focusable = global::BandyFW.Resource.Styleable.SearchView_android_focusable;
+			global::EDMTDialog.Resource.Styleable.SearchView_android_imeOptions = global::BandyFW.Resource.Styleable.SearchView_android_imeOptions;
+			global::EDMTDialog.Resource.Styleable.SearchView_android_inputType = global::BandyFW.Resource.Styleable.SearchView_android_inputType;
+			global::EDMTDialog.Resource.Styleable.SearchView_android_maxWidth = global::BandyFW.Resource.Styleable.SearchView_android_maxWidth;
+			global::EDMTDialog.Resource.Styleable.SearchView_closeIcon = global::BandyFW.Resource.Styleable.SearchView_closeIcon;
+			global::EDMTDialog.Resource.Styleable.SearchView_commitIcon = global::BandyFW.Resource.Styleable.SearchView_commitIcon;
+			global::EDMTDialog.Resource.Styleable.SearchView_defaultQueryHint = global::BandyFW.Resource.Styleable.SearchView_defaultQueryHint;
+			global::EDMTDialog.Resource.Styleable.SearchView_goIcon = global::BandyFW.Resource.Styleable.SearchView_goIcon;
+			global::EDMTDialog.Resource.Styleable.SearchView_iconifiedByDefault = global::BandyFW.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::EDMTDialog.Resource.Styleable.SearchView_layout = global::BandyFW.Resource.Styleable.SearchView_layout;
+			global::EDMTDialog.Resource.Styleable.SearchView_queryBackground = global::BandyFW.Resource.Styleable.SearchView_queryBackground;
+			global::EDMTDialog.Resource.Styleable.SearchView_queryHint = global::BandyFW.Resource.Styleable.SearchView_queryHint;
+			global::EDMTDialog.Resource.Styleable.SearchView_searchHintIcon = global::BandyFW.Resource.Styleable.SearchView_searchHintIcon;
+			global::EDMTDialog.Resource.Styleable.SearchView_searchIcon = global::BandyFW.Resource.Styleable.SearchView_searchIcon;
+			global::EDMTDialog.Resource.Styleable.SearchView_submitBackground = global::BandyFW.Resource.Styleable.SearchView_submitBackground;
+			global::EDMTDialog.Resource.Styleable.SearchView_suggestionRowLayout = global::BandyFW.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::EDMTDialog.Resource.Styleable.SearchView_voiceIcon = global::BandyFW.Resource.Styleable.SearchView_voiceIcon;
+			global::EDMTDialog.Resource.Styleable.Spinner = global::BandyFW.Resource.Styleable.Spinner;
+			global::EDMTDialog.Resource.Styleable.Spinner_android_dropDownWidth = global::BandyFW.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::EDMTDialog.Resource.Styleable.Spinner_android_entries = global::BandyFW.Resource.Styleable.Spinner_android_entries;
+			global::EDMTDialog.Resource.Styleable.Spinner_android_popupBackground = global::BandyFW.Resource.Styleable.Spinner_android_popupBackground;
+			global::EDMTDialog.Resource.Styleable.Spinner_android_prompt = global::BandyFW.Resource.Styleable.Spinner_android_prompt;
+			global::EDMTDialog.Resource.Styleable.Spinner_popupTheme = global::BandyFW.Resource.Styleable.Spinner_popupTheme;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat = global::BandyFW.Resource.Styleable.SwitchCompat;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_android_textOff = global::BandyFW.Resource.Styleable.SwitchCompat_android_textOff;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_android_textOn = global::BandyFW.Resource.Styleable.SwitchCompat_android_textOn;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_android_thumb = global::BandyFW.Resource.Styleable.SwitchCompat_android_thumb;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_showText = global::BandyFW.Resource.Styleable.SwitchCompat_showText;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_splitTrack = global::BandyFW.Resource.Styleable.SwitchCompat_splitTrack;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_switchMinWidth = global::BandyFW.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_switchPadding = global::BandyFW.Resource.Styleable.SwitchCompat_switchPadding;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_switchTextAppearance = global::BandyFW.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_thumbTextPadding = global::BandyFW.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_thumbTint = global::BandyFW.Resource.Styleable.SwitchCompat_thumbTint;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_thumbTintMode = global::BandyFW.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_track = global::BandyFW.Resource.Styleable.SwitchCompat_track;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_trackTint = global::BandyFW.Resource.Styleable.SwitchCompat_trackTint;
+			global::EDMTDialog.Resource.Styleable.SwitchCompat_trackTintMode = global::BandyFW.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::EDMTDialog.Resource.Styleable.TextAppearance = global::BandyFW.Resource.Styleable.TextAppearance;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_fontFamily = global::BandyFW.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_shadowColor = global::BandyFW.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_shadowDx = global::BandyFW.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_shadowDy = global::BandyFW.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_shadowRadius = global::BandyFW.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_textColor = global::BandyFW.Resource.Styleable.TextAppearance_android_textColor;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_textColorHint = global::BandyFW.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_textColorLink = global::BandyFW.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_textSize = global::BandyFW.Resource.Styleable.TextAppearance_android_textSize;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_textStyle = global::BandyFW.Resource.Styleable.TextAppearance_android_textStyle;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_android_typeface = global::BandyFW.Resource.Styleable.TextAppearance_android_typeface;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_fontFamily = global::BandyFW.Resource.Styleable.TextAppearance_fontFamily;
+			global::EDMTDialog.Resource.Styleable.TextAppearance_textAllCaps = global::BandyFW.Resource.Styleable.TextAppearance_textAllCaps;
+			global::EDMTDialog.Resource.Styleable.Toolbar = global::BandyFW.Resource.Styleable.Toolbar;
+			global::EDMTDialog.Resource.Styleable.Toolbar_android_gravity = global::BandyFW.Resource.Styleable.Toolbar_android_gravity;
+			global::EDMTDialog.Resource.Styleable.Toolbar_android_minHeight = global::BandyFW.Resource.Styleable.Toolbar_android_minHeight;
+			global::EDMTDialog.Resource.Styleable.Toolbar_buttonGravity = global::BandyFW.Resource.Styleable.Toolbar_buttonGravity;
+			global::EDMTDialog.Resource.Styleable.Toolbar_collapseContentDescription = global::BandyFW.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::EDMTDialog.Resource.Styleable.Toolbar_collapseIcon = global::BandyFW.Resource.Styleable.Toolbar_collapseIcon;
+			global::EDMTDialog.Resource.Styleable.Toolbar_contentInsetEnd = global::BandyFW.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::EDMTDialog.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::BandyFW.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::EDMTDialog.Resource.Styleable.Toolbar_contentInsetLeft = global::BandyFW.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::EDMTDialog.Resource.Styleable.Toolbar_contentInsetRight = global::BandyFW.Resource.Styleable.Toolbar_contentInsetRight;
+			global::EDMTDialog.Resource.Styleable.Toolbar_contentInsetStart = global::BandyFW.Resource.Styleable.Toolbar_contentInsetStart;
+			global::EDMTDialog.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::BandyFW.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::EDMTDialog.Resource.Styleable.Toolbar_logo = global::BandyFW.Resource.Styleable.Toolbar_logo;
+			global::EDMTDialog.Resource.Styleable.Toolbar_logoDescription = global::BandyFW.Resource.Styleable.Toolbar_logoDescription;
+			global::EDMTDialog.Resource.Styleable.Toolbar_maxButtonHeight = global::BandyFW.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::EDMTDialog.Resource.Styleable.Toolbar_navigationContentDescription = global::BandyFW.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::EDMTDialog.Resource.Styleable.Toolbar_navigationIcon = global::BandyFW.Resource.Styleable.Toolbar_navigationIcon;
+			global::EDMTDialog.Resource.Styleable.Toolbar_popupTheme = global::BandyFW.Resource.Styleable.Toolbar_popupTheme;
+			global::EDMTDialog.Resource.Styleable.Toolbar_subtitle = global::BandyFW.Resource.Styleable.Toolbar_subtitle;
+			global::EDMTDialog.Resource.Styleable.Toolbar_subtitleTextAppearance = global::BandyFW.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::EDMTDialog.Resource.Styleable.Toolbar_subtitleTextColor = global::BandyFW.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::EDMTDialog.Resource.Styleable.Toolbar_title = global::BandyFW.Resource.Styleable.Toolbar_title;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleMargin = global::BandyFW.Resource.Styleable.Toolbar_titleMargin;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleMarginBottom = global::BandyFW.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleMarginEnd = global::BandyFW.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleMarginStart = global::BandyFW.Resource.Styleable.Toolbar_titleMarginStart;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleMarginTop = global::BandyFW.Resource.Styleable.Toolbar_titleMarginTop;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleMargins = global::BandyFW.Resource.Styleable.Toolbar_titleMargins;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleTextAppearance = global::BandyFW.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::EDMTDialog.Resource.Styleable.Toolbar_titleTextColor = global::BandyFW.Resource.Styleable.Toolbar_titleTextColor;
+			global::EDMTDialog.Resource.Styleable.View = global::BandyFW.Resource.Styleable.View;
+			global::EDMTDialog.Resource.Styleable.View_android_focusable = global::BandyFW.Resource.Styleable.View_android_focusable;
+			global::EDMTDialog.Resource.Styleable.View_android_theme = global::BandyFW.Resource.Styleable.View_android_theme;
+			global::EDMTDialog.Resource.Styleable.View_paddingEnd = global::BandyFW.Resource.Styleable.View_paddingEnd;
+			global::EDMTDialog.Resource.Styleable.View_paddingStart = global::BandyFW.Resource.Styleable.View_paddingStart;
+			global::EDMTDialog.Resource.Styleable.View_theme = global::BandyFW.Resource.Styleable.View_theme;
+			global::EDMTDialog.Resource.Styleable.ViewBackgroundHelper = global::BandyFW.Resource.Styleable.ViewBackgroundHelper;
+			global::EDMTDialog.Resource.Styleable.ViewBackgroundHelper_android_background = global::BandyFW.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::EDMTDialog.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::BandyFW.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::EDMTDialog.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::BandyFW.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::EDMTDialog.Resource.Styleable.ViewStubCompat = global::BandyFW.Resource.Styleable.ViewStubCompat;
+			global::EDMTDialog.Resource.Styleable.ViewStubCompat_android_id = global::BandyFW.Resource.Styleable.ViewStubCompat_android_id;
+			global::EDMTDialog.Resource.Styleable.ViewStubCompat_android_inflatedId = global::BandyFW.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::EDMTDialog.Resource.Styleable.ViewStubCompat_android_layout = global::BandyFW.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::BandyFW.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::BandyFW.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::BandyFW.Resource.Attribute.font;
@@ -316,1991 +1821,2003 @@ namespace BandyFW
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7F030000
-			public const int actionBarDivider = 2130903040;
-			
-			// aapt resource value: 0x7F030001
-			public const int actionBarItemBackground = 2130903041;
-			
-			// aapt resource value: 0x7F030002
-			public const int actionBarPopupTheme = 2130903042;
-			
-			// aapt resource value: 0x7F030003
-			public const int actionBarSize = 2130903043;
-			
 			// aapt resource value: 0x7F030004
-			public const int actionBarSplitStyle = 2130903044;
+			public const int actionBarDivider = 2130903044;
 			
 			// aapt resource value: 0x7F030005
-			public const int actionBarStyle = 2130903045;
+			public const int actionBarItemBackground = 2130903045;
 			
 			// aapt resource value: 0x7F030006
-			public const int actionBarTabBarStyle = 2130903046;
+			public const int actionBarPopupTheme = 2130903046;
 			
 			// aapt resource value: 0x7F030007
-			public const int actionBarTabStyle = 2130903047;
+			public const int actionBarSize = 2130903047;
 			
 			// aapt resource value: 0x7F030008
-			public const int actionBarTabTextStyle = 2130903048;
+			public const int actionBarSplitStyle = 2130903048;
 			
 			// aapt resource value: 0x7F030009
-			public const int actionBarTheme = 2130903049;
+			public const int actionBarStyle = 2130903049;
 			
 			// aapt resource value: 0x7F03000A
-			public const int actionBarWidgetTheme = 2130903050;
+			public const int actionBarTabBarStyle = 2130903050;
 			
 			// aapt resource value: 0x7F03000B
-			public const int actionButtonStyle = 2130903051;
+			public const int actionBarTabStyle = 2130903051;
 			
 			// aapt resource value: 0x7F03000C
-			public const int actionDropDownStyle = 2130903052;
+			public const int actionBarTabTextStyle = 2130903052;
 			
 			// aapt resource value: 0x7F03000D
-			public const int actionLayout = 2130903053;
+			public const int actionBarTheme = 2130903053;
 			
 			// aapt resource value: 0x7F03000E
-			public const int actionMenuTextAppearance = 2130903054;
+			public const int actionBarWidgetTheme = 2130903054;
 			
 			// aapt resource value: 0x7F03000F
-			public const int actionMenuTextColor = 2130903055;
+			public const int actionButtonStyle = 2130903055;
 			
 			// aapt resource value: 0x7F030010
-			public const int actionModeBackground = 2130903056;
+			public const int actionDropDownStyle = 2130903056;
 			
 			// aapt resource value: 0x7F030011
-			public const int actionModeCloseButtonStyle = 2130903057;
+			public const int actionLayout = 2130903057;
 			
 			// aapt resource value: 0x7F030012
-			public const int actionModeCloseDrawable = 2130903058;
+			public const int actionMenuTextAppearance = 2130903058;
 			
 			// aapt resource value: 0x7F030013
-			public const int actionModeCopyDrawable = 2130903059;
+			public const int actionMenuTextColor = 2130903059;
 			
 			// aapt resource value: 0x7F030014
-			public const int actionModeCutDrawable = 2130903060;
+			public const int actionModeBackground = 2130903060;
 			
 			// aapt resource value: 0x7F030015
-			public const int actionModeFindDrawable = 2130903061;
+			public const int actionModeCloseButtonStyle = 2130903061;
 			
 			// aapt resource value: 0x7F030016
-			public const int actionModePasteDrawable = 2130903062;
+			public const int actionModeCloseDrawable = 2130903062;
 			
 			// aapt resource value: 0x7F030017
-			public const int actionModePopupWindowStyle = 2130903063;
+			public const int actionModeCopyDrawable = 2130903063;
 			
 			// aapt resource value: 0x7F030018
-			public const int actionModeSelectAllDrawable = 2130903064;
+			public const int actionModeCutDrawable = 2130903064;
 			
 			// aapt resource value: 0x7F030019
-			public const int actionModeShareDrawable = 2130903065;
+			public const int actionModeFindDrawable = 2130903065;
 			
 			// aapt resource value: 0x7F03001A
-			public const int actionModeSplitBackground = 2130903066;
+			public const int actionModePasteDrawable = 2130903066;
 			
 			// aapt resource value: 0x7F03001B
-			public const int actionModeStyle = 2130903067;
+			public const int actionModePopupWindowStyle = 2130903067;
 			
 			// aapt resource value: 0x7F03001C
-			public const int actionModeWebSearchDrawable = 2130903068;
+			public const int actionModeSelectAllDrawable = 2130903068;
 			
 			// aapt resource value: 0x7F03001D
-			public const int actionOverflowButtonStyle = 2130903069;
+			public const int actionModeShareDrawable = 2130903069;
 			
 			// aapt resource value: 0x7F03001E
-			public const int actionOverflowMenuStyle = 2130903070;
+			public const int actionModeSplitBackground = 2130903070;
 			
 			// aapt resource value: 0x7F03001F
-			public const int actionProviderClass = 2130903071;
+			public const int actionModeStyle = 2130903071;
 			
 			// aapt resource value: 0x7F030020
-			public const int actionViewClass = 2130903072;
+			public const int actionModeWebSearchDrawable = 2130903072;
 			
 			// aapt resource value: 0x7F030021
-			public const int activityChooserViewStyle = 2130903073;
+			public const int actionOverflowButtonStyle = 2130903073;
 			
 			// aapt resource value: 0x7F030022
-			public const int alertDialogButtonGroupStyle = 2130903074;
+			public const int actionOverflowMenuStyle = 2130903074;
 			
 			// aapt resource value: 0x7F030023
-			public const int alertDialogCenterButtons = 2130903075;
+			public const int actionProviderClass = 2130903075;
 			
 			// aapt resource value: 0x7F030024
-			public const int alertDialogStyle = 2130903076;
+			public const int actionViewClass = 2130903076;
 			
 			// aapt resource value: 0x7F030025
-			public const int alertDialogTheme = 2130903077;
+			public const int activityChooserViewStyle = 2130903077;
 			
 			// aapt resource value: 0x7F030026
-			public const int allowStacking = 2130903078;
+			public const int alertDialogButtonGroupStyle = 2130903078;
 			
 			// aapt resource value: 0x7F030027
-			public const int alpha = 2130903079;
+			public const int alertDialogCenterButtons = 2130903079;
 			
 			// aapt resource value: 0x7F030028
-			public const int alphabeticModifiers = 2130903080;
+			public const int alertDialogStyle = 2130903080;
 			
 			// aapt resource value: 0x7F030029
-			public const int altSrc = 2130903081;
+			public const int alertDialogTheme = 2130903081;
 			
 			// aapt resource value: 0x7F03002A
-			public const int animate_relativeTo = 2130903082;
+			public const int allowStacking = 2130903082;
 			
 			// aapt resource value: 0x7F03002B
-			public const int applyMotionScene = 2130903083;
+			public const int alpha = 2130903083;
 			
 			// aapt resource value: 0x7F03002C
-			public const int arcMode = 2130903084;
+			public const int alphabeticModifiers = 2130903084;
 			
 			// aapt resource value: 0x7F03002D
-			public const int arrowHeadLength = 2130903085;
+			public const int altSrc = 2130903085;
 			
 			// aapt resource value: 0x7F03002E
-			public const int arrowShaftLength = 2130903086;
+			public const int animate_relativeTo = 2130903086;
 			
 			// aapt resource value: 0x7F03002F
-			public const int attributeName = 2130903087;
+			public const int applyMotionScene = 2130903087;
 			
 			// aapt resource value: 0x7F030030
-			public const int autoCompleteTextViewStyle = 2130903088;
+			public const int arcMode = 2130903088;
 			
 			// aapt resource value: 0x7F030031
-			public const int autoSizeMaxTextSize = 2130903089;
+			public const int arrowHeadLength = 2130903089;
 			
 			// aapt resource value: 0x7F030032
-			public const int autoSizeMinTextSize = 2130903090;
+			public const int arrowShaftLength = 2130903090;
 			
 			// aapt resource value: 0x7F030033
-			public const int autoSizePresetSizes = 2130903091;
+			public const int attributeName = 2130903091;
 			
 			// aapt resource value: 0x7F030034
-			public const int autoSizeStepGranularity = 2130903092;
+			public const int autoCompleteTextViewStyle = 2130903092;
 			
 			// aapt resource value: 0x7F030035
-			public const int autoSizeTextType = 2130903093;
+			public const int autoSizeMaxTextSize = 2130903093;
 			
 			// aapt resource value: 0x7F030036
-			public const int autoTransition = 2130903094;
+			public const int autoSizeMinTextSize = 2130903094;
 			
 			// aapt resource value: 0x7F030037
-			public const int background = 2130903095;
+			public const int autoSizePresetSizes = 2130903095;
 			
 			// aapt resource value: 0x7F030038
-			public const int backgroundSplit = 2130903096;
+			public const int autoSizeStepGranularity = 2130903096;
 			
 			// aapt resource value: 0x7F030039
-			public const int backgroundStacked = 2130903097;
+			public const int autoSizeTextType = 2130903097;
 			
 			// aapt resource value: 0x7F03003A
-			public const int backgroundTint = 2130903098;
+			public const int autoTransition = 2130903098;
 			
 			// aapt resource value: 0x7F03003B
-			public const int backgroundTintMode = 2130903099;
+			public const int background = 2130903099;
 			
 			// aapt resource value: 0x7F03003C
-			public const int barLength = 2130903100;
+			public const int backgroundSplit = 2130903100;
 			
 			// aapt resource value: 0x7F03003D
-			public const int barrierAllowsGoneWidgets = 2130903101;
+			public const int backgroundStacked = 2130903101;
 			
 			// aapt resource value: 0x7F03003E
-			public const int barrierDirection = 2130903102;
+			public const int backgroundTint = 2130903102;
 			
 			// aapt resource value: 0x7F03003F
-			public const int barrierMargin = 2130903103;
+			public const int backgroundTintMode = 2130903103;
 			
 			// aapt resource value: 0x7F030040
-			public const int behavior_autoHide = 2130903104;
+			public const int barLength = 2130903104;
 			
 			// aapt resource value: 0x7F030041
-			public const int behavior_fitToContents = 2130903105;
+			public const int barrierAllowsGoneWidgets = 2130903105;
 			
 			// aapt resource value: 0x7F030042
-			public const int behavior_hideable = 2130903106;
+			public const int barrierDirection = 2130903106;
 			
 			// aapt resource value: 0x7F030043
-			public const int behavior_overlapTop = 2130903107;
+			public const int barrierMargin = 2130903107;
 			
 			// aapt resource value: 0x7F030044
-			public const int behavior_peekHeight = 2130903108;
+			public const int behavior_autoHide = 2130903108;
 			
 			// aapt resource value: 0x7F030045
-			public const int behavior_skipCollapsed = 2130903109;
-			
-			// aapt resource value: 0x7F030047
-			public const int borderlessButtonStyle = 2130903111;
+			public const int behavior_fitToContents = 2130903109;
 			
 			// aapt resource value: 0x7F030046
-			public const int borderWidth = 2130903110;
+			public const int behavior_hideable = 2130903110;
+			
+			// aapt resource value: 0x7F030047
+			public const int behavior_overlapTop = 2130903111;
 			
 			// aapt resource value: 0x7F030048
-			public const int bottomAppBarStyle = 2130903112;
+			public const int behavior_peekHeight = 2130903112;
 			
 			// aapt resource value: 0x7F030049
-			public const int bottomNavigationStyle = 2130903113;
-			
-			// aapt resource value: 0x7F03004A
-			public const int bottomSheetDialogTheme = 2130903114;
+			public const int behavior_skipCollapsed = 2130903113;
 			
 			// aapt resource value: 0x7F03004B
-			public const int bottomSheetStyle = 2130903115;
+			public const int borderlessButtonStyle = 2130903115;
+			
+			// aapt resource value: 0x7F03004A
+			public const int borderWidth = 2130903114;
 			
 			// aapt resource value: 0x7F03004C
-			public const int boxBackgroundColor = 2130903116;
+			public const int bottomAppBarStyle = 2130903116;
 			
 			// aapt resource value: 0x7F03004D
-			public const int boxBackgroundMode = 2130903117;
+			public const int bottomNavigationStyle = 2130903117;
 			
 			// aapt resource value: 0x7F03004E
-			public const int boxCollapsedPaddingTop = 2130903118;
+			public const int bottomSheetDialogTheme = 2130903118;
 			
 			// aapt resource value: 0x7F03004F
-			public const int boxCornerRadiusBottomEnd = 2130903119;
+			public const int bottomSheetStyle = 2130903119;
 			
 			// aapt resource value: 0x7F030050
-			public const int boxCornerRadiusBottomStart = 2130903120;
+			public const int boxBackgroundColor = 2130903120;
 			
 			// aapt resource value: 0x7F030051
-			public const int boxCornerRadiusTopEnd = 2130903121;
+			public const int boxBackgroundMode = 2130903121;
 			
 			// aapt resource value: 0x7F030052
-			public const int boxCornerRadiusTopStart = 2130903122;
+			public const int boxCollapsedPaddingTop = 2130903122;
 			
 			// aapt resource value: 0x7F030053
-			public const int boxStrokeColor = 2130903123;
+			public const int boxCornerRadiusBottomEnd = 2130903123;
 			
 			// aapt resource value: 0x7F030054
-			public const int boxStrokeWidth = 2130903124;
+			public const int boxCornerRadiusBottomStart = 2130903124;
 			
 			// aapt resource value: 0x7F030055
-			public const int brightness = 2130903125;
+			public const int boxCornerRadiusTopEnd = 2130903125;
 			
 			// aapt resource value: 0x7F030056
-			public const int buttonBarButtonStyle = 2130903126;
+			public const int boxCornerRadiusTopStart = 2130903126;
 			
 			// aapt resource value: 0x7F030057
-			public const int buttonBarNegativeButtonStyle = 2130903127;
+			public const int boxStrokeColor = 2130903127;
 			
 			// aapt resource value: 0x7F030058
-			public const int buttonBarNeutralButtonStyle = 2130903128;
+			public const int boxStrokeWidth = 2130903128;
 			
 			// aapt resource value: 0x7F030059
-			public const int buttonBarPositiveButtonStyle = 2130903129;
+			public const int brightness = 2130903129;
 			
 			// aapt resource value: 0x7F03005A
-			public const int buttonBarStyle = 2130903130;
+			public const int buttonBarButtonStyle = 2130903130;
 			
 			// aapt resource value: 0x7F03005B
-			public const int buttonGravity = 2130903131;
+			public const int buttonBarNegativeButtonStyle = 2130903131;
 			
 			// aapt resource value: 0x7F03005C
-			public const int buttonIconDimen = 2130903132;
+			public const int buttonBarNeutralButtonStyle = 2130903132;
 			
 			// aapt resource value: 0x7F03005D
-			public const int buttonPanelSideLayout = 2130903133;
+			public const int buttonBarPositiveButtonStyle = 2130903133;
 			
 			// aapt resource value: 0x7F03005E
-			public const int buttonStyle = 2130903134;
+			public const int buttonBarStyle = 2130903134;
 			
 			// aapt resource value: 0x7F03005F
-			public const int buttonStyleSmall = 2130903135;
+			public const int buttonGravity = 2130903135;
 			
 			// aapt resource value: 0x7F030060
-			public const int buttonTint = 2130903136;
+			public const int buttonIconDimen = 2130903136;
 			
 			// aapt resource value: 0x7F030061
-			public const int buttonTintMode = 2130903137;
+			public const int buttonPanelSideLayout = 2130903137;
 			
 			// aapt resource value: 0x7F030062
-			public const int cardBackgroundColor = 2130903138;
+			public const int buttonStyle = 2130903138;
 			
 			// aapt resource value: 0x7F030063
-			public const int cardCornerRadius = 2130903139;
+			public const int buttonStyleSmall = 2130903139;
 			
 			// aapt resource value: 0x7F030064
-			public const int cardElevation = 2130903140;
+			public const int buttonTint = 2130903140;
 			
 			// aapt resource value: 0x7F030065
-			public const int cardMaxElevation = 2130903141;
+			public const int buttonTintMode = 2130903141;
 			
 			// aapt resource value: 0x7F030066
-			public const int cardPreventCornerOverlap = 2130903142;
+			public const int cardBackgroundColor = 2130903142;
 			
 			// aapt resource value: 0x7F030067
-			public const int cardUseCompatPadding = 2130903143;
+			public const int cardCornerRadius = 2130903143;
 			
 			// aapt resource value: 0x7F030068
-			public const int cardViewStyle = 2130903144;
+			public const int cardElevation = 2130903144;
 			
 			// aapt resource value: 0x7F030069
-			public const int chainUseRtl = 2130903145;
+			public const int cardMaxElevation = 2130903145;
 			
 			// aapt resource value: 0x7F03006A
-			public const int checkboxStyle = 2130903146;
+			public const int cardPreventCornerOverlap = 2130903146;
 			
 			// aapt resource value: 0x7F03006B
-			public const int checkedChip = 2130903147;
+			public const int cardUseCompatPadding = 2130903147;
 			
 			// aapt resource value: 0x7F03006C
-			public const int checkedIcon = 2130903148;
+			public const int cardViewStyle = 2130903148;
 			
 			// aapt resource value: 0x7F03006D
-			public const int checkedIconEnabled = 2130903149;
+			public const int chainUseRtl = 2130903149;
 			
 			// aapt resource value: 0x7F03006E
-			public const int checkedIconVisible = 2130903150;
+			public const int checkboxStyle = 2130903150;
 			
 			// aapt resource value: 0x7F03006F
-			public const int checkedTextViewStyle = 2130903151;
+			public const int checkedChip = 2130903151;
 			
 			// aapt resource value: 0x7F030070
-			public const int chipBackgroundColor = 2130903152;
+			public const int checkedIcon = 2130903152;
 			
 			// aapt resource value: 0x7F030071
-			public const int chipCornerRadius = 2130903153;
+			public const int checkedIconEnabled = 2130903153;
 			
 			// aapt resource value: 0x7F030072
-			public const int chipEndPadding = 2130903154;
+			public const int checkedIconVisible = 2130903154;
 			
 			// aapt resource value: 0x7F030073
-			public const int chipGroupStyle = 2130903155;
+			public const int checkedTextViewStyle = 2130903155;
 			
 			// aapt resource value: 0x7F030074
-			public const int chipIcon = 2130903156;
+			public const int chipBackgroundColor = 2130903156;
 			
 			// aapt resource value: 0x7F030075
-			public const int chipIconEnabled = 2130903157;
+			public const int chipCornerRadius = 2130903157;
 			
 			// aapt resource value: 0x7F030076
-			public const int chipIconSize = 2130903158;
+			public const int chipEndPadding = 2130903158;
 			
 			// aapt resource value: 0x7F030077
-			public const int chipIconTint = 2130903159;
+			public const int chipGroupStyle = 2130903159;
 			
 			// aapt resource value: 0x7F030078
-			public const int chipIconVisible = 2130903160;
+			public const int chipIcon = 2130903160;
 			
 			// aapt resource value: 0x7F030079
-			public const int chipMinHeight = 2130903161;
+			public const int chipIconEnabled = 2130903161;
 			
 			// aapt resource value: 0x7F03007A
-			public const int chipSpacing = 2130903162;
+			public const int chipIconSize = 2130903162;
 			
 			// aapt resource value: 0x7F03007B
-			public const int chipSpacingHorizontal = 2130903163;
+			public const int chipIconTint = 2130903163;
 			
 			// aapt resource value: 0x7F03007C
-			public const int chipSpacingVertical = 2130903164;
+			public const int chipIconVisible = 2130903164;
 			
 			// aapt resource value: 0x7F03007D
-			public const int chipStandaloneStyle = 2130903165;
+			public const int chipMinHeight = 2130903165;
 			
 			// aapt resource value: 0x7F03007E
-			public const int chipStartPadding = 2130903166;
+			public const int chipSpacing = 2130903166;
 			
 			// aapt resource value: 0x7F03007F
-			public const int chipStrokeColor = 2130903167;
+			public const int chipSpacingHorizontal = 2130903167;
 			
 			// aapt resource value: 0x7F030080
-			public const int chipStrokeWidth = 2130903168;
+			public const int chipSpacingVertical = 2130903168;
 			
 			// aapt resource value: 0x7F030081
-			public const int chipStyle = 2130903169;
+			public const int chipStandaloneStyle = 2130903169;
 			
 			// aapt resource value: 0x7F030082
-			public const int circleRadius = 2130903170;
+			public const int chipStartPadding = 2130903170;
 			
 			// aapt resource value: 0x7F030083
-			public const int clickAction = 2130903171;
+			public const int chipStrokeColor = 2130903171;
 			
 			// aapt resource value: 0x7F030084
-			public const int closeIcon = 2130903172;
+			public const int chipStrokeWidth = 2130903172;
 			
 			// aapt resource value: 0x7F030085
-			public const int closeIconEnabled = 2130903173;
+			public const int chipStyle = 2130903173;
 			
 			// aapt resource value: 0x7F030086
-			public const int closeIconEndPadding = 2130903174;
+			public const int circleRadius = 2130903174;
 			
 			// aapt resource value: 0x7F030087
-			public const int closeIconSize = 2130903175;
+			public const int clickAction = 2130903175;
 			
 			// aapt resource value: 0x7F030088
-			public const int closeIconStartPadding = 2130903176;
+			public const int closeIcon = 2130903176;
 			
 			// aapt resource value: 0x7F030089
-			public const int closeIconTint = 2130903177;
+			public const int closeIconEnabled = 2130903177;
 			
 			// aapt resource value: 0x7F03008A
-			public const int closeIconVisible = 2130903178;
+			public const int closeIconEndPadding = 2130903178;
 			
 			// aapt resource value: 0x7F03008B
-			public const int closeItemLayout = 2130903179;
+			public const int closeIconSize = 2130903179;
 			
 			// aapt resource value: 0x7F03008C
-			public const int collapseContentDescription = 2130903180;
-			
-			// aapt resource value: 0x7F03008E
-			public const int collapsedTitleGravity = 2130903182;
-			
-			// aapt resource value: 0x7F03008F
-			public const int collapsedTitleTextAppearance = 2130903183;
+			public const int closeIconStartPadding = 2130903180;
 			
 			// aapt resource value: 0x7F03008D
-			public const int collapseIcon = 2130903181;
+			public const int closeIconTint = 2130903181;
+			
+			// aapt resource value: 0x7F03008E
+			public const int closeIconVisible = 2130903182;
+			
+			// aapt resource value: 0x7F03008F
+			public const int closeItemLayout = 2130903183;
 			
 			// aapt resource value: 0x7F030090
-			public const int color = 2130903184;
-			
-			// aapt resource value: 0x7F030091
-			public const int colorAccent = 2130903185;
+			public const int collapseContentDescription = 2130903184;
 			
 			// aapt resource value: 0x7F030092
-			public const int colorBackgroundFloating = 2130903186;
+			public const int collapsedTitleGravity = 2130903186;
 			
 			// aapt resource value: 0x7F030093
-			public const int colorButtonNormal = 2130903187;
+			public const int collapsedTitleTextAppearance = 2130903187;
+			
+			// aapt resource value: 0x7F030091
+			public const int collapseIcon = 2130903185;
 			
 			// aapt resource value: 0x7F030094
-			public const int colorControlActivated = 2130903188;
+			public const int color = 2130903188;
 			
 			// aapt resource value: 0x7F030095
-			public const int colorControlHighlight = 2130903189;
+			public const int colorAccent = 2130903189;
 			
 			// aapt resource value: 0x7F030096
-			public const int colorControlNormal = 2130903190;
+			public const int colorBackgroundFloating = 2130903190;
 			
 			// aapt resource value: 0x7F030097
-			public const int colorError = 2130903191;
+			public const int colorButtonNormal = 2130903191;
 			
 			// aapt resource value: 0x7F030098
-			public const int colorPrimary = 2130903192;
+			public const int colorControlActivated = 2130903192;
 			
 			// aapt resource value: 0x7F030099
-			public const int colorPrimaryDark = 2130903193;
+			public const int colorControlHighlight = 2130903193;
 			
 			// aapt resource value: 0x7F03009A
-			public const int colorSecondary = 2130903194;
+			public const int colorControlNormal = 2130903194;
 			
 			// aapt resource value: 0x7F03009B
-			public const int colorSwitchThumbNormal = 2130903195;
+			public const int colorError = 2130903195;
 			
 			// aapt resource value: 0x7F03009C
-			public const int commitIcon = 2130903196;
-			
-			// aapt resource value: 0x7F0300A1
-			public const int constraints = 2130903201;
+			public const int colorPrimary = 2130903196;
 			
 			// aapt resource value: 0x7F03009D
-			public const int constraintSet = 2130903197;
+			public const int colorPrimaryDark = 2130903197;
 			
 			// aapt resource value: 0x7F03009E
-			public const int constraintSetEnd = 2130903198;
+			public const int colorSecondary = 2130903198;
 			
 			// aapt resource value: 0x7F03009F
-			public const int constraintSetStart = 2130903199;
+			public const int colorSwitchThumbNormal = 2130903199;
 			
 			// aapt resource value: 0x7F0300A0
-			public const int constraint_referenced_ids = 2130903200;
-			
-			// aapt resource value: 0x7F0300A2
-			public const int content = 2130903202;
-			
-			// aapt resource value: 0x7F0300A3
-			public const int contentDescription = 2130903203;
-			
-			// aapt resource value: 0x7F0300A4
-			public const int contentInsetEnd = 2130903204;
+			public const int commitIcon = 2130903200;
 			
 			// aapt resource value: 0x7F0300A5
-			public const int contentInsetEndWithActions = 2130903205;
+			public const int constraints = 2130903205;
+			
+			// aapt resource value: 0x7F0300A1
+			public const int constraintSet = 2130903201;
+			
+			// aapt resource value: 0x7F0300A2
+			public const int constraintSetEnd = 2130903202;
+			
+			// aapt resource value: 0x7F0300A3
+			public const int constraintSetStart = 2130903203;
+			
+			// aapt resource value: 0x7F0300A4
+			public const int constraint_referenced_ids = 2130903204;
 			
 			// aapt resource value: 0x7F0300A6
-			public const int contentInsetLeft = 2130903206;
+			public const int content = 2130903206;
 			
 			// aapt resource value: 0x7F0300A7
-			public const int contentInsetRight = 2130903207;
+			public const int contentDescription = 2130903207;
 			
 			// aapt resource value: 0x7F0300A8
-			public const int contentInsetStart = 2130903208;
+			public const int contentInsetEnd = 2130903208;
 			
 			// aapt resource value: 0x7F0300A9
-			public const int contentInsetStartWithNavigation = 2130903209;
+			public const int contentInsetEndWithActions = 2130903209;
 			
 			// aapt resource value: 0x7F0300AA
-			public const int contentPadding = 2130903210;
+			public const int contentInsetLeft = 2130903210;
 			
 			// aapt resource value: 0x7F0300AB
-			public const int contentPaddingBottom = 2130903211;
+			public const int contentInsetRight = 2130903211;
 			
 			// aapt resource value: 0x7F0300AC
-			public const int contentPaddingLeft = 2130903212;
+			public const int contentInsetStart = 2130903212;
 			
 			// aapt resource value: 0x7F0300AD
-			public const int contentPaddingRight = 2130903213;
+			public const int contentInsetStartWithNavigation = 2130903213;
 			
 			// aapt resource value: 0x7F0300AE
-			public const int contentPaddingTop = 2130903214;
+			public const int contentPadding = 2130903214;
 			
 			// aapt resource value: 0x7F0300AF
-			public const int contentScrim = 2130903215;
+			public const int contentPaddingBottom = 2130903215;
 			
 			// aapt resource value: 0x7F0300B0
-			public const int contrast = 2130903216;
+			public const int contentPaddingLeft = 2130903216;
 			
 			// aapt resource value: 0x7F0300B1
-			public const int controlBackground = 2130903217;
+			public const int contentPaddingRight = 2130903217;
 			
 			// aapt resource value: 0x7F0300B2
-			public const int coordinatorLayoutStyle = 2130903218;
+			public const int contentPaddingTop = 2130903218;
 			
 			// aapt resource value: 0x7F0300B3
-			public const int cornerRadius = 2130903219;
+			public const int contentScrim = 2130903219;
 			
 			// aapt resource value: 0x7F0300B4
-			public const int counterEnabled = 2130903220;
+			public const int contrast = 2130903220;
 			
 			// aapt resource value: 0x7F0300B5
-			public const int counterMaxLength = 2130903221;
+			public const int controlBackground = 2130903221;
 			
 			// aapt resource value: 0x7F0300B6
-			public const int counterOverflowTextAppearance = 2130903222;
+			public const int coordinatorLayoutStyle = 2130903222;
 			
 			// aapt resource value: 0x7F0300B7
-			public const int counterTextAppearance = 2130903223;
+			public const int cornerRadius = 2130903223;
 			
 			// aapt resource value: 0x7F0300B8
-			public const int crossfade = 2130903224;
+			public const int counterEnabled = 2130903224;
 			
 			// aapt resource value: 0x7F0300B9
-			public const int currentState = 2130903225;
+			public const int counterMaxLength = 2130903225;
 			
 			// aapt resource value: 0x7F0300BA
-			public const int curveFit = 2130903226;
+			public const int counterOverflowTextAppearance = 2130903226;
 			
 			// aapt resource value: 0x7F0300BB
-			public const int customBoolean = 2130903227;
+			public const int counterTextAppearance = 2130903227;
 			
 			// aapt resource value: 0x7F0300BC
-			public const int customColorDrawableValue = 2130903228;
+			public const int crossfade = 2130903228;
 			
 			// aapt resource value: 0x7F0300BD
-			public const int customColorValue = 2130903229;
+			public const int currentState = 2130903229;
 			
 			// aapt resource value: 0x7F0300BE
-			public const int customDimension = 2130903230;
+			public const int curveFit = 2130903230;
 			
 			// aapt resource value: 0x7F0300BF
-			public const int customFloatValue = 2130903231;
+			public const int customBoolean = 2130903231;
 			
 			// aapt resource value: 0x7F0300C0
-			public const int customIntegerValue = 2130903232;
+			public const int customColorDrawableValue = 2130903232;
 			
 			// aapt resource value: 0x7F0300C1
-			public const int customNavigationLayout = 2130903233;
+			public const int customColorValue = 2130903233;
 			
 			// aapt resource value: 0x7F0300C2
-			public const int customPixelDimension = 2130903234;
+			public const int customDimension = 2130903234;
 			
 			// aapt resource value: 0x7F0300C3
-			public const int customStringValue = 2130903235;
+			public const int customFloatValue = 2130903235;
 			
 			// aapt resource value: 0x7F0300C4
-			public const int defaultDuration = 2130903236;
+			public const int customIntegerValue = 2130903236;
 			
 			// aapt resource value: 0x7F0300C5
-			public const int defaultQueryHint = 2130903237;
+			public const int customNavigationLayout = 2130903237;
 			
 			// aapt resource value: 0x7F0300C6
-			public const int defaultState = 2130903238;
+			public const int customPixelDimension = 2130903238;
 			
 			// aapt resource value: 0x7F0300C7
-			public const int deltaPolarAngle = 2130903239;
+			public const int customStringValue = 2130903239;
 			
 			// aapt resource value: 0x7F0300C8
-			public const int deltaPolarRadius = 2130903240;
+			public const int defaultDuration = 2130903240;
 			
 			// aapt resource value: 0x7F0300C9
-			public const int deriveConstraintsFrom = 2130903241;
+			public const int defaultQueryHint = 2130903241;
 			
 			// aapt resource value: 0x7F0300CA
-			public const int dialogCornerRadius = 2130903242;
+			public const int defaultState = 2130903242;
 			
 			// aapt resource value: 0x7F0300CB
-			public const int dialogPreferredPadding = 2130903243;
+			public const int deltaPolarAngle = 2130903243;
 			
 			// aapt resource value: 0x7F0300CC
-			public const int dialogTheme = 2130903244;
+			public const int deltaPolarRadius = 2130903244;
 			
 			// aapt resource value: 0x7F0300CD
-			public const int displayOptions = 2130903245;
+			public const int deriveConstraintsFrom = 2130903245;
 			
 			// aapt resource value: 0x7F0300CE
-			public const int divider = 2130903246;
+			public const int dialogCornerRadius = 2130903246;
 			
 			// aapt resource value: 0x7F0300CF
-			public const int dividerHorizontal = 2130903247;
+			public const int dialogPreferredPadding = 2130903247;
+			
+			// aapt resource value: 0x7F030000
+			public const int DialogSpotColor = 2130903040;
+			
+			// aapt resource value: 0x7F030001
+			public const int DialogSpotCount = 2130903041;
 			
 			// aapt resource value: 0x7F0300D0
-			public const int dividerPadding = 2130903248;
+			public const int dialogTheme = 2130903248;
+			
+			// aapt resource value: 0x7F030002
+			public const int DialogTitleAppearance = 2130903042;
+			
+			// aapt resource value: 0x7F030003
+			public const int DialogTitleText = 2130903043;
 			
 			// aapt resource value: 0x7F0300D1
-			public const int dividerVertical = 2130903249;
+			public const int displayOptions = 2130903249;
 			
 			// aapt resource value: 0x7F0300D2
-			public const int dragDirection = 2130903250;
+			public const int divider = 2130903250;
 			
 			// aapt resource value: 0x7F0300D3
-			public const int dragScale = 2130903251;
+			public const int dividerHorizontal = 2130903251;
 			
 			// aapt resource value: 0x7F0300D4
-			public const int dragThreshold = 2130903252;
-			
-			// aapt resource value: 0x7F0300D6
-			public const int drawableSize = 2130903254;
-			
-			// aapt resource value: 0x7F0300D7
-			public const int drawerArrowStyle = 2130903255;
+			public const int dividerPadding = 2130903252;
 			
 			// aapt resource value: 0x7F0300D5
-			public const int drawPath = 2130903253;
+			public const int dividerVertical = 2130903253;
 			
-			// aapt resource value: 0x7F0300D9
-			public const int dropdownListPreferredItemHeight = 2130903257;
+			// aapt resource value: 0x7F0300D6
+			public const int dragDirection = 2130903254;
+			
+			// aapt resource value: 0x7F0300D7
+			public const int dragScale = 2130903255;
 			
 			// aapt resource value: 0x7F0300D8
-			public const int dropDownListViewStyle = 2130903256;
+			public const int dragThreshold = 2130903256;
 			
 			// aapt resource value: 0x7F0300DA
-			public const int duration = 2130903258;
+			public const int drawableSize = 2130903258;
 			
 			// aapt resource value: 0x7F0300DB
-			public const int editTextBackground = 2130903259;
+			public const int drawerArrowStyle = 2130903259;
 			
-			// aapt resource value: 0x7F0300DC
-			public const int editTextColor = 2130903260;
+			// aapt resource value: 0x7F0300D9
+			public const int drawPath = 2130903257;
 			
 			// aapt resource value: 0x7F0300DD
-			public const int editTextStyle = 2130903261;
+			public const int dropdownListPreferredItemHeight = 2130903261;
+			
+			// aapt resource value: 0x7F0300DC
+			public const int dropDownListViewStyle = 2130903260;
 			
 			// aapt resource value: 0x7F0300DE
-			public const int elevation = 2130903262;
+			public const int duration = 2130903262;
 			
 			// aapt resource value: 0x7F0300DF
-			public const int enforceMaterialTheme = 2130903263;
+			public const int editTextBackground = 2130903263;
 			
 			// aapt resource value: 0x7F0300E0
-			public const int enforceTextAppearance = 2130903264;
+			public const int editTextColor = 2130903264;
 			
 			// aapt resource value: 0x7F0300E1
-			public const int errorEnabled = 2130903265;
+			public const int editTextStyle = 2130903265;
 			
 			// aapt resource value: 0x7F0300E2
-			public const int errorTextAppearance = 2130903266;
+			public const int elevation = 2130903266;
 			
 			// aapt resource value: 0x7F0300E3
-			public const int expandActivityOverflowButtonDrawable = 2130903267;
+			public const int enforceMaterialTheme = 2130903267;
 			
 			// aapt resource value: 0x7F0300E4
-			public const int expanded = 2130903268;
+			public const int enforceTextAppearance = 2130903268;
 			
 			// aapt resource value: 0x7F0300E5
-			public const int expandedTitleGravity = 2130903269;
+			public const int errorEnabled = 2130903269;
 			
 			// aapt resource value: 0x7F0300E6
-			public const int expandedTitleMargin = 2130903270;
+			public const int errorTextAppearance = 2130903270;
 			
 			// aapt resource value: 0x7F0300E7
-			public const int expandedTitleMarginBottom = 2130903271;
+			public const int expandActivityOverflowButtonDrawable = 2130903271;
 			
 			// aapt resource value: 0x7F0300E8
-			public const int expandedTitleMarginEnd = 2130903272;
+			public const int expanded = 2130903272;
 			
 			// aapt resource value: 0x7F0300E9
-			public const int expandedTitleMarginStart = 2130903273;
+			public const int expandedTitleGravity = 2130903273;
 			
 			// aapt resource value: 0x7F0300EA
-			public const int expandedTitleMarginTop = 2130903274;
+			public const int expandedTitleMargin = 2130903274;
 			
 			// aapt resource value: 0x7F0300EB
-			public const int expandedTitleTextAppearance = 2130903275;
+			public const int expandedTitleMarginBottom = 2130903275;
 			
 			// aapt resource value: 0x7F0300EC
-			public const int fabAlignmentMode = 2130903276;
+			public const int expandedTitleMarginEnd = 2130903276;
 			
 			// aapt resource value: 0x7F0300ED
-			public const int fabCradleMargin = 2130903277;
+			public const int expandedTitleMarginStart = 2130903277;
 			
 			// aapt resource value: 0x7F0300EE
-			public const int fabCradleRoundedCornerRadius = 2130903278;
+			public const int expandedTitleMarginTop = 2130903278;
 			
 			// aapt resource value: 0x7F0300EF
-			public const int fabCradleVerticalOffset = 2130903279;
+			public const int expandedTitleTextAppearance = 2130903279;
 			
 			// aapt resource value: 0x7F0300F0
-			public const int fabCustomSize = 2130903280;
+			public const int fabAlignmentMode = 2130903280;
 			
 			// aapt resource value: 0x7F0300F1
-			public const int fabSize = 2130903281;
+			public const int fabCradleMargin = 2130903281;
 			
 			// aapt resource value: 0x7F0300F2
-			public const int fastScrollEnabled = 2130903282;
+			public const int fabCradleRoundedCornerRadius = 2130903282;
 			
 			// aapt resource value: 0x7F0300F3
-			public const int fastScrollHorizontalThumbDrawable = 2130903283;
+			public const int fabCradleVerticalOffset = 2130903283;
 			
 			// aapt resource value: 0x7F0300F4
-			public const int fastScrollHorizontalTrackDrawable = 2130903284;
+			public const int fabCustomSize = 2130903284;
 			
 			// aapt resource value: 0x7F0300F5
-			public const int fastScrollVerticalThumbDrawable = 2130903285;
+			public const int fabSize = 2130903285;
 			
 			// aapt resource value: 0x7F0300F6
-			public const int fastScrollVerticalTrackDrawable = 2130903286;
+			public const int fastScrollEnabled = 2130903286;
 			
 			// aapt resource value: 0x7F0300F7
-			public const int firstBaselineToTopHeight = 2130903287;
+			public const int fastScrollHorizontalThumbDrawable = 2130903287;
 			
 			// aapt resource value: 0x7F0300F8
-			public const int floatingActionButtonStyle = 2130903288;
+			public const int fastScrollHorizontalTrackDrawable = 2130903288;
 			
 			// aapt resource value: 0x7F0300F9
-			public const int flow_firstHorizontalBias = 2130903289;
+			public const int fastScrollVerticalThumbDrawable = 2130903289;
 			
 			// aapt resource value: 0x7F0300FA
-			public const int flow_firstHorizontalStyle = 2130903290;
+			public const int fastScrollVerticalTrackDrawable = 2130903290;
 			
 			// aapt resource value: 0x7F0300FB
-			public const int flow_firstVerticalBias = 2130903291;
+			public const int firstBaselineToTopHeight = 2130903291;
 			
 			// aapt resource value: 0x7F0300FC
-			public const int flow_firstVerticalStyle = 2130903292;
+			public const int floatingActionButtonStyle = 2130903292;
 			
 			// aapt resource value: 0x7F0300FD
-			public const int flow_horizontalAlign = 2130903293;
+			public const int flow_firstHorizontalBias = 2130903293;
 			
 			// aapt resource value: 0x7F0300FE
-			public const int flow_horizontalBias = 2130903294;
+			public const int flow_firstHorizontalStyle = 2130903294;
 			
 			// aapt resource value: 0x7F0300FF
-			public const int flow_horizontalGap = 2130903295;
+			public const int flow_firstVerticalBias = 2130903295;
 			
 			// aapt resource value: 0x7F030100
-			public const int flow_horizontalStyle = 2130903296;
+			public const int flow_firstVerticalStyle = 2130903296;
 			
 			// aapt resource value: 0x7F030101
-			public const int flow_lastHorizontalBias = 2130903297;
+			public const int flow_horizontalAlign = 2130903297;
 			
 			// aapt resource value: 0x7F030102
-			public const int flow_lastHorizontalStyle = 2130903298;
+			public const int flow_horizontalBias = 2130903298;
 			
 			// aapt resource value: 0x7F030103
-			public const int flow_lastVerticalBias = 2130903299;
+			public const int flow_horizontalGap = 2130903299;
 			
 			// aapt resource value: 0x7F030104
-			public const int flow_lastVerticalStyle = 2130903300;
+			public const int flow_horizontalStyle = 2130903300;
 			
 			// aapt resource value: 0x7F030105
-			public const int flow_maxElementsWrap = 2130903301;
+			public const int flow_lastHorizontalBias = 2130903301;
 			
 			// aapt resource value: 0x7F030106
-			public const int flow_padding = 2130903302;
+			public const int flow_lastHorizontalStyle = 2130903302;
 			
 			// aapt resource value: 0x7F030107
-			public const int flow_verticalAlign = 2130903303;
+			public const int flow_lastVerticalBias = 2130903303;
 			
 			// aapt resource value: 0x7F030108
-			public const int flow_verticalBias = 2130903304;
+			public const int flow_lastVerticalStyle = 2130903304;
 			
 			// aapt resource value: 0x7F030109
-			public const int flow_verticalGap = 2130903305;
+			public const int flow_maxElementsWrap = 2130903305;
 			
 			// aapt resource value: 0x7F03010A
-			public const int flow_verticalStyle = 2130903306;
+			public const int flow_padding = 2130903306;
 			
 			// aapt resource value: 0x7F03010B
-			public const int flow_wrapMode = 2130903307;
+			public const int flow_verticalAlign = 2130903307;
 			
 			// aapt resource value: 0x7F03010C
-			public const int font = 2130903308;
+			public const int flow_verticalBias = 2130903308;
 			
 			// aapt resource value: 0x7F03010D
-			public const int fontFamily = 2130903309;
+			public const int flow_verticalGap = 2130903309;
 			
 			// aapt resource value: 0x7F03010E
-			public const int fontProviderAuthority = 2130903310;
+			public const int flow_verticalStyle = 2130903310;
 			
 			// aapt resource value: 0x7F03010F
-			public const int fontProviderCerts = 2130903311;
+			public const int flow_wrapMode = 2130903311;
 			
 			// aapt resource value: 0x7F030110
-			public const int fontProviderFetchStrategy = 2130903312;
+			public const int font = 2130903312;
 			
 			// aapt resource value: 0x7F030111
-			public const int fontProviderFetchTimeout = 2130903313;
+			public const int fontFamily = 2130903313;
 			
 			// aapt resource value: 0x7F030112
-			public const int fontProviderPackage = 2130903314;
+			public const int fontProviderAuthority = 2130903314;
 			
 			// aapt resource value: 0x7F030113
-			public const int fontProviderQuery = 2130903315;
+			public const int fontProviderCerts = 2130903315;
 			
 			// aapt resource value: 0x7F030114
-			public const int fontStyle = 2130903316;
+			public const int fontProviderFetchStrategy = 2130903316;
 			
 			// aapt resource value: 0x7F030115
-			public const int fontVariationSettings = 2130903317;
+			public const int fontProviderFetchTimeout = 2130903317;
 			
 			// aapt resource value: 0x7F030116
-			public const int fontWeight = 2130903318;
+			public const int fontProviderPackage = 2130903318;
 			
 			// aapt resource value: 0x7F030117
-			public const int foregroundInsidePadding = 2130903319;
+			public const int fontProviderQuery = 2130903319;
 			
 			// aapt resource value: 0x7F030118
-			public const int framePosition = 2130903320;
+			public const int fontStyle = 2130903320;
 			
 			// aapt resource value: 0x7F030119
-			public const int gapBetweenBars = 2130903321;
+			public const int fontVariationSettings = 2130903321;
 			
 			// aapt resource value: 0x7F03011A
-			public const int goIcon = 2130903322;
+			public const int fontWeight = 2130903322;
 			
 			// aapt resource value: 0x7F03011B
-			public const int headerLayout = 2130903323;
+			public const int foregroundInsidePadding = 2130903323;
 			
 			// aapt resource value: 0x7F03011C
-			public const int height = 2130903324;
+			public const int framePosition = 2130903324;
 			
 			// aapt resource value: 0x7F03011D
-			public const int helperText = 2130903325;
+			public const int gapBetweenBars = 2130903325;
 			
 			// aapt resource value: 0x7F03011E
-			public const int helperTextEnabled = 2130903326;
+			public const int goIcon = 2130903326;
 			
 			// aapt resource value: 0x7F03011F
-			public const int helperTextTextAppearance = 2130903327;
+			public const int headerLayout = 2130903327;
 			
 			// aapt resource value: 0x7F030120
-			public const int hideMotionSpec = 2130903328;
+			public const int height = 2130903328;
 			
 			// aapt resource value: 0x7F030121
-			public const int hideOnContentScroll = 2130903329;
+			public const int helperText = 2130903329;
 			
 			// aapt resource value: 0x7F030122
-			public const int hideOnScroll = 2130903330;
+			public const int helperTextEnabled = 2130903330;
 			
 			// aapt resource value: 0x7F030123
-			public const int hintAnimationEnabled = 2130903331;
+			public const int helperTextTextAppearance = 2130903331;
 			
 			// aapt resource value: 0x7F030124
-			public const int hintEnabled = 2130903332;
+			public const int hideMotionSpec = 2130903332;
 			
 			// aapt resource value: 0x7F030125
-			public const int hintTextAppearance = 2130903333;
+			public const int hideOnContentScroll = 2130903333;
 			
 			// aapt resource value: 0x7F030126
-			public const int homeAsUpIndicator = 2130903334;
+			public const int hideOnScroll = 2130903334;
 			
 			// aapt resource value: 0x7F030127
-			public const int homeLayout = 2130903335;
+			public const int hintAnimationEnabled = 2130903335;
 			
 			// aapt resource value: 0x7F030128
-			public const int hoveredFocusedTranslationZ = 2130903336;
+			public const int hintEnabled = 2130903336;
 			
 			// aapt resource value: 0x7F030129
-			public const int icon = 2130903337;
+			public const int hintTextAppearance = 2130903337;
 			
 			// aapt resource value: 0x7F03012A
-			public const int iconEndPadding = 2130903338;
+			public const int homeAsUpIndicator = 2130903338;
 			
 			// aapt resource value: 0x7F03012B
-			public const int iconGravity = 2130903339;
-			
-			// aapt resource value: 0x7F030131
-			public const int iconifiedByDefault = 2130903345;
+			public const int homeLayout = 2130903339;
 			
 			// aapt resource value: 0x7F03012C
-			public const int iconPadding = 2130903340;
+			public const int hoveredFocusedTranslationZ = 2130903340;
 			
 			// aapt resource value: 0x7F03012D
-			public const int iconSize = 2130903341;
+			public const int icon = 2130903341;
 			
 			// aapt resource value: 0x7F03012E
-			public const int iconStartPadding = 2130903342;
+			public const int iconEndPadding = 2130903342;
 			
 			// aapt resource value: 0x7F03012F
-			public const int iconTint = 2130903343;
-			
-			// aapt resource value: 0x7F030130
-			public const int iconTintMode = 2130903344;
-			
-			// aapt resource value: 0x7F030132
-			public const int imageButtonStyle = 2130903346;
-			
-			// aapt resource value: 0x7F030133
-			public const int indeterminateProgressStyle = 2130903347;
-			
-			// aapt resource value: 0x7F030134
-			public const int initialActivityCount = 2130903348;
+			public const int iconGravity = 2130903343;
 			
 			// aapt resource value: 0x7F030135
-			public const int insetForeground = 2130903349;
+			public const int iconifiedByDefault = 2130903349;
+			
+			// aapt resource value: 0x7F030130
+			public const int iconPadding = 2130903344;
+			
+			// aapt resource value: 0x7F030131
+			public const int iconSize = 2130903345;
+			
+			// aapt resource value: 0x7F030132
+			public const int iconStartPadding = 2130903346;
+			
+			// aapt resource value: 0x7F030133
+			public const int iconTint = 2130903347;
+			
+			// aapt resource value: 0x7F030134
+			public const int iconTintMode = 2130903348;
 			
 			// aapt resource value: 0x7F030136
-			public const int isLightTheme = 2130903350;
+			public const int imageButtonStyle = 2130903350;
 			
 			// aapt resource value: 0x7F030137
-			public const int itemBackground = 2130903351;
+			public const int indeterminateProgressStyle = 2130903351;
 			
 			// aapt resource value: 0x7F030138
-			public const int itemHorizontalPadding = 2130903352;
+			public const int initialActivityCount = 2130903352;
 			
 			// aapt resource value: 0x7F030139
-			public const int itemHorizontalTranslationEnabled = 2130903353;
+			public const int insetForeground = 2130903353;
 			
 			// aapt resource value: 0x7F03013A
-			public const int itemIconPadding = 2130903354;
+			public const int isLightTheme = 2130903354;
 			
 			// aapt resource value: 0x7F03013B
-			public const int itemIconSize = 2130903355;
+			public const int itemBackground = 2130903355;
 			
 			// aapt resource value: 0x7F03013C
-			public const int itemIconTint = 2130903356;
+			public const int itemHorizontalPadding = 2130903356;
 			
 			// aapt resource value: 0x7F03013D
-			public const int itemPadding = 2130903357;
+			public const int itemHorizontalTranslationEnabled = 2130903357;
 			
 			// aapt resource value: 0x7F03013E
-			public const int itemSpacing = 2130903358;
+			public const int itemIconPadding = 2130903358;
 			
 			// aapt resource value: 0x7F03013F
-			public const int itemTextAppearance = 2130903359;
+			public const int itemIconSize = 2130903359;
 			
 			// aapt resource value: 0x7F030140
-			public const int itemTextAppearanceActive = 2130903360;
+			public const int itemIconTint = 2130903360;
 			
 			// aapt resource value: 0x7F030141
-			public const int itemTextAppearanceInactive = 2130903361;
+			public const int itemPadding = 2130903361;
 			
 			// aapt resource value: 0x7F030142
-			public const int itemTextColor = 2130903362;
-			
-			// aapt resource value: 0x7F030144
-			public const int keylines = 2130903364;
+			public const int itemSpacing = 2130903362;
 			
 			// aapt resource value: 0x7F030143
-			public const int keyPositionType = 2130903363;
+			public const int itemTextAppearance = 2130903363;
+			
+			// aapt resource value: 0x7F030144
+			public const int itemTextAppearanceActive = 2130903364;
 			
 			// aapt resource value: 0x7F030145
-			public const int labelVisibilityMode = 2130903365;
+			public const int itemTextAppearanceInactive = 2130903365;
 			
 			// aapt resource value: 0x7F030146
-			public const int lastBaselineToBottomHeight = 2130903366;
-			
-			// aapt resource value: 0x7F030147
-			public const int layout = 2130903367;
+			public const int itemTextColor = 2130903366;
 			
 			// aapt resource value: 0x7F030148
-			public const int layoutDescription = 2130903368;
+			public const int keylines = 2130903368;
+			
+			// aapt resource value: 0x7F030147
+			public const int keyPositionType = 2130903367;
 			
 			// aapt resource value: 0x7F030149
-			public const int layoutDuringTransition = 2130903369;
+			public const int labelVisibilityMode = 2130903369;
 			
 			// aapt resource value: 0x7F03014A
-			public const int layoutManager = 2130903370;
+			public const int lastBaselineToBottomHeight = 2130903370;
 			
 			// aapt resource value: 0x7F03014B
-			public const int layout_anchor = 2130903371;
+			public const int layout = 2130903371;
 			
 			// aapt resource value: 0x7F03014C
-			public const int layout_anchorGravity = 2130903372;
+			public const int layoutDescription = 2130903372;
 			
 			// aapt resource value: 0x7F03014D
-			public const int layout_behavior = 2130903373;
+			public const int layoutDuringTransition = 2130903373;
 			
 			// aapt resource value: 0x7F03014E
-			public const int layout_collapseMode = 2130903374;
+			public const int layoutManager = 2130903374;
 			
 			// aapt resource value: 0x7F03014F
-			public const int layout_collapseParallaxMultiplier = 2130903375;
+			public const int layout_anchor = 2130903375;
 			
 			// aapt resource value: 0x7F030150
-			public const int layout_constrainedHeight = 2130903376;
+			public const int layout_anchorGravity = 2130903376;
 			
 			// aapt resource value: 0x7F030151
-			public const int layout_constrainedWidth = 2130903377;
+			public const int layout_behavior = 2130903377;
 			
 			// aapt resource value: 0x7F030152
-			public const int layout_constraintBaseline_creator = 2130903378;
+			public const int layout_collapseMode = 2130903378;
 			
 			// aapt resource value: 0x7F030153
-			public const int layout_constraintBaseline_toBaselineOf = 2130903379;
+			public const int layout_collapseParallaxMultiplier = 2130903379;
 			
 			// aapt resource value: 0x7F030154
-			public const int layout_constraintBottom_creator = 2130903380;
+			public const int layout_constrainedHeight = 2130903380;
 			
 			// aapt resource value: 0x7F030155
-			public const int layout_constraintBottom_toBottomOf = 2130903381;
+			public const int layout_constrainedWidth = 2130903381;
 			
 			// aapt resource value: 0x7F030156
-			public const int layout_constraintBottom_toTopOf = 2130903382;
+			public const int layout_constraintBaseline_creator = 2130903382;
 			
 			// aapt resource value: 0x7F030157
-			public const int layout_constraintCircle = 2130903383;
+			public const int layout_constraintBaseline_toBaselineOf = 2130903383;
 			
 			// aapt resource value: 0x7F030158
-			public const int layout_constraintCircleAngle = 2130903384;
+			public const int layout_constraintBottom_creator = 2130903384;
 			
 			// aapt resource value: 0x7F030159
-			public const int layout_constraintCircleRadius = 2130903385;
+			public const int layout_constraintBottom_toBottomOf = 2130903385;
 			
 			// aapt resource value: 0x7F03015A
-			public const int layout_constraintDimensionRatio = 2130903386;
+			public const int layout_constraintBottom_toTopOf = 2130903386;
 			
 			// aapt resource value: 0x7F03015B
-			public const int layout_constraintEnd_toEndOf = 2130903387;
+			public const int layout_constraintCircle = 2130903387;
 			
 			// aapt resource value: 0x7F03015C
-			public const int layout_constraintEnd_toStartOf = 2130903388;
+			public const int layout_constraintCircleAngle = 2130903388;
 			
 			// aapt resource value: 0x7F03015D
-			public const int layout_constraintGuide_begin = 2130903389;
+			public const int layout_constraintCircleRadius = 2130903389;
 			
 			// aapt resource value: 0x7F03015E
-			public const int layout_constraintGuide_end = 2130903390;
+			public const int layout_constraintDimensionRatio = 2130903390;
 			
 			// aapt resource value: 0x7F03015F
-			public const int layout_constraintGuide_percent = 2130903391;
+			public const int layout_constraintEnd_toEndOf = 2130903391;
 			
 			// aapt resource value: 0x7F030160
-			public const int layout_constraintHeight_default = 2130903392;
+			public const int layout_constraintEnd_toStartOf = 2130903392;
 			
 			// aapt resource value: 0x7F030161
-			public const int layout_constraintHeight_max = 2130903393;
+			public const int layout_constraintGuide_begin = 2130903393;
 			
 			// aapt resource value: 0x7F030162
-			public const int layout_constraintHeight_min = 2130903394;
+			public const int layout_constraintGuide_end = 2130903394;
 			
 			// aapt resource value: 0x7F030163
-			public const int layout_constraintHeight_percent = 2130903395;
+			public const int layout_constraintGuide_percent = 2130903395;
 			
 			// aapt resource value: 0x7F030164
-			public const int layout_constraintHorizontal_bias = 2130903396;
+			public const int layout_constraintHeight_default = 2130903396;
 			
 			// aapt resource value: 0x7F030165
-			public const int layout_constraintHorizontal_chainStyle = 2130903397;
+			public const int layout_constraintHeight_max = 2130903397;
 			
 			// aapt resource value: 0x7F030166
-			public const int layout_constraintHorizontal_weight = 2130903398;
+			public const int layout_constraintHeight_min = 2130903398;
 			
 			// aapt resource value: 0x7F030167
-			public const int layout_constraintLeft_creator = 2130903399;
+			public const int layout_constraintHeight_percent = 2130903399;
 			
 			// aapt resource value: 0x7F030168
-			public const int layout_constraintLeft_toLeftOf = 2130903400;
+			public const int layout_constraintHorizontal_bias = 2130903400;
 			
 			// aapt resource value: 0x7F030169
-			public const int layout_constraintLeft_toRightOf = 2130903401;
+			public const int layout_constraintHorizontal_chainStyle = 2130903401;
 			
 			// aapt resource value: 0x7F03016A
-			public const int layout_constraintRight_creator = 2130903402;
+			public const int layout_constraintHorizontal_weight = 2130903402;
 			
 			// aapt resource value: 0x7F03016B
-			public const int layout_constraintRight_toLeftOf = 2130903403;
+			public const int layout_constraintLeft_creator = 2130903403;
 			
 			// aapt resource value: 0x7F03016C
-			public const int layout_constraintRight_toRightOf = 2130903404;
+			public const int layout_constraintLeft_toLeftOf = 2130903404;
 			
 			// aapt resource value: 0x7F03016D
-			public const int layout_constraintStart_toEndOf = 2130903405;
+			public const int layout_constraintLeft_toRightOf = 2130903405;
 			
 			// aapt resource value: 0x7F03016E
-			public const int layout_constraintStart_toStartOf = 2130903406;
+			public const int layout_constraintRight_creator = 2130903406;
 			
 			// aapt resource value: 0x7F03016F
-			public const int layout_constraintTag = 2130903407;
+			public const int layout_constraintRight_toLeftOf = 2130903407;
 			
 			// aapt resource value: 0x7F030170
-			public const int layout_constraintTop_creator = 2130903408;
+			public const int layout_constraintRight_toRightOf = 2130903408;
 			
 			// aapt resource value: 0x7F030171
-			public const int layout_constraintTop_toBottomOf = 2130903409;
+			public const int layout_constraintStart_toEndOf = 2130903409;
 			
 			// aapt resource value: 0x7F030172
-			public const int layout_constraintTop_toTopOf = 2130903410;
+			public const int layout_constraintStart_toStartOf = 2130903410;
 			
 			// aapt resource value: 0x7F030173
-			public const int layout_constraintVertical_bias = 2130903411;
+			public const int layout_constraintTag = 2130903411;
 			
 			// aapt resource value: 0x7F030174
-			public const int layout_constraintVertical_chainStyle = 2130903412;
+			public const int layout_constraintTop_creator = 2130903412;
 			
 			// aapt resource value: 0x7F030175
-			public const int layout_constraintVertical_weight = 2130903413;
+			public const int layout_constraintTop_toBottomOf = 2130903413;
 			
 			// aapt resource value: 0x7F030176
-			public const int layout_constraintWidth_default = 2130903414;
+			public const int layout_constraintTop_toTopOf = 2130903414;
 			
 			// aapt resource value: 0x7F030177
-			public const int layout_constraintWidth_max = 2130903415;
+			public const int layout_constraintVertical_bias = 2130903415;
 			
 			// aapt resource value: 0x7F030178
-			public const int layout_constraintWidth_min = 2130903416;
+			public const int layout_constraintVertical_chainStyle = 2130903416;
 			
 			// aapt resource value: 0x7F030179
-			public const int layout_constraintWidth_percent = 2130903417;
+			public const int layout_constraintVertical_weight = 2130903417;
 			
 			// aapt resource value: 0x7F03017A
-			public const int layout_dodgeInsetEdges = 2130903418;
+			public const int layout_constraintWidth_default = 2130903418;
 			
 			// aapt resource value: 0x7F03017B
-			public const int layout_editor_absoluteX = 2130903419;
+			public const int layout_constraintWidth_max = 2130903419;
 			
 			// aapt resource value: 0x7F03017C
-			public const int layout_editor_absoluteY = 2130903420;
+			public const int layout_constraintWidth_min = 2130903420;
 			
 			// aapt resource value: 0x7F03017D
-			public const int layout_goneMarginBottom = 2130903421;
+			public const int layout_constraintWidth_percent = 2130903421;
 			
 			// aapt resource value: 0x7F03017E
-			public const int layout_goneMarginEnd = 2130903422;
+			public const int layout_dodgeInsetEdges = 2130903422;
 			
 			// aapt resource value: 0x7F03017F
-			public const int layout_goneMarginLeft = 2130903423;
+			public const int layout_editor_absoluteX = 2130903423;
 			
 			// aapt resource value: 0x7F030180
-			public const int layout_goneMarginRight = 2130903424;
+			public const int layout_editor_absoluteY = 2130903424;
 			
 			// aapt resource value: 0x7F030181
-			public const int layout_goneMarginStart = 2130903425;
+			public const int layout_goneMarginBottom = 2130903425;
 			
 			// aapt resource value: 0x7F030182
-			public const int layout_goneMarginTop = 2130903426;
+			public const int layout_goneMarginEnd = 2130903426;
 			
 			// aapt resource value: 0x7F030183
-			public const int layout_insetEdge = 2130903427;
+			public const int layout_goneMarginLeft = 2130903427;
 			
 			// aapt resource value: 0x7F030184
-			public const int layout_keyline = 2130903428;
+			public const int layout_goneMarginRight = 2130903428;
 			
 			// aapt resource value: 0x7F030185
-			public const int layout_optimizationLevel = 2130903429;
+			public const int layout_goneMarginStart = 2130903429;
 			
 			// aapt resource value: 0x7F030186
-			public const int layout_scrollFlags = 2130903430;
+			public const int layout_goneMarginTop = 2130903430;
 			
 			// aapt resource value: 0x7F030187
-			public const int layout_scrollInterpolator = 2130903431;
+			public const int layout_insetEdge = 2130903431;
 			
 			// aapt resource value: 0x7F030188
-			public const int liftOnScroll = 2130903432;
+			public const int layout_keyline = 2130903432;
 			
 			// aapt resource value: 0x7F030189
-			public const int limitBoundsTo = 2130903433;
+			public const int layout_optimizationLevel = 2130903433;
 			
 			// aapt resource value: 0x7F03018A
-			public const int lineHeight = 2130903434;
+			public const int layout_scrollFlags = 2130903434;
 			
 			// aapt resource value: 0x7F03018B
-			public const int lineSpacing = 2130903435;
+			public const int layout_scrollInterpolator = 2130903435;
 			
 			// aapt resource value: 0x7F03018C
-			public const int listChoiceBackgroundIndicator = 2130903436;
+			public const int liftOnScroll = 2130903436;
 			
 			// aapt resource value: 0x7F03018D
-			public const int listDividerAlertDialog = 2130903437;
+			public const int limitBoundsTo = 2130903437;
 			
 			// aapt resource value: 0x7F03018E
-			public const int listItemLayout = 2130903438;
+			public const int lineHeight = 2130903438;
 			
 			// aapt resource value: 0x7F03018F
-			public const int listLayout = 2130903439;
+			public const int lineSpacing = 2130903439;
 			
 			// aapt resource value: 0x7F030190
-			public const int listMenuViewStyle = 2130903440;
+			public const int listChoiceBackgroundIndicator = 2130903440;
 			
 			// aapt resource value: 0x7F030191
-			public const int listPopupWindowStyle = 2130903441;
+			public const int listDividerAlertDialog = 2130903441;
 			
 			// aapt resource value: 0x7F030192
-			public const int listPreferredItemHeight = 2130903442;
+			public const int listItemLayout = 2130903442;
 			
 			// aapt resource value: 0x7F030193
-			public const int listPreferredItemHeightLarge = 2130903443;
+			public const int listLayout = 2130903443;
 			
 			// aapt resource value: 0x7F030194
-			public const int listPreferredItemHeightSmall = 2130903444;
+			public const int listMenuViewStyle = 2130903444;
 			
 			// aapt resource value: 0x7F030195
-			public const int listPreferredItemPaddingLeft = 2130903445;
+			public const int listPopupWindowStyle = 2130903445;
 			
 			// aapt resource value: 0x7F030196
-			public const int listPreferredItemPaddingRight = 2130903446;
+			public const int listPreferredItemHeight = 2130903446;
 			
 			// aapt resource value: 0x7F030197
-			public const int logo = 2130903447;
+			public const int listPreferredItemHeightLarge = 2130903447;
 			
 			// aapt resource value: 0x7F030198
-			public const int logoDescription = 2130903448;
+			public const int listPreferredItemHeightSmall = 2130903448;
 			
 			// aapt resource value: 0x7F030199
-			public const int materialButtonStyle = 2130903449;
+			public const int listPreferredItemPaddingLeft = 2130903449;
 			
 			// aapt resource value: 0x7F03019A
-			public const int materialCardViewStyle = 2130903450;
+			public const int listPreferredItemPaddingRight = 2130903450;
 			
 			// aapt resource value: 0x7F03019B
-			public const int maxAcceleration = 2130903451;
+			public const int logo = 2130903451;
 			
 			// aapt resource value: 0x7F03019C
-			public const int maxActionInlineWidth = 2130903452;
+			public const int logoDescription = 2130903452;
 			
 			// aapt resource value: 0x7F03019D
-			public const int maxButtonHeight = 2130903453;
+			public const int materialButtonStyle = 2130903453;
 			
 			// aapt resource value: 0x7F03019E
-			public const int maxHeight = 2130903454;
+			public const int materialCardViewStyle = 2130903454;
 			
 			// aapt resource value: 0x7F03019F
-			public const int maxImageSize = 2130903455;
+			public const int maxAcceleration = 2130903455;
 			
 			// aapt resource value: 0x7F0301A0
-			public const int maxVelocity = 2130903456;
+			public const int maxActionInlineWidth = 2130903456;
 			
 			// aapt resource value: 0x7F0301A1
-			public const int maxWidth = 2130903457;
+			public const int maxButtonHeight = 2130903457;
 			
 			// aapt resource value: 0x7F0301A2
-			public const int measureWithLargestChild = 2130903458;
+			public const int maxHeight = 2130903458;
 			
 			// aapt resource value: 0x7F0301A3
-			public const int menu = 2130903459;
+			public const int maxImageSize = 2130903459;
 			
 			// aapt resource value: 0x7F0301A4
-			public const int minHeight = 2130903460;
+			public const int maxVelocity = 2130903460;
 			
 			// aapt resource value: 0x7F0301A5
-			public const int minWidth = 2130903461;
+			public const int maxWidth = 2130903461;
 			
 			// aapt resource value: 0x7F0301A6
-			public const int mock_diagonalsColor = 2130903462;
+			public const int measureWithLargestChild = 2130903462;
 			
 			// aapt resource value: 0x7F0301A7
-			public const int mock_label = 2130903463;
+			public const int menu = 2130903463;
 			
 			// aapt resource value: 0x7F0301A8
-			public const int mock_labelBackgroundColor = 2130903464;
+			public const int minHeight = 2130903464;
 			
 			// aapt resource value: 0x7F0301A9
-			public const int mock_labelColor = 2130903465;
+			public const int minWidth = 2130903465;
 			
 			// aapt resource value: 0x7F0301AA
-			public const int mock_showDiagonals = 2130903466;
+			public const int mock_diagonalsColor = 2130903466;
 			
 			// aapt resource value: 0x7F0301AB
-			public const int mock_showLabel = 2130903467;
+			public const int mock_label = 2130903467;
 			
 			// aapt resource value: 0x7F0301AC
-			public const int motionDebug = 2130903468;
+			public const int mock_labelBackgroundColor = 2130903468;
 			
 			// aapt resource value: 0x7F0301AD
-			public const int motionInterpolator = 2130903469;
+			public const int mock_labelColor = 2130903469;
 			
 			// aapt resource value: 0x7F0301AE
-			public const int motionPathRotate = 2130903470;
+			public const int mock_showDiagonals = 2130903470;
 			
 			// aapt resource value: 0x7F0301AF
-			public const int motionProgress = 2130903471;
+			public const int mock_showLabel = 2130903471;
 			
 			// aapt resource value: 0x7F0301B0
-			public const int motionStagger = 2130903472;
+			public const int motionDebug = 2130903472;
 			
 			// aapt resource value: 0x7F0301B1
-			public const int motionTarget = 2130903473;
+			public const int motionInterpolator = 2130903473;
 			
 			// aapt resource value: 0x7F0301B2
-			public const int motion_postLayoutCollision = 2130903474;
+			public const int motionPathRotate = 2130903474;
 			
 			// aapt resource value: 0x7F0301B3
-			public const int motion_triggerOnCollision = 2130903475;
+			public const int motionProgress = 2130903475;
 			
 			// aapt resource value: 0x7F0301B4
-			public const int moveWhenScrollAtTop = 2130903476;
+			public const int motionStagger = 2130903476;
 			
 			// aapt resource value: 0x7F0301B5
-			public const int multiChoiceItemLayout = 2130903477;
+			public const int motionTarget = 2130903477;
 			
 			// aapt resource value: 0x7F0301B6
-			public const int navigationContentDescription = 2130903478;
+			public const int motion_postLayoutCollision = 2130903478;
 			
 			// aapt resource value: 0x7F0301B7
-			public const int navigationIcon = 2130903479;
+			public const int motion_triggerOnCollision = 2130903479;
 			
 			// aapt resource value: 0x7F0301B8
-			public const int navigationMode = 2130903480;
+			public const int moveWhenScrollAtTop = 2130903480;
 			
 			// aapt resource value: 0x7F0301B9
-			public const int navigationViewStyle = 2130903481;
+			public const int multiChoiceItemLayout = 2130903481;
 			
 			// aapt resource value: 0x7F0301BA
-			public const int nestedScrollFlags = 2130903482;
+			public const int navigationContentDescription = 2130903482;
 			
 			// aapt resource value: 0x7F0301BB
-			public const int numericModifiers = 2130903483;
+			public const int navigationIcon = 2130903483;
 			
 			// aapt resource value: 0x7F0301BC
-			public const int onCross = 2130903484;
+			public const int navigationMode = 2130903484;
 			
 			// aapt resource value: 0x7F0301BD
-			public const int onHide = 2130903485;
+			public const int navigationViewStyle = 2130903485;
 			
 			// aapt resource value: 0x7F0301BE
-			public const int onNegativeCross = 2130903486;
+			public const int nestedScrollFlags = 2130903486;
 			
 			// aapt resource value: 0x7F0301BF
-			public const int onPositiveCross = 2130903487;
+			public const int numericModifiers = 2130903487;
 			
 			// aapt resource value: 0x7F0301C0
-			public const int onShow = 2130903488;
+			public const int onCross = 2130903488;
 			
 			// aapt resource value: 0x7F0301C1
-			public const int onTouchUp = 2130903489;
+			public const int onHide = 2130903489;
 			
 			// aapt resource value: 0x7F0301C2
-			public const int overlapAnchor = 2130903490;
+			public const int onNegativeCross = 2130903490;
 			
 			// aapt resource value: 0x7F0301C3
-			public const int overlay = 2130903491;
+			public const int onPositiveCross = 2130903491;
 			
 			// aapt resource value: 0x7F0301C4
-			public const int paddingBottomNoButtons = 2130903492;
+			public const int onShow = 2130903492;
 			
 			// aapt resource value: 0x7F0301C5
-			public const int paddingEnd = 2130903493;
+			public const int onTouchUp = 2130903493;
 			
 			// aapt resource value: 0x7F0301C6
-			public const int paddingStart = 2130903494;
+			public const int overlapAnchor = 2130903494;
 			
 			// aapt resource value: 0x7F0301C7
-			public const int paddingTopNoTitle = 2130903495;
+			public const int overlay = 2130903495;
 			
 			// aapt resource value: 0x7F0301C8
-			public const int panelBackground = 2130903496;
+			public const int paddingBottomNoButtons = 2130903496;
 			
 			// aapt resource value: 0x7F0301C9
-			public const int panelMenuListTheme = 2130903497;
+			public const int paddingEnd = 2130903497;
 			
 			// aapt resource value: 0x7F0301CA
-			public const int panelMenuListWidth = 2130903498;
+			public const int paddingStart = 2130903498;
 			
 			// aapt resource value: 0x7F0301CB
-			public const int passwordToggleContentDescription = 2130903499;
+			public const int paddingTopNoTitle = 2130903499;
 			
 			// aapt resource value: 0x7F0301CC
-			public const int passwordToggleDrawable = 2130903500;
+			public const int panelBackground = 2130903500;
 			
 			// aapt resource value: 0x7F0301CD
-			public const int passwordToggleEnabled = 2130903501;
+			public const int panelMenuListTheme = 2130903501;
 			
 			// aapt resource value: 0x7F0301CE
-			public const int passwordToggleTint = 2130903502;
+			public const int panelMenuListWidth = 2130903502;
 			
 			// aapt resource value: 0x7F0301CF
-			public const int passwordToggleTintMode = 2130903503;
+			public const int passwordToggleContentDescription = 2130903503;
 			
 			// aapt resource value: 0x7F0301D0
-			public const int pathMotionArc = 2130903504;
+			public const int passwordToggleDrawable = 2130903504;
 			
 			// aapt resource value: 0x7F0301D1
-			public const int path_percent = 2130903505;
+			public const int passwordToggleEnabled = 2130903505;
 			
 			// aapt resource value: 0x7F0301D2
-			public const int percentHeight = 2130903506;
+			public const int passwordToggleTint = 2130903506;
 			
 			// aapt resource value: 0x7F0301D3
-			public const int percentWidth = 2130903507;
+			public const int passwordToggleTintMode = 2130903507;
 			
 			// aapt resource value: 0x7F0301D4
-			public const int percentX = 2130903508;
+			public const int pathMotionArc = 2130903508;
 			
 			// aapt resource value: 0x7F0301D5
-			public const int percentY = 2130903509;
+			public const int path_percent = 2130903509;
 			
 			// aapt resource value: 0x7F0301D6
-			public const int perpendicularPath_percent = 2130903510;
+			public const int percentHeight = 2130903510;
 			
 			// aapt resource value: 0x7F0301D7
-			public const int pivotAnchor = 2130903511;
+			public const int percentWidth = 2130903511;
 			
 			// aapt resource value: 0x7F0301D8
-			public const int placeholder_emptyVisibility = 2130903512;
+			public const int percentX = 2130903512;
 			
 			// aapt resource value: 0x7F0301D9
-			public const int popupMenuStyle = 2130903513;
+			public const int percentY = 2130903513;
 			
 			// aapt resource value: 0x7F0301DA
-			public const int popupTheme = 2130903514;
+			public const int perpendicularPath_percent = 2130903514;
 			
 			// aapt resource value: 0x7F0301DB
-			public const int popupWindowStyle = 2130903515;
+			public const int pivotAnchor = 2130903515;
 			
 			// aapt resource value: 0x7F0301DC
-			public const int preserveIconSpacing = 2130903516;
+			public const int placeholder_emptyVisibility = 2130903516;
 			
 			// aapt resource value: 0x7F0301DD
-			public const int pressedTranslationZ = 2130903517;
+			public const int popupMenuStyle = 2130903517;
 			
 			// aapt resource value: 0x7F0301DE
-			public const int progressBarPadding = 2130903518;
+			public const int popupTheme = 2130903518;
 			
 			// aapt resource value: 0x7F0301DF
-			public const int progressBarStyle = 2130903519;
+			public const int popupWindowStyle = 2130903519;
 			
 			// aapt resource value: 0x7F0301E0
-			public const int queryBackground = 2130903520;
+			public const int preserveIconSpacing = 2130903520;
 			
 			// aapt resource value: 0x7F0301E1
-			public const int queryHint = 2130903521;
+			public const int pressedTranslationZ = 2130903521;
 			
 			// aapt resource value: 0x7F0301E2
-			public const int radioButtonStyle = 2130903522;
+			public const int progressBarPadding = 2130903522;
 			
 			// aapt resource value: 0x7F0301E3
-			public const int ratingBarStyle = 2130903523;
+			public const int progressBarStyle = 2130903523;
 			
 			// aapt resource value: 0x7F0301E4
-			public const int ratingBarStyleIndicator = 2130903524;
+			public const int queryBackground = 2130903524;
 			
 			// aapt resource value: 0x7F0301E5
-			public const int ratingBarStyleSmall = 2130903525;
+			public const int queryHint = 2130903525;
 			
 			// aapt resource value: 0x7F0301E6
-			public const int region_heightLessThan = 2130903526;
+			public const int radioButtonStyle = 2130903526;
 			
 			// aapt resource value: 0x7F0301E7
-			public const int region_heightMoreThan = 2130903527;
+			public const int ratingBarStyle = 2130903527;
 			
 			// aapt resource value: 0x7F0301E8
-			public const int region_widthLessThan = 2130903528;
+			public const int ratingBarStyleIndicator = 2130903528;
 			
 			// aapt resource value: 0x7F0301E9
-			public const int region_widthMoreThan = 2130903529;
+			public const int ratingBarStyleSmall = 2130903529;
 			
 			// aapt resource value: 0x7F0301EA
-			public const int reverseLayout = 2130903530;
+			public const int region_heightLessThan = 2130903530;
 			
 			// aapt resource value: 0x7F0301EB
-			public const int rippleColor = 2130903531;
+			public const int region_heightMoreThan = 2130903531;
 			
 			// aapt resource value: 0x7F0301EC
-			public const int round = 2130903532;
+			public const int region_widthLessThan = 2130903532;
 			
 			// aapt resource value: 0x7F0301ED
-			public const int roundPercent = 2130903533;
+			public const int region_widthMoreThan = 2130903533;
 			
 			// aapt resource value: 0x7F0301EE
-			public const int saturation = 2130903534;
+			public const int reverseLayout = 2130903534;
 			
 			// aapt resource value: 0x7F0301EF
-			public const int scrimAnimationDuration = 2130903535;
+			public const int rippleColor = 2130903535;
 			
 			// aapt resource value: 0x7F0301F0
-			public const int scrimBackground = 2130903536;
+			public const int round = 2130903536;
 			
 			// aapt resource value: 0x7F0301F1
-			public const int scrimVisibleHeightTrigger = 2130903537;
+			public const int roundPercent = 2130903537;
 			
 			// aapt resource value: 0x7F0301F2
-			public const int searchHintIcon = 2130903538;
+			public const int saturation = 2130903538;
 			
 			// aapt resource value: 0x7F0301F3
-			public const int searchIcon = 2130903539;
+			public const int scrimAnimationDuration = 2130903539;
 			
 			// aapt resource value: 0x7F0301F4
-			public const int searchViewStyle = 2130903540;
+			public const int scrimBackground = 2130903540;
 			
 			// aapt resource value: 0x7F0301F5
-			public const int seekBarStyle = 2130903541;
+			public const int scrimVisibleHeightTrigger = 2130903541;
 			
 			// aapt resource value: 0x7F0301F6
-			public const int selectableItemBackground = 2130903542;
+			public const int searchHintIcon = 2130903542;
 			
 			// aapt resource value: 0x7F0301F7
-			public const int selectableItemBackgroundBorderless = 2130903543;
+			public const int searchIcon = 2130903543;
 			
 			// aapt resource value: 0x7F0301F8
-			public const int showAsAction = 2130903544;
+			public const int searchViewStyle = 2130903544;
 			
 			// aapt resource value: 0x7F0301F9
-			public const int showDividers = 2130903545;
+			public const int seekBarStyle = 2130903545;
 			
 			// aapt resource value: 0x7F0301FA
-			public const int showMotionSpec = 2130903546;
+			public const int selectableItemBackground = 2130903546;
 			
 			// aapt resource value: 0x7F0301FB
-			public const int showPaths = 2130903547;
+			public const int selectableItemBackgroundBorderless = 2130903547;
 			
 			// aapt resource value: 0x7F0301FC
-			public const int showText = 2130903548;
+			public const int showAsAction = 2130903548;
 			
 			// aapt resource value: 0x7F0301FD
-			public const int showTitle = 2130903549;
+			public const int showDividers = 2130903549;
 			
 			// aapt resource value: 0x7F0301FE
-			public const int singleChoiceItemLayout = 2130903550;
+			public const int showMotionSpec = 2130903550;
 			
 			// aapt resource value: 0x7F0301FF
-			public const int singleLine = 2130903551;
+			public const int showPaths = 2130903551;
 			
 			// aapt resource value: 0x7F030200
-			public const int singleSelection = 2130903552;
+			public const int showText = 2130903552;
 			
 			// aapt resource value: 0x7F030201
-			public const int sizePercent = 2130903553;
+			public const int showTitle = 2130903553;
 			
 			// aapt resource value: 0x7F030202
-			public const int snackbarButtonStyle = 2130903554;
+			public const int singleChoiceItemLayout = 2130903554;
 			
 			// aapt resource value: 0x7F030203
-			public const int snackbarStyle = 2130903555;
+			public const int singleLine = 2130903555;
 			
 			// aapt resource value: 0x7F030204
-			public const int spanCount = 2130903556;
+			public const int singleSelection = 2130903556;
 			
 			// aapt resource value: 0x7F030205
-			public const int spinBars = 2130903557;
+			public const int sizePercent = 2130903557;
 			
 			// aapt resource value: 0x7F030206
-			public const int spinnerDropDownItemStyle = 2130903558;
+			public const int snackbarButtonStyle = 2130903558;
 			
 			// aapt resource value: 0x7F030207
-			public const int spinnerStyle = 2130903559;
+			public const int snackbarStyle = 2130903559;
 			
 			// aapt resource value: 0x7F030208
-			public const int splitTrack = 2130903560;
+			public const int spanCount = 2130903560;
 			
 			// aapt resource value: 0x7F030209
-			public const int srcCompat = 2130903561;
+			public const int spinBars = 2130903561;
 			
 			// aapt resource value: 0x7F03020A
-			public const int stackFromEnd = 2130903562;
+			public const int spinnerDropDownItemStyle = 2130903562;
 			
 			// aapt resource value: 0x7F03020B
-			public const int staggered = 2130903563;
+			public const int spinnerStyle = 2130903563;
 			
 			// aapt resource value: 0x7F03020C
-			public const int state_above_anchor = 2130903564;
+			public const int splitTrack = 2130903564;
 			
 			// aapt resource value: 0x7F03020D
-			public const int state_collapsed = 2130903565;
+			public const int srcCompat = 2130903565;
 			
 			// aapt resource value: 0x7F03020E
-			public const int state_collapsible = 2130903566;
+			public const int stackFromEnd = 2130903566;
 			
 			// aapt resource value: 0x7F03020F
-			public const int state_liftable = 2130903567;
+			public const int staggered = 2130903567;
 			
 			// aapt resource value: 0x7F030210
-			public const int state_lifted = 2130903568;
+			public const int state_above_anchor = 2130903568;
 			
 			// aapt resource value: 0x7F030211
-			public const int statusBarBackground = 2130903569;
+			public const int state_collapsed = 2130903569;
 			
 			// aapt resource value: 0x7F030212
-			public const int statusBarScrim = 2130903570;
+			public const int state_collapsible = 2130903570;
 			
 			// aapt resource value: 0x7F030213
-			public const int strokeColor = 2130903571;
+			public const int state_liftable = 2130903571;
 			
 			// aapt resource value: 0x7F030214
-			public const int strokeWidth = 2130903572;
+			public const int state_lifted = 2130903572;
 			
 			// aapt resource value: 0x7F030215
-			public const int subMenuArrow = 2130903573;
+			public const int statusBarBackground = 2130903573;
 			
 			// aapt resource value: 0x7F030216
-			public const int submitBackground = 2130903574;
+			public const int statusBarScrim = 2130903574;
 			
 			// aapt resource value: 0x7F030217
-			public const int subtitle = 2130903575;
+			public const int strokeColor = 2130903575;
 			
 			// aapt resource value: 0x7F030218
-			public const int subtitleTextAppearance = 2130903576;
+			public const int strokeWidth = 2130903576;
 			
 			// aapt resource value: 0x7F030219
-			public const int subtitleTextColor = 2130903577;
+			public const int subMenuArrow = 2130903577;
 			
 			// aapt resource value: 0x7F03021A
-			public const int subtitleTextStyle = 2130903578;
+			public const int submitBackground = 2130903578;
 			
 			// aapt resource value: 0x7F03021B
-			public const int suggestionRowLayout = 2130903579;
+			public const int subtitle = 2130903579;
 			
 			// aapt resource value: 0x7F03021C
-			public const int switchMinWidth = 2130903580;
+			public const int subtitleTextAppearance = 2130903580;
 			
 			// aapt resource value: 0x7F03021D
-			public const int switchPadding = 2130903581;
+			public const int subtitleTextColor = 2130903581;
 			
 			// aapt resource value: 0x7F03021E
-			public const int switchStyle = 2130903582;
+			public const int subtitleTextStyle = 2130903582;
 			
 			// aapt resource value: 0x7F03021F
-			public const int switchTextAppearance = 2130903583;
+			public const int suggestionRowLayout = 2130903583;
 			
 			// aapt resource value: 0x7F030220
-			public const int tabBackground = 2130903584;
+			public const int switchMinWidth = 2130903584;
 			
 			// aapt resource value: 0x7F030221
-			public const int tabContentStart = 2130903585;
+			public const int switchPadding = 2130903585;
 			
 			// aapt resource value: 0x7F030222
-			public const int tabGravity = 2130903586;
+			public const int switchStyle = 2130903586;
 			
 			// aapt resource value: 0x7F030223
-			public const int tabIconTint = 2130903587;
+			public const int switchTextAppearance = 2130903587;
 			
 			// aapt resource value: 0x7F030224
-			public const int tabIconTintMode = 2130903588;
+			public const int tabBackground = 2130903588;
 			
 			// aapt resource value: 0x7F030225
-			public const int tabIndicator = 2130903589;
+			public const int tabContentStart = 2130903589;
 			
 			// aapt resource value: 0x7F030226
-			public const int tabIndicatorAnimationDuration = 2130903590;
+			public const int tabGravity = 2130903590;
 			
 			// aapt resource value: 0x7F030227
-			public const int tabIndicatorColor = 2130903591;
+			public const int tabIconTint = 2130903591;
 			
 			// aapt resource value: 0x7F030228
-			public const int tabIndicatorFullWidth = 2130903592;
+			public const int tabIconTintMode = 2130903592;
 			
 			// aapt resource value: 0x7F030229
-			public const int tabIndicatorGravity = 2130903593;
+			public const int tabIndicator = 2130903593;
 			
 			// aapt resource value: 0x7F03022A
-			public const int tabIndicatorHeight = 2130903594;
+			public const int tabIndicatorAnimationDuration = 2130903594;
 			
 			// aapt resource value: 0x7F03022B
-			public const int tabInlineLabel = 2130903595;
+			public const int tabIndicatorColor = 2130903595;
 			
 			// aapt resource value: 0x7F03022C
-			public const int tabMaxWidth = 2130903596;
+			public const int tabIndicatorFullWidth = 2130903596;
 			
 			// aapt resource value: 0x7F03022D
-			public const int tabMinWidth = 2130903597;
+			public const int tabIndicatorGravity = 2130903597;
 			
 			// aapt resource value: 0x7F03022E
-			public const int tabMode = 2130903598;
+			public const int tabIndicatorHeight = 2130903598;
 			
 			// aapt resource value: 0x7F03022F
-			public const int tabPadding = 2130903599;
+			public const int tabInlineLabel = 2130903599;
 			
 			// aapt resource value: 0x7F030230
-			public const int tabPaddingBottom = 2130903600;
+			public const int tabMaxWidth = 2130903600;
 			
 			// aapt resource value: 0x7F030231
-			public const int tabPaddingEnd = 2130903601;
+			public const int tabMinWidth = 2130903601;
 			
 			// aapt resource value: 0x7F030232
-			public const int tabPaddingStart = 2130903602;
+			public const int tabMode = 2130903602;
 			
 			// aapt resource value: 0x7F030233
-			public const int tabPaddingTop = 2130903603;
+			public const int tabPadding = 2130903603;
 			
 			// aapt resource value: 0x7F030234
-			public const int tabRippleColor = 2130903604;
+			public const int tabPaddingBottom = 2130903604;
 			
 			// aapt resource value: 0x7F030235
-			public const int tabSelectedTextColor = 2130903605;
+			public const int tabPaddingEnd = 2130903605;
 			
 			// aapt resource value: 0x7F030236
-			public const int tabStyle = 2130903606;
+			public const int tabPaddingStart = 2130903606;
 			
 			// aapt resource value: 0x7F030237
-			public const int tabTextAppearance = 2130903607;
+			public const int tabPaddingTop = 2130903607;
 			
 			// aapt resource value: 0x7F030238
-			public const int tabTextColor = 2130903608;
+			public const int tabRippleColor = 2130903608;
 			
 			// aapt resource value: 0x7F030239
-			public const int tabUnboundedRipple = 2130903609;
+			public const int tabSelectedTextColor = 2130903609;
 			
 			// aapt resource value: 0x7F03023A
-			public const int targetId = 2130903610;
+			public const int tabStyle = 2130903610;
 			
 			// aapt resource value: 0x7F03023B
-			public const int telltales_tailColor = 2130903611;
+			public const int tabTextAppearance = 2130903611;
 			
 			// aapt resource value: 0x7F03023C
-			public const int telltales_tailScale = 2130903612;
+			public const int tabTextColor = 2130903612;
 			
 			// aapt resource value: 0x7F03023D
-			public const int telltales_velocityMode = 2130903613;
+			public const int tabUnboundedRipple = 2130903613;
 			
 			// aapt resource value: 0x7F03023E
-			public const int textAllCaps = 2130903614;
+			public const int targetId = 2130903614;
 			
 			// aapt resource value: 0x7F03023F
-			public const int textAppearanceBody1 = 2130903615;
+			public const int telltales_tailColor = 2130903615;
 			
 			// aapt resource value: 0x7F030240
-			public const int textAppearanceBody2 = 2130903616;
+			public const int telltales_tailScale = 2130903616;
 			
 			// aapt resource value: 0x7F030241
-			public const int textAppearanceButton = 2130903617;
+			public const int telltales_velocityMode = 2130903617;
 			
 			// aapt resource value: 0x7F030242
-			public const int textAppearanceCaption = 2130903618;
+			public const int textAllCaps = 2130903618;
 			
 			// aapt resource value: 0x7F030243
-			public const int textAppearanceHeadline1 = 2130903619;
+			public const int textAppearanceBody1 = 2130903619;
 			
 			// aapt resource value: 0x7F030244
-			public const int textAppearanceHeadline2 = 2130903620;
+			public const int textAppearanceBody2 = 2130903620;
 			
 			// aapt resource value: 0x7F030245
-			public const int textAppearanceHeadline3 = 2130903621;
+			public const int textAppearanceButton = 2130903621;
 			
 			// aapt resource value: 0x7F030246
-			public const int textAppearanceHeadline4 = 2130903622;
+			public const int textAppearanceCaption = 2130903622;
 			
 			// aapt resource value: 0x7F030247
-			public const int textAppearanceHeadline5 = 2130903623;
+			public const int textAppearanceHeadline1 = 2130903623;
 			
 			// aapt resource value: 0x7F030248
-			public const int textAppearanceHeadline6 = 2130903624;
+			public const int textAppearanceHeadline2 = 2130903624;
 			
 			// aapt resource value: 0x7F030249
-			public const int textAppearanceLargePopupMenu = 2130903625;
+			public const int textAppearanceHeadline3 = 2130903625;
 			
 			// aapt resource value: 0x7F03024A
-			public const int textAppearanceListItem = 2130903626;
+			public const int textAppearanceHeadline4 = 2130903626;
 			
 			// aapt resource value: 0x7F03024B
-			public const int textAppearanceListItemSecondary = 2130903627;
+			public const int textAppearanceHeadline5 = 2130903627;
 			
 			// aapt resource value: 0x7F03024C
-			public const int textAppearanceListItemSmall = 2130903628;
+			public const int textAppearanceHeadline6 = 2130903628;
 			
 			// aapt resource value: 0x7F03024D
-			public const int textAppearanceOverline = 2130903629;
+			public const int textAppearanceLargePopupMenu = 2130903629;
 			
 			// aapt resource value: 0x7F03024E
-			public const int textAppearancePopupMenuHeader = 2130903630;
+			public const int textAppearanceListItem = 2130903630;
 			
 			// aapt resource value: 0x7F03024F
-			public const int textAppearanceSearchResultSubtitle = 2130903631;
+			public const int textAppearanceListItemSecondary = 2130903631;
 			
 			// aapt resource value: 0x7F030250
-			public const int textAppearanceSearchResultTitle = 2130903632;
+			public const int textAppearanceListItemSmall = 2130903632;
 			
 			// aapt resource value: 0x7F030251
-			public const int textAppearanceSmallPopupMenu = 2130903633;
+			public const int textAppearanceOverline = 2130903633;
 			
 			// aapt resource value: 0x7F030252
-			public const int textAppearanceSubtitle1 = 2130903634;
+			public const int textAppearancePopupMenuHeader = 2130903634;
 			
 			// aapt resource value: 0x7F030253
-			public const int textAppearanceSubtitle2 = 2130903635;
+			public const int textAppearanceSearchResultSubtitle = 2130903635;
 			
 			// aapt resource value: 0x7F030254
-			public const int textColorAlertDialogListItem = 2130903636;
+			public const int textAppearanceSearchResultTitle = 2130903636;
 			
 			// aapt resource value: 0x7F030255
-			public const int textColorSearchUrl = 2130903637;
+			public const int textAppearanceSmallPopupMenu = 2130903637;
 			
 			// aapt resource value: 0x7F030256
-			public const int textEndPadding = 2130903638;
+			public const int textAppearanceSubtitle1 = 2130903638;
 			
 			// aapt resource value: 0x7F030257
-			public const int textInputStyle = 2130903639;
+			public const int textAppearanceSubtitle2 = 2130903639;
 			
 			// aapt resource value: 0x7F030258
-			public const int textStartPadding = 2130903640;
+			public const int textColorAlertDialogListItem = 2130903640;
 			
 			// aapt resource value: 0x7F030259
-			public const int theme = 2130903641;
+			public const int textColorSearchUrl = 2130903641;
 			
 			// aapt resource value: 0x7F03025A
-			public const int thickness = 2130903642;
+			public const int textEndPadding = 2130903642;
 			
 			// aapt resource value: 0x7F03025B
-			public const int thumbTextPadding = 2130903643;
+			public const int textInputStyle = 2130903643;
 			
 			// aapt resource value: 0x7F03025C
-			public const int thumbTint = 2130903644;
+			public const int textStartPadding = 2130903644;
 			
 			// aapt resource value: 0x7F03025D
-			public const int thumbTintMode = 2130903645;
+			public const int theme = 2130903645;
 			
 			// aapt resource value: 0x7F03025E
-			public const int tickMark = 2130903646;
+			public const int thickness = 2130903646;
 			
 			// aapt resource value: 0x7F03025F
-			public const int tickMarkTint = 2130903647;
+			public const int thumbTextPadding = 2130903647;
 			
 			// aapt resource value: 0x7F030260
-			public const int tickMarkTintMode = 2130903648;
+			public const int thumbTint = 2130903648;
 			
 			// aapt resource value: 0x7F030261
-			public const int tint = 2130903649;
+			public const int thumbTintMode = 2130903649;
 			
 			// aapt resource value: 0x7F030262
-			public const int tintMode = 2130903650;
+			public const int tickMark = 2130903650;
 			
 			// aapt resource value: 0x7F030263
-			public const int title = 2130903651;
+			public const int tickMarkTint = 2130903651;
 			
 			// aapt resource value: 0x7F030264
-			public const int titleEnabled = 2130903652;
+			public const int tickMarkTintMode = 2130903652;
 			
 			// aapt resource value: 0x7F030265
-			public const int titleMargin = 2130903653;
+			public const int tint = 2130903653;
 			
 			// aapt resource value: 0x7F030266
-			public const int titleMarginBottom = 2130903654;
+			public const int tintMode = 2130903654;
 			
 			// aapt resource value: 0x7F030267
-			public const int titleMarginEnd = 2130903655;
-			
-			// aapt resource value: 0x7F03026A
-			public const int titleMargins = 2130903658;
+			public const int title = 2130903655;
 			
 			// aapt resource value: 0x7F030268
-			public const int titleMarginStart = 2130903656;
+			public const int titleEnabled = 2130903656;
 			
 			// aapt resource value: 0x7F030269
-			public const int titleMarginTop = 2130903657;
+			public const int titleMargin = 2130903657;
+			
+			// aapt resource value: 0x7F03026A
+			public const int titleMarginBottom = 2130903658;
 			
 			// aapt resource value: 0x7F03026B
-			public const int titleTextAppearance = 2130903659;
-			
-			// aapt resource value: 0x7F03026C
-			public const int titleTextColor = 2130903660;
-			
-			// aapt resource value: 0x7F03026D
-			public const int titleTextStyle = 2130903661;
+			public const int titleMarginEnd = 2130903659;
 			
 			// aapt resource value: 0x7F03026E
-			public const int toolbarId = 2130903662;
+			public const int titleMargins = 2130903662;
+			
+			// aapt resource value: 0x7F03026C
+			public const int titleMarginStart = 2130903660;
+			
+			// aapt resource value: 0x7F03026D
+			public const int titleMarginTop = 2130903661;
 			
 			// aapt resource value: 0x7F03026F
-			public const int toolbarNavigationButtonStyle = 2130903663;
+			public const int titleTextAppearance = 2130903663;
 			
 			// aapt resource value: 0x7F030270
-			public const int toolbarStyle = 2130903664;
+			public const int titleTextColor = 2130903664;
 			
 			// aapt resource value: 0x7F030271
-			public const int tooltipForegroundColor = 2130903665;
+			public const int titleTextStyle = 2130903665;
 			
 			// aapt resource value: 0x7F030272
-			public const int tooltipFrameBackground = 2130903666;
+			public const int toolbarId = 2130903666;
 			
 			// aapt resource value: 0x7F030273
-			public const int tooltipText = 2130903667;
+			public const int toolbarNavigationButtonStyle = 2130903667;
 			
 			// aapt resource value: 0x7F030274
-			public const int touchAnchorId = 2130903668;
+			public const int toolbarStyle = 2130903668;
 			
 			// aapt resource value: 0x7F030275
-			public const int touchAnchorSide = 2130903669;
+			public const int tooltipForegroundColor = 2130903669;
 			
 			// aapt resource value: 0x7F030276
-			public const int touchRegionId = 2130903670;
+			public const int tooltipFrameBackground = 2130903670;
 			
 			// aapt resource value: 0x7F030277
-			public const int track = 2130903671;
+			public const int tooltipText = 2130903671;
 			
 			// aapt resource value: 0x7F030278
-			public const int trackTint = 2130903672;
+			public const int touchAnchorId = 2130903672;
 			
 			// aapt resource value: 0x7F030279
-			public const int trackTintMode = 2130903673;
+			public const int touchAnchorSide = 2130903673;
 			
 			// aapt resource value: 0x7F03027A
-			public const int transitionDisable = 2130903674;
+			public const int touchRegionId = 2130903674;
 			
 			// aapt resource value: 0x7F03027B
-			public const int transitionEasing = 2130903675;
+			public const int track = 2130903675;
 			
 			// aapt resource value: 0x7F03027C
-			public const int transitionFlags = 2130903676;
+			public const int trackTint = 2130903676;
 			
 			// aapt resource value: 0x7F03027D
-			public const int transitionPathRotate = 2130903677;
+			public const int trackTintMode = 2130903677;
 			
 			// aapt resource value: 0x7F03027E
-			public const int triggerId = 2130903678;
+			public const int transitionDisable = 2130903678;
 			
 			// aapt resource value: 0x7F03027F
-			public const int triggerReceiver = 2130903679;
+			public const int transitionEasing = 2130903679;
 			
 			// aapt resource value: 0x7F030280
-			public const int triggerSlack = 2130903680;
+			public const int transitionFlags = 2130903680;
 			
 			// aapt resource value: 0x7F030281
-			public const int ttcIndex = 2130903681;
+			public const int transitionPathRotate = 2130903681;
 			
 			// aapt resource value: 0x7F030282
-			public const int useCompatPadding = 2130903682;
+			public const int triggerId = 2130903682;
 			
 			// aapt resource value: 0x7F030283
-			public const int viewInflaterClass = 2130903683;
+			public const int triggerReceiver = 2130903683;
 			
 			// aapt resource value: 0x7F030284
-			public const int visibilityMode = 2130903684;
+			public const int triggerSlack = 2130903684;
 			
 			// aapt resource value: 0x7F030285
-			public const int voiceIcon = 2130903685;
+			public const int ttcIndex = 2130903685;
 			
 			// aapt resource value: 0x7F030286
-			public const int warmth = 2130903686;
+			public const int useCompatPadding = 2130903686;
 			
 			// aapt resource value: 0x7F030287
-			public const int waveDecay = 2130903687;
+			public const int viewInflaterClass = 2130903687;
 			
 			// aapt resource value: 0x7F030288
-			public const int waveOffset = 2130903688;
+			public const int visibilityMode = 2130903688;
 			
 			// aapt resource value: 0x7F030289
-			public const int wavePeriod = 2130903689;
+			public const int voiceIcon = 2130903689;
 			
 			// aapt resource value: 0x7F03028A
-			public const int waveShape = 2130903690;
+			public const int warmth = 2130903690;
 			
 			// aapt resource value: 0x7F03028B
-			public const int waveVariesBy = 2130903691;
+			public const int waveDecay = 2130903691;
 			
 			// aapt resource value: 0x7F03028C
-			public const int windowActionBar = 2130903692;
+			public const int waveOffset = 2130903692;
 			
 			// aapt resource value: 0x7F03028D
-			public const int windowActionBarOverlay = 2130903693;
+			public const int wavePeriod = 2130903693;
 			
 			// aapt resource value: 0x7F03028E
-			public const int windowActionModeOverlay = 2130903694;
+			public const int waveShape = 2130903694;
 			
 			// aapt resource value: 0x7F03028F
-			public const int windowFixedHeightMajor = 2130903695;
+			public const int waveVariesBy = 2130903695;
 			
 			// aapt resource value: 0x7F030290
-			public const int windowFixedHeightMinor = 2130903696;
+			public const int windowActionBar = 2130903696;
 			
 			// aapt resource value: 0x7F030291
-			public const int windowFixedWidthMajor = 2130903697;
+			public const int windowActionBarOverlay = 2130903697;
 			
 			// aapt resource value: 0x7F030292
-			public const int windowFixedWidthMinor = 2130903698;
+			public const int windowActionModeOverlay = 2130903698;
 			
 			// aapt resource value: 0x7F030293
-			public const int windowMinWidthMajor = 2130903699;
+			public const int windowFixedHeightMajor = 2130903699;
 			
 			// aapt resource value: 0x7F030294
-			public const int windowMinWidthMinor = 2130903700;
+			public const int windowFixedHeightMinor = 2130903700;
 			
 			// aapt resource value: 0x7F030295
-			public const int windowNoTitle = 2130903701;
+			public const int windowFixedWidthMajor = 2130903701;
+			
+			// aapt resource value: 0x7F030296
+			public const int windowFixedWidthMinor = 2130903702;
+			
+			// aapt resource value: 0x7F030297
+			public const int windowMinWidthMajor = 2130903703;
+			
+			// aapt resource value: 0x7F030298
+			public const int windowMinWidthMinor = 2130903704;
+			
+			// aapt resource value: 0x7F030299
+			public const int windowNoTitle = 2130903705;
 			
 			static Attribute()
 			{
@@ -2728,28 +4245,31 @@ namespace BandyFW
 			public const int secondary_text_disabled_material_light = 2131034240;
 			
 			// aapt resource value: 0x7F050081
-			public const int switch_thumb_disabled_material_dark = 2131034241;
+			public const int spots_dialog_color = 2131034241;
 			
 			// aapt resource value: 0x7F050082
-			public const int switch_thumb_disabled_material_light = 2131034242;
+			public const int switch_thumb_disabled_material_dark = 2131034242;
 			
 			// aapt resource value: 0x7F050083
-			public const int switch_thumb_material_dark = 2131034243;
+			public const int switch_thumb_disabled_material_light = 2131034243;
 			
 			// aapt resource value: 0x7F050084
-			public const int switch_thumb_material_light = 2131034244;
+			public const int switch_thumb_material_dark = 2131034244;
 			
 			// aapt resource value: 0x7F050085
-			public const int switch_thumb_normal_material_dark = 2131034245;
+			public const int switch_thumb_material_light = 2131034245;
 			
 			// aapt resource value: 0x7F050086
-			public const int switch_thumb_normal_material_light = 2131034246;
+			public const int switch_thumb_normal_material_dark = 2131034246;
 			
 			// aapt resource value: 0x7F050087
-			public const int tooltip_background_dark = 2131034247;
+			public const int switch_thumb_normal_material_light = 2131034247;
 			
 			// aapt resource value: 0x7F050088
-			public const int tooltip_background_light = 2131034248;
+			public const int tooltip_background_dark = 2131034248;
+			
+			// aapt resource value: 0x7F050089
+			public const int tooltip_background_light = 2131034249;
 			
 			static Color()
 			{
@@ -3395,28 +4915,43 @@ namespace BandyFW
 			public const int notification_top_pad_large_text = 2131099857;
 			
 			// aapt resource value: 0x7F0600D2
-			public const int tooltip_corner_radius = 2131099858;
+			public const int progress_margin = 2131099858;
 			
 			// aapt resource value: 0x7F0600D3
-			public const int tooltip_horizontal_padding = 2131099859;
+			public const int progress_width = 2131099859;
 			
 			// aapt resource value: 0x7F0600D4
-			public const int tooltip_margin = 2131099860;
+			public const int spot_size = 2131099860;
 			
 			// aapt resource value: 0x7F0600D5
-			public const int tooltip_precise_anchor_extra_offset = 2131099861;
+			public const int title_margin = 2131099861;
 			
 			// aapt resource value: 0x7F0600D6
-			public const int tooltip_precise_anchor_threshold = 2131099862;
+			public const int title_padding = 2131099862;
 			
 			// aapt resource value: 0x7F0600D7
-			public const int tooltip_vertical_padding = 2131099863;
+			public const int tooltip_corner_radius = 2131099863;
 			
 			// aapt resource value: 0x7F0600D8
-			public const int tooltip_y_offset_non_touch = 2131099864;
+			public const int tooltip_horizontal_padding = 2131099864;
 			
 			// aapt resource value: 0x7F0600D9
-			public const int tooltip_y_offset_touch = 2131099865;
+			public const int tooltip_margin = 2131099865;
+			
+			// aapt resource value: 0x7F0600DA
+			public const int tooltip_precise_anchor_extra_offset = 2131099866;
+			
+			// aapt resource value: 0x7F0600DB
+			public const int tooltip_precise_anchor_threshold = 2131099867;
+			
+			// aapt resource value: 0x7F0600DC
+			public const int tooltip_vertical_padding = 2131099868;
+			
+			// aapt resource value: 0x7F0600DD
+			public const int tooltip_y_offset_non_touch = 2131099869;
+			
+			// aapt resource value: 0x7F0600DE
+			public const int tooltip_y_offset_touch = 2131099870;
 			
 			static Dimension()
 			{
@@ -4225,229 +5760,238 @@ namespace BandyFW
 			public const int list_item = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int masked = 2131230872;
+			public const int marker_progress = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int message = 2131230873;
+			public const int masked = 2131230873;
+			
+			// aapt resource value: 0x7F08009A
+			public const int message = 2131230874;
 			
 			// aapt resource value: 0x7F080003
 			public const int META = 2131230723;
 			
-			// aapt resource value: 0x7F08009A
-			public const int middle = 2131230874;
-			
 			// aapt resource value: 0x7F08009B
-			public const int mini = 2131230875;
+			public const int middle = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int model_text = 2131230876;
+			public const int mini = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int motion_base = 2131230877;
+			public const int model_text = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int mtrl_child_content_container = 2131230878;
+			public const int motion_base = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int mtrl_internal_children_alpha_tag = 2131230879;
+			public const int mtrl_child_content_container = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int multiply = 2131230880;
+			public const int mtrl_internal_children_alpha_tag = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int navigation_header_container = 2131230881;
+			public const int multiply = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int never = 2131230882;
+			public const int my_text_view = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int none = 2131230883;
+			public const int navigation_header_container = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int normal = 2131230884;
+			public const int never = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int notification_background = 2131230885;
+			public const int none = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int notification_main_column = 2131230886;
+			public const int normal = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int notification_main_column_container = 2131230887;
+			public const int notification_background = 2131230887;
+			
+			// aapt resource value: 0x7F0800A8
+			public const int notification_main_column = 2131230888;
+			
+			// aapt resource value: 0x7F0800A9
+			public const int notification_main_column_container = 2131230889;
 			
 			// aapt resource value: 0x7F080004
 			public const int NO_DEBUG = 2131230724;
 			
-			// aapt resource value: 0x7F0800A8
-			public const int outline = 2131230888;
-			
-			// aapt resource value: 0x7F0800A9
-			public const int packed = 2131230889;
-			
 			// aapt resource value: 0x7F0800AA
-			public const int parallax = 2131230890;
+			public const int outline = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int parent = 2131230891;
+			public const int packed = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int parentPanel = 2131230892;
+			public const int parallax = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int parentRelative = 2131230893;
+			public const int parent = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int parent_matrix = 2131230894;
+			public const int parentPanel = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int path = 2131230895;
+			public const int parentRelative = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int pathRelative = 2131230896;
+			public const int parent_matrix = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int percent = 2131230897;
+			public const int path = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int pin = 2131230898;
+			public const int pathRelative = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int play_postfix_checkbox = 2131230899;
+			public const int percent = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int position = 2131230900;
+			public const int pin = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int postLayout = 2131230901;
+			public const int play_postfix_checkbox = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int production_text = 2131230902;
+			public const int position = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int progress_circular = 2131230903;
+			public const int postLayout = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int progress_horizontal = 2131230904;
+			public const int production_text = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int radio = 2131230905;
+			public const int progress_circular = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int radio_mifit = 2131230906;
+			public const int progress_horizontal = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int radio_zepp = 2131230907;
+			public const int radio = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int ratio = 2131230908;
+			public const int radio_mifit = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int rectangles = 2131230909;
+			public const int radio_zepp = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int remember_button = 2131230910;
+			public const int ratio = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int reset_button = 2131230911;
+			public const int rectangles = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int response_text = 2131230912;
+			public const int remember_button = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int restore_button = 2131230913;
+			public const int reset_button = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int reverseSawtooth = 2131230914;
+			public const int response_recycler = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int right = 2131230915;
+			public const int response_text = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int right_icon = 2131230916;
+			public const int restore_button = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int right_side = 2131230917;
+			public const int reverseSawtooth = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int save_image_matrix = 2131230918;
+			public const int right = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int save_non_transition_alpha = 2131230919;
+			public const int right_icon = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int save_scale_type = 2131230920;
+			public const int right_side = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int sawtooth = 2131230921;
+			public const int save_image_matrix = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int screen = 2131230922;
+			public const int save_non_transition_alpha = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int scroll = 2131230923;
-			
-			// aapt resource value: 0x7F0800CF
-			public const int scrollable = 2131230927;
+			public const int save_scale_type = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int scrollIndicatorDown = 2131230924;
+			public const int sawtooth = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int scrollIndicatorUp = 2131230925;
+			public const int screen = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int scrollView = 2131230926;
-			
-			// aapt resource value: 0x7F0800D0
-			public const int search_badge = 2131230928;
-			
-			// aapt resource value: 0x7F0800D1
-			public const int search_bar = 2131230929;
+			public const int scroll = 2131230926;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int search_button = 2131230930;
+			public const int scrollable = 2131230930;
+			
+			// aapt resource value: 0x7F0800CF
+			public const int scrollIndicatorDown = 2131230927;
+			
+			// aapt resource value: 0x7F0800D0
+			public const int scrollIndicatorUp = 2131230928;
+			
+			// aapt resource value: 0x7F0800D1
+			public const int scrollView = 2131230929;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int search_close_btn = 2131230931;
+			public const int search_badge = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int search_edit_frame = 2131230932;
+			public const int search_bar = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int search_go_btn = 2131230933;
+			public const int search_button = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int search_mag_icon = 2131230934;
+			public const int search_close_btn = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int search_plate = 2131230935;
+			public const int search_edit_frame = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int search_src_text = 2131230936;
+			public const int search_go_btn = 2131230936;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int search_voice_btn = 2131230937;
-			
-			// aapt resource value: 0x7F0800DB
-			public const int selected = 2131230939;
+			public const int search_mag_icon = 2131230937;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int select_dialog_listview = 2131230938;
+			public const int search_plate = 2131230938;
+			
+			// aapt resource value: 0x7F0800DB
+			public const int search_src_text = 2131230939;
+			
+			// aapt resource value: 0x7F0800DC
+			public const int search_voice_btn = 2131230940;
+			
+			// aapt resource value: 0x7F0800DE
+			public const int selected = 2131230942;
+			
+			// aapt resource value: 0x7F0800DD
+			public const int select_dialog_listview = 2131230941;
 			
 			// aapt resource value: 0x7F080005
 			public const int SHIFT = 2131230725;
 			
-			// aapt resource value: 0x7F0800DC
-			public const int shortcut = 2131230940;
-			
-			// aapt resource value: 0x7F0800DD
-			public const int showCustom = 2131230941;
-			
-			// aapt resource value: 0x7F0800DE
-			public const int showHome = 2131230942;
-			
 			// aapt resource value: 0x7F0800DF
-			public const int showTitle = 2131230943;
+			public const int shortcut = 2131230943;
+			
+			// aapt resource value: 0x7F0800E0
+			public const int showCustom = 2131230944;
+			
+			// aapt resource value: 0x7F0800E1
+			public const int showHome = 2131230945;
+			
+			// aapt resource value: 0x7F0800E2
+			public const int showTitle = 2131230946;
 			
 			// aapt resource value: 0x7F080006
 			public const int SHOW_ALL = 2131230726;
@@ -4458,203 +6002,203 @@ namespace BandyFW
 			// aapt resource value: 0x7F080008
 			public const int SHOW_PROGRESS = 2131230728;
 			
-			// aapt resource value: 0x7F0800E0
-			public const int sin = 2131230944;
-			
-			// aapt resource value: 0x7F0800E1
-			public const int smallLabel = 2131230945;
-			
-			// aapt resource value: 0x7F0800E2
-			public const int snackbar_action = 2131230946;
-			
 			// aapt resource value: 0x7F0800E3
-			public const int snackbar_text = 2131230947;
+			public const int sin = 2131230947;
 			
 			// aapt resource value: 0x7F0800E4
-			public const int snap = 2131230948;
+			public const int smallLabel = 2131230948;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int snapMargins = 2131230949;
+			public const int snackbar_action = 2131230949;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int spacer = 2131230950;
+			public const int snackbar_text = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int spline = 2131230951;
+			public const int snap = 2131230951;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int split_action_bar = 2131230952;
+			public const int snapMargins = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int spread = 2131230953;
+			public const int spacer = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int spread_inside = 2131230954;
+			public const int spline = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int square = 2131230955;
+			public const int split_action_bar = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int src_atop = 2131230956;
+			public const int spread = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int src_in = 2131230957;
+			public const int spread_inside = 2131230957;
 			
 			// aapt resource value: 0x7F0800EE
-			public const int src_over = 2131230958;
+			public const int square = 2131230958;
 			
 			// aapt resource value: 0x7F0800EF
-			public const int standard = 2131230959;
+			public const int src_atop = 2131230959;
 			
 			// aapt resource value: 0x7F0800F0
-			public const int start = 2131230960;
+			public const int src_in = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int startHorizontal = 2131230961;
+			public const int src_over = 2131230961;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int startVertical = 2131230962;
+			public const int standard = 2131230962;
 			
 			// aapt resource value: 0x7F0800F3
-			public const int staticLayout = 2131230963;
+			public const int start = 2131230963;
 			
 			// aapt resource value: 0x7F0800F4
-			public const int staticPostLayout = 2131230964;
+			public const int startHorizontal = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int stop = 2131230965;
+			public const int startVertical = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int stretch = 2131230966;
+			public const int staticLayout = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int submenuarrow = 2131230967;
+			public const int staticPostLayout = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int submit_area = 2131230968;
+			public const int stop = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int submit_button = 2131230969;
+			public const int stretch = 2131230969;
+			
+			// aapt resource value: 0x7F0800FA
+			public const int submenuarrow = 2131230970;
+			
+			// aapt resource value: 0x7F0800FB
+			public const int submit_area = 2131230971;
+			
+			// aapt resource value: 0x7F0800FC
+			public const int submit_button = 2131230972;
 			
 			// aapt resource value: 0x7F080009
 			public const int SYM = 2131230729;
 			
-			// aapt resource value: 0x7F0800FA
-			public const int tabMode = 2131230970;
-			
-			// aapt resource value: 0x7F0800FB
-			public const int tag_transition_group = 2131230971;
-			
-			// aapt resource value: 0x7F0800FC
-			public const int tag_unhandled_key_event_manager = 2131230972;
-			
 			// aapt resource value: 0x7F0800FD
-			public const int tag_unhandled_key_listeners = 2131230973;
+			public const int tabMode = 2131230973;
 			
 			// aapt resource value: 0x7F0800FE
-			public const int text = 2131230974;
+			public const int tag_transition_group = 2131230974;
 			
 			// aapt resource value: 0x7F0800FF
-			public const int text2 = 2131230975;
+			public const int tag_unhandled_key_event_manager = 2131230975;
 			
 			// aapt resource value: 0x7F080100
-			public const int textInputLayout1 = 2131230976;
-			
-			// aapt resource value: 0x7F080105
-			public const int textinput_counter = 2131230981;
-			
-			// aapt resource value: 0x7F080106
-			public const int textinput_error = 2131230982;
-			
-			// aapt resource value: 0x7F080107
-			public const int textinput_helper_text = 2131230983;
+			public const int tag_unhandled_key_listeners = 2131230976;
 			
 			// aapt resource value: 0x7F080101
-			public const int textSpacerNoButtons = 2131230977;
+			public const int text = 2131230977;
 			
 			// aapt resource value: 0x7F080102
-			public const int textSpacerNoTitle = 2131230978;
+			public const int text2 = 2131230978;
 			
 			// aapt resource value: 0x7F080103
-			public const int textStart = 2131230979;
-			
-			// aapt resource value: 0x7F080104
-			public const int text_input_password_toggle = 2131230980;
+			public const int textInputLayout1 = 2131230979;
 			
 			// aapt resource value: 0x7F080108
-			public const int time = 2131230984;
+			public const int textinput_counter = 2131230984;
 			
 			// aapt resource value: 0x7F080109
-			public const int title = 2131230985;
+			public const int textinput_error = 2131230985;
 			
 			// aapt resource value: 0x7F08010A
-			public const int titleDividerNoCustom = 2131230986;
+			public const int textinput_helper_text = 2131230986;
+			
+			// aapt resource value: 0x7F080104
+			public const int textSpacerNoButtons = 2131230980;
+			
+			// aapt resource value: 0x7F080105
+			public const int textSpacerNoTitle = 2131230981;
+			
+			// aapt resource value: 0x7F080106
+			public const int textStart = 2131230982;
+			
+			// aapt resource value: 0x7F080107
+			public const int text_input_password_toggle = 2131230983;
 			
 			// aapt resource value: 0x7F08010B
-			public const int title_template = 2131230987;
+			public const int time = 2131230987;
 			
 			// aapt resource value: 0x7F08010C
-			public const int toggle = 2131230988;
+			public const int title = 2131230988;
 			
 			// aapt resource value: 0x7F08010D
-			public const int top = 2131230989;
+			public const int titleDividerNoCustom = 2131230989;
 			
 			// aapt resource value: 0x7F08010E
-			public const int topPanel = 2131230990;
+			public const int title_template = 2131230990;
 			
 			// aapt resource value: 0x7F08010F
-			public const int touch_outside = 2131230991;
+			public const int toggle = 2131230991;
 			
 			// aapt resource value: 0x7F080110
-			public const int transitionToEnd = 2131230992;
+			public const int top = 2131230992;
 			
 			// aapt resource value: 0x7F080111
-			public const int transitionToStart = 2131230993;
+			public const int topPanel = 2131230993;
 			
 			// aapt resource value: 0x7F080112
-			public const int transition_current_scene = 2131230994;
+			public const int touch_outside = 2131230994;
 			
 			// aapt resource value: 0x7F080113
-			public const int transition_layout_save = 2131230995;
+			public const int transitionToEnd = 2131230995;
 			
 			// aapt resource value: 0x7F080114
-			public const int transition_position = 2131230996;
+			public const int transitionToStart = 2131230996;
 			
 			// aapt resource value: 0x7F080115
-			public const int transition_scene_layoutid_cache = 2131230997;
+			public const int transition_current_scene = 2131230997;
 			
 			// aapt resource value: 0x7F080116
-			public const int transition_transform = 2131230998;
+			public const int transition_layout_save = 2131230998;
 			
 			// aapt resource value: 0x7F080117
-			public const int triangle = 2131230999;
+			public const int transition_position = 2131230999;
 			
 			// aapt resource value: 0x7F080118
-			public const int uniform = 2131231000;
+			public const int transition_scene_layoutid_cache = 2131231000;
 			
 			// aapt resource value: 0x7F080119
-			public const int unlabeled = 2131231001;
+			public const int transition_transform = 2131231001;
 			
 			// aapt resource value: 0x7F08011A
-			public const int up = 2131231002;
+			public const int triangle = 2131231002;
 			
 			// aapt resource value: 0x7F08011B
-			public const int useLogo = 2131231003;
+			public const int uniform = 2131231003;
 			
 			// aapt resource value: 0x7F08011C
-			public const int view_offset_helper = 2131231004;
+			public const int unlabeled = 2131231004;
 			
 			// aapt resource value: 0x7F08011D
-			public const int visible = 2131231005;
+			public const int up = 2131231005;
 			
 			// aapt resource value: 0x7F08011E
-			public const int withText = 2131231006;
+			public const int useLogo = 2131231006;
 			
 			// aapt resource value: 0x7F08011F
-			public const int wrap = 2131231007;
+			public const int view_offset_helper = 2131231007;
 			
 			// aapt resource value: 0x7F080120
-			public const int wrap_content = 2131231008;
+			public const int visible = 2131231008;
+			
+			// aapt resource value: 0x7F080121
+			public const int withText = 2131231009;
+			
+			// aapt resource value: 0x7F080122
+			public const int wrap = 2131231010;
+			
+			// aapt resource value: 0x7F080123
+			public const int wrap_content = 2131231011;
 			
 			static Id()
 			{
@@ -4894,34 +6438,37 @@ namespace BandyFW
 			public const int mtrl_layout_snackbar_include = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int notification_action = 2131427375;
+			public const int my_dialog_layout = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int notification_action_tombstone = 2131427376;
+			public const int notification_action = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int notification_template_custom_big = 2131427377;
+			public const int notification_action_tombstone = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int notification_template_icon_group = 2131427378;
+			public const int notification_template_custom_big = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int notification_template_part_chronometer = 2131427379;
+			public const int notification_template_icon_group = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int notification_template_part_time = 2131427380;
+			public const int notification_template_part_chronometer = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int select_dialog_item_material = 2131427381;
+			public const int notification_template_part_time = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int select_dialog_multichoice_material = 2131427382;
+			public const int select_dialog_item_material = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int select_dialog_singlechoice_material = 2131427383;
+			public const int select_dialog_multichoice_material = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int support_simple_spinner_dropdown_item = 2131427384;
+			public const int select_dialog_singlechoice_material = 2131427384;
+			
+			// aapt resource value: 0x7F0B0039
+			public const int support_simple_spinner_dropdown_item = 2131427385;
 			
 			static Layout()
 			{
@@ -5233,100 +6780,103 @@ namespace BandyFW
 			public const int forget = 2131624021;
 			
 			// aapt resource value: 0x7F0E0056
-			public const int hide_bottom_view_on_scroll_behavior = 2131624022;
+			public const int hello = 2131624022;
 			
 			// aapt resource value: 0x7F0E0057
-			public const int input_all_values = 2131624023;
-			
-			// aapt resource value: 0x7F0E0059
-			public const int mifit_appname = 2131624025;
+			public const int hide_bottom_view_on_scroll_behavior = 2131624023;
 			
 			// aapt resource value: 0x7F0E0058
-			public const int mifit_app_package_name = 2131624024;
+			public const int input_all_values = 2131624024;
 			
 			// aapt resource value: 0x7F0E005A
-			public const int model_hint = 2131624026;
+			public const int mifit_appname = 2131624026;
+			
+			// aapt resource value: 0x7F0E0059
+			public const int mifit_app_package_name = 2131624025;
 			
 			// aapt resource value: 0x7F0E005B
-			public const int mtrl_chip_close_icon_content_description = 2131624027;
+			public const int model_hint = 2131624027;
 			
 			// aapt resource value: 0x7F0E005C
-			public const int negative_button = 2131624028;
+			public const int mtrl_chip_close_icon_content_description = 2131624028;
 			
 			// aapt resource value: 0x7F0E005D
-			public const int no_response_for_saving = 2131624029;
+			public const int negative_button = 2131624029;
 			
 			// aapt resource value: 0x7F0E005E
-			public const int no_response_in_memory = 2131624030;
+			public const int no_response_for_saving = 2131624030;
 			
 			// aapt resource value: 0x7F0E005F
-			public const int password_toggle_content_description = 2131624031;
+			public const int no_response_in_memory = 2131624031;
 			
 			// aapt resource value: 0x7F0E0060
-			public const int path_password_eye = 2131624032;
+			public const int password_toggle_content_description = 2131624032;
 			
 			// aapt resource value: 0x7F0E0061
-			public const int path_password_eye_mask_strike_through = 2131624033;
+			public const int path_password_eye = 2131624033;
 			
 			// aapt resource value: 0x7F0E0062
-			public const int path_password_eye_mask_visible = 2131624034;
+			public const int path_password_eye_mask_strike_through = 2131624034;
 			
 			// aapt resource value: 0x7F0E0063
-			public const int path_password_strike_through = 2131624035;
+			public const int path_password_eye_mask_visible = 2131624035;
 			
 			// aapt resource value: 0x7F0E0064
-			public const int play_postfix_checkbox = 2131624036;
+			public const int path_password_strike_through = 2131624036;
 			
 			// aapt resource value: 0x7F0E0065
-			public const int positive_button = 2131624037;
+			public const int play_postfix_checkbox = 2131624037;
 			
 			// aapt resource value: 0x7F0E0066
-			public const int production_hint = 2131624038;
+			public const int positive_button = 2131624038;
 			
 			// aapt resource value: 0x7F0E0067
-			public const int remember = 2131624039;
+			public const int production_hint = 2131624039;
 			
 			// aapt resource value: 0x7F0E0068
-			public const int remember_success = 2131624040;
+			public const int remember = 2131624040;
 			
 			// aapt resource value: 0x7F0E0069
-			public const int reset = 2131624041;
+			public const int remember_success = 2131624041;
 			
 			// aapt resource value: 0x7F0E006A
-			public const int reset_success = 2131624042;
+			public const int reset = 2131624042;
 			
 			// aapt resource value: 0x7F0E006B
-			public const int response_hint = 2131624043;
+			public const int reset_success = 2131624043;
 			
 			// aapt resource value: 0x7F0E006C
-			public const int restore = 2131624044;
+			public const int response_hint = 2131624044;
 			
 			// aapt resource value: 0x7F0E006D
-			public const int search_menu_title = 2131624045;
+			public const int restore = 2131624045;
 			
 			// aapt resource value: 0x7F0E006E
-			public const int shoose_app = 2131624046;
+			public const int search_menu_title = 2131624046;
 			
 			// aapt resource value: 0x7F0E006F
-			public const int status_bar_notification_info_overflow = 2131624047;
+			public const int shoose_app = 2131624047;
 			
 			// aapt resource value: 0x7F0E0070
-			public const int submit = 2131624048;
+			public const int status_bar_notification_info_overflow = 2131624048;
 			
 			// aapt resource value: 0x7F0E0071
-			public const int text_app_name = 2131624049;
+			public const int submit = 2131624049;
 			
 			// aapt resource value: 0x7F0E0072
-			public const int text_app_version = 2131624050;
+			public const int text_app_name = 2131624050;
 			
 			// aapt resource value: 0x7F0E0073
-			public const int text_model_hint = 2131624051;
-			
-			// aapt resource value: 0x7F0E0075
-			public const int zepp_appname = 2131624053;
+			public const int text_app_version = 2131624051;
 			
 			// aapt resource value: 0x7F0E0074
-			public const int zepp_app_package_name = 2131624052;
+			public const int text_model_hint = 2131624052;
+			
+			// aapt resource value: 0x7F0E0076
+			public const int zepp_appname = 2131624054;
+			
+			// aapt resource value: 0x7F0E0075
+			public const int zepp_app_package_name = 2131624053;
 			
 			static String()
 			{
@@ -6041,808 +7591,811 @@ namespace BandyFW
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131689704;
 			
 			// aapt resource value: 0x7F0F00E9
-			public const int TextAppearance_AppCompat = 2131689705;
+			public const int SpotsDialogDefault = 2131689705;
 			
 			// aapt resource value: 0x7F0F00EA
-			public const int TextAppearance_AppCompat_Body1 = 2131689706;
+			public const int TextAppearance_AppCompat = 2131689706;
 			
 			// aapt resource value: 0x7F0F00EB
-			public const int TextAppearance_AppCompat_Body2 = 2131689707;
+			public const int TextAppearance_AppCompat_Body1 = 2131689707;
 			
 			// aapt resource value: 0x7F0F00EC
-			public const int TextAppearance_AppCompat_Button = 2131689708;
+			public const int TextAppearance_AppCompat_Body2 = 2131689708;
 			
 			// aapt resource value: 0x7F0F00ED
-			public const int TextAppearance_AppCompat_Caption = 2131689709;
+			public const int TextAppearance_AppCompat_Button = 2131689709;
 			
 			// aapt resource value: 0x7F0F00EE
-			public const int TextAppearance_AppCompat_Display1 = 2131689710;
+			public const int TextAppearance_AppCompat_Caption = 2131689710;
 			
 			// aapt resource value: 0x7F0F00EF
-			public const int TextAppearance_AppCompat_Display2 = 2131689711;
+			public const int TextAppearance_AppCompat_Display1 = 2131689711;
 			
 			// aapt resource value: 0x7F0F00F0
-			public const int TextAppearance_AppCompat_Display3 = 2131689712;
+			public const int TextAppearance_AppCompat_Display2 = 2131689712;
 			
 			// aapt resource value: 0x7F0F00F1
-			public const int TextAppearance_AppCompat_Display4 = 2131689713;
+			public const int TextAppearance_AppCompat_Display3 = 2131689713;
 			
 			// aapt resource value: 0x7F0F00F2
-			public const int TextAppearance_AppCompat_Headline = 2131689714;
+			public const int TextAppearance_AppCompat_Display4 = 2131689714;
 			
 			// aapt resource value: 0x7F0F00F3
-			public const int TextAppearance_AppCompat_Inverse = 2131689715;
+			public const int TextAppearance_AppCompat_Headline = 2131689715;
 			
 			// aapt resource value: 0x7F0F00F4
-			public const int TextAppearance_AppCompat_Large = 2131689716;
+			public const int TextAppearance_AppCompat_Inverse = 2131689716;
 			
 			// aapt resource value: 0x7F0F00F5
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131689717;
+			public const int TextAppearance_AppCompat_Large = 2131689717;
 			
 			// aapt resource value: 0x7F0F00F6
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131689718;
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131689718;
 			
 			// aapt resource value: 0x7F0F00F7
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131689719;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131689719;
 			
 			// aapt resource value: 0x7F0F00F8
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131689720;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131689720;
 			
 			// aapt resource value: 0x7F0F00F9
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131689721;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131689721;
 			
 			// aapt resource value: 0x7F0F00FA
-			public const int TextAppearance_AppCompat_Medium = 2131689722;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131689722;
 			
 			// aapt resource value: 0x7F0F00FB
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131689723;
+			public const int TextAppearance_AppCompat_Medium = 2131689723;
 			
 			// aapt resource value: 0x7F0F00FC
-			public const int TextAppearance_AppCompat_Menu = 2131689724;
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131689724;
 			
 			// aapt resource value: 0x7F0F00FD
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131689725;
+			public const int TextAppearance_AppCompat_Menu = 2131689725;
 			
 			// aapt resource value: 0x7F0F00FE
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131689726;
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131689726;
 			
 			// aapt resource value: 0x7F0F00FF
-			public const int TextAppearance_AppCompat_Small = 2131689727;
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131689727;
 			
 			// aapt resource value: 0x7F0F0100
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131689728;
+			public const int TextAppearance_AppCompat_Small = 2131689728;
 			
 			// aapt resource value: 0x7F0F0101
-			public const int TextAppearance_AppCompat_Subhead = 2131689729;
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131689729;
 			
 			// aapt resource value: 0x7F0F0102
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131689730;
+			public const int TextAppearance_AppCompat_Subhead = 2131689730;
 			
 			// aapt resource value: 0x7F0F0103
-			public const int TextAppearance_AppCompat_Title = 2131689731;
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131689731;
 			
 			// aapt resource value: 0x7F0F0104
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131689732;
+			public const int TextAppearance_AppCompat_Title = 2131689732;
 			
 			// aapt resource value: 0x7F0F0105
-			public const int TextAppearance_AppCompat_Tooltip = 2131689733;
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131689733;
 			
 			// aapt resource value: 0x7F0F0106
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131689734;
+			public const int TextAppearance_AppCompat_Tooltip = 2131689734;
 			
 			// aapt resource value: 0x7F0F0107
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131689735;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131689735;
 			
 			// aapt resource value: 0x7F0F0108
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131689736;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131689736;
 			
 			// aapt resource value: 0x7F0F0109
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131689737;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131689737;
 			
 			// aapt resource value: 0x7F0F010A
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131689738;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131689738;
 			
 			// aapt resource value: 0x7F0F010B
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131689739;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131689739;
 			
 			// aapt resource value: 0x7F0F010C
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131689740;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131689740;
 			
 			// aapt resource value: 0x7F0F010D
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131689741;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131689741;
 			
 			// aapt resource value: 0x7F0F010E
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131689742;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131689742;
 			
 			// aapt resource value: 0x7F0F010F
-			public const int TextAppearance_AppCompat_Widget_Button = 2131689743;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131689743;
 			
 			// aapt resource value: 0x7F0F0110
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131689744;
+			public const int TextAppearance_AppCompat_Widget_Button = 2131689744;
 			
 			// aapt resource value: 0x7F0F0111
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131689745;
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131689745;
 			
 			// aapt resource value: 0x7F0F0112
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131689746;
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131689746;
 			
 			// aapt resource value: 0x7F0F0113
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131689747;
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131689747;
 			
 			// aapt resource value: 0x7F0F0114
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131689748;
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131689748;
 			
 			// aapt resource value: 0x7F0F0115
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131689749;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131689749;
 			
 			// aapt resource value: 0x7F0F0116
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131689750;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131689750;
 			
 			// aapt resource value: 0x7F0F0117
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131689751;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131689751;
 			
 			// aapt resource value: 0x7F0F0118
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131689752;
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131689752;
 			
 			// aapt resource value: 0x7F0F0119
-			public const int TextAppearance_Compat_Notification = 2131689753;
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131689753;
 			
 			// aapt resource value: 0x7F0F011A
-			public const int TextAppearance_Compat_Notification_Info = 2131689754;
+			public const int TextAppearance_Compat_Notification = 2131689754;
 			
 			// aapt resource value: 0x7F0F011B
-			public const int TextAppearance_Compat_Notification_Line2 = 2131689755;
+			public const int TextAppearance_Compat_Notification_Info = 2131689755;
 			
 			// aapt resource value: 0x7F0F011C
-			public const int TextAppearance_Compat_Notification_Time = 2131689756;
+			public const int TextAppearance_Compat_Notification_Line2 = 2131689756;
 			
 			// aapt resource value: 0x7F0F011D
-			public const int TextAppearance_Compat_Notification_Title = 2131689757;
+			public const int TextAppearance_Compat_Notification_Time = 2131689757;
 			
 			// aapt resource value: 0x7F0F011E
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131689758;
+			public const int TextAppearance_Compat_Notification_Title = 2131689758;
 			
 			// aapt resource value: 0x7F0F011F
-			public const int TextAppearance_Design_Counter = 2131689759;
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131689759;
 			
 			// aapt resource value: 0x7F0F0120
-			public const int TextAppearance_Design_Counter_Overflow = 2131689760;
+			public const int TextAppearance_Design_Counter = 2131689760;
 			
 			// aapt resource value: 0x7F0F0121
-			public const int TextAppearance_Design_Error = 2131689761;
+			public const int TextAppearance_Design_Counter_Overflow = 2131689761;
 			
 			// aapt resource value: 0x7F0F0122
-			public const int TextAppearance_Design_HelperText = 2131689762;
+			public const int TextAppearance_Design_Error = 2131689762;
 			
 			// aapt resource value: 0x7F0F0123
-			public const int TextAppearance_Design_Hint = 2131689763;
+			public const int TextAppearance_Design_HelperText = 2131689763;
 			
 			// aapt resource value: 0x7F0F0124
-			public const int TextAppearance_Design_Snackbar_Message = 2131689764;
+			public const int TextAppearance_Design_Hint = 2131689764;
 			
 			// aapt resource value: 0x7F0F0125
-			public const int TextAppearance_Design_Tab = 2131689765;
+			public const int TextAppearance_Design_Snackbar_Message = 2131689765;
 			
 			// aapt resource value: 0x7F0F0126
-			public const int TextAppearance_MaterialComponents_Body1 = 2131689766;
+			public const int TextAppearance_Design_Tab = 2131689766;
 			
 			// aapt resource value: 0x7F0F0127
-			public const int TextAppearance_MaterialComponents_Body2 = 2131689767;
+			public const int TextAppearance_MaterialComponents_Body1 = 2131689767;
 			
 			// aapt resource value: 0x7F0F0128
-			public const int TextAppearance_MaterialComponents_Button = 2131689768;
+			public const int TextAppearance_MaterialComponents_Body2 = 2131689768;
 			
 			// aapt resource value: 0x7F0F0129
-			public const int TextAppearance_MaterialComponents_Caption = 2131689769;
+			public const int TextAppearance_MaterialComponents_Button = 2131689769;
 			
 			// aapt resource value: 0x7F0F012A
-			public const int TextAppearance_MaterialComponents_Chip = 2131689770;
+			public const int TextAppearance_MaterialComponents_Caption = 2131689770;
 			
 			// aapt resource value: 0x7F0F012B
-			public const int TextAppearance_MaterialComponents_Headline1 = 2131689771;
+			public const int TextAppearance_MaterialComponents_Chip = 2131689771;
 			
 			// aapt resource value: 0x7F0F012C
-			public const int TextAppearance_MaterialComponents_Headline2 = 2131689772;
+			public const int TextAppearance_MaterialComponents_Headline1 = 2131689772;
 			
 			// aapt resource value: 0x7F0F012D
-			public const int TextAppearance_MaterialComponents_Headline3 = 2131689773;
+			public const int TextAppearance_MaterialComponents_Headline2 = 2131689773;
 			
 			// aapt resource value: 0x7F0F012E
-			public const int TextAppearance_MaterialComponents_Headline4 = 2131689774;
+			public const int TextAppearance_MaterialComponents_Headline3 = 2131689774;
 			
 			// aapt resource value: 0x7F0F012F
-			public const int TextAppearance_MaterialComponents_Headline5 = 2131689775;
+			public const int TextAppearance_MaterialComponents_Headline4 = 2131689775;
 			
 			// aapt resource value: 0x7F0F0130
-			public const int TextAppearance_MaterialComponents_Headline6 = 2131689776;
+			public const int TextAppearance_MaterialComponents_Headline5 = 2131689776;
 			
 			// aapt resource value: 0x7F0F0131
-			public const int TextAppearance_MaterialComponents_Overline = 2131689777;
+			public const int TextAppearance_MaterialComponents_Headline6 = 2131689777;
 			
 			// aapt resource value: 0x7F0F0132
-			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131689778;
+			public const int TextAppearance_MaterialComponents_Overline = 2131689778;
 			
 			// aapt resource value: 0x7F0F0133
-			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131689779;
+			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131689779;
 			
 			// aapt resource value: 0x7F0F0134
-			public const int TextAppearance_MaterialComponents_Tab = 2131689780;
+			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131689780;
 			
 			// aapt resource value: 0x7F0F0135
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131689781;
+			public const int TextAppearance_MaterialComponents_Tab = 2131689781;
 			
 			// aapt resource value: 0x7F0F0136
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131689782;
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131689782;
 			
 			// aapt resource value: 0x7F0F0137
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131689783;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131689783;
 			
 			// aapt resource value: 0x7F0F0138
-			public const int TextInputLayoutStyle = 2131689784;
-			
-			// aapt resource value: 0x7F0F0169
-			public const int ThemeOverlay_AppCompat = 2131689833;
-			
-			// aapt resource value: 0x7F0F016A
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131689834;
-			
-			// aapt resource value: 0x7F0F016B
-			public const int ThemeOverlay_AppCompat_Dark = 2131689835;
-			
-			// aapt resource value: 0x7F0F016C
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131689836;
-			
-			// aapt resource value: 0x7F0F016D
-			public const int ThemeOverlay_AppCompat_Dialog = 2131689837;
-			
-			// aapt resource value: 0x7F0F016E
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131689838;
-			
-			// aapt resource value: 0x7F0F016F
-			public const int ThemeOverlay_AppCompat_Light = 2131689839;
-			
-			// aapt resource value: 0x7F0F0170
-			public const int ThemeOverlay_MaterialComponents = 2131689840;
-			
-			// aapt resource value: 0x7F0F0171
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131689841;
-			
-			// aapt resource value: 0x7F0F0172
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131689842;
-			
-			// aapt resource value: 0x7F0F0173
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131689843;
-			
-			// aapt resource value: 0x7F0F0174
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131689844;
-			
-			// aapt resource value: 0x7F0F0175
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131689845;
-			
-			// aapt resource value: 0x7F0F0176
-			public const int ThemeOverlay_MaterialComponents_Light = 2131689846;
-			
-			// aapt resource value: 0x7F0F0177
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131689847;
-			
-			// aapt resource value: 0x7F0F0178
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131689848;
-			
-			// aapt resource value: 0x7F0F0179
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131689849;
-			
-			// aapt resource value: 0x7F0F017A
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131689850;
-			
-			// aapt resource value: 0x7F0F017B
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131689851;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131689784;
 			
 			// aapt resource value: 0x7F0F0139
-			public const int Theme_AppCompat = 2131689785;
+			public const int TextInputLayoutStyle = 2131689785;
 			
-			// aapt resource value: 0x7F0F013A
-			public const int Theme_AppCompat_CompactMenu = 2131689786;
+			// aapt resource value: 0x7F0F016A
+			public const int ThemeOverlay_AppCompat = 2131689834;
 			
-			// aapt resource value: 0x7F0F013B
-			public const int Theme_AppCompat_DayNight = 2131689787;
+			// aapt resource value: 0x7F0F016B
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131689835;
 			
-			// aapt resource value: 0x7F0F013C
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131689788;
+			// aapt resource value: 0x7F0F016C
+			public const int ThemeOverlay_AppCompat_Dark = 2131689836;
 			
-			// aapt resource value: 0x7F0F013D
-			public const int Theme_AppCompat_DayNight_Dialog = 2131689789;
+			// aapt resource value: 0x7F0F016D
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131689837;
 			
-			// aapt resource value: 0x7F0F0140
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131689792;
+			// aapt resource value: 0x7F0F016E
+			public const int ThemeOverlay_AppCompat_Dialog = 2131689838;
 			
-			// aapt resource value: 0x7F0F013E
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131689790;
+			// aapt resource value: 0x7F0F016F
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131689839;
 			
-			// aapt resource value: 0x7F0F013F
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131689791;
+			// aapt resource value: 0x7F0F0170
+			public const int ThemeOverlay_AppCompat_Light = 2131689840;
 			
-			// aapt resource value: 0x7F0F0141
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131689793;
+			// aapt resource value: 0x7F0F0171
+			public const int ThemeOverlay_MaterialComponents = 2131689841;
 			
-			// aapt resource value: 0x7F0F0142
-			public const int Theme_AppCompat_Dialog = 2131689794;
+			// aapt resource value: 0x7F0F0172
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131689842;
 			
-			// aapt resource value: 0x7F0F0145
-			public const int Theme_AppCompat_DialogWhenLarge = 2131689797;
+			// aapt resource value: 0x7F0F0173
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131689843;
 			
-			// aapt resource value: 0x7F0F0143
-			public const int Theme_AppCompat_Dialog_Alert = 2131689795;
+			// aapt resource value: 0x7F0F0174
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131689844;
 			
-			// aapt resource value: 0x7F0F0144
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131689796;
+			// aapt resource value: 0x7F0F0175
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131689845;
 			
-			// aapt resource value: 0x7F0F0146
-			public const int Theme_AppCompat_Light = 2131689798;
+			// aapt resource value: 0x7F0F0176
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131689846;
 			
-			// aapt resource value: 0x7F0F0147
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131689799;
+			// aapt resource value: 0x7F0F0177
+			public const int ThemeOverlay_MaterialComponents_Light = 2131689847;
 			
-			// aapt resource value: 0x7F0F0148
-			public const int Theme_AppCompat_Light_Dialog = 2131689800;
+			// aapt resource value: 0x7F0F0178
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131689848;
 			
-			// aapt resource value: 0x7F0F014B
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131689803;
+			// aapt resource value: 0x7F0F0179
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131689849;
 			
-			// aapt resource value: 0x7F0F0149
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131689801;
+			// aapt resource value: 0x7F0F017A
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131689850;
 			
-			// aapt resource value: 0x7F0F014A
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131689802;
-			
-			// aapt resource value: 0x7F0F014C
-			public const int Theme_AppCompat_Light_NoActionBar = 2131689804;
-			
-			// aapt resource value: 0x7F0F014D
-			public const int Theme_AppCompat_NoActionBar = 2131689805;
-			
-			// aapt resource value: 0x7F0F014E
-			public const int Theme_Design = 2131689806;
-			
-			// aapt resource value: 0x7F0F014F
-			public const int Theme_Design_BottomSheetDialog = 2131689807;
-			
-			// aapt resource value: 0x7F0F0150
-			public const int Theme_Design_Light = 2131689808;
-			
-			// aapt resource value: 0x7F0F0151
-			public const int Theme_Design_Light_BottomSheetDialog = 2131689809;
-			
-			// aapt resource value: 0x7F0F0152
-			public const int Theme_Design_Light_NoActionBar = 2131689810;
-			
-			// aapt resource value: 0x7F0F0153
-			public const int Theme_Design_NoActionBar = 2131689811;
-			
-			// aapt resource value: 0x7F0F0154
-			public const int Theme_MaterialComponents = 2131689812;
-			
-			// aapt resource value: 0x7F0F0155
-			public const int Theme_MaterialComponents_BottomSheetDialog = 2131689813;
-			
-			// aapt resource value: 0x7F0F0156
-			public const int Theme_MaterialComponents_Bridge = 2131689814;
-			
-			// aapt resource value: 0x7F0F0157
-			public const int Theme_MaterialComponents_CompactMenu = 2131689815;
-			
-			// aapt resource value: 0x7F0F0158
-			public const int Theme_MaterialComponents_Dialog = 2131689816;
-			
-			// aapt resource value: 0x7F0F015B
-			public const int Theme_MaterialComponents_DialogWhenLarge = 2131689819;
-			
-			// aapt resource value: 0x7F0F0159
-			public const int Theme_MaterialComponents_Dialog_Alert = 2131689817;
-			
-			// aapt resource value: 0x7F0F015A
-			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131689818;
-			
-			// aapt resource value: 0x7F0F015C
-			public const int Theme_MaterialComponents_Light = 2131689820;
-			
-			// aapt resource value: 0x7F0F015D
-			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131689821;
-			
-			// aapt resource value: 0x7F0F015E
-			public const int Theme_MaterialComponents_Light_Bridge = 2131689822;
-			
-			// aapt resource value: 0x7F0F015F
-			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131689823;
-			
-			// aapt resource value: 0x7F0F0160
-			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131689824;
-			
-			// aapt resource value: 0x7F0F0161
-			public const int Theme_MaterialComponents_Light_Dialog = 2131689825;
-			
-			// aapt resource value: 0x7F0F0164
-			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131689828;
-			
-			// aapt resource value: 0x7F0F0162
-			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131689826;
-			
-			// aapt resource value: 0x7F0F0163
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131689827;
-			
-			// aapt resource value: 0x7F0F0165
-			public const int Theme_MaterialComponents_Light_NoActionBar = 2131689829;
-			
-			// aapt resource value: 0x7F0F0166
-			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131689830;
-			
-			// aapt resource value: 0x7F0F0167
-			public const int Theme_MaterialComponents_NoActionBar = 2131689831;
-			
-			// aapt resource value: 0x7F0F0168
-			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131689832;
+			// aapt resource value: 0x7F0F017B
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131689851;
 			
 			// aapt resource value: 0x7F0F017C
-			public const int Widget_AppCompat_ActionBar = 2131689852;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131689852;
+			
+			// aapt resource value: 0x7F0F013A
+			public const int Theme_AppCompat = 2131689786;
+			
+			// aapt resource value: 0x7F0F013B
+			public const int Theme_AppCompat_CompactMenu = 2131689787;
+			
+			// aapt resource value: 0x7F0F013C
+			public const int Theme_AppCompat_DayNight = 2131689788;
+			
+			// aapt resource value: 0x7F0F013D
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131689789;
+			
+			// aapt resource value: 0x7F0F013E
+			public const int Theme_AppCompat_DayNight_Dialog = 2131689790;
+			
+			// aapt resource value: 0x7F0F0141
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131689793;
+			
+			// aapt resource value: 0x7F0F013F
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131689791;
+			
+			// aapt resource value: 0x7F0F0140
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131689792;
+			
+			// aapt resource value: 0x7F0F0142
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131689794;
+			
+			// aapt resource value: 0x7F0F0143
+			public const int Theme_AppCompat_Dialog = 2131689795;
+			
+			// aapt resource value: 0x7F0F0146
+			public const int Theme_AppCompat_DialogWhenLarge = 2131689798;
+			
+			// aapt resource value: 0x7F0F0144
+			public const int Theme_AppCompat_Dialog_Alert = 2131689796;
+			
+			// aapt resource value: 0x7F0F0145
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131689797;
+			
+			// aapt resource value: 0x7F0F0147
+			public const int Theme_AppCompat_Light = 2131689799;
+			
+			// aapt resource value: 0x7F0F0148
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131689800;
+			
+			// aapt resource value: 0x7F0F0149
+			public const int Theme_AppCompat_Light_Dialog = 2131689801;
+			
+			// aapt resource value: 0x7F0F014C
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131689804;
+			
+			// aapt resource value: 0x7F0F014A
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131689802;
+			
+			// aapt resource value: 0x7F0F014B
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131689803;
+			
+			// aapt resource value: 0x7F0F014D
+			public const int Theme_AppCompat_Light_NoActionBar = 2131689805;
+			
+			// aapt resource value: 0x7F0F014E
+			public const int Theme_AppCompat_NoActionBar = 2131689806;
+			
+			// aapt resource value: 0x7F0F014F
+			public const int Theme_Design = 2131689807;
+			
+			// aapt resource value: 0x7F0F0150
+			public const int Theme_Design_BottomSheetDialog = 2131689808;
+			
+			// aapt resource value: 0x7F0F0151
+			public const int Theme_Design_Light = 2131689809;
+			
+			// aapt resource value: 0x7F0F0152
+			public const int Theme_Design_Light_BottomSheetDialog = 2131689810;
+			
+			// aapt resource value: 0x7F0F0153
+			public const int Theme_Design_Light_NoActionBar = 2131689811;
+			
+			// aapt resource value: 0x7F0F0154
+			public const int Theme_Design_NoActionBar = 2131689812;
+			
+			// aapt resource value: 0x7F0F0155
+			public const int Theme_MaterialComponents = 2131689813;
+			
+			// aapt resource value: 0x7F0F0156
+			public const int Theme_MaterialComponents_BottomSheetDialog = 2131689814;
+			
+			// aapt resource value: 0x7F0F0157
+			public const int Theme_MaterialComponents_Bridge = 2131689815;
+			
+			// aapt resource value: 0x7F0F0158
+			public const int Theme_MaterialComponents_CompactMenu = 2131689816;
+			
+			// aapt resource value: 0x7F0F0159
+			public const int Theme_MaterialComponents_Dialog = 2131689817;
+			
+			// aapt resource value: 0x7F0F015C
+			public const int Theme_MaterialComponents_DialogWhenLarge = 2131689820;
+			
+			// aapt resource value: 0x7F0F015A
+			public const int Theme_MaterialComponents_Dialog_Alert = 2131689818;
+			
+			// aapt resource value: 0x7F0F015B
+			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131689819;
+			
+			// aapt resource value: 0x7F0F015D
+			public const int Theme_MaterialComponents_Light = 2131689821;
+			
+			// aapt resource value: 0x7F0F015E
+			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131689822;
+			
+			// aapt resource value: 0x7F0F015F
+			public const int Theme_MaterialComponents_Light_Bridge = 2131689823;
+			
+			// aapt resource value: 0x7F0F0160
+			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131689824;
+			
+			// aapt resource value: 0x7F0F0161
+			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131689825;
+			
+			// aapt resource value: 0x7F0F0162
+			public const int Theme_MaterialComponents_Light_Dialog = 2131689826;
+			
+			// aapt resource value: 0x7F0F0165
+			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131689829;
+			
+			// aapt resource value: 0x7F0F0163
+			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131689827;
+			
+			// aapt resource value: 0x7F0F0164
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131689828;
+			
+			// aapt resource value: 0x7F0F0166
+			public const int Theme_MaterialComponents_Light_NoActionBar = 2131689830;
+			
+			// aapt resource value: 0x7F0F0167
+			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131689831;
+			
+			// aapt resource value: 0x7F0F0168
+			public const int Theme_MaterialComponents_NoActionBar = 2131689832;
+			
+			// aapt resource value: 0x7F0F0169
+			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131689833;
 			
 			// aapt resource value: 0x7F0F017D
-			public const int Widget_AppCompat_ActionBar_Solid = 2131689853;
+			public const int Widget_AppCompat_ActionBar = 2131689853;
 			
 			// aapt resource value: 0x7F0F017E
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131689854;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131689854;
 			
 			// aapt resource value: 0x7F0F017F
-			public const int Widget_AppCompat_ActionBar_TabText = 2131689855;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131689855;
 			
 			// aapt resource value: 0x7F0F0180
-			public const int Widget_AppCompat_ActionBar_TabView = 2131689856;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131689856;
 			
 			// aapt resource value: 0x7F0F0181
-			public const int Widget_AppCompat_ActionButton = 2131689857;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131689857;
 			
 			// aapt resource value: 0x7F0F0182
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131689858;
+			public const int Widget_AppCompat_ActionButton = 2131689858;
 			
 			// aapt resource value: 0x7F0F0183
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131689859;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131689859;
 			
 			// aapt resource value: 0x7F0F0184
-			public const int Widget_AppCompat_ActionMode = 2131689860;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131689860;
 			
 			// aapt resource value: 0x7F0F0185
-			public const int Widget_AppCompat_ActivityChooserView = 2131689861;
+			public const int Widget_AppCompat_ActionMode = 2131689861;
 			
 			// aapt resource value: 0x7F0F0186
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131689862;
+			public const int Widget_AppCompat_ActivityChooserView = 2131689862;
 			
 			// aapt resource value: 0x7F0F0187
-			public const int Widget_AppCompat_Button = 2131689863;
-			
-			// aapt resource value: 0x7F0F018D
-			public const int Widget_AppCompat_ButtonBar = 2131689869;
-			
-			// aapt resource value: 0x7F0F018E
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131689870;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131689863;
 			
 			// aapt resource value: 0x7F0F0188
-			public const int Widget_AppCompat_Button_Borderless = 2131689864;
+			public const int Widget_AppCompat_Button = 2131689864;
 			
-			// aapt resource value: 0x7F0F0189
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131689865;
-			
-			// aapt resource value: 0x7F0F018A
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131689866;
-			
-			// aapt resource value: 0x7F0F018B
-			public const int Widget_AppCompat_Button_Colored = 2131689867;
-			
-			// aapt resource value: 0x7F0F018C
-			public const int Widget_AppCompat_Button_Small = 2131689868;
+			// aapt resource value: 0x7F0F018E
+			public const int Widget_AppCompat_ButtonBar = 2131689870;
 			
 			// aapt resource value: 0x7F0F018F
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131689871;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131689871;
+			
+			// aapt resource value: 0x7F0F0189
+			public const int Widget_AppCompat_Button_Borderless = 2131689865;
+			
+			// aapt resource value: 0x7F0F018A
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131689866;
+			
+			// aapt resource value: 0x7F0F018B
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131689867;
+			
+			// aapt resource value: 0x7F0F018C
+			public const int Widget_AppCompat_Button_Colored = 2131689868;
+			
+			// aapt resource value: 0x7F0F018D
+			public const int Widget_AppCompat_Button_Small = 2131689869;
 			
 			// aapt resource value: 0x7F0F0190
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131689872;
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131689872;
 			
 			// aapt resource value: 0x7F0F0191
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131689873;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131689873;
 			
 			// aapt resource value: 0x7F0F0192
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131689874;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131689874;
 			
 			// aapt resource value: 0x7F0F0193
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131689875;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131689875;
 			
 			// aapt resource value: 0x7F0F0194
-			public const int Widget_AppCompat_EditText = 2131689876;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131689876;
 			
 			// aapt resource value: 0x7F0F0195
-			public const int Widget_AppCompat_ImageButton = 2131689877;
+			public const int Widget_AppCompat_EditText = 2131689877;
 			
 			// aapt resource value: 0x7F0F0196
-			public const int Widget_AppCompat_Light_ActionBar = 2131689878;
+			public const int Widget_AppCompat_ImageButton = 2131689878;
 			
 			// aapt resource value: 0x7F0F0197
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131689879;
+			public const int Widget_AppCompat_Light_ActionBar = 2131689879;
 			
 			// aapt resource value: 0x7F0F0198
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131689880;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131689880;
 			
 			// aapt resource value: 0x7F0F0199
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131689881;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131689881;
 			
 			// aapt resource value: 0x7F0F019A
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131689882;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131689882;
 			
 			// aapt resource value: 0x7F0F019B
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131689883;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131689883;
 			
 			// aapt resource value: 0x7F0F019C
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131689884;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131689884;
 			
 			// aapt resource value: 0x7F0F019D
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131689885;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131689885;
 			
 			// aapt resource value: 0x7F0F019E
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131689886;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131689886;
 			
 			// aapt resource value: 0x7F0F019F
-			public const int Widget_AppCompat_Light_ActionButton = 2131689887;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131689887;
 			
 			// aapt resource value: 0x7F0F01A0
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131689888;
+			public const int Widget_AppCompat_Light_ActionButton = 2131689888;
 			
 			// aapt resource value: 0x7F0F01A1
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131689889;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131689889;
 			
 			// aapt resource value: 0x7F0F01A2
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131689890;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131689890;
 			
 			// aapt resource value: 0x7F0F01A3
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131689891;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131689891;
 			
 			// aapt resource value: 0x7F0F01A4
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131689892;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131689892;
 			
 			// aapt resource value: 0x7F0F01A5
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131689893;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131689893;
 			
 			// aapt resource value: 0x7F0F01A6
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131689894;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131689894;
 			
 			// aapt resource value: 0x7F0F01A7
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131689895;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131689895;
 			
 			// aapt resource value: 0x7F0F01A8
-			public const int Widget_AppCompat_Light_PopupMenu = 2131689896;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131689896;
 			
 			// aapt resource value: 0x7F0F01A9
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131689897;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131689897;
 			
 			// aapt resource value: 0x7F0F01AA
-			public const int Widget_AppCompat_Light_SearchView = 2131689898;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131689898;
 			
 			// aapt resource value: 0x7F0F01AB
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131689899;
+			public const int Widget_AppCompat_Light_SearchView = 2131689899;
 			
 			// aapt resource value: 0x7F0F01AC
-			public const int Widget_AppCompat_ListMenuView = 2131689900;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131689900;
 			
 			// aapt resource value: 0x7F0F01AD
-			public const int Widget_AppCompat_ListPopupWindow = 2131689901;
+			public const int Widget_AppCompat_ListMenuView = 2131689901;
 			
 			// aapt resource value: 0x7F0F01AE
-			public const int Widget_AppCompat_ListView = 2131689902;
+			public const int Widget_AppCompat_ListPopupWindow = 2131689902;
 			
 			// aapt resource value: 0x7F0F01AF
-			public const int Widget_AppCompat_ListView_DropDown = 2131689903;
+			public const int Widget_AppCompat_ListView = 2131689903;
 			
 			// aapt resource value: 0x7F0F01B0
-			public const int Widget_AppCompat_ListView_Menu = 2131689904;
+			public const int Widget_AppCompat_ListView_DropDown = 2131689904;
 			
 			// aapt resource value: 0x7F0F01B1
-			public const int Widget_AppCompat_PopupMenu = 2131689905;
+			public const int Widget_AppCompat_ListView_Menu = 2131689905;
 			
 			// aapt resource value: 0x7F0F01B2
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131689906;
+			public const int Widget_AppCompat_PopupMenu = 2131689906;
 			
 			// aapt resource value: 0x7F0F01B3
-			public const int Widget_AppCompat_PopupWindow = 2131689907;
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131689907;
 			
 			// aapt resource value: 0x7F0F01B4
-			public const int Widget_AppCompat_ProgressBar = 2131689908;
+			public const int Widget_AppCompat_PopupWindow = 2131689908;
 			
 			// aapt resource value: 0x7F0F01B5
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131689909;
+			public const int Widget_AppCompat_ProgressBar = 2131689909;
 			
 			// aapt resource value: 0x7F0F01B6
-			public const int Widget_AppCompat_RatingBar = 2131689910;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131689910;
 			
 			// aapt resource value: 0x7F0F01B7
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131689911;
+			public const int Widget_AppCompat_RatingBar = 2131689911;
 			
 			// aapt resource value: 0x7F0F01B8
-			public const int Widget_AppCompat_RatingBar_Small = 2131689912;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131689912;
 			
 			// aapt resource value: 0x7F0F01B9
-			public const int Widget_AppCompat_SearchView = 2131689913;
+			public const int Widget_AppCompat_RatingBar_Small = 2131689913;
 			
 			// aapt resource value: 0x7F0F01BA
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131689914;
+			public const int Widget_AppCompat_SearchView = 2131689914;
 			
 			// aapt resource value: 0x7F0F01BB
-			public const int Widget_AppCompat_SeekBar = 2131689915;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131689915;
 			
 			// aapt resource value: 0x7F0F01BC
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131689916;
+			public const int Widget_AppCompat_SeekBar = 2131689916;
 			
 			// aapt resource value: 0x7F0F01BD
-			public const int Widget_AppCompat_Spinner = 2131689917;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131689917;
 			
 			// aapt resource value: 0x7F0F01BE
-			public const int Widget_AppCompat_Spinner_DropDown = 2131689918;
+			public const int Widget_AppCompat_Spinner = 2131689918;
 			
 			// aapt resource value: 0x7F0F01BF
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131689919;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131689919;
 			
 			// aapt resource value: 0x7F0F01C0
-			public const int Widget_AppCompat_Spinner_Underlined = 2131689920;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131689920;
 			
 			// aapt resource value: 0x7F0F01C1
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131689921;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131689921;
 			
 			// aapt resource value: 0x7F0F01C2
-			public const int Widget_AppCompat_Toolbar = 2131689922;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131689922;
 			
 			// aapt resource value: 0x7F0F01C3
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131689923;
+			public const int Widget_AppCompat_Toolbar = 2131689923;
 			
 			// aapt resource value: 0x7F0F01C4
-			public const int Widget_Compat_NotificationActionContainer = 2131689924;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131689924;
 			
 			// aapt resource value: 0x7F0F01C5
-			public const int Widget_Compat_NotificationActionText = 2131689925;
+			public const int Widget_Compat_NotificationActionContainer = 2131689925;
 			
 			// aapt resource value: 0x7F0F01C6
-			public const int Widget_Design_AppBarLayout = 2131689926;
+			public const int Widget_Compat_NotificationActionText = 2131689926;
 			
 			// aapt resource value: 0x7F0F01C7
-			public const int Widget_Design_BottomNavigationView = 2131689927;
+			public const int Widget_Design_AppBarLayout = 2131689927;
 			
 			// aapt resource value: 0x7F0F01C8
-			public const int Widget_Design_BottomSheet_Modal = 2131689928;
+			public const int Widget_Design_BottomNavigationView = 2131689928;
 			
 			// aapt resource value: 0x7F0F01C9
-			public const int Widget_Design_CollapsingToolbar = 2131689929;
+			public const int Widget_Design_BottomSheet_Modal = 2131689929;
 			
 			// aapt resource value: 0x7F0F01CA
-			public const int Widget_Design_FloatingActionButton = 2131689930;
+			public const int Widget_Design_CollapsingToolbar = 2131689930;
 			
 			// aapt resource value: 0x7F0F01CB
-			public const int Widget_Design_NavigationView = 2131689931;
+			public const int Widget_Design_FloatingActionButton = 2131689931;
 			
 			// aapt resource value: 0x7F0F01CC
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131689932;
+			public const int Widget_Design_NavigationView = 2131689932;
 			
 			// aapt resource value: 0x7F0F01CD
-			public const int Widget_Design_Snackbar = 2131689933;
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131689933;
 			
 			// aapt resource value: 0x7F0F01CE
-			public const int Widget_Design_TabLayout = 2131689934;
+			public const int Widget_Design_Snackbar = 2131689934;
 			
 			// aapt resource value: 0x7F0F01CF
-			public const int Widget_Design_TextInputLayout = 2131689935;
+			public const int Widget_Design_TabLayout = 2131689935;
 			
 			// aapt resource value: 0x7F0F01D0
-			public const int Widget_MaterialComponents_BottomAppBar = 2131689936;
+			public const int Widget_Design_TextInputLayout = 2131689936;
 			
 			// aapt resource value: 0x7F0F01D1
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131689937;
+			public const int Widget_MaterialComponents_BottomAppBar = 2131689937;
 			
 			// aapt resource value: 0x7F0F01D2
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131689938;
+			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131689938;
 			
 			// aapt resource value: 0x7F0F01D3
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131689939;
+			public const int Widget_MaterialComponents_BottomNavigationView = 2131689939;
 			
 			// aapt resource value: 0x7F0F01D4
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131689940;
+			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131689940;
 			
 			// aapt resource value: 0x7F0F01D5
-			public const int Widget_MaterialComponents_Button = 2131689941;
+			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131689941;
 			
 			// aapt resource value: 0x7F0F01D6
-			public const int Widget_MaterialComponents_Button_Icon = 2131689942;
+			public const int Widget_MaterialComponents_Button = 2131689942;
 			
 			// aapt resource value: 0x7F0F01D7
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131689943;
+			public const int Widget_MaterialComponents_Button_Icon = 2131689943;
 			
 			// aapt resource value: 0x7F0F01D8
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131689944;
+			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131689944;
 			
 			// aapt resource value: 0x7F0F01D9
-			public const int Widget_MaterialComponents_Button_TextButton = 2131689945;
+			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131689945;
 			
 			// aapt resource value: 0x7F0F01DA
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131689946;
+			public const int Widget_MaterialComponents_Button_TextButton = 2131689946;
 			
 			// aapt resource value: 0x7F0F01DB
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131689947;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131689947;
 			
 			// aapt resource value: 0x7F0F01DC
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131689948;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131689948;
 			
 			// aapt resource value: 0x7F0F01DD
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131689949;
+			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131689949;
 			
 			// aapt resource value: 0x7F0F01DE
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131689950;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131689950;
 			
 			// aapt resource value: 0x7F0F01DF
-			public const int Widget_MaterialComponents_CardView = 2131689951;
-			
-			// aapt resource value: 0x7F0F01E4
-			public const int Widget_MaterialComponents_ChipGroup = 2131689956;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131689951;
 			
 			// aapt resource value: 0x7F0F01E0
-			public const int Widget_MaterialComponents_Chip_Action = 2131689952;
-			
-			// aapt resource value: 0x7F0F01E1
-			public const int Widget_MaterialComponents_Chip_Choice = 2131689953;
-			
-			// aapt resource value: 0x7F0F01E2
-			public const int Widget_MaterialComponents_Chip_Entry = 2131689954;
-			
-			// aapt resource value: 0x7F0F01E3
-			public const int Widget_MaterialComponents_Chip_Filter = 2131689955;
+			public const int Widget_MaterialComponents_CardView = 2131689952;
 			
 			// aapt resource value: 0x7F0F01E5
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131689957;
+			public const int Widget_MaterialComponents_ChipGroup = 2131689957;
+			
+			// aapt resource value: 0x7F0F01E1
+			public const int Widget_MaterialComponents_Chip_Action = 2131689953;
+			
+			// aapt resource value: 0x7F0F01E2
+			public const int Widget_MaterialComponents_Chip_Choice = 2131689954;
+			
+			// aapt resource value: 0x7F0F01E3
+			public const int Widget_MaterialComponents_Chip_Entry = 2131689955;
+			
+			// aapt resource value: 0x7F0F01E4
+			public const int Widget_MaterialComponents_Chip_Filter = 2131689956;
 			
 			// aapt resource value: 0x7F0F01E6
-			public const int Widget_MaterialComponents_NavigationView = 2131689958;
+			public const int Widget_MaterialComponents_FloatingActionButton = 2131689958;
 			
 			// aapt resource value: 0x7F0F01E7
-			public const int Widget_MaterialComponents_Snackbar = 2131689959;
+			public const int Widget_MaterialComponents_NavigationView = 2131689959;
 			
 			// aapt resource value: 0x7F0F01E8
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131689960;
+			public const int Widget_MaterialComponents_Snackbar = 2131689960;
 			
 			// aapt resource value: 0x7F0F01E9
-			public const int Widget_MaterialComponents_TabLayout = 2131689961;
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131689961;
 			
 			// aapt resource value: 0x7F0F01EA
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131689962;
+			public const int Widget_MaterialComponents_TabLayout = 2131689962;
 			
 			// aapt resource value: 0x7F0F01EB
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131689963;
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131689963;
 			
 			// aapt resource value: 0x7F0F01EC
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131689964;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131689964;
 			
 			// aapt resource value: 0x7F0F01ED
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131689965;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131689965;
 			
 			// aapt resource value: 0x7F0F01EE
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131689966;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131689966;
 			
 			// aapt resource value: 0x7F0F01EF
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131689967;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131689967;
 			
 			// aapt resource value: 0x7F0F01F0
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131689968;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131689968;
 			
 			// aapt resource value: 0x7F0F01F1
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131689969;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131689969;
 			
 			// aapt resource value: 0x7F0F01F2
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131689970;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131689970;
 			
 			// aapt resource value: 0x7F0F01F3
-			public const int Widget_MaterialComponents_Toolbar = 2131689971;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131689971;
 			
 			// aapt resource value: 0x7F0F01F4
-			public const int Widget_Support_CoordinatorLayout = 2131689972;
+			public const int Widget_MaterialComponents_Toolbar = 2131689972;
+			
+			// aapt resource value: 0x7F0F01F5
+			public const int Widget_Support_CoordinatorLayout = 2131689973;
 			
 			static Style()
 			{
@@ -6857,37 +8410,37 @@ namespace BandyFW
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F030037,0x7F030038,0x7F030039,0x7F0300A4,0x7F0300A5,0x7F0300A6,0x7F0300A7,0x7F0300A8,0x7F0300A9,0x7F0300C1,0x7F0300CD,0x7F0300CE,0x7F0300DE,0x7F03011C,0x7F030121,0x7F030126,0x7F030127,0x7F030129,0x7F030133,0x7F03013D,0x7F030197,0x7F0301B8,0x7F0301DA,0x7F0301DE,0x7F0301DF,0x7F030217,0x7F03021A,0x7F030263,0x7F03026D }
+			// aapt resource value: { 0x7F03003B,0x7F03003C,0x7F03003D,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300C5,0x7F0300D1,0x7F0300D2,0x7F0300E2,0x7F030120,0x7F030125,0x7F03012A,0x7F03012B,0x7F03012D,0x7F030137,0x7F030141,0x7F03019B,0x7F0301BC,0x7F0301DE,0x7F0301E2,0x7F0301E3,0x7F03021B,0x7F03021E,0x7F030267,0x7F030271 }
 			public static int[] ActionBar = new int[] {
-					2130903095,
-					2130903096,
-					2130903097,
-					2130903204,
-					2130903205,
-					2130903206,
-					2130903207,
+					2130903099,
+					2130903100,
+					2130903101,
 					2130903208,
 					2130903209,
-					2130903233,
-					2130903245,
-					2130903246,
-					2130903262,
-					2130903324,
-					2130903329,
-					2130903334,
-					2130903335,
-					2130903337,
-					2130903347,
-					2130903357,
-					2130903447,
-					2130903480,
-					2130903514,
+					2130903210,
+					2130903211,
+					2130903212,
+					2130903213,
+					2130903237,
+					2130903249,
+					2130903250,
+					2130903266,
+					2130903328,
+					2130903333,
+					2130903338,
+					2130903339,
+					2130903341,
+					2130903351,
+					2130903361,
+					2130903451,
+					2130903484,
 					2130903518,
-					2130903519,
-					2130903575,
-					2130903578,
-					2130903651,
-					2130903661};
+					2130903522,
+					2130903523,
+					2130903579,
+					2130903582,
+					2130903655,
+					2130903665};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -6994,14 +8547,14 @@ namespace BandyFW
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030037,0x7F030038,0x7F03008B,0x7F03011C,0x7F03021A,0x7F03026D }
+			// aapt resource value: { 0x7F03003B,0x7F03003C,0x7F03008F,0x7F030120,0x7F03021E,0x7F030271 }
 			public static int[] ActionMode = new int[] {
-					2130903095,
-					2130903096,
-					2130903179,
-					2130903324,
-					2130903578,
-					2130903661};
+					2130903099,
+					2130903100,
+					2130903183,
+					2130903328,
+					2130903582,
+					2130903665};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -7021,10 +8574,10 @@ namespace BandyFW
 			// aapt resource value: 5
 			public const int ActionMode_titleTextStyle = 5;
 			
-			// aapt resource value: { 0x7F0300E3,0x7F030134 }
+			// aapt resource value: { 0x7F0300E7,0x7F030138 }
 			public static int[] ActivityChooserView = new int[] {
-					2130903267,
-					2130903348};
+					2130903271,
+					2130903352};
 			
 			// aapt resource value: 0
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
@@ -7032,16 +8585,16 @@ namespace BandyFW
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x10100F2,0x7F03005C,0x7F03005D,0x7F03018E,0x7F03018F,0x7F0301B5,0x7F0301FD,0x7F0301FE }
+			// aapt resource value: { 0x10100F2,0x7F030060,0x7F030061,0x7F030192,0x7F030193,0x7F0301B9,0x7F030201,0x7F030202 }
 			public static int[] AlertDialog = new int[] {
 					16842994,
-					2130903132,
-					2130903133,
-					2130903438,
-					2130903439,
-					2130903477,
-					2130903549,
-					2130903550};
+					2130903136,
+					2130903137,
+					2130903442,
+					2130903443,
+					2130903481,
+					2130903553,
+					2130903554};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -7124,21 +8677,21 @@ namespace BandyFW
 			// aapt resource value: 1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300DE,0x7F0300E4,0x7F030188 }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300E2,0x7F0300E8,0x7F03018C }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
 					16844096,
-					2130903262,
-					2130903268,
-					2130903432};
+					2130903266,
+					2130903272,
+					2130903436};
 			
-			// aapt resource value: { 0x7F03020D,0x7F03020E,0x7F03020F,0x7F030210 }
+			// aapt resource value: { 0x7F030211,0x7F030212,0x7F030213,0x7F030214 }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130903565,
-					2130903566,
-					2130903567,
-					2130903568};
+					2130903569,
+					2130903570,
+					2130903571,
+					2130903572};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -7167,10 +8720,10 @@ namespace BandyFW
 			// aapt resource value: 4
 			public const int AppBarLayout_expanded = 4;
 			
-			// aapt resource value: { 0x7F030186,0x7F030187 }
+			// aapt resource value: { 0x7F03018A,0x7F03018B }
 			public static int[] AppBarLayout_Layout = new int[] {
-					2130903430,
-					2130903431};
+					2130903434,
+					2130903435};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
@@ -7181,12 +8734,12 @@ namespace BandyFW
 			// aapt resource value: 5
 			public const int AppBarLayout_liftOnScroll = 5;
 			
-			// aapt resource value: { 0x1010119,0x7F030209,0x7F030261,0x7F030262 }
+			// aapt resource value: { 0x1010119,0x7F03020D,0x7F030265,0x7F030266 }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903561,
-					2130903649,
-					2130903650};
+					2130903565,
+					2130903653,
+					2130903654};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -7200,12 +8753,12 @@ namespace BandyFW
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F03025E,0x7F03025F,0x7F030260 }
+			// aapt resource value: { 0x1010142,0x7F030262,0x7F030263,0x7F030264 }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130903646,
-					2130903647,
-					2130903648};
+					2130903650,
+					2130903651,
+					2130903652};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -7250,19 +8803,19 @@ namespace BandyFW
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F030031,0x7F030032,0x7F030033,0x7F030034,0x7F030035,0x7F0300F7,0x7F03010D,0x7F030146,0x7F03018A,0x7F03023E }
+			// aapt resource value: { 0x1010034,0x7F030035,0x7F030036,0x7F030037,0x7F030038,0x7F030039,0x7F0300FB,0x7F030111,0x7F03014A,0x7F03018E,0x7F030242 }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
-					2130903089,
-					2130903090,
-					2130903091,
-					2130903092,
 					2130903093,
-					2130903287,
-					2130903309,
-					2130903366,
-					2130903434,
-					2130903614};
+					2130903094,
+					2130903095,
+					2130903096,
+					2130903097,
+					2130903291,
+					2130903313,
+					2130903370,
+					2130903438,
+					2130903618};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -7297,14 +8850,10 @@ namespace BandyFW
 			// aapt resource value: 10
 			public const int AppCompatTextView_textAllCaps = 10;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F030030,0x7F030047,0x7F030056,0x7F030057,0x7F030058,0x7F030059,0x7F03005A,0x7F03005E,0x7F03005F,0x7F03006A,0x7F03006F,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030097,0x7F030098,0x7F030099,0x7F03009B,0x7F0300B1,0x7F0300CA,0x7F0300CB,0x7F0300CC,0x7F0300CF,0x7F0300D1,0x7F0300D8,0x7F0300D9,0x7F0300DB,0x7F0300DC,0x7F0300DD,0x7F030126,0x7F030132,0x7F03018C,0x7F03018D,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F0301C8,0x7F0301C9,0x7F0301CA,0x7F0301D9,0x7F0301DB,0x7F0301E2,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301F4,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F030206,0x7F030207,0x7F03021E,0x7F030249,0x7F03024A,0x7F03024B,0x7F03024C,0x7F03024E,0x7F03024F,0x7F030250,0x7F030251,0x7F030254,0x7F030255,0x7F03026F,0x7F030270,0x7F030271,0x7F030272,0x7F030283,0x7F03028C,0x7F03028D,0x7F03028E,0x7F03028F,0x7F030290,0x7F030291,0x7F030292,0x7F030293,0x7F030294,0x7F030295 }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03000F,0x7F030010,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F03001F,0x7F030020,0x7F030021,0x7F030022,0x7F030025,0x7F030026,0x7F030027,0x7F030028,0x7F030029,0x7F030034,0x7F03004B,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F030062,0x7F030063,0x7F03006E,0x7F030073,0x7F030095,0x7F030096,0x7F030097,0x7F030098,0x7F030099,0x7F03009A,0x7F03009B,0x7F03009C,0x7F03009D,0x7F03009F,0x7F0300B5,0x7F0300CE,0x7F0300CF,0x7F0300D0,0x7F0300D3,0x7F0300D5,0x7F0300DC,0x7F0300DD,0x7F0300DF,0x7F0300E0,0x7F0300E1,0x7F03012A,0x7F030136,0x7F030190,0x7F030191,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F0301CC,0x7F0301CD,0x7F0301CE,0x7F0301DD,0x7F0301DF,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F0301FB,0x7F03020A,0x7F03020B,0x7F030222,0x7F03024D,0x7F03024E,0x7F03024F,0x7F030250,0x7F030252,0x7F030253,0x7F030254,0x7F030255,0x7F030258,0x7F030259,0x7F030273,0x7F030274,0x7F030275,0x7F030276,0x7F030287,0x7F030290,0x7F030291,0x7F030292,0x7F030293,0x7F030294,0x7F030295,0x7F030296,0x7F030297,0x7F030298,0x7F030299 }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
-					2130903040,
-					2130903041,
-					2130903042,
-					2130903043,
 					2130903044,
 					2130903045,
 					2130903046,
@@ -7314,10 +8863,10 @@ namespace BandyFW
 					2130903050,
 					2130903051,
 					2130903052,
+					2130903053,
 					2130903054,
 					2130903055,
 					2130903056,
-					2130903057,
 					2130903058,
 					2130903059,
 					2130903060,
@@ -7331,95 +8880,99 @@ namespace BandyFW
 					2130903068,
 					2130903069,
 					2130903070,
+					2130903071,
+					2130903072,
 					2130903073,
 					2130903074,
-					2130903075,
-					2130903076,
 					2130903077,
-					2130903088,
-					2130903111,
-					2130903126,
-					2130903127,
-					2130903128,
-					2130903129,
+					2130903078,
+					2130903079,
+					2130903080,
+					2130903081,
+					2130903092,
+					2130903115,
 					2130903130,
+					2130903131,
+					2130903132,
+					2130903133,
 					2130903134,
-					2130903135,
-					2130903146,
-					2130903151,
-					2130903185,
-					2130903186,
-					2130903187,
-					2130903188,
+					2130903138,
+					2130903139,
+					2130903150,
+					2130903155,
 					2130903189,
 					2130903190,
 					2130903191,
 					2130903192,
 					2130903193,
+					2130903194,
 					2130903195,
-					2130903217,
-					2130903242,
-					2130903243,
-					2130903244,
+					2130903196,
+					2130903197,
+					2130903199,
+					2130903221,
+					2130903246,
 					2130903247,
-					2130903249,
-					2130903256,
-					2130903257,
-					2130903259,
+					2130903248,
+					2130903251,
+					2130903253,
 					2130903260,
 					2130903261,
-					2130903334,
-					2130903346,
-					2130903436,
-					2130903437,
+					2130903263,
+					2130903264,
+					2130903265,
+					2130903338,
+					2130903350,
 					2130903440,
 					2130903441,
-					2130903442,
-					2130903443,
 					2130903444,
 					2130903445,
 					2130903446,
-					2130903496,
-					2130903497,
-					2130903498,
-					2130903513,
-					2130903515,
-					2130903522,
-					2130903523,
-					2130903524,
-					2130903525,
-					2130903540,
-					2130903541,
-					2130903542,
-					2130903543,
-					2130903558,
-					2130903559,
-					2130903582,
-					2130903625,
-					2130903626,
-					2130903627,
-					2130903628,
+					2130903447,
+					2130903448,
+					2130903449,
+					2130903450,
+					2130903500,
+					2130903501,
+					2130903502,
+					2130903517,
+					2130903519,
+					2130903526,
+					2130903527,
+					2130903528,
+					2130903529,
+					2130903544,
+					2130903545,
+					2130903546,
+					2130903547,
+					2130903562,
+					2130903563,
+					2130903586,
+					2130903629,
 					2130903630,
 					2130903631,
 					2130903632,
-					2130903633,
+					2130903634,
+					2130903635,
 					2130903636,
 					2130903637,
-					2130903663,
-					2130903664,
-					2130903665,
-					2130903666,
-					2130903683,
-					2130903692,
-					2130903693,
-					2130903694,
-					2130903695,
+					2130903640,
+					2130903641,
+					2130903667,
+					2130903668,
+					2130903669,
+					2130903670,
+					2130903687,
 					2130903696,
 					2130903697,
 					2130903698,
 					2130903699,
 					2130903700,
-					2130903701};
+					2130903701,
+					2130903702,
+					2130903703,
+					2130903704,
+					2130903705};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -7784,14 +9337,14 @@ namespace BandyFW
 			// aapt resource value: 120
 			public const int AppCompatTheme_windowNoTitle = 120;
 			
-			// aapt resource value: { 0x7F03003A,0x7F0300EC,0x7F0300ED,0x7F0300EE,0x7F0300EF,0x7F030122 }
+			// aapt resource value: { 0x7F03003E,0x7F0300F0,0x7F0300F1,0x7F0300F2,0x7F0300F3,0x7F030126 }
 			public static int[] BottomAppBar = new int[] {
-					2130903098,
-					2130903276,
-					2130903277,
-					2130903278,
-					2130903279,
-					2130903330};
+					2130903102,
+					2130903280,
+					2130903281,
+					2130903282,
+					2130903283,
+					2130903334};
 			
 			// aapt resource value: 0
 			public const int BottomAppBar_backgroundTint = 0;
@@ -7811,18 +9364,18 @@ namespace BandyFW
 			// aapt resource value: 5
 			public const int BottomAppBar_hideOnScroll = 5;
 			
-			// aapt resource value: { 0x7F0300DE,0x7F030137,0x7F030139,0x7F03013B,0x7F03013C,0x7F030140,0x7F030141,0x7F030142,0x7F030145,0x7F0301A3 }
+			// aapt resource value: { 0x7F0300E2,0x7F03013B,0x7F03013D,0x7F03013F,0x7F030140,0x7F030144,0x7F030145,0x7F030146,0x7F030149,0x7F0301A7 }
 			public static int[] BottomNavigationView = new int[] {
-					2130903262,
-					2130903351,
-					2130903353,
+					2130903266,
 					2130903355,
-					2130903356,
+					2130903357,
+					2130903359,
 					2130903360,
-					2130903361,
-					2130903362,
+					2130903364,
 					2130903365,
-					2130903459};
+					2130903366,
+					2130903369,
+					2130903463};
 			
 			// aapt resource value: 0
 			public const int BottomNavigationView_elevation = 0;
@@ -7854,12 +9407,12 @@ namespace BandyFW
 			// aapt resource value: 9
 			public const int BottomNavigationView_menu = 9;
 			
-			// aapt resource value: { 0x7F030041,0x7F030042,0x7F030044,0x7F030045 }
+			// aapt resource value: { 0x7F030045,0x7F030046,0x7F030048,0x7F030049 }
 			public static int[] BottomSheetBehavior_Layout = new int[] {
-					2130903105,
-					2130903106,
-					2130903108,
-					2130903109};
+					2130903109,
+					2130903110,
+					2130903112,
+					2130903113};
 			
 			// aapt resource value: 0
 			public const int BottomSheetBehavior_Layout_behavior_fitToContents = 0;
@@ -7873,28 +9426,28 @@ namespace BandyFW
 			// aapt resource value: 3
 			public const int BottomSheetBehavior_Layout_behavior_skipCollapsed = 3;
 			
-			// aapt resource value: { 0x7F030026 }
+			// aapt resource value: { 0x7F03002A }
 			public static int[] ButtonBarLayout = new int[] {
-					2130903078};
+					2130903082};
 			
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F030062,0x7F030063,0x7F030064,0x7F030065,0x7F030066,0x7F030067,0x7F0300AA,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300AE }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F030066,0x7F030067,0x7F030068,0x7F030069,0x7F03006A,0x7F03006B,0x7F0300AE,0x7F0300AF,0x7F0300B0,0x7F0300B1,0x7F0300B2 }
 			public static int[] CardView = new int[] {
 					16843071,
 					16843072,
-					2130903138,
-					2130903139,
-					2130903140,
-					2130903141,
 					2130903142,
 					2130903143,
-					2130903210,
-					2130903211,
-					2130903212,
-					2130903213,
-					2130903214};
+					2130903144,
+					2130903145,
+					2130903146,
+					2130903147,
+					2130903214,
+					2130903215,
+					2130903216,
+					2130903217,
+					2130903218};
 			
 			// aapt resource value: 1
 			public const int CardView_android_minHeight = 1;
@@ -7935,51 +9488,51 @@ namespace BandyFW
 			// aapt resource value: 12
 			public const int CardView_contentPaddingTop = 12;
 			
-			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F03006C,0x7F03006D,0x7F03006E,0x7F030070,0x7F030071,0x7F030072,0x7F030074,0x7F030075,0x7F030076,0x7F030077,0x7F030078,0x7F030079,0x7F03007E,0x7F03007F,0x7F030080,0x7F030084,0x7F030085,0x7F030086,0x7F030087,0x7F030088,0x7F030089,0x7F03008A,0x7F030120,0x7F03012A,0x7F03012E,0x7F0301EB,0x7F0301FA,0x7F030256,0x7F030258 }
+			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030070,0x7F030071,0x7F030072,0x7F030074,0x7F030075,0x7F030076,0x7F030078,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007D,0x7F030082,0x7F030083,0x7F030084,0x7F030088,0x7F030089,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008D,0x7F03008E,0x7F030124,0x7F03012E,0x7F030132,0x7F0301EF,0x7F0301FE,0x7F03025A,0x7F03025C }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842923,
 					16843039,
 					16843087,
 					16843237,
-					2130903148,
-					2130903149,
-					2130903150,
 					2130903152,
 					2130903153,
 					2130903154,
 					2130903156,
 					2130903157,
 					2130903158,
-					2130903159,
 					2130903160,
 					2130903161,
-					2130903166,
-					2130903167,
-					2130903168,
-					2130903172,
-					2130903173,
-					2130903174,
-					2130903175,
-					2130903176,
-					2130903177,
-					2130903178,
-					2130903328,
-					2130903338,
-					2130903342,
-					2130903531,
-					2130903546,
-					2130903638,
-					2130903640};
-			
-			// aapt resource value: { 0x7F03006B,0x7F03007A,0x7F03007B,0x7F03007C,0x7F0301FF,0x7F030200 }
-			public static int[] ChipGroup = new int[] {
-					2130903147,
 					2130903162,
 					2130903163,
 					2130903164,
-					2130903551,
-					2130903552};
+					2130903165,
+					2130903170,
+					2130903171,
+					2130903172,
+					2130903176,
+					2130903177,
+					2130903178,
+					2130903179,
+					2130903180,
+					2130903181,
+					2130903182,
+					2130903332,
+					2130903342,
+					2130903346,
+					2130903535,
+					2130903550,
+					2130903642,
+					2130903644};
+			
+			// aapt resource value: { 0x7F03006F,0x7F03007E,0x7F03007F,0x7F030080,0x7F030203,0x7F030204 }
+			public static int[] ChipGroup = new int[] {
+					2130903151,
+					2130903166,
+					2130903167,
+					2130903168,
+					2130903555,
+					2130903556};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -8101,24 +9654,24 @@ namespace BandyFW
 			// aapt resource value: 33
 			public const int Chip_textStartPadding = 33;
 			
-			// aapt resource value: { 0x7F03008E,0x7F03008F,0x7F0300AF,0x7F0300E5,0x7F0300E6,0x7F0300E7,0x7F0300E8,0x7F0300E9,0x7F0300EA,0x7F0300EB,0x7F0301EF,0x7F0301F1,0x7F030212,0x7F030263,0x7F030264,0x7F03026E }
+			// aapt resource value: { 0x7F030092,0x7F030093,0x7F0300B3,0x7F0300E9,0x7F0300EA,0x7F0300EB,0x7F0300EC,0x7F0300ED,0x7F0300EE,0x7F0300EF,0x7F0301F3,0x7F0301F5,0x7F030216,0x7F030267,0x7F030268,0x7F030272 }
 			public static int[] CollapsingToolbarLayout = new int[] {
-					2130903182,
-					2130903183,
-					2130903215,
-					2130903269,
-					2130903270,
-					2130903271,
-					2130903272,
+					2130903186,
+					2130903187,
+					2130903219,
 					2130903273,
 					2130903274,
 					2130903275,
-					2130903535,
-					2130903537,
-					2130903570,
-					2130903651,
-					2130903652,
-					2130903662};
+					2130903276,
+					2130903277,
+					2130903278,
+					2130903279,
+					2130903539,
+					2130903541,
+					2130903574,
+					2130903655,
+					2130903656,
+					2130903666};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -8150,10 +9703,10 @@ namespace BandyFW
 			// aapt resource value: 9
 			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 9;
 			
-			// aapt resource value: { 0x7F03014E,0x7F03014F }
+			// aapt resource value: { 0x7F030152,0x7F030153 }
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
-					2130903374,
-					2130903375};
+					2130903378,
+					2130903379};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -8179,11 +9732,11 @@ namespace BandyFW
 			// aapt resource value: 15
 			public const int CollapsingToolbarLayout_toolbarId = 15;
 			
-			// aapt resource value: { 0x10101A5,0x101031F,0x7F030027 }
+			// aapt resource value: { 0x10101A5,0x101031F,0x7F03002B }
 			public static int[] ColorStateListItem = new int[] {
 					16843173,
 					16843551,
-					2130903079};
+					2130903083};
 			
 			// aapt resource value: 2
 			public const int ColorStateListItem_alpha = 2;
@@ -8194,11 +9747,11 @@ namespace BandyFW
 			// aapt resource value: 0
 			public const int ColorStateListItem_android_color = 0;
 			
-			// aapt resource value: { 0x1010107,0x7F030060,0x7F030061 }
+			// aapt resource value: { 0x1010107,0x7F030064,0x7F030065 }
 			public static int[] CompoundButton = new int[] {
 					16843015,
-					2130903136,
-					2130903137};
+					2130903140,
+					2130903141};
 			
 			// aapt resource value: 0
 			public const int CompoundButton_android_button = 0;
@@ -8209,7 +9762,7 @@ namespace BandyFW
 			// aapt resource value: 2
 			public const int CompoundButton_buttonTintMode = 2;
 			
-			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F03002A,0x7F03003D,0x7F03003E,0x7F03003F,0x7F030069,0x7F0300A0,0x7F0300D5,0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F0300FC,0x7F0300FD,0x7F0300FE,0x7F0300FF,0x7F030100,0x7F030101,0x7F030102,0x7F030103,0x7F030104,0x7F030105,0x7F030107,0x7F030108,0x7F030109,0x7F03010A,0x7F03010B,0x7F030150,0x7F030151,0x7F030152,0x7F030153,0x7F030154,0x7F030155,0x7F030156,0x7F030157,0x7F030158,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030162,0x7F030163,0x7F030164,0x7F030165,0x7F030166,0x7F030167,0x7F030168,0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C,0x7F03016D,0x7F03016E,0x7F03016F,0x7F030170,0x7F030171,0x7F030172,0x7F030173,0x7F030174,0x7F030175,0x7F030176,0x7F030177,0x7F030178,0x7F030179,0x7F03017B,0x7F03017C,0x7F03017D,0x7F03017E,0x7F03017F,0x7F030180,0x7F030181,0x7F030182,0x7F0301AF,0x7F0301B0,0x7F0301D0,0x7F0301D7,0x7F03027B,0x7F03027D,0x7F030284 }
+			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F03002E,0x7F030041,0x7F030042,0x7F030043,0x7F03006D,0x7F0300A4,0x7F0300D9,0x7F0300FD,0x7F0300FE,0x7F0300FF,0x7F030100,0x7F030101,0x7F030102,0x7F030103,0x7F030104,0x7F030105,0x7F030106,0x7F030107,0x7F030108,0x7F030109,0x7F03010B,0x7F03010C,0x7F03010D,0x7F03010E,0x7F03010F,0x7F030154,0x7F030155,0x7F030156,0x7F030157,0x7F030158,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030162,0x7F030163,0x7F030164,0x7F030165,0x7F030166,0x7F030167,0x7F030168,0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C,0x7F03016D,0x7F03016E,0x7F03016F,0x7F030170,0x7F030171,0x7F030172,0x7F030173,0x7F030174,0x7F030175,0x7F030176,0x7F030177,0x7F030178,0x7F030179,0x7F03017A,0x7F03017B,0x7F03017C,0x7F03017D,0x7F03017F,0x7F030180,0x7F030181,0x7F030182,0x7F030183,0x7F030184,0x7F030185,0x7F030186,0x7F0301B3,0x7F0301B4,0x7F0301D4,0x7F0301DB,0x7F03027F,0x7F030281,0x7F030288 }
 			public static int[] Constraint = new int[] {
 					16842948,
 					16842960,
@@ -8238,17 +9791,13 @@ namespace BandyFW
 					16843702,
 					16843770,
 					16843840,
-					2130903082,
-					2130903101,
-					2130903102,
-					2130903103,
-					2130903145,
-					2130903200,
-					2130903253,
-					2130903289,
-					2130903290,
-					2130903291,
-					2130903292,
+					2130903086,
+					2130903105,
+					2130903106,
+					2130903107,
+					2130903149,
+					2130903204,
+					2130903257,
 					2130903293,
 					2130903294,
 					2130903295,
@@ -8258,15 +9807,15 @@ namespace BandyFW
 					2130903299,
 					2130903300,
 					2130903301,
+					2130903302,
 					2130903303,
 					2130903304,
 					2130903305,
-					2130903306,
 					2130903307,
-					2130903376,
-					2130903377,
-					2130903378,
-					2130903379,
+					2130903308,
+					2130903309,
+					2130903310,
+					2130903311,
 					2130903380,
 					2130903381,
 					2130903382,
@@ -8305,23 +9854,27 @@ namespace BandyFW
 					2130903415,
 					2130903416,
 					2130903417,
+					2130903418,
 					2130903419,
 					2130903420,
 					2130903421,
-					2130903422,
 					2130903423,
 					2130903424,
 					2130903425,
 					2130903426,
-					2130903471,
-					2130903472,
-					2130903504,
-					2130903511,
-					2130903675,
-					2130903677,
-					2130903684};
+					2130903427,
+					2130903428,
+					2130903429,
+					2130903430,
+					2130903475,
+					2130903476,
+					2130903508,
+					2130903515,
+					2130903679,
+					2130903681,
+					2130903688};
 			
-			// aapt resource value: { 0x10100C4,0x10100D5,0x10100D6,0x10100D7,0x10100D8,0x10100D9,0x10100DC,0x101011F,0x1010120,0x101013F,0x1010140,0x10103B3,0x10103B4,0x1010440,0x7F03003D,0x7F03003E,0x7F03003F,0x7F030069,0x7F03009D,0x7F0300A0,0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F0300FC,0x7F0300FD,0x7F0300FE,0x7F0300FF,0x7F030100,0x7F030101,0x7F030102,0x7F030103,0x7F030104,0x7F030105,0x7F030107,0x7F030108,0x7F030109,0x7F03010A,0x7F03010B,0x7F030148,0x7F030150,0x7F030151,0x7F030152,0x7F030153,0x7F030154,0x7F030155,0x7F030156,0x7F030157,0x7F030158,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030162,0x7F030163,0x7F030164,0x7F030165,0x7F030166,0x7F030167,0x7F030168,0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C,0x7F03016D,0x7F03016E,0x7F03016F,0x7F030170,0x7F030171,0x7F030172,0x7F030173,0x7F030174,0x7F030175,0x7F030176,0x7F030177,0x7F030178,0x7F030179,0x7F03017B,0x7F03017C,0x7F03017D,0x7F03017E,0x7F03017F,0x7F030180,0x7F030181,0x7F030182,0x7F030185 }
+			// aapt resource value: { 0x10100C4,0x10100D5,0x10100D6,0x10100D7,0x10100D8,0x10100D9,0x10100DC,0x101011F,0x1010120,0x101013F,0x1010140,0x10103B3,0x10103B4,0x1010440,0x7F030041,0x7F030042,0x7F030043,0x7F03006D,0x7F0300A1,0x7F0300A4,0x7F0300FD,0x7F0300FE,0x7F0300FF,0x7F030100,0x7F030101,0x7F030102,0x7F030103,0x7F030104,0x7F030105,0x7F030106,0x7F030107,0x7F030108,0x7F030109,0x7F03010B,0x7F03010C,0x7F03010D,0x7F03010E,0x7F03010F,0x7F03014C,0x7F030154,0x7F030155,0x7F030156,0x7F030157,0x7F030158,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030162,0x7F030163,0x7F030164,0x7F030165,0x7F030166,0x7F030167,0x7F030168,0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C,0x7F03016D,0x7F03016E,0x7F03016F,0x7F030170,0x7F030171,0x7F030172,0x7F030173,0x7F030174,0x7F030175,0x7F030176,0x7F030177,0x7F030178,0x7F030179,0x7F03017A,0x7F03017B,0x7F03017C,0x7F03017D,0x7F03017F,0x7F030180,0x7F030181,0x7F030182,0x7F030183,0x7F030184,0x7F030185,0x7F030186,0x7F030189 }
 			public static int[] ConstraintLayout_Layout = new int[] {
 					16842948,
 					16842965,
@@ -8337,16 +9890,12 @@ namespace BandyFW
 					16843699,
 					16843700,
 					16843840,
-					2130903101,
-					2130903102,
-					2130903103,
-					2130903145,
-					2130903197,
-					2130903200,
-					2130903289,
-					2130903290,
-					2130903291,
-					2130903292,
+					2130903105,
+					2130903106,
+					2130903107,
+					2130903149,
+					2130903201,
+					2130903204,
 					2130903293,
 					2130903294,
 					2130903295,
@@ -8356,16 +9905,16 @@ namespace BandyFW
 					2130903299,
 					2130903300,
 					2130903301,
+					2130903302,
 					2130903303,
 					2130903304,
 					2130903305,
-					2130903306,
 					2130903307,
-					2130903368,
-					2130903376,
-					2130903377,
-					2130903378,
-					2130903379,
+					2130903308,
+					2130903309,
+					2130903310,
+					2130903311,
+					2130903372,
 					2130903380,
 					2130903381,
 					2130903382,
@@ -8404,15 +9953,19 @@ namespace BandyFW
 					2130903415,
 					2130903416,
 					2130903417,
+					2130903418,
 					2130903419,
 					2130903420,
 					2130903421,
-					2130903422,
 					2130903423,
 					2130903424,
 					2130903425,
 					2130903426,
-					2130903429};
+					2130903427,
+					2130903428,
+					2130903429,
+					2130903430,
+					2130903433};
 			
 			// aapt resource value: 13
 			public const int ConstraintLayout_Layout_android_elevation = 13;
@@ -8684,10 +10237,10 @@ namespace BandyFW
 			// aapt resource value: 89
 			public const int ConstraintLayout_Layout_layout_optimizationLevel = 89;
 			
-			// aapt resource value: { 0x7F0300A2,0x7F0301D8 }
+			// aapt resource value: { 0x7F0300A6,0x7F0301DC }
 			public static int[] ConstraintLayout_placeholder = new int[] {
-					2130903202,
-					2130903512};
+					2130903206,
+					2130903516};
 			
 			// aapt resource value: 0
 			public const int ConstraintLayout_placeholder_content = 0;
@@ -8695,7 +10248,7 @@ namespace BandyFW
 			// aapt resource value: 1
 			public const int ConstraintLayout_placeholder_placeholder_emptyVisibility = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10101B5,0x10101B6,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F03002A,0x7F03003D,0x7F03003E,0x7F03003F,0x7F030069,0x7F0300A0,0x7F0300C9,0x7F0300D5,0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F0300FC,0x7F0300FD,0x7F0300FE,0x7F0300FF,0x7F030100,0x7F030101,0x7F030102,0x7F030103,0x7F030104,0x7F030105,0x7F030107,0x7F030108,0x7F030109,0x7F03010A,0x7F03010B,0x7F030150,0x7F030151,0x7F030152,0x7F030153,0x7F030154,0x7F030155,0x7F030156,0x7F030157,0x7F030158,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030162,0x7F030163,0x7F030164,0x7F030165,0x7F030166,0x7F030167,0x7F030168,0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C,0x7F03016D,0x7F03016E,0x7F03016F,0x7F030170,0x7F030171,0x7F030172,0x7F030173,0x7F030174,0x7F030175,0x7F030176,0x7F030177,0x7F030178,0x7F030179,0x7F03017B,0x7F03017C,0x7F03017D,0x7F03017E,0x7F03017F,0x7F030180,0x7F030181,0x7F030182,0x7F0301AF,0x7F0301B0,0x7F0301D0,0x7F0301D7,0x7F03027B,0x7F03027D }
+			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10101B5,0x10101B6,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F03002E,0x7F030041,0x7F030042,0x7F030043,0x7F03006D,0x7F0300A4,0x7F0300CD,0x7F0300D9,0x7F0300FD,0x7F0300FE,0x7F0300FF,0x7F030100,0x7F030101,0x7F030102,0x7F030103,0x7F030104,0x7F030105,0x7F030106,0x7F030107,0x7F030108,0x7F030109,0x7F03010B,0x7F03010C,0x7F03010D,0x7F03010E,0x7F03010F,0x7F030154,0x7F030155,0x7F030156,0x7F030157,0x7F030158,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030162,0x7F030163,0x7F030164,0x7F030165,0x7F030166,0x7F030167,0x7F030168,0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C,0x7F03016D,0x7F03016E,0x7F03016F,0x7F030170,0x7F030171,0x7F030172,0x7F030173,0x7F030174,0x7F030175,0x7F030176,0x7F030177,0x7F030178,0x7F030179,0x7F03017A,0x7F03017B,0x7F03017C,0x7F03017D,0x7F03017F,0x7F030180,0x7F030181,0x7F030182,0x7F030183,0x7F030184,0x7F030185,0x7F030186,0x7F0301B3,0x7F0301B4,0x7F0301D4,0x7F0301DB,0x7F03027F,0x7F030281 }
 			public static int[] ConstraintSet = new int[] {
 					16842948,
 					16842960,
@@ -8726,18 +10279,14 @@ namespace BandyFW
 					16843702,
 					16843770,
 					16843840,
-					2130903082,
-					2130903101,
-					2130903102,
-					2130903103,
-					2130903145,
-					2130903200,
-					2130903241,
-					2130903253,
-					2130903289,
-					2130903290,
-					2130903291,
-					2130903292,
+					2130903086,
+					2130903105,
+					2130903106,
+					2130903107,
+					2130903149,
+					2130903204,
+					2130903245,
+					2130903257,
 					2130903293,
 					2130903294,
 					2130903295,
@@ -8747,15 +10296,15 @@ namespace BandyFW
 					2130903299,
 					2130903300,
 					2130903301,
+					2130903302,
 					2130903303,
 					2130903304,
 					2130903305,
-					2130903306,
 					2130903307,
-					2130903376,
-					2130903377,
-					2130903378,
-					2130903379,
+					2130903308,
+					2130903309,
+					2130903310,
+					2130903311,
 					2130903380,
 					2130903381,
 					2130903382,
@@ -8794,20 +10343,24 @@ namespace BandyFW
 					2130903415,
 					2130903416,
 					2130903417,
+					2130903418,
 					2130903419,
 					2130903420,
 					2130903421,
-					2130903422,
 					2130903423,
 					2130903424,
 					2130903425,
 					2130903426,
-					2130903471,
-					2130903472,
-					2130903504,
-					2130903511,
-					2130903675,
-					2130903677};
+					2130903427,
+					2130903428,
+					2130903429,
+					2130903430,
+					2130903475,
+					2130903476,
+					2130903508,
+					2130903515,
+					2130903679,
+					2130903681};
 			
 			// aapt resource value: 15
 			public const int ConstraintSet_android_alpha = 15;
@@ -9469,23 +11022,23 @@ namespace BandyFW
 			// aapt resource value: 108
 			public const int Constraint_visibilityMode = 108;
 			
-			// aapt resource value: { 0x7F030144,0x7F030211 }
+			// aapt resource value: { 0x7F030148,0x7F030215 }
 			public static int[] CoordinatorLayout = new int[] {
-					2130903364,
-					2130903569};
+					2130903368,
+					2130903573};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x10100B3,0x7F03014B,0x7F03014C,0x7F03014D,0x7F03017A,0x7F030183,0x7F030184 }
+			// aapt resource value: { 0x10100B3,0x7F03014F,0x7F030150,0x7F030151,0x7F03017E,0x7F030187,0x7F030188 }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
-					2130903371,
-					2130903372,
-					2130903373,
-					2130903418,
-					2130903427,
-					2130903428};
+					2130903375,
+					2130903376,
+					2130903377,
+					2130903422,
+					2130903431,
+					2130903432};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -9511,17 +11064,17 @@ namespace BandyFW
 			// aapt resource value: 1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
-			// aapt resource value: { 0x7F03002F,0x7F0300BB,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300BF,0x7F0300C0,0x7F0300C2,0x7F0300C3 }
+			// aapt resource value: { 0x7F030033,0x7F0300BF,0x7F0300C0,0x7F0300C1,0x7F0300C2,0x7F0300C3,0x7F0300C4,0x7F0300C6,0x7F0300C7 }
 			public static int[] CustomAttribute = new int[] {
-					2130903087,
-					2130903227,
-					2130903228,
-					2130903229,
-					2130903230,
+					2130903091,
 					2130903231,
 					2130903232,
+					2130903233,
 					2130903234,
-					2130903235};
+					2130903235,
+					2130903236,
+					2130903238,
+					2130903239};
 			
 			// aapt resource value: 0
 			public const int CustomAttribute_attributeName = 0;
@@ -9550,10 +11103,10 @@ namespace BandyFW
 			// aapt resource value: 8
 			public const int CustomAttribute_customStringValue = 8;
 			
-			// aapt resource value: { 0x7F03004A,0x7F03004B }
+			// aapt resource value: { 0x7F03004E,0x7F03004F }
 			public static int[] DesignTheme = new int[] {
-					2130903114,
-					2130903115};
+					2130903118,
+					2130903119};
 			
 			// aapt resource value: 0
 			public const int DesignTheme_bottomSheetDialogTheme = 0;
@@ -9561,16 +11114,35 @@ namespace BandyFW
 			// aapt resource value: 1
 			public const int DesignTheme_bottomSheetStyle = 1;
 			
-			// aapt resource value: { 0x7F03002D,0x7F03002E,0x7F03003C,0x7F030090,0x7F0300D6,0x7F030119,0x7F030205,0x7F03025A }
+			// aapt resource value: { 0x7F030000,0x7F030001,0x7F030002,0x7F030003 }
+			public static int[] Dialog = new int[] {
+					2130903040,
+					2130903041,
+					2130903042,
+					2130903043};
+			
+			// aapt resource value: 0
+			public const int Dialog_DialogSpotColor = 0;
+			
+			// aapt resource value: 1
+			public const int Dialog_DialogSpotCount = 1;
+			
+			// aapt resource value: 2
+			public const int Dialog_DialogTitleAppearance = 2;
+			
+			// aapt resource value: 3
+			public const int Dialog_DialogTitleText = 3;
+			
+			// aapt resource value: { 0x7F030031,0x7F030032,0x7F030040,0x7F030094,0x7F0300DA,0x7F03011D,0x7F030209,0x7F03025E }
 			public static int[] DrawerArrowToggle = new int[] {
-					2130903085,
-					2130903086,
-					2130903100,
-					2130903184,
-					2130903254,
-					2130903321,
-					2130903557,
-					2130903642};
+					2130903089,
+					2130903090,
+					2130903104,
+					2130903188,
+					2130903258,
+					2130903325,
+					2130903561,
+					2130903646};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -9596,21 +11168,21 @@ namespace BandyFW
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F03003A,0x7F03003B,0x7F030046,0x7F0300DE,0x7F0300F0,0x7F0300F1,0x7F030120,0x7F030128,0x7F03019F,0x7F0301DD,0x7F0301EB,0x7F0301FA,0x7F030282 }
+			// aapt resource value: { 0x7F03003E,0x7F03003F,0x7F03004A,0x7F0300E2,0x7F0300F4,0x7F0300F5,0x7F030124,0x7F03012C,0x7F0301A3,0x7F0301E1,0x7F0301EF,0x7F0301FE,0x7F030286 }
 			public static int[] FloatingActionButton = new int[] {
-					2130903098,
-					2130903099,
-					2130903110,
-					2130903262,
-					2130903280,
-					2130903281,
-					2130903328,
-					2130903336,
-					2130903455,
-					2130903517,
-					2130903531,
-					2130903546,
-					2130903682};
+					2130903102,
+					2130903103,
+					2130903114,
+					2130903266,
+					2130903284,
+					2130903285,
+					2130903332,
+					2130903340,
+					2130903459,
+					2130903521,
+					2130903535,
+					2130903550,
+					2130903686};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_backgroundTint = 0;
@@ -9618,9 +11190,9 @@ namespace BandyFW
 			// aapt resource value: 1
 			public const int FloatingActionButton_backgroundTintMode = 1;
 			
-			// aapt resource value: { 0x7F030040 }
+			// aapt resource value: { 0x7F030044 }
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
-					2130903104};
+					2130903108};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
@@ -9658,10 +11230,10 @@ namespace BandyFW
 			// aapt resource value: 12
 			public const int FloatingActionButton_useCompatPadding = 12;
 			
-			// aapt resource value: { 0x7F03013E,0x7F03018B }
+			// aapt resource value: { 0x7F030142,0x7F03018F }
 			public static int[] FlowLayout = new int[] {
-					2130903358,
-					2130903435};
+					2130903362,
+					2130903439};
 			
 			// aapt resource value: 0
 			public const int FlowLayout_itemSpacing = 0;
@@ -9669,27 +11241,27 @@ namespace BandyFW
 			// aapt resource value: 1
 			public const int FlowLayout_lineSpacing = 1;
 			
-			// aapt resource value: { 0x7F03010E,0x7F03010F,0x7F030110,0x7F030111,0x7F030112,0x7F030113 }
+			// aapt resource value: { 0x7F030112,0x7F030113,0x7F030114,0x7F030115,0x7F030116,0x7F030117 }
 			public static int[] FontFamily = new int[] {
-					2130903310,
-					2130903311,
-					2130903312,
-					2130903313,
 					2130903314,
-					2130903315};
+					2130903315,
+					2130903316,
+					2130903317,
+					2130903318,
+					2130903319};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F03010C,0x7F030114,0x7F030115,0x7F030116,0x7F030281 }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F030110,0x7F030118,0x7F030119,0x7F03011A,0x7F030285 }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
 					16844095,
 					16844143,
 					16844144,
-					2130903308,
-					2130903316,
-					2130903317,
-					2130903318,
-					2130903681};
+					2130903312,
+					2130903320,
+					2130903321,
+					2130903322,
+					2130903685};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -9739,11 +11311,11 @@ namespace BandyFW
 			// aapt resource value: 5
 			public const int FontFamily_fontProviderQuery = 5;
 			
-			// aapt resource value: { 0x1010109,0x1010200,0x7F030117 }
+			// aapt resource value: { 0x1010109,0x1010200,0x7F03011B }
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
 					16843264,
-					2130903319};
+					2130903323};
 			
 			// aapt resource value: 0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -9816,17 +11388,17 @@ namespace BandyFW
 			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x7F030029,0x7F030055,0x7F0300B0,0x7F0300B8,0x7F0301C3,0x7F0301EC,0x7F0301ED,0x7F0301EE,0x7F030286 }
+			// aapt resource value: { 0x7F03002D,0x7F030059,0x7F0300B4,0x7F0300BC,0x7F0301C7,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F03028A }
 			public static int[] ImageFilterView = new int[] {
-					2130903081,
-					2130903125,
-					2130903216,
-					2130903224,
-					2130903491,
-					2130903532,
-					2130903533,
-					2130903534,
-					2130903686};
+					2130903085,
+					2130903129,
+					2130903220,
+					2130903228,
+					2130903495,
+					2130903536,
+					2130903537,
+					2130903538,
+					2130903690};
 			
 			// aapt resource value: 0
 			public const int ImageFilterView_altSrc = 0;
@@ -9855,7 +11427,7 @@ namespace BandyFW
 			// aapt resource value: 8
 			public const int ImageFilterView_warmth = 8;
 			
-			// aapt resource value: { 0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F0300BA,0x7F030118,0x7F0301AF,0x7F0301B1,0x7F03027B,0x7F03027D }
+			// aapt resource value: { 0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F0300BE,0x7F03011C,0x7F0301B3,0x7F0301B5,0x7F03027F,0x7F030281 }
 			public static int[] KeyAttribute = new int[] {
 					16843551,
 					16843552,
@@ -9869,12 +11441,12 @@ namespace BandyFW
 					16843560,
 					16843770,
 					16843840,
-					2130903226,
-					2130903320,
-					2130903471,
-					2130903473,
-					2130903675,
-					2130903677};
+					2130903230,
+					2130903324,
+					2130903475,
+					2130903477,
+					2130903679,
+					2130903681};
 			
 			// aapt resource value: 0
 			public const int KeyAttribute_android_alpha = 0;
@@ -9930,7 +11502,7 @@ namespace BandyFW
 			// aapt resource value: 17
 			public const int KeyAttribute_transitionPathRotate = 17;
 			
-			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F0300BA,0x7F030118,0x7F0301AF,0x7F0301B1,0x7F03027B,0x7F03027D,0x7F030288,0x7F030289,0x7F03028A,0x7F03028B }
+			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F0300BE,0x7F03011C,0x7F0301B3,0x7F0301B5,0x7F03027F,0x7F030281,0x7F03028C,0x7F03028D,0x7F03028E,0x7F03028F }
 			public static int[] KeyCycle = new int[] {
 					16843551,
 					16843554,
@@ -9942,16 +11514,16 @@ namespace BandyFW
 					16843560,
 					16843770,
 					16843840,
-					2130903226,
-					2130903320,
-					2130903471,
-					2130903473,
-					2130903675,
-					2130903677,
-					2130903688,
-					2130903689,
-					2130903690,
-					2130903691};
+					2130903230,
+					2130903324,
+					2130903475,
+					2130903477,
+					2130903679,
+					2130903681,
+					2130903692,
+					2130903693,
+					2130903694,
+					2130903695};
 			
 			// aapt resource value: 0
 			public const int KeyCycle_android_alpha = 0;
@@ -10025,20 +11597,20 @@ namespace BandyFW
 			public static int[] KeyFramesVelocity = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F0300BA,0x7F0300D5,0x7F030118,0x7F030143,0x7F0301B1,0x7F0301D0,0x7F0301D2,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F030201,0x7F03027B }
+			// aapt resource value: { 0x7F0300BE,0x7F0300D9,0x7F03011C,0x7F030147,0x7F0301B5,0x7F0301D4,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F030205,0x7F03027F }
 			public static int[] KeyPosition = new int[] {
-					2130903226,
-					2130903253,
-					2130903320,
-					2130903363,
-					2130903473,
-					2130903504,
-					2130903506,
-					2130903507,
+					2130903230,
+					2130903257,
+					2130903324,
+					2130903367,
+					2130903477,
 					2130903508,
-					2130903509,
-					2130903553,
-					2130903675};
+					2130903510,
+					2130903511,
+					2130903512,
+					2130903513,
+					2130903557,
+					2130903679};
 			
 			// aapt resource value: 0
 			public const int KeyPosition_curveFit = 0;
@@ -10076,7 +11648,7 @@ namespace BandyFW
 			// aapt resource value: 11
 			public const int KeyPosition_transitionEasing = 11;
 			
-			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F0300BA,0x7F030118,0x7F0301AF,0x7F0301B1,0x7F03027B,0x7F03027D,0x7F030287,0x7F030288,0x7F030289,0x7F03028A }
+			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F0300BE,0x7F03011C,0x7F0301B3,0x7F0301B5,0x7F03027F,0x7F030281,0x7F03028B,0x7F03028C,0x7F03028D,0x7F03028E }
 			public static int[] KeyTimeCycle = new int[] {
 					16843551,
 					16843554,
@@ -10088,16 +11660,16 @@ namespace BandyFW
 					16843560,
 					16843770,
 					16843840,
-					2130903226,
-					2130903320,
-					2130903471,
-					2130903473,
-					2130903675,
-					2130903677,
-					2130903687,
-					2130903688,
-					2130903689,
-					2130903690};
+					2130903230,
+					2130903324,
+					2130903475,
+					2130903477,
+					2130903679,
+					2130903681,
+					2130903691,
+					2130903692,
+					2130903693,
+					2130903694};
 			
 			// aapt resource value: 0
 			public const int KeyTimeCycle_android_alpha = 0;
@@ -10159,18 +11731,18 @@ namespace BandyFW
 			// aapt resource value: 19
 			public const int KeyTimeCycle_waveShape = 19;
 			
-			// aapt resource value: { 0x7F030118,0x7F0301B1,0x7F0301B2,0x7F0301B3,0x7F0301BC,0x7F0301BE,0x7F0301BF,0x7F03027E,0x7F03027F,0x7F030280 }
+			// aapt resource value: { 0x7F03011C,0x7F0301B5,0x7F0301B6,0x7F0301B7,0x7F0301C0,0x7F0301C2,0x7F0301C3,0x7F030282,0x7F030283,0x7F030284 }
 			public static int[] KeyTrigger = new int[] {
-					2130903320,
-					2130903473,
-					2130903474,
-					2130903475,
-					2130903484,
-					2130903486,
-					2130903487,
-					2130903678,
-					2130903679,
-					2130903680};
+					2130903324,
+					2130903477,
+					2130903478,
+					2130903479,
+					2130903488,
+					2130903490,
+					2130903491,
+					2130903682,
+					2130903683,
+					2130903684};
 			
 			// aapt resource value: 0
 			public const int KeyTrigger_framePosition = 0;
@@ -10202,7 +11774,7 @@ namespace BandyFW
 			// aapt resource value: 9
 			public const int KeyTrigger_triggerSlack = 9;
 			
-			// aapt resource value: { 0x10100C4,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x10103B5,0x10103B6,0x7F03003D,0x7F03003E,0x7F03003F,0x7F030069,0x7F0300A0,0x7F030150,0x7F030151,0x7F030152,0x7F030153,0x7F030154,0x7F030155,0x7F030156,0x7F030157,0x7F030158,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030162,0x7F030163,0x7F030164,0x7F030165,0x7F030166,0x7F030167,0x7F030168,0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C,0x7F03016D,0x7F03016E,0x7F030170,0x7F030171,0x7F030172,0x7F030173,0x7F030174,0x7F030175,0x7F030176,0x7F030177,0x7F030178,0x7F030179,0x7F03017B,0x7F03017C,0x7F03017D,0x7F03017E,0x7F03017F,0x7F030180,0x7F030181,0x7F030182,0x7F03019E,0x7F0301A1,0x7F0301A4,0x7F0301A5 }
+			// aapt resource value: { 0x10100C4,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x10103B5,0x10103B6,0x7F030041,0x7F030042,0x7F030043,0x7F03006D,0x7F0300A4,0x7F030154,0x7F030155,0x7F030156,0x7F030157,0x7F030158,0x7F030159,0x7F03015A,0x7F03015B,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030162,0x7F030163,0x7F030164,0x7F030165,0x7F030166,0x7F030167,0x7F030168,0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C,0x7F03016D,0x7F03016E,0x7F03016F,0x7F030170,0x7F030171,0x7F030172,0x7F030174,0x7F030175,0x7F030176,0x7F030177,0x7F030178,0x7F030179,0x7F03017A,0x7F03017B,0x7F03017C,0x7F03017D,0x7F03017F,0x7F030180,0x7F030181,0x7F030182,0x7F030183,0x7F030184,0x7F030185,0x7F030186,0x7F0301A2,0x7F0301A5,0x7F0301A8,0x7F0301A9 }
 			public static int[] Layout = new int[] {
 					16842948,
 					16842996,
@@ -10213,15 +11785,11 @@ namespace BandyFW
 					16843002,
 					16843701,
 					16843702,
-					2130903101,
-					2130903102,
-					2130903103,
-					2130903145,
-					2130903200,
-					2130903376,
-					2130903377,
-					2130903378,
-					2130903379,
+					2130903105,
+					2130903106,
+					2130903107,
+					2130903149,
+					2130903204,
 					2130903380,
 					2130903381,
 					2130903382,
@@ -10249,28 +11817,32 @@ namespace BandyFW
 					2130903404,
 					2130903405,
 					2130903406,
+					2130903407,
 					2130903408,
 					2130903409,
 					2130903410,
-					2130903411,
 					2130903412,
 					2130903413,
 					2130903414,
 					2130903415,
 					2130903416,
 					2130903417,
+					2130903418,
 					2130903419,
 					2130903420,
 					2130903421,
-					2130903422,
 					2130903423,
 					2130903424,
 					2130903425,
 					2130903426,
-					2130903454,
-					2130903457,
-					2130903460,
-					2130903461};
+					2130903427,
+					2130903428,
+					2130903429,
+					2130903430,
+					2130903458,
+					2130903461,
+					2130903464,
+					2130903465};
 			
 			// aapt resource value: 2
 			public const int Layout_android_layout_height = 2;
@@ -10473,17 +12045,17 @@ namespace BandyFW
 			// aapt resource value: 66
 			public const int Layout_minWidth = 66;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300CE,0x7F0300D0,0x7F0301A2,0x7F0301F9 }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300D2,0x7F0300D4,0x7F0301A6,0x7F0301FD }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
 					16843046,
 					16843047,
 					16843048,
-					2130903246,
-					2130903248,
-					2130903458,
-					2130903545};
+					2130903250,
+					2130903252,
+					2130903462,
+					2130903549};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -10542,24 +12114,24 @@ namespace BandyFW
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
-			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F03003A,0x7F03003B,0x7F0300B3,0x7F030129,0x7F03012B,0x7F03012C,0x7F03012D,0x7F03012F,0x7F030130,0x7F0301EB,0x7F030213,0x7F030214 }
+			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F03003E,0x7F03003F,0x7F0300B7,0x7F03012D,0x7F03012F,0x7F030130,0x7F030131,0x7F030133,0x7F030134,0x7F0301EF,0x7F030217,0x7F030218 }
 			public static int[] MaterialButton = new int[] {
 					16843191,
 					16843192,
 					16843193,
 					16843194,
-					2130903098,
-					2130903099,
-					2130903219,
-					2130903337,
-					2130903339,
-					2130903340,
+					2130903102,
+					2130903103,
+					2130903223,
 					2130903341,
 					2130903343,
 					2130903344,
-					2130903531,
-					2130903571,
-					2130903572};
+					2130903345,
+					2130903347,
+					2130903348,
+					2130903535,
+					2130903575,
+					2130903576};
 			
 			// aapt resource value: 3
 			public const int MaterialButton_android_insetBottom = 3;
@@ -10609,10 +12181,10 @@ namespace BandyFW
 			// aapt resource value: 15
 			public const int MaterialButton_strokeWidth = 15;
 			
-			// aapt resource value: { 0x7F030213,0x7F030214 }
+			// aapt resource value: { 0x7F030217,0x7F030218 }
 			public static int[] MaterialCardView = new int[] {
-					2130903571,
-					2130903572};
+					2130903575,
+					2130903576};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_strokeColor = 0;
@@ -10620,40 +12192,40 @@ namespace BandyFW
 			// aapt resource value: 1
 			public const int MaterialCardView_strokeWidth = 1;
 			
-			// aapt resource value: { 0x7F03004A,0x7F03004B,0x7F030073,0x7F03007D,0x7F030081,0x7F030091,0x7F030092,0x7F030098,0x7F030099,0x7F03009A,0x7F0300DD,0x7F0300F8,0x7F030199,0x7F03019A,0x7F0301B9,0x7F0301F0,0x7F030202,0x7F030236,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F03024D,0x7F030252,0x7F030253,0x7F030257 }
+			// aapt resource value: { 0x7F03004E,0x7F03004F,0x7F030077,0x7F030081,0x7F030085,0x7F030095,0x7F030096,0x7F03009C,0x7F03009D,0x7F03009E,0x7F0300E1,0x7F0300FC,0x7F03019D,0x7F03019E,0x7F0301BD,0x7F0301F4,0x7F030206,0x7F03023A,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024B,0x7F03024C,0x7F030251,0x7F030256,0x7F030257,0x7F03025B }
 			public static int[] MaterialComponentsTheme = new int[] {
-					2130903114,
-					2130903115,
-					2130903155,
-					2130903165,
+					2130903118,
+					2130903119,
+					2130903159,
 					2130903169,
-					2130903185,
-					2130903186,
-					2130903192,
-					2130903193,
-					2130903194,
-					2130903261,
-					2130903288,
-					2130903449,
-					2130903450,
-					2130903481,
-					2130903536,
-					2130903554,
-					2130903606,
-					2130903615,
-					2130903616,
-					2130903617,
-					2130903618,
+					2130903173,
+					2130903189,
+					2130903190,
+					2130903196,
+					2130903197,
+					2130903198,
+					2130903265,
+					2130903292,
+					2130903453,
+					2130903454,
+					2130903485,
+					2130903540,
+					2130903558,
+					2130903610,
 					2130903619,
 					2130903620,
 					2130903621,
 					2130903622,
 					2130903623,
 					2130903624,
-					2130903629,
-					2130903634,
-					2130903635,
-					2130903639};
+					2130903625,
+					2130903626,
+					2130903627,
+					2130903628,
+					2130903633,
+					2130903638,
+					2130903639,
+					2130903643};
 			
 			// aapt resource value: 0
 			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 0;
@@ -10778,7 +12350,7 @@ namespace BandyFW
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030020,0x7F030028,0x7F0300A3,0x7F03012F,0x7F030130,0x7F0301BB,0x7F0301F8,0x7F030273 }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F030011,0x7F030023,0x7F030024,0x7F03002C,0x7F0300A7,0x7F030133,0x7F030134,0x7F0301BF,0x7F0301FC,0x7F030277 }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -10793,16 +12365,16 @@ namespace BandyFW
 					16843236,
 					16843237,
 					16843375,
-					2130903053,
-					2130903071,
-					2130903072,
-					2130903080,
-					2130903203,
-					2130903343,
-					2130903344,
-					2130903483,
-					2130903544,
-					2130903667};
+					2130903057,
+					2130903075,
+					2130903076,
+					2130903084,
+					2130903207,
+					2130903347,
+					2130903348,
+					2130903487,
+					2130903548,
+					2130903671};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -10873,7 +12445,7 @@ namespace BandyFW
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F0301DC,0x7F030215 }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F0301E0,0x7F030219 }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -10882,8 +12454,8 @@ namespace BandyFW
 					16843055,
 					16843056,
 					16843057,
-					2130903516,
-					2130903573};
+					2130903520,
+					2130903577};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -10912,14 +12484,14 @@ namespace BandyFW
 			// aapt resource value: 8
 			public const int MenuView_subMenuArrow = 8;
 			
-			// aapt resource value: { 0x7F0301A6,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F0301AA,0x7F0301AB }
+			// aapt resource value: { 0x7F0301AA,0x7F0301AB,0x7F0301AC,0x7F0301AD,0x7F0301AE,0x7F0301AF }
 			public static int[] MockView = new int[] {
-					2130903462,
-					2130903463,
-					2130903464,
-					2130903465,
 					2130903466,
-					2130903467};
+					2130903467,
+					2130903468,
+					2130903469,
+					2130903470,
+					2130903471};
 			
 			// aapt resource value: 0
 			public const int MockView_mock_diagonalsColor = 0;
@@ -10939,19 +12511,19 @@ namespace BandyFW
 			// aapt resource value: 5
 			public const int MockView_mock_showLabel = 5;
 			
-			// aapt resource value: { 0x7F03002A,0x7F0300D5,0x7F0301AE,0x7F0301B0,0x7F0301D0,0x7F03027B }
+			// aapt resource value: { 0x7F03002E,0x7F0300D9,0x7F0301B2,0x7F0301B4,0x7F0301D4,0x7F03027F }
 			public static int[] Motion = new int[] {
-					2130903082,
-					2130903253,
-					2130903470,
-					2130903472,
-					2130903504,
-					2130903675};
+					2130903086,
+					2130903257,
+					2130903474,
+					2130903476,
+					2130903508,
+					2130903679};
 			
-			// aapt resource value: { 0x7F0301BD,0x7F0301C0 }
+			// aapt resource value: { 0x7F0301C1,0x7F0301C4 }
 			public static int[] MotionHelper = new int[] {
-					2130903485,
-					2130903488};
+					2130903489,
+					2130903492};
 			
 			// aapt resource value: 0
 			public const int MotionHelper_onHide = 0;
@@ -10959,14 +12531,14 @@ namespace BandyFW
 			// aapt resource value: 1
 			public const int MotionHelper_onShow = 1;
 			
-			// aapt resource value: { 0x7F03002B,0x7F0300B9,0x7F030148,0x7F0301AC,0x7F0301AF,0x7F0301FB }
+			// aapt resource value: { 0x7F03002F,0x7F0300BD,0x7F03014C,0x7F0301B0,0x7F0301B3,0x7F0301FF }
 			public static int[] MotionLayout = new int[] {
-					2130903083,
-					2130903225,
-					2130903368,
-					2130903468,
-					2130903471,
-					2130903547};
+					2130903087,
+					2130903229,
+					2130903372,
+					2130903472,
+					2130903475,
+					2130903551};
 			
 			// aapt resource value: 0
 			public const int MotionLayout_applyMotionScene = 0;
@@ -10986,10 +12558,10 @@ namespace BandyFW
 			// aapt resource value: 5
 			public const int MotionLayout_showPaths = 5;
 			
-			// aapt resource value: { 0x7F0300C4,0x7F030149 }
+			// aapt resource value: { 0x7F0300C8,0x7F03014D }
 			public static int[] MotionScene = new int[] {
-					2130903236,
-					2130903369};
+					2130903240,
+					2130903373};
 			
 			// aapt resource value: 0
 			public const int MotionScene_defaultDuration = 0;
@@ -10997,11 +12569,11 @@ namespace BandyFW
 			// aapt resource value: 1
 			public const int MotionScene_layoutDuringTransition = 1;
 			
-			// aapt resource value: { 0x7F03023B,0x7F03023C,0x7F03023D }
+			// aapt resource value: { 0x7F03023F,0x7F030240,0x7F030241 }
 			public static int[] MotionTelltales = new int[] {
-					2130903611,
-					2130903612,
-					2130903613};
+					2130903615,
+					2130903616,
+					2130903617};
 			
 			// aapt resource value: 0
 			public const int MotionTelltales_telltales_tailColor = 0;
@@ -11030,20 +12602,20 @@ namespace BandyFW
 			// aapt resource value: 5
 			public const int Motion_transitionEasing = 5;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300DE,0x7F03011B,0x7F030137,0x7F030138,0x7F03013A,0x7F03013C,0x7F03013F,0x7F030142,0x7F0301A3 }
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300E2,0x7F03011F,0x7F03013B,0x7F03013C,0x7F03013E,0x7F030140,0x7F030143,0x7F030146,0x7F0301A7 }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
 					16843039,
-					2130903262,
-					2130903323,
-					2130903351,
-					2130903352,
-					2130903354,
+					2130903266,
+					2130903327,
+					2130903355,
 					2130903356,
-					2130903359,
-					2130903362,
-					2130903459};
+					2130903358,
+					2130903360,
+					2130903363,
+					2130903366,
+					2130903463};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -11081,10 +12653,10 @@ namespace BandyFW
 			// aapt resource value: 11
 			public const int NavigationView_menu = 11;
 			
-			// aapt resource value: { 0x7F030083,0x7F03023A }
+			// aapt resource value: { 0x7F030087,0x7F03023E }
 			public static int[] OnClick = new int[] {
-					2130903171,
-					2130903610};
+					2130903175,
+					2130903614};
 			
 			// aapt resource value: 0
 			public const int OnClick_clickAction = 0;
@@ -11092,20 +12664,20 @@ namespace BandyFW
 			// aapt resource value: 1
 			public const int OnClick_targetId = 1;
 			
-			// aapt resource value: { 0x7F0300D2,0x7F0300D3,0x7F0300D4,0x7F030189,0x7F03019B,0x7F0301A0,0x7F0301B4,0x7F0301BA,0x7F0301C1,0x7F030274,0x7F030275,0x7F030276 }
+			// aapt resource value: { 0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F03018D,0x7F03019F,0x7F0301A4,0x7F0301B8,0x7F0301BE,0x7F0301C5,0x7F030278,0x7F030279,0x7F03027A }
 			public static int[] OnSwipe = new int[] {
-					2130903250,
-					2130903251,
-					2130903252,
-					2130903433,
-					2130903451,
-					2130903456,
-					2130903476,
-					2130903482,
-					2130903489,
-					2130903668,
-					2130903669,
-					2130903670};
+					2130903254,
+					2130903255,
+					2130903256,
+					2130903437,
+					2130903455,
+					2130903460,
+					2130903480,
+					2130903486,
+					2130903493,
+					2130903672,
+					2130903673,
+					2130903674};
 			
 			// aapt resource value: 0
 			public const int OnSwipe_dragDirection = 0;
@@ -11143,15 +12715,15 @@ namespace BandyFW
 			// aapt resource value: 11
 			public const int OnSwipe_touchRegionId = 11;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F0301C2 }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F0301C6 }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130903490};
+					2130903494};
 			
-			// aapt resource value: { 0x7F03020C }
+			// aapt resource value: { 0x7F030210 }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903564};
+					2130903568};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -11165,13 +12737,13 @@ namespace BandyFW
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x10100DC,0x101031F,0x7F03016F,0x7F0301AF,0x7F030284 }
+			// aapt resource value: { 0x10100DC,0x101031F,0x7F030173,0x7F0301B3,0x7F030288 }
 			public static int[] PropertySet = new int[] {
 					16842972,
 					16843551,
-					2130903407,
-					2130903471,
-					2130903684};
+					2130903411,
+					2130903475,
+					2130903688};
 			
 			// aapt resource value: 1
 			public const int PropertySet_android_alpha = 1;
@@ -11188,10 +12760,10 @@ namespace BandyFW
 			// aapt resource value: 4
 			public const int PropertySet_visibilityMode = 4;
 			
-			// aapt resource value: { 0x7F0301C4,0x7F0301C7 }
+			// aapt resource value: { 0x7F0301C8,0x7F0301CB }
 			public static int[] RecycleListView = new int[] {
-					2130903492,
-					2130903495};
+					2130903496,
+					2130903499};
 			
 			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -11199,19 +12771,19 @@ namespace BandyFW
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100F1,0x7F0300F2,0x7F0300F3,0x7F0300F4,0x7F0300F5,0x7F0300F6,0x7F03014A,0x7F0301EA,0x7F030204,0x7F03020A }
+			// aapt resource value: { 0x10100C4,0x10100F1,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F0300F9,0x7F0300FA,0x7F03014E,0x7F0301EE,0x7F030208,0x7F03020E }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842993,
-					2130903282,
-					2130903283,
-					2130903284,
-					2130903285,
 					2130903286,
-					2130903370,
-					2130903530,
-					2130903556,
-					2130903562};
+					2130903287,
+					2130903288,
+					2130903289,
+					2130903290,
+					2130903374,
+					2130903534,
+					2130903560,
+					2130903566};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_descendantFocusability = 1;
@@ -11246,39 +12818,39 @@ namespace BandyFW
 			// aapt resource value: 10
 			public const int RecyclerView_stackFromEnd = 10;
 			
-			// aapt resource value: { 0x7F030135 }
+			// aapt resource value: { 0x7F030139 }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
-					2130903349};
+					2130903353};
 			
 			// aapt resource value: 0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
 			
-			// aapt resource value: { 0x7F030043 }
+			// aapt resource value: { 0x7F030047 }
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
-					2130903107};
+					2130903111};
 			
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030084,0x7F03009C,0x7F0300C5,0x7F03011A,0x7F030131,0x7F030147,0x7F0301E0,0x7F0301E1,0x7F0301F2,0x7F0301F3,0x7F030216,0x7F03021B,0x7F030285 }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030088,0x7F0300A0,0x7F0300C9,0x7F03011E,0x7F030135,0x7F03014B,0x7F0301E4,0x7F0301E5,0x7F0301F6,0x7F0301F7,0x7F03021A,0x7F03021F,0x7F030289 }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
 					16843296,
 					16843364,
-					2130903172,
-					2130903196,
-					2130903237,
-					2130903322,
-					2130903345,
-					2130903367,
-					2130903520,
-					2130903521,
-					2130903538,
-					2130903539,
-					2130903574,
-					2130903579,
-					2130903685};
+					2130903176,
+					2130903200,
+					2130903241,
+					2130903326,
+					2130903349,
+					2130903371,
+					2130903524,
+					2130903525,
+					2130903542,
+					2130903543,
+					2130903578,
+					2130903583,
+					2130903689};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -11331,16 +12903,16 @@ namespace BandyFW
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x7F030202,0x7F030203 }
+			// aapt resource value: { 0x7F030206,0x7F030207 }
 			public static int[] Snackbar = new int[] {
-					2130903554,
-					2130903555};
+					2130903558,
+					2130903559};
 			
-			// aapt resource value: { 0x101011F,0x7F0300DE,0x7F03019C }
+			// aapt resource value: { 0x101011F,0x7F0300E2,0x7F0301A0 }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
-					2130903262,
-					2130903452};
+					2130903266,
+					2130903456};
 			
 			// aapt resource value: 0
 			public const int SnackbarLayout_android_maxWidth = 0;
@@ -11357,13 +12929,13 @@ namespace BandyFW
 			// aapt resource value: 1
 			public const int Snackbar_snackbarStyle = 1;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F0301DA }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F0301DE }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
 					16843131,
 					16843362,
-					2130903514};
+					2130903518};
 			
 			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -11380,10 +12952,10 @@ namespace BandyFW
 			// aapt resource value: 4
 			public const int Spinner_popupTheme = 4;
 			
-			// aapt resource value: { 0x10100D0,0x7F0300A1 }
+			// aapt resource value: { 0x10100D0,0x7F0300A5 }
 			public static int[] State = new int[] {
 					16842960,
-					2130903201};
+					2130903205};
 			
 			// aapt resource value: { 0x101011C,0x1010194,0x1010195,0x1010196,0x101030C,0x101030D }
 			public static int[] StateListDrawable = new int[] {
@@ -11419,9 +12991,9 @@ namespace BandyFW
 			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x7F0300C6 }
+			// aapt resource value: { 0x7F0300CA }
 			public static int[] StateSet = new int[] {
-					2130903238};
+					2130903242};
 			
 			// aapt resource value: 0
 			public const int StateSet_defaultState = 0;
@@ -11432,22 +13004,22 @@ namespace BandyFW
 			// aapt resource value: 1
 			public const int State_constraints = 1;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F0301FC,0x7F030208,0x7F03021C,0x7F03021D,0x7F03021F,0x7F03025B,0x7F03025C,0x7F03025D,0x7F030277,0x7F030278,0x7F030279 }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F030200,0x7F03020C,0x7F030220,0x7F030221,0x7F030223,0x7F03025F,0x7F030260,0x7F030261,0x7F03027B,0x7F03027C,0x7F03027D }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903548,
-					2130903560,
-					2130903580,
-					2130903581,
-					2130903583,
-					2130903643,
-					2130903644,
-					2130903645,
-					2130903671,
-					2130903672,
-					2130903673};
+					2130903552,
+					2130903564,
+					2130903584,
+					2130903585,
+					2130903587,
+					2130903647,
+					2130903648,
+					2130903649,
+					2130903675,
+					2130903676,
+					2130903677};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -11506,12 +13078,8 @@ namespace BandyFW
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030237,0x7F030238,0x7F030239 }
+			// aapt resource value: { 0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023B,0x7F03023C,0x7F03023D }
 			public static int[] TabLayout = new int[] {
-					2130903584,
-					2130903585,
-					2130903586,
-					2130903587,
 					2130903588,
 					2130903589,
 					2130903590,
@@ -11530,9 +13098,13 @@ namespace BandyFW
 					2130903603,
 					2130903604,
 					2130903605,
+					2130903606,
 					2130903607,
 					2130903608,
-					2130903609};
+					2130903609,
+					2130903611,
+					2130903612,
+					2130903613};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -11609,7 +13181,7 @@ namespace BandyFW
 			// aapt resource value: 24
 			public const int TabLayout_tabUnboundedRipple = 24;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F03010D,0x7F03023E }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F030111,0x7F030242 }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -11622,8 +13194,8 @@ namespace BandyFW
 					16843107,
 					16843108,
 					16843692,
-					2130903309,
-					2130903614};
+					2130903313,
+					2130903618};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -11664,36 +13236,36 @@ namespace BandyFW
 			// aapt resource value: 12
 			public const int TextAppearance_textAllCaps = 12;
 			
-			// aapt resource value: { 0x101009A,0x1010150,0x7F03004C,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030051,0x7F030052,0x7F030053,0x7F030054,0x7F0300B4,0x7F0300B5,0x7F0300B6,0x7F0300B7,0x7F0300E1,0x7F0300E2,0x7F03011D,0x7F03011E,0x7F03011F,0x7F030123,0x7F030124,0x7F030125,0x7F0301CB,0x7F0301CC,0x7F0301CD,0x7F0301CE,0x7F0301CF }
+			// aapt resource value: { 0x101009A,0x1010150,0x7F030050,0x7F030051,0x7F030052,0x7F030053,0x7F030054,0x7F030055,0x7F030056,0x7F030057,0x7F030058,0x7F0300B8,0x7F0300B9,0x7F0300BA,0x7F0300BB,0x7F0300E5,0x7F0300E6,0x7F030121,0x7F030122,0x7F030123,0x7F030127,0x7F030128,0x7F030129,0x7F0301CF,0x7F0301D0,0x7F0301D1,0x7F0301D2,0x7F0301D3 }
 			public static int[] TextInputLayout = new int[] {
 					16842906,
 					16843088,
-					2130903116,
-					2130903117,
-					2130903118,
-					2130903119,
 					2130903120,
 					2130903121,
 					2130903122,
 					2130903123,
 					2130903124,
-					2130903220,
-					2130903221,
-					2130903222,
-					2130903223,
-					2130903265,
-					2130903266,
-					2130903325,
-					2130903326,
-					2130903327,
+					2130903125,
+					2130903126,
+					2130903127,
+					2130903128,
+					2130903224,
+					2130903225,
+					2130903226,
+					2130903227,
+					2130903269,
+					2130903270,
+					2130903329,
+					2130903330,
 					2130903331,
-					2130903332,
-					2130903333,
-					2130903499,
-					2130903500,
-					2130903501,
-					2130903502,
-					2130903503};
+					2130903335,
+					2130903336,
+					2130903337,
+					2130903503,
+					2130903504,
+					2130903505,
+					2130903506,
+					2130903507};
 			
 			// aapt resource value: 1
 			public const int TextInputLayout_android_hint = 1;
@@ -11779,11 +13351,11 @@ namespace BandyFW
 			// aapt resource value: 27
 			public const int TextInputLayout_passwordToggleTintMode = 27;
 			
-			// aapt resource value: { 0x1010034,0x7F0300DF,0x7F0300E0 }
+			// aapt resource value: { 0x1010034,0x7F0300E3,0x7F0300E4 }
 			public static int[] ThemeEnforcement = new int[] {
 					16842804,
-					2130903263,
-					2130903264};
+					2130903267,
+					2130903268};
 			
 			// aapt resource value: 0
 			public const int ThemeEnforcement_android_textAppearance = 0;
@@ -11794,37 +13366,37 @@ namespace BandyFW
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F03005B,0x7F03008C,0x7F03008D,0x7F0300A4,0x7F0300A5,0x7F0300A6,0x7F0300A7,0x7F0300A8,0x7F0300A9,0x7F030197,0x7F030198,0x7F03019D,0x7F0301B6,0x7F0301B7,0x7F0301DA,0x7F030217,0x7F030218,0x7F030219,0x7F030263,0x7F030265,0x7F030266,0x7F030267,0x7F030268,0x7F030269,0x7F03026A,0x7F03026B,0x7F03026C }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F03005F,0x7F030090,0x7F030091,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F03019B,0x7F03019C,0x7F0301A1,0x7F0301BA,0x7F0301BB,0x7F0301DE,0x7F03021B,0x7F03021C,0x7F03021D,0x7F030267,0x7F030269,0x7F03026A,0x7F03026B,0x7F03026C,0x7F03026D,0x7F03026E,0x7F03026F,0x7F030270 }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
-					2130903131,
-					2130903180,
-					2130903181,
-					2130903204,
-					2130903205,
-					2130903206,
-					2130903207,
+					2130903135,
+					2130903184,
+					2130903185,
 					2130903208,
 					2130903209,
-					2130903447,
-					2130903448,
-					2130903453,
-					2130903478,
-					2130903479,
-					2130903514,
-					2130903575,
-					2130903576,
-					2130903577,
-					2130903651,
-					2130903653,
-					2130903654,
+					2130903210,
+					2130903211,
+					2130903212,
+					2130903213,
+					2130903451,
+					2130903452,
+					2130903457,
+					2130903482,
+					2130903483,
+					2130903518,
+					2130903579,
+					2130903580,
+					2130903581,
 					2130903655,
-					2130903656,
 					2130903657,
 					2130903658,
 					2130903659,
-					2130903660};
+					2130903660,
+					2130903661,
+					2130903662,
+					2130903663,
+					2130903664};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -11960,19 +13532,19 @@ namespace BandyFW
 			// aapt resource value: 9
 			public const int Transform_android_translationZ = 9;
 			
-			// aapt resource value: { 0x10100D0,0x7F030036,0x7F03009E,0x7F03009F,0x7F0300DA,0x7F030149,0x7F0301AD,0x7F0301D0,0x7F03020B,0x7F03027A,0x7F03027C }
+			// aapt resource value: { 0x10100D0,0x7F03003A,0x7F0300A2,0x7F0300A3,0x7F0300DE,0x7F03014D,0x7F0301B1,0x7F0301D4,0x7F03020F,0x7F03027E,0x7F030280 }
 			public static int[] Transition = new int[] {
 					16842960,
-					2130903094,
-					2130903198,
-					2130903199,
-					2130903258,
-					2130903369,
-					2130903469,
-					2130903504,
-					2130903563,
-					2130903674,
-					2130903676};
+					2130903098,
+					2130903202,
+					2130903203,
+					2130903262,
+					2130903373,
+					2130903473,
+					2130903508,
+					2130903567,
+					2130903678,
+					2130903680};
 			
 			// aapt resource value: 0
 			public const int Transition_android_id = 0;
@@ -12007,13 +13579,13 @@ namespace BandyFW
 			// aapt resource value: 10
 			public const int Transition_transitionFlags = 10;
 			
-			// aapt resource value: { 0x7F0300A1,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9 }
+			// aapt resource value: { 0x7F0300A5,0x7F0301EA,0x7F0301EB,0x7F0301EC,0x7F0301ED }
 			public static int[] Variant = new int[] {
-					2130903201,
-					2130903526,
-					2130903527,
-					2130903528,
-					2130903529};
+					2130903205,
+					2130903530,
+					2130903531,
+					2130903532,
+					2130903533};
 			
 			// aapt resource value: 0
 			public const int Variant_constraints = 0;
@@ -12030,19 +13602,19 @@ namespace BandyFW
 			// aapt resource value: 4
 			public const int Variant_region_widthMoreThan = 4;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F0301C5,0x7F0301C6,0x7F030259 }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F0301C9,0x7F0301CA,0x7F03025D }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130903493,
-					2130903494,
-					2130903641};
+					2130903497,
+					2130903498,
+					2130903645};
 			
-			// aapt resource value: { 0x10100D4,0x7F03003A,0x7F03003B }
+			// aapt resource value: { 0x10100D4,0x7F03003E,0x7F03003F }
 			public static int[] ViewBackgroundHelper = new int[] {
 					16842964,
-					2130903098,
-					2130903099};
+					2130903102,
+					2130903103};
 			
 			// aapt resource value: 0
 			public const int ViewBackgroundHelper_android_background = 0;
