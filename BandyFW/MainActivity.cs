@@ -42,6 +42,7 @@ namespace BandyFW
 			Button clear_response_button = FindViewById<Button>(Resource.Id.clear_response_button);
 			EditText model_text = FindViewById<EditText>(Resource.Id.model_text);
 			EditText production_text = FindViewById<EditText>(Resource.Id.production_text);
+			LinearLayout device_layout = FindViewById<LinearLayout>(Resource.Id.device_layout);
 
 			var app_radio = FindViewById<RadioGroup>(Resource.Id.app_radio);
 			RadioButton radio_zepp = FindViewById<RadioButton>(Resource.Id.radio_zepp);
@@ -359,6 +360,7 @@ namespace BandyFW
 				radio_zepp.Enabled = true;
 				radio_mifit.Enabled = true;
 				play_postfix_checkbox.Enabled = true;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
 				response_listview.Visibility = Android.Views.ViewStates.Gone;
 
 				spinner.SetSelection(0);
@@ -438,6 +440,7 @@ namespace BandyFW
 			RadioButton radio_zepp = FindViewById<RadioButton>(Resource.Id.radio_zepp);
 			RadioButton radio_mifit = FindViewById<RadioButton>(Resource.Id.radio_mifit);
 			CheckBox play_postfix_checkbox = FindViewById<CheckBox>(Resource.Id.play_postfix_checkbox);
+			LinearLayout device_layout = FindViewById<LinearLayout>(Resource.Id.device_layout);
 
 			if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_manual))
 			{
@@ -449,8 +452,7 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Visible;
-				production_text.Visibility = Android.Views.ViewStates.Visible;
+				device_layout.Visibility = Android.Views.ViewStates.Visible;
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Visible;
 				radio_mifit.Visibility = Android.Views.ViewStates.Visible;
@@ -465,8 +467,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Visible;
 				radio_mifit.Visibility = Android.Views.ViewStates.Visible;
@@ -486,8 +488,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Visible;
 				radio_mifit.Visibility = Android.Views.ViewStates.Visible;
@@ -507,8 +509,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Visible;
 				radio_mifit.Visibility = Android.Views.ViewStates.Visible;
@@ -528,8 +530,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Gone;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
@@ -549,8 +551,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Visible;
 				radio_mifit.Visibility = Android.Views.ViewStates.Visible;
@@ -570,8 +572,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Gone;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
@@ -591,8 +593,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Gone;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
@@ -612,8 +614,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
@@ -633,8 +635,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
@@ -654,8 +656,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
@@ -675,8 +677,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
@@ -696,8 +698,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
@@ -717,8 +719,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
@@ -738,8 +740,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
@@ -759,8 +761,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
@@ -780,8 +782,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
@@ -801,8 +803,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
@@ -822,8 +824,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
@@ -843,8 +845,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
@@ -864,8 +866,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
@@ -885,8 +887,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
@@ -906,8 +908,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
 
@@ -927,8 +929,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
@@ -948,8 +950,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
@@ -969,8 +971,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
@@ -990,8 +992,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
@@ -1011,8 +1013,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
@@ -1032,8 +1034,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
@@ -1053,8 +1055,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
@@ -1074,8 +1076,8 @@ namespace BandyFW
 				play_postfix_checkbox.Checked = false;
 				Clear_response();
 
-				model_text.Visibility = Android.Views.ViewStates.Gone;
-				production_text.Visibility = Android.Views.ViewStates.Gone;
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;

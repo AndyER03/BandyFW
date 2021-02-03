@@ -1,26 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:minWidth="25px"
-    android:minHeight="25px"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10sp"
-    android:background="@drawable/background">
+    android:fillViewport="true"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:orientation="vertical"
+        android:padding="10sp">
 
         <Spinner
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/device_model_spinner"/>
 
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:theme="@style/TextInputLayoutStyle"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            android:id="@+id/device_layout"
+            android:gravity="center"
+            android:layout_marginBottom="12dp">
 
-            <android.support.design.widget.TextInputEditText
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/TextInputLayoutStyle"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <android.support.design.widget.TextInputEditText
                 android:inputType="number"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -29,13 +45,13 @@
                 android:layout_marginBottom="12dp"
                 android:maxLength="2"/>
 
-        </android.support.design.widget.TextInputLayout>
+            </android.support.design.widget.TextInputLayout>
 
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:theme="@style/TextInputLayoutStyle"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/TextInputLayoutStyle"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <android.support.design.widget.TextInputEditText
                 android:inputType="number"
@@ -48,6 +64,8 @@
                 android:maxLength="3"/>
 
         </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
@@ -205,7 +223,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/response_listview"
-            android:scrollbars="none"
             android:visibility="gone"
             android:choiceMode="singleChoice"
             android:listSelector="@drawable/state_selector"
@@ -283,4 +300,6 @@
 
         </LinearLayout>
 
-</LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
