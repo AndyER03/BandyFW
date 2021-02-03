@@ -223,6 +223,15 @@ namespace BandyFW
 							//response_text.Text = server_response;
 
 							Response content = JsonConvert.DeserializeObject<Response>(server_response);
+							string log = "";
+							if (content.changeLog != null)
+							{
+								log = "Click to show log";
+							}
+							else
+							{
+								log = "Log not founded";
+							}
 
 							ObservableCollection<string> data = new ObservableCollection<string>
 							{
@@ -230,6 +239,7 @@ namespace BandyFW
 								"Resource version: " + content.resourceVersion.ToString() + "\n" + "MD5: " + content.resourceMd5,
 								"Font version: " + content.fontVersion.ToString() + "\n" + "MD5: " + content.fontMd5,
 								"Languages: " + content.lang,
+								log
 								//content.deviceType,
 								//content.deviceSource,
 								//content.firmwareLength,
@@ -311,6 +321,19 @@ namespace BandyFW
 								else if (args.Position.ToString() == "3")
 								{
 									response_text.Text = content.lang;
+									editor.PutString("content_MD5", "");
+									editor.PutString("content_URL", "");
+									editor.Apply();
+
+									copy_MD5_button.Visibility = Android.Views.ViewStates.Gone;
+									download_button.Visibility = Android.Views.ViewStates.Gone;
+									clear_response_button.Visibility = Android.Views.ViewStates.Visible;
+									response_text_layout.Visibility = Android.Views.ViewStates.Visible;
+									response_text.Visibility = Android.Views.ViewStates.Visible;
+								}
+								else if (args.Position.ToString() == "4")
+								{
+									response_text.Text = content.changeLog;
 									editor.PutString("content_MD5", "");
 									editor.PutString("content_URL", "");
 									editor.Apply();

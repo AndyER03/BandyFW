@@ -13,6 +13,7 @@
         android:minWidth="25px"
         android:minHeight="25px"
         android:orientation="vertical"
+        android:fillViewport="true"
         android:padding="10sp">
 
         <Spinner
@@ -245,7 +246,7 @@
             <android.support.design.widget.TextInputEditText
                 android:inputType="none"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:hint="@string/response_hint"
                 android:id="@+id/response_text"
                 android:singleLine="false"
