@@ -6758,134 +6758,140 @@ namespace BandyFW
 			// aapt resource value: 0x7F0E004C
 			public const int device_name_rio = 2131624012;
 			
-			// aapt resource value: 0x7F0E004E
-			public const int device_name_venicew = 2131624014;
-			
 			// aapt resource value: 0x7F0E004D
-			public const int device_name_venice_china = 2131624013;
+			public const int device_name_tokyo = 2131624013;
 			
 			// aapt resource value: 0x7F0E004F
-			public const int device_name_vulture = 2131624015;
+			public const int device_name_venicew = 2131624015;
+			
+			// aapt resource value: 0x7F0E004E
+			public const int device_name_venice_china = 2131624014;
 			
 			// aapt resource value: 0x7F0E0050
-			public const int device_name_york = 2131624016;
+			public const int device_name_vulture = 2131624016;
 			
 			// aapt resource value: 0x7F0E0051
-			public const int downloading = 2131624017;
+			public const int device_name_york = 2131624017;
 			
 			// aapt resource value: 0x7F0E0052
-			public const int exit_message = 2131624018;
+			public const int downloading = 2131624018;
 			
 			// aapt resource value: 0x7F0E0053
-			public const int exit_title = 2131624019;
+			public const int exit_message = 2131624019;
 			
 			// aapt resource value: 0x7F0E0054
-			public const int fab_transformation_scrim_behavior = 2131624020;
+			public const int exit_title = 2131624020;
 			
 			// aapt resource value: 0x7F0E0055
-			public const int fab_transformation_sheet_behavior = 2131624021;
+			public const int fab_transformation_scrim_behavior = 2131624021;
 			
 			// aapt resource value: 0x7F0E0056
-			public const int forget = 2131624022;
+			public const int fab_transformation_sheet_behavior = 2131624022;
 			
 			// aapt resource value: 0x7F0E0057
-			public const int hello = 2131624023;
+			public const int forget = 2131624023;
 			
 			// aapt resource value: 0x7F0E0058
-			public const int hide_bottom_view_on_scroll_behavior = 2131624024;
+			public const int hello = 2131624024;
 			
 			// aapt resource value: 0x7F0E0059
-			public const int input_all_values = 2131624025;
+			public const int hide_bottom_view_on_scroll_behavior = 2131624025;
 			
 			// aapt resource value: 0x7F0E005A
-			public const int md5_copied = 2131624026;
-			
-			// aapt resource value: 0x7F0E005C
-			public const int mifit_appname = 2131624028;
+			public const int input_all_values = 2131624026;
 			
 			// aapt resource value: 0x7F0E005B
-			public const int mifit_app_package_name = 2131624027;
+			public const int md5_copied = 2131624027;
 			
 			// aapt resource value: 0x7F0E005D
-			public const int model_hint = 2131624029;
+			public const int mifit_appname = 2131624029;
+			
+			// aapt resource value: 0x7F0E005C
+			public const int mifit_app_package_name = 2131624028;
 			
 			// aapt resource value: 0x7F0E005E
-			public const int mtrl_chip_close_icon_content_description = 2131624030;
+			public const int model_hint = 2131624030;
 			
 			// aapt resource value: 0x7F0E005F
-			public const int negative_button = 2131624031;
+			public const int mtrl_chip_close_icon_content_description = 2131624031;
 			
 			// aapt resource value: 0x7F0E0060
-			public const int no_response_for_saving = 2131624032;
-			
-			// aapt resource value: 0x7F0E0061
-			public const int no_response_in_memory = 2131624033;
-			
-			// aapt resource value: 0x7F0E0062
-			public const int password_toggle_content_description = 2131624034;
+			public const int negative_button = 2131624032;
 			
 			// aapt resource value: 0x7F0E0063
-			public const int path_password_eye = 2131624035;
+			public const int not_available = 2131624035;
+			
+			// aapt resource value: 0x7F0E0061
+			public const int no_response_for_saving = 2131624033;
+			
+			// aapt resource value: 0x7F0E0062
+			public const int no_response_in_memory = 2131624034;
 			
 			// aapt resource value: 0x7F0E0064
-			public const int path_password_eye_mask_strike_through = 2131624036;
+			public const int password_toggle_content_description = 2131624036;
 			
 			// aapt resource value: 0x7F0E0065
-			public const int path_password_eye_mask_visible = 2131624037;
+			public const int path_password_eye = 2131624037;
 			
 			// aapt resource value: 0x7F0E0066
-			public const int path_password_strike_through = 2131624038;
+			public const int path_password_eye_mask_strike_through = 2131624038;
 			
 			// aapt resource value: 0x7F0E0067
-			public const int play_postfix_checkbox = 2131624039;
+			public const int path_password_eye_mask_visible = 2131624039;
 			
 			// aapt resource value: 0x7F0E0068
-			public const int positive_button = 2131624040;
+			public const int path_password_strike_through = 2131624040;
 			
 			// aapt resource value: 0x7F0E0069
-			public const int production_hint = 2131624041;
+			public const int play_postfix_checkbox = 2131624041;
 			
 			// aapt resource value: 0x7F0E006A
-			public const int remember = 2131624042;
+			public const int positive_button = 2131624042;
 			
 			// aapt resource value: 0x7F0E006B
-			public const int reset = 2131624043;
+			public const int production_hint = 2131624043;
 			
 			// aapt resource value: 0x7F0E006C
-			public const int reset_success = 2131624044;
+			public const int remember = 2131624044;
 			
 			// aapt resource value: 0x7F0E006D
-			public const int response_hint = 2131624045;
+			public const int reset = 2131624045;
 			
 			// aapt resource value: 0x7F0E006E
-			public const int restore = 2131624046;
+			public const int reset_success = 2131624046;
 			
 			// aapt resource value: 0x7F0E006F
-			public const int search_menu_title = 2131624047;
+			public const int response_hint = 2131624047;
 			
 			// aapt resource value: 0x7F0E0070
-			public const int shoose_app = 2131624048;
+			public const int restore = 2131624048;
 			
 			// aapt resource value: 0x7F0E0071
-			public const int status_bar_notification_info_overflow = 2131624049;
+			public const int search_menu_title = 2131624049;
 			
 			// aapt resource value: 0x7F0E0072
-			public const int submit = 2131624050;
+			public const int shoose_app = 2131624050;
 			
 			// aapt resource value: 0x7F0E0073
-			public const int text_app_name = 2131624051;
+			public const int status_bar_notification_info_overflow = 2131624051;
 			
 			// aapt resource value: 0x7F0E0074
-			public const int text_app_version = 2131624052;
+			public const int submit = 2131624052;
 			
 			// aapt resource value: 0x7F0E0075
-			public const int text_model_hint = 2131624053;
-			
-			// aapt resource value: 0x7F0E0077
-			public const int zepp_appname = 2131624055;
+			public const int text_app_name = 2131624053;
 			
 			// aapt resource value: 0x7F0E0076
-			public const int zepp_app_package_name = 2131624054;
+			public const int text_app_version = 2131624054;
+			
+			// aapt resource value: 0x7F0E0077
+			public const int text_model_hint = 2131624055;
+			
+			// aapt resource value: 0x7F0E0079
+			public const int zepp_appname = 2131624057;
+			
+			// aapt resource value: 0x7F0E0078
+			public const int zepp_app_package_name = 2131624056;
 			
 			static String()
 			{

@@ -30,6 +30,7 @@
     <string name="negative_button">Cancel</string>
     <string name="md5_copied">MD5 copied!</string>
     <string name="downloading">Downloading...</string>
+    <string name="not_available">Not available</string>
   
     <string name="zepp_app_package_name">com.huami.midong</string>
     <string name="mifit_app_package_name">com.xiaomi.hm.health</string>
@@ -52,6 +53,7 @@
     <string name="device_name_osprey">(osprey)</string>
     <string name="device_name_onyx">(onyx)</string>
     <string name="device_name_corsica">(corsica)</string>
+    <string name="device_name_tokyo">Amazfit Neo (tokyo)</string>
     <string name="device_name_lisbon">Amazfit GTR 2 China (lisbon)</string>
     <string name="device_name_lisbonw">Amazfit GTR 2 Global (lisbonw)</string>
     <string name="device_name_newton_china">Amazfit GTS 2 China (newton)</string>

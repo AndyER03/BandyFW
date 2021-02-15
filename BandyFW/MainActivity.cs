@@ -76,6 +76,7 @@ namespace BandyFW
 				GetString(Resource.String.device_name_nessw),
 				GetString(Resource.String.device_name_kestrel),
 				GetString(Resource.String.device_name_kesrtelw),
+				GetString(Resource.String.device_name_tokyo),
 				GetString(Resource.String.device_name_vulture),
 				GetString(Resource.String.device_name_pyh),
 				GetString(Resource.String.device_name_venice_china),
@@ -210,7 +211,7 @@ namespace BandyFW
 						request.Headers.Add("v", "0");
 						request.Headers.Add("apptoken", "0");
 						request.Headers.Add("lang", "0");
-						request.Headers.Add("Host", "api-mifit-ru.huami.com");
+						request.Headers.Add("Host", request_host);
 						request.Headers.Add("Connection", "0");
 						request.Headers.Add("Accept-Encoding", "0");
 
@@ -294,16 +295,32 @@ namespace BandyFW
 								}
 								else if (args.Position.ToString() == "1")
 								{
-									response_text.Text = content.resourceVersion + " : " + content.resourceMd5;
-									editor.PutString("content_MD5", content.resourceMd5);
-									editor.PutString("content_URL", content.resourceUrl);
-									editor.Apply();
+									if (content.resourceVersion != 0)
+									{
+										response_text.Text = content.resourceVersion + " : " + content.resourceMd5;
+										editor.PutString("content_MD5", content.resourceMd5);
+										editor.PutString("content_URL", content.resourceUrl);
+										editor.Apply();
 
-									copy_MD5_button.Visibility = Android.Views.ViewStates.Visible;
-									download_button.Visibility = Android.Views.ViewStates.Visible;
-									clear_response_button.Visibility = Android.Views.ViewStates.Visible;
-									response_text_layout.Visibility = Android.Views.ViewStates.Visible;
-									response_text.Visibility = Android.Views.ViewStates.Visible;
+										copy_MD5_button.Visibility = Android.Views.ViewStates.Visible;
+										download_button.Visibility = Android.Views.ViewStates.Visible;
+										clear_response_button.Visibility = Android.Views.ViewStates.Visible;
+										response_text_layout.Visibility = Android.Views.ViewStates.Visible;
+										response_text.Visibility = Android.Views.ViewStates.Visible;
+									}
+									else
+									{
+										response_text.Text = GetString(Resource.String.not_available);
+										editor.PutString("content_MD5", "");
+										editor.PutString("content_URL", "");
+										editor.Apply();
+
+										copy_MD5_button.Visibility = Android.Views.ViewStates.Gone;
+										download_button.Visibility = Android.Views.ViewStates.Gone;
+										clear_response_button.Visibility = Android.Views.ViewStates.Visible;
+										response_text_layout.Visibility = Android.Views.ViewStates.Visible;
+										response_text.Visibility = Android.Views.ViewStates.Visible;
+									}
 								}
 								else if (args.Position.ToString() == "2")
 								{
@@ -812,6 +829,27 @@ namespace BandyFW
 				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
 
 				model_text.Text = "61";
+				production_text.Text = "256";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
+				radio_zepp.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_tokyo))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
+				Clear_response();
+
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
+
+				model_text.Text = "62";
 				production_text.Text = "256";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
 				radio_zepp.Checked = true;
