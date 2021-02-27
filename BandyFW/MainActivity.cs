@@ -6,13 +6,13 @@ using Android.Support.V7.App;
 using Android.Widget;
 using BandyFW.Model;
 using Newtonsoft.Json;
+using Plugin.Clipboard;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Net;
 using System.Net.Http;
 using Xamarin.Essentials;
-using Plugin.Clipboard;
 
 namespace BandyFW
 {
@@ -77,6 +77,7 @@ namespace BandyFW
 				GetString(Resource.String.device_name_kestrel),
 				GetString(Resource.String.device_name_kesrtelw),
 				GetString(Resource.String.device_name_tokyo),
+				GetString(Resource.String.device_name_comol),
 				GetString(Resource.String.device_name_vulture),
 				GetString(Resource.String.device_name_pyh),
 				GetString(Resource.String.device_name_venice_china),
@@ -189,7 +190,7 @@ namespace BandyFW
 							Scheme = "https",
 							Host = request_host,
 							Path = "devices/ALL/hasNewVersion",
-							Query = "productId=0&vendorSource=0&resourceVersion=0&firmwareFlag=0&vendorId=0&resourceFlag=0&productionSource=" + production_text.Text + "&userid=0&userId=0&deviceSource=" + model_text.Text + "&fontVersion=0&fontFlag=0&appVersion=" + app_version_number_text.Text + play_postfix + "_" + app_version_build_text.Text + "&appid=0&callid=0&channel=0&country=0&cv=0&device=0&deviceType=ALL&device_type=0&firmwareVersion=0&hardwareVersion=0&lang=0&support8Bytes=true&timezone=0&v=0",
+							Query = "productId=71&vendorSource=1&resourceVersion=0&firmwareFlag=0&vendorId=0&resourceFlag=0&productionSource=" + production_text.Text + "&userid=0&userId=0&deviceSource=" + model_text.Text + "&fontVersion=0&fontFlag=0&appVersion=" + app_version_number_text.Text + play_postfix + "_" + app_version_build_text.Text + "&appid=0&callid=0&channel=0&country=0&cv=0&device=0&deviceType=ALL&device_type=0&firmwareVersion=0&hardwareVersion=0&lang=0&support8Bytes=true&timezone=0&v=0",
 						};
 						Uri URL = uriBuilder.Uri;
 						String stringUri;
@@ -198,8 +199,8 @@ namespace BandyFW
 						request.RequestUri = new Uri(stringUri);
 						request.Method = HttpMethod.Get;
 
-						request.Headers.Add("hm-privacy-diagnostics", "0");
-						request.Headers.Add("country", "US");
+						request.Headers.Add("hm-privacy-diagnostics", "false");
+						request.Headers.Add("country", "CH");
 						request.Headers.Add("appplatform", "android_phone");
 						request.Headers.Add("hm-privacy-ceip", "0");
 						request.Headers.Add("X-Request-Id", "0");
@@ -210,9 +211,9 @@ namespace BandyFW
 						request.Headers.Add("appname", app_name_text.Text);
 						request.Headers.Add("v", "0");
 						request.Headers.Add("apptoken", "0");
-						request.Headers.Add("lang", "0");
+						request.Headers.Add("lang", "zh_CH");
 						request.Headers.Add("Host", request_host);
-						request.Headers.Add("Connection", "0");
+						request.Headers.Add("Connection", "Keep-Alive");
 						request.Headers.Add("Accept-Encoding", "0");
 
 						HttpResponseMessage response = await client.SendAsync(request);
@@ -260,7 +261,7 @@ namespace BandyFW
 
 							adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, data);
 							response_listview.TextFilterEnabled = false;
-							
+
 							if (content.buildTime != 0)
 							{
 								response_listview.Visibility = Android.Views.ViewStates.Visible;
@@ -977,6 +978,27 @@ namespace BandyFW
 				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
 				model_text.Text = "41";
 				production_text.Text = "257";
+				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
+				radio_zepp.Checked = true;
+			}
+			else if ((string)spinner.GetItemAtPosition(e.Position) == GetString(Resource.String.device_name_comol))
+			{
+				model_text.Enabled = false;
+				production_text.Enabled = false;
+				radio_zepp.Enabled = true;
+				radio_mifit.Enabled = false;
+				play_postfix_checkbox.Enabled = true;
+				play_postfix_checkbox.Checked = false;
+				Clear_response();
+
+				device_layout.Visibility = Android.Views.ViewStates.Gone;
+
+				play_postfix_checkbox.Visibility = Android.Views.ViewStates.Visible;
+				radio_zepp.Visibility = Android.Views.ViewStates.Gone;
+				radio_mifit.Visibility = Android.Views.ViewStates.Gone;
+
+				model_text.Text = "68";
+				production_text.Text = "258";
 				app_name_text.Text = GetString(Resource.String.zepp_app_package_name);
 				radio_zepp.Checked = true;
 			}
